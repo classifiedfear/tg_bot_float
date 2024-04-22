@@ -9,7 +9,7 @@ from tg_bot_float_db_app.database.declar_base import Base
 
 
 class RelationModel(Base):
-    __tablename__ = 'relation_model'
+    __tablename__ = 'relation'
 
     weapon_id: orm.Mapped[int] = orm.mapped_column(
         sqlalchemy.ForeignKey('weapon.id', ondelete='cascade'), primary_key=True, nullable=False

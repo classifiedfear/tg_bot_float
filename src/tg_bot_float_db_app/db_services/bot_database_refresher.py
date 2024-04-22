@@ -4,35 +4,48 @@ import typing
 import brotli
 
 from tg_bot_float_db_app.database.bot_database_context import BotDatabaseContext
-from tg_bot_float_db_app.database.tables import WeaponTable, SkinTable, QualityTable
-from tg_bot_float_db_app.database.models import WeaponModel, SkinModel, QualityModel, RelationModel
+from tg_bot_float_db_app.database.contexts.weapon import WeaponContext
+from tg_bot_float_db_app.database.contexts.skin import SkinContext
+from tg_bot_float_db_app.database.contexts.quality import QualityContext
+from tg_bot_float_db_app.database.contexts.relation import RelationsContext
+
+from tg_bot_float_db_app.database.models.skin_models import SkinModel
+from tg_bot_float_db_app.database.models.skin_models import WeaponModel
+from tg_bot_float_db_app.database.models.skin_models import QualityModel
+from tg_bot_float_db_app.database.models.skin_models import RelationModel
+
 from tg_bot_float_common_dtos import \
     ReceivedDataFromTreeDTO, WeaponDTO, SkinDTO, QualityDTO, RelationDTO
 
 
 class BotDatabaseRefresher:
     def __init__(self, context: BotDatabaseContext):
-        self._weapon_table = context.get_weapon_table()
-        self._skin_table = context.get_skin_table()
-        self._quality_table = context.get_quality_table()
+        self._weapon_table = context.get_weapon_context()
+        self._skin_table = context.get_skin_context()
+        self._quality_table = context.get_quality_context()
         self._relations_table = context.get_weapon_skin_quality_table()
 
-    async def refresh(self, request: bytes):
+    async def update(self, request: bytes) -> None:
+        """Update Weapon, Skin, Quality, Relations tables in database.
+
+        Args:
+            request (bytes): bytes, which sended as a request.
+        """
         db_dto = self._deserialize_request(request)
-        await self._refresh_db(db_dto)
+        await self._update_tables(db_dto)
 
     @staticmethod
-    def _deserialize_request(request: bytes):
+    def _deserialize_request(request: bytes) -> ReceivedDataFromTreeDTO:
         to_unpickle = brotli.decompress(request)
         return pickle.loads(to_unpickle)
 
-    async def _refresh_db(self, db_dto: ReceivedDataFromTreeDTO):
+    async def _update_tables(self, db_dto: ReceivedDataFromTreeDTO) -> None:
         await self._update_weapons(db_dto.weapons)
         await self._update_skins(db_dto.skins)
         await self._update_qualities(db_dto.qualities)
         await self._update_relations(db_dto.relations)
 
-    async def _update_weapons(self, weapons: typing.List[WeaponDTO]):
+    async def _update_weapons(self, weapons: typing.List[WeaponDTO]) -> None:
         weapons_dto_to_create, weapons_names_to_delete = await self._get_items_dto_to_create_and_names_to_delete(
             weapons, self._weapon_table
         )
@@ -51,7 +64,7 @@ class BotDatabaseRefresher:
 
             self._correct_ids_for_items_dto_by_models(weapons_dto_to_create, weapon_data_to_create)
 
-    async def _update_skins(self, skins: typing.List[SkinDTO]):
+    async def _update_skins(self, skins: typing.List[SkinDTO]) -> None:
         skins_dto_to_create, skin_names_to_delete = await self._get_items_dto_to_create_and_names_to_delete(
             skins, self._skin_table
         )
@@ -71,7 +84,7 @@ class BotDatabaseRefresher:
 
             self._correct_ids_for_items_dto_by_models(skins_dto_to_create, skin_models_to_create)
 
-    async def _update_qualities(self, qualities: typing.List[QualityDTO]):
+    async def _update_qualities(self, qualities: typing.List[QualityDTO]) -> None:
         qualities_dto_to_create, quality_names_to_delete = await self._get_items_dto_to_create_and_names_to_delete(
             qualities, self._quality_table
         )
@@ -91,8 +104,8 @@ class BotDatabaseRefresher:
     @staticmethod
     async def _get_items_dto_to_create_and_names_to_delete(
             items: typing.List[WeaponDTO] | typing.List[SkinDTO] | typing.List[QualityDTO],
-            table: WeaponTable | SkinTable | QualityTable
-    ):
+            table: WeaponContext | SkinContext | QualityContext
+    ) -> None:
         item_dto_to_create = {item.name: item for item in items}
         item_names_to_delete = []
         for item_db_model in await table.get_all():
@@ -106,11 +119,11 @@ class BotDatabaseRefresher:
     def _correct_ids_for_items_dto_by_models(
         items_dto: typing.List[WeaponDTO] | typing.List[SkinDTO] | typing.List[QualityDTO], 
         items_models: typing.List[WeaponModel] | typing.List[SkinModel] |typing.List[QualityModel],
-        ):
+        ) -> None:
         for item_model in items_models:
             items_dto[item_model.name].id = item_model.id
 
-    async def _update_relations(self, relations):
+    async def _update_relations(self, relations: typing.List[RelationDTO]) -> None:
         ids_relations_to_create, ids_relations_to_delete = await self._get_ids_relations_to_create_and_delete(relations)
         if ids_relations_to_delete or ids_relations_to_create:
             if ids_relations_to_delete:

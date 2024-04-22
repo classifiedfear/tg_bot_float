@@ -10,24 +10,23 @@ engine = BotDatabaseEngine(url)
 
 
 async def get_db_context():
-    await engine.proceed_schemas()
     async with BotDatabaseContext(engine) as context:
         yield context
 
 
 async def get_db_weapon_context():
     async with BotDatabaseContext(engine) as context:
-        yield context.get_weapon_table()
+        yield context.get_weapon_context()
 
 
 async def get_db_skin_context():
     async with BotDatabaseContext(engine) as context:
-        yield context.get_skin_table()
+        yield context.get_skin_context()
 
 
 async def get_db_quality_context():
     async with BotDatabaseContext(engine) as context:
-        yield context.get_quality_table()
+        yield context.get_quality_context()
 
 
 async def get_db_wsq_context():
@@ -37,7 +36,7 @@ async def get_db_wsq_context():
 
 async def get_db_user_context():
     async with BotDatabaseContext(engine) as context:
-        yield context.get_user_table()
+        yield context.get_user_context()
 
 
 async def get_db_subscription_context():

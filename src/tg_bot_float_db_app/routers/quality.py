@@ -4,7 +4,7 @@ import fastapi
 from pydantic import BaseModel
 from sqlalchemy.exc import IntegrityError
 
-from tg_bot_float_db_app.database.tables.quality_table import QualityTable
+from tg_bot_float_db_app.database.contexts.quality import QualityContext
 from tg_bot_float_db_app.dependencies import db_dependencies
 from tg_bot_float_db_app.database.models.skin_models import QualityModel
 
@@ -22,7 +22,7 @@ class QualityPostModel(BaseModel):
 @quality_router.post('/create')
 async def create(
         quality_post_model: QualityPostModel,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     quality_db_model = QualityModel(**quality_post_model.model_dump())
     try:
@@ -36,7 +36,7 @@ async def create(
 @quality_router.get('/id/{id}')
 async def get_weapon_by_id(
         id: int,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     if quality_db_model := await quality_context.get_by_id(id):
         return quality_db_model
@@ -48,7 +48,7 @@ async def get_weapon_by_id(
 async def update_weapon_by_id(
         id: int,
         quality_post_model: QualityPostModel,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     quality_db_model = await quality_context.get_by_id(id)
     if quality_db_model is None:
@@ -65,7 +65,7 @@ async def update_weapon_by_id(
 @quality_router.delete('/id/{id}')
 async def delete_weapon_by_id(
         id: int,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     if await quality_context.delete_by_id(id):
         await quality_context.save_changes()
@@ -76,7 +76,7 @@ async def delete_weapon_by_id(
 @quality_router.get('/name/{name}')
 async def get_weapon_by_name(
         name: str,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     if quality_db_model := await quality_context.get_by_name(name):
         return quality_db_model
@@ -88,7 +88,7 @@ async def get_weapon_by_name(
 async def update_weapon_by_name(
         name: str,
         quality_post_model: QualityPostModel,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     weapon_db_model = await quality_context.get_by_name(name)
     if weapon_db_model is None:
@@ -105,7 +105,7 @@ async def update_weapon_by_name(
 @quality_router.delete('/name/{name}')
 async def delete_weapon_by_name(
         name: str,
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     if await quality_context.delete_by_name(name):
         await quality_context.save_changes()
@@ -116,7 +116,7 @@ async def delete_weapon_by_name(
 @quality_router.post('/create_many')
 async def create_many(
         quality_post_models: typing.List[QualityPostModel],
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     quality_db_models = [QualityModel(**quality_post_model.model_dump()) for quality_post_model in quality_post_models]
     try:
@@ -128,14 +128,14 @@ async def create_many(
 
 
 @quality_router.get('/')
-async def get_many(quality_table: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)):
+async def get_many(quality_table: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)):
     return list(await quality_table.get_all())
 
 
 @quality_router.delete('/id')
 async def delete_many_by_id(
         ids: typing.List[int] = fastapi.Query(None),
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     existence_quality_db_models = await quality_context.get_many_by_id(ids)
     ids_on_delete = [quality_db_model.id for quality_db_model in existence_quality_db_models]
@@ -152,7 +152,7 @@ async def delete_many_by_id(
 @quality_router.delete('/name')
 async def delete_many_by_name(
         names: typing.List[str] = fastapi.Query(None),
-        quality_context: QualityTable = fastapi.Depends(db_dependencies.get_db_quality_context)
+        quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
     existence_quality_db_models = await quality_context.get_many_by_name(names)
     names_on_delete = [quality_db_model.name for quality_db_model in existence_quality_db_models]

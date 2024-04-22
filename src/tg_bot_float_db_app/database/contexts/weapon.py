@@ -3,11 +3,11 @@ import typing
 import sqlalchemy
 from sqlalchemy.dialects import postgresql
 
-from tg_bot_float_db_app.database.models import WeaponModel, SkinModel, RelationModel
-from tg_bot_float_db_app.database.tables.interface import Table
+from tg_bot_float_db_app.database.models.skin_models import SkinModel, WeaponModel, RelationModel
+from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class WeaponTable(Table):
+class WeaponContext(Table):
     async def create(self, model: WeaponModel) -> None:
         await super().create(model)
 

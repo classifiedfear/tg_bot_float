@@ -4,7 +4,7 @@ import fastapi
 from pydantic import BaseModel
 from sqlalchemy.exc import IntegrityError
 
-from tg_bot_float_db_app.database.tables.weapon_table import WeaponTable
+from tg_bot_float_db_app.database.contexts.weapon import WeaponContext
 from tg_bot_float_db_app.database.models.skin_models import WeaponModel
 from tg_bot_float_db_app.dependencies import db_dependencies
 
@@ -23,7 +23,7 @@ weapon_router = fastapi.APIRouter(
 @weapon_router.post('/create')
 async def create(
         weapon_post_model: WeaponPostModel,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     weapon_db_model = WeaponModel(**weapon_post_model.model_dump())
     try:
@@ -37,7 +37,7 @@ async def create(
 @weapon_router.get('/id/{id}')
 async def get_weapon_by_id(
         id: int,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     if weapon_db_model := await weapon_context.get_by_id(id):
         return weapon_db_model
@@ -49,7 +49,7 @@ async def get_weapon_by_id(
 async def update_weapon_by_id(
         id: int,
         weapon_post_model: WeaponPostModel,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     weapon_db_model = await weapon_context.get_by_id(id)
     if weapon_db_model is None:
@@ -66,7 +66,7 @@ async def update_weapon_by_id(
 @weapon_router.delete('/id/{id}')
 async def delete_weapon_by_id(
         id: int,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     if await weapon_context.delete_by_id(id):
         await weapon_context.save_changes()
@@ -77,7 +77,7 @@ async def delete_weapon_by_id(
 @weapon_router.get('/name/{name}')
 async def get_weapon_by_name(
         name: str,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     if weapon_db_model := await weapon_context.get_by_name(name):
         return weapon_db_model
@@ -89,7 +89,7 @@ async def get_weapon_by_name(
 async def update_weapon_by_name(
         name: str,
         weapon_post_model: WeaponPostModel,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     weapon_db_model = await weapon_context.get_by_name(name)
     if weapon_db_model is None:
@@ -106,7 +106,7 @@ async def update_weapon_by_name(
 @weapon_router.delete('/name/{name}')
 async def delete_weapon_by_name(
         name: str,
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     if await weapon_context.delete_by_name(name):
         await weapon_context.save_changes()
@@ -117,7 +117,7 @@ async def delete_weapon_by_name(
 @weapon_router.post('/create_many')
 async def create_many(
         weapon_post_models: typing.List[WeaponPostModel],
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     weapon_db_models = [WeaponModel(**weapon_post_model.model_dump()) for weapon_post_model in weapon_post_models]
     try:
@@ -129,14 +129,14 @@ async def create_many(
 
 
 @weapon_router.get('/')
-async def get_many(weapon_table: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)):
+async def get_many(weapon_table: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)):
     return list(await weapon_table.get_all())
 
 
 @weapon_router.delete('/id')
 async def delete_many_by_id(
         ids: typing.List[int] = fastapi.Query(None),
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     existence_weapon_db_models = await weapon_context.get_many_by_id(ids)
     ids_on_delete = [weapon_db_model.id for weapon_db_model in existence_weapon_db_models]
@@ -153,7 +153,7 @@ async def delete_many_by_id(
 @weapon_router.delete('/name')
 async def delete_many_by_name(
         names: typing.List[str] = fastapi.Query(None),
-        weapon_context: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)
+        weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
     existence_weapon_db_models = await weapon_context.get_many_by_name(names)
     names_on_delete = [weapon_db_model.name for weapon_db_model in existence_weapon_db_models]
@@ -169,7 +169,7 @@ async def delete_many_by_name(
 
 
 @weapon_router.get('/{name}/skins')
-async def get_skins_for_weapon(name: str, weapon_table: WeaponTable = fastapi.Depends(db_dependencies.get_db_weapon_context)):
+async def get_skins_for_weapon(name: str, weapon_table: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)):
     return list(await weapon_table.get_skins_for_weapon(name))
 
 

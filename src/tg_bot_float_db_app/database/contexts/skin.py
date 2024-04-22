@@ -3,11 +3,11 @@ import typing
 import sqlalchemy
 from sqlalchemy.dialects import postgresql
 
-from tg_bot_float_db_app.database.models import SkinModel
-from tg_bot_float_db_app.database.tables.interface import Table
+from tg_bot_float_db_app.database.models.skin_models import SkinModel
+from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class SkinTable(Table):
+class SkinContext(Table):
 
     async def create(self, model: SkinModel) -> None:
         await super().create(model)

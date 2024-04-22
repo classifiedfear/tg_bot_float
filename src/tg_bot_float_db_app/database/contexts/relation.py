@@ -5,11 +5,11 @@ import sqlalchemy
 from sqlalchemy import ScalarResult
 from sqlalchemy.dialects import postgresql
 
-from tg_bot_float_db_app.database.models import RelationModel, WeaponModel, QualityModel, SkinModel
-from tg_bot_float_db_app.database.tables.interface import Table
+from tg_bot_float_db_app.database.models.skin_models import SkinModel, RelationModel, WeaponModel, QualityModel
+from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class RelationsTable(Table):
+class RelationsContext(Table):
     async def create(self, model: RelationModel) -> None:
         await super().create(model)
 

@@ -5,11 +5,11 @@ import sqlalchemy
 
 from sqlalchemy.dialects import postgresql
 
-from tg_bot_float_db_app.database.models import QualityModel
-from tg_bot_float_db_app.database.tables.interface import Table
+from tg_bot_float_db_app.database.models.skin_models import QualityModel
+from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class QualityTable(Table):
+class QualityContext(Table):
 
     async def create(self, model: QualityModel) -> None:
         await super().create(model)

@@ -13,7 +13,7 @@ user_subscription = Table(
 )
 
 
-class User(Base):
+class UserModel(Base):
     __tablename__ = 'user'
 
     id: Mapped[int] = mapped_column(
@@ -33,7 +33,7 @@ class User(Base):
                 f'id-{self.id} ')
 
 
-class Subscription(Base):
+class SubscriptionModel(Base):
     __tablename__ = 'subscription'
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
