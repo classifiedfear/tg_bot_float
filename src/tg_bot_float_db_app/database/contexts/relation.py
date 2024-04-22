@@ -4,17 +4,23 @@ from typing import Type
 import sqlalchemy
 from sqlalchemy import ScalarResult
 from sqlalchemy.dialects import postgresql
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from tg_bot_float_db_app.database.models.skin_models import SkinModel, RelationModel, WeaponModel, QualityModel
-from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class RelationsContext(Table):
+
+class RelationsContext:
+    def __init__(self, session: AsyncSession) -> None:
+        self._session = session
+
     async def create(self, model: RelationModel) -> None:
-        await super().create(model)
+        self._session.add(model)
+        await self._session.flush()
 
     async def create_many(self, models: typing.List[RelationModel]) -> None:
-        await super().create_many(models)
+        self._session.add_all(models)
+        await self._session.flush()
 
     async def get_by_id(self, weapon_id: int, skin_id: int, quality_id: int) -> Type[RelationModel] | None:
         return await self._session.get(RelationModel, {
@@ -87,4 +93,7 @@ class RelationsContext(Table):
             .limit(1)
         )
         return await self._session.scalar(stmt)
+
+    async def save_changes(self) -> None:
+        await self._session.commit()
 

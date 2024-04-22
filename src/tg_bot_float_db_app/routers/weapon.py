@@ -1,23 +1,16 @@
 import typing
 
 import fastapi
-from pydantic import BaseModel
 from sqlalchemy.exc import IntegrityError
 
 from tg_bot_float_db_app.database.contexts.weapon import WeaponContext
 from tg_bot_float_db_app.database.models.skin_models import WeaponModel
 from tg_bot_float_db_app.dependencies import db_dependencies
+from tg_bot_float_db_app.misc.post_models import WeaponPostModel
+from tg_bot_float_db_app.misc.msg_response_dto import MsgResponseDTO
 
 
-class WeaponPostModel(BaseModel):
-    name: str
-
-
-weapon_router = fastapi.APIRouter(
-    prefix="/weapons",
-    tags=["weapons"],
-    dependencies=[fastapi.Depends(db_dependencies.get_db_weapon_context)]
-)
+weapon_router = fastapi.APIRouter(prefix="/weapons", tags=["weapons"])
 
 
 @weapon_router.post('/create')
@@ -29,50 +22,49 @@ async def create(
     try:
         await weapon_context.create(weapon_db_model)
     except IntegrityError:
-        return {"success": False, "message": "Weapon with this name already exists, names need to be unique!"}
+        return MsgResponseDTO(status=False, msg="Weapon with this name already exists, names need to be unique!")
     await weapon_context.save_changes()
     return weapon_db_model
 
 
-@weapon_router.get('/id/{id}')
+@weapon_router.get('/id/{weapon_id}')
 async def get_weapon_by_id(
-        id: int,
+        weapon_id: int,
         weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
-    if weapon_db_model := await weapon_context.get_by_id(id):
+    if weapon_db_model := await weapon_context.get_by_id(weapon_id):
         return weapon_db_model
     else:
-        return {"status": False, "message": f"Weapon with id - {str(id)!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Weapon with id - {str(weapon_id)!r} does not exist!")
 
-
-@weapon_router.put('/id/{id}')
+@weapon_router.put('/id/{weapon_id}')
 async def update_weapon_by_id(
-        id: int,
+        weapon_id: int,
         weapon_post_model: WeaponPostModel,
         weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
-    weapon_db_model = await weapon_context.get_by_id(id)
+    weapon_db_model = await weapon_context.get_by_id(weapon_id)
     if weapon_db_model is None:
-        return {"status": False, "message": f"Weapon with id - {str(id)!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Weapon with id - {str(weapon_id)!r} does not exist!")
     try:
         weapon_db_model.name = weapon_post_model.name
         await weapon_context.save_changes()
         return weapon_db_model
     except IntegrityError:
-        return {"success": False,
-                "message": f"Weapon with name {weapon_post_model.name!r} already exists, names need be unique!"}
+        return MsgResponseDTO(
+            status=True,
+            msg=f"Weapon with name {weapon_post_model.name!r} already exists, names need be unique!"
+            )
 
-
-@weapon_router.delete('/id/{id}')
+@weapon_router.delete('/id/{weapon_id}')
 async def delete_weapon_by_id(
-        id: int,
+        weapon_id: int,
         weapon_context: WeaponContext = fastapi.Depends(db_dependencies.get_db_weapon_context)
 ):
-    if await weapon_context.delete_by_id(id):
+    if await weapon_context.delete_by_id(weapon_id):
         await weapon_context.save_changes()
-        return {'success': True, "message": f"Weapon with id - {str(id)!r} deleted"}
-    return {"success": False, "message": f'Weapon with id - {str(id)!r} does not exist!'}
-
+        return MsgResponseDTO(status=True, msg=f"Weapon with id - {str(weapon_id)!r} deleted")
+    return MsgResponseDTO(status=False, msg=f'Weapon with id - {str(weapon_id)!r} does not exist!')
 
 @weapon_router.get('/name/{name}')
 async def get_weapon_by_name(
@@ -82,7 +74,7 @@ async def get_weapon_by_name(
     if weapon_db_model := await weapon_context.get_by_name(name):
         return weapon_db_model
     else:
-        return {"status": False, "message": f"Weapon with name - {name!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Weapon with name - {name!r} does not exist!")
 
 
 @weapon_router.put('/name/{name}')
@@ -93,14 +85,13 @@ async def update_weapon_by_name(
 ):
     weapon_db_model = await weapon_context.get_by_name(name)
     if weapon_db_model is None:
-        return {"status": False, "message": f"Weapon with name - {name!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Weapon with name - {name!r} does not exist!")
     try:
         weapon_db_model.name = weapon_post_model.name
         await weapon_context.save_changes()
         return weapon_db_model
     except IntegrityError:
-        return {"success": False,
-                "message": f"Weapon with name {weapon_post_model.name!r} already exists, names need be unique!"}
+        return MsgResponseDTO(status=False, msg=f"Weapon with name {weapon_post_model.name!r} already exists, names need be unique!")
 
 
 @weapon_router.delete('/name/{name}')
@@ -110,8 +101,8 @@ async def delete_weapon_by_name(
 ):
     if await weapon_context.delete_by_name(name):
         await weapon_context.save_changes()
-        return {'success': True, "message": f"Weapon with name - {name!r} deleted"}
-    return {"success": False, "message": f'Weapon with id - {name!r} does not exist!'}
+        return MsgResponseDTO(status=True, msg=f"Weapon with name - {name!r} deleted")
+    return MsgResponseDTO(status=False, msg=f'Weapon with id - {name!r} does not exist!')
 
 
 @weapon_router.post('/create_many')
@@ -123,7 +114,7 @@ async def create_many(
     try:
         await weapon_context.create_many(weapon_db_models)
     except IntegrityError:
-        return {"success": False, "message": "Weapon names should be unique!"}
+        return MsgResponseDTO(status=False, msg="Weapon names should be unique!")
     await weapon_context.save_changes()
     return weapon_db_models
 
@@ -144,10 +135,10 @@ async def delete_many_by_id(
     if ids_on_delete:
         await weapon_context.delete_many_by_id(ids_on_delete)
         await weapon_context.save_changes()
-        return {
-            'success': True,
-            'message': f'Weapon with ids: {ids_on_delete} deleted. {f'{not_found_ids} not found' if not_found_ids else ''}'}
-    return {"success": False, "message": f"Weapon with {ids} not found"}
+        return MsgResponseDTO(
+            status=True,
+            msg=f'Weapon with ids: {ids_on_delete} deleted. {f'{not_found_ids} not found' if not_found_ids else ''}')
+    return MsgResponseDTO(status=False, msg=f"Weapon with {ids} not found")
 
 
 @weapon_router.delete('/name')
@@ -161,11 +152,10 @@ async def delete_many_by_name(
     if names_on_delete:
         await weapon_context.delete_many_by_name(names_on_delete)
         await weapon_context.save_changes()
-        return {
-            'success': True,
-            'message': f'Weapon with name {names_on_delete} deleted. {f'{not_found_names} not found' if not_found_names else ''}'
-        }
-    return {"success": False, "message": f"Weapon with names {names} not found"}
+        return MsgResponseDTO(
+            status=True,
+            msg=f'Weapon with name {names_on_delete} deleted. {f'{not_found_names} not found' if not_found_names else ''}')
+    return MsgResponseDTO(status=False, msg=f"Weapon with names {names} not found")
 
 
 @weapon_router.get('/{name}/skins')

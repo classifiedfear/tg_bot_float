@@ -16,7 +16,7 @@ class BotDatabaseContext:
         )
 
     async def __aenter__(self):
-        await self._db_engine.proceed_schemas()
+        await self._db_engine.create_all_tables()
         self._session = self._session_maker()
         return self
 
@@ -34,14 +34,9 @@ class BotDatabaseContext:
 
     def get_user_context(self) -> UserContext:
         return UserContext(self._session)
-    
+
     def get_subscription_context(self) -> SubscriptionContext:
         return SubscriptionContext(self._session)
 
     def get_weapon_skin_quality_table(self) -> RelationsContext:
         return RelationsContext(self._session)
-
-
-
-
-

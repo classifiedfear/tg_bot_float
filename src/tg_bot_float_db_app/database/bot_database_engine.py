@@ -8,14 +8,14 @@ class BotDatabaseEngine:
         self._ulr = url
         self._engine = async_alchemy.create_async_engine(url, echo=True, pool_pre_ping=True)
 
-    async def proceed_schemas(self) -> None:
+    async def create_all_tables(self) -> None:
         async with self.engine.begin() as connection:
             await connection.run_sync(Base.metadata.create_all)
 
     async def drop_all_tables(self) -> None:
         async with self.engine.begin() as connection:
             await connection.run_sync(Base.metadata.drop_all)
-            
+
     @property
     def engine(self) -> async_alchemy.AsyncEngine:
         return self._engine

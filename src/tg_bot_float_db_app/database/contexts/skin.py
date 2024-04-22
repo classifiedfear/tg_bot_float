@@ -2,15 +2,18 @@ import typing
 
 import sqlalchemy
 from sqlalchemy.dialects import postgresql
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from tg_bot_float_db_app.database.models.skin_models import SkinModel
-from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class SkinContext(Table):
+class SkinContext:
+    def __init__(self, session: AsyncSession) -> None:
+        self._session = session
 
     async def create(self, model: SkinModel) -> None:
-        await super().create(model)
+        self._session.add(model)
+        await self._session.flush()
 
     async def get_by_id(self, id: int) -> typing.Type[SkinModel] | None:
         return await self._session.get(SkinModel, id)
@@ -31,7 +34,8 @@ class SkinContext(Table):
         return True
 
     async def create_many(self, models: typing.List[SkinModel]) -> None:
-        await super().create_many(models)
+        self._session.add_all(models)
+        await self._session.flush()
 
     async def get_many_by_id(self, ids: typing.List[int]):
         select_stmt = sqlalchemy.select(SkinModel)
@@ -88,4 +92,7 @@ class SkinContext(Table):
         stmt = sqlalchemy.select(SkinModel.stattrak_existence).where(
             SkinModel.name == skin_name)
         return await self._session.scalar(stmt)
+
+    async def save_changes(self) -> None:
+        await self._session.commit()
 

@@ -3,6 +3,7 @@ import fastapi
 from tg_bot_float_db_app.db_services.bot_database_refresher import BotDatabaseRefresher
 from tg_bot_float_db_app.dependencies import db_dependencies
 from tg_bot_float_db_app.database.bot_database_context import BotDatabaseContext
+from tg_bot_float_db_app.misc.msg_response_dto import MsgResponseDTO
 
 
 db_router = fastapi.APIRouter(
@@ -18,7 +19,7 @@ async def update_db(request: fastapi.Request, context: BotDatabaseContext = fast
     try:
         await db_service.update(await request.body())
     except Exception as exp:
-        return {"status": False, "massage": exp}
-    return {"status": True, "message": "Weapons, skins, qualities in database has successfully updated."}
+        return MsgResponseDTO(status=False, msg=exp)
+    return MsgResponseDTO(status=True, msg="Weapons, skins, qualities in database has successfully updated.")
 
 

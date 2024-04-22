@@ -2,14 +2,18 @@ import typing
 
 import sqlalchemy
 from sqlalchemy.dialects import postgresql
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from tg_bot_float_db_app.database.models.skin_models import SkinModel, WeaponModel, RelationModel
-from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class WeaponContext(Table):
+class WeaponContext:
+    def __init__(self, session: AsyncSession) -> None:
+        self._session = session
+
     async def create(self, model: WeaponModel) -> None:
-        await super().create(model)
+        self._session.add(model)
+        await self._session.flush()
 
     async def get_by_id(self, id: int) -> typing.Type[WeaponModel] | None:
         return await self._session.get(WeaponModel, id)
@@ -30,7 +34,8 @@ class WeaponContext(Table):
         return True
 
     async def create_many(self, models: typing.List[WeaponModel]) -> None:
-        await super().create_many(models)
+        self._session.add_all(models)
+        await self._session.flush()
 
     async def get_many_by_id(self, ids: typing.List[int]):
         select_stmt = sqlalchemy.select(WeaponModel)
@@ -92,3 +97,6 @@ class WeaponContext(Table):
         )
         without_duplicate_stmt = stmt.distinct()
         return await self._session.scalars(without_duplicate_stmt)
+
+    async def save_changes(self) -> None:
+        await self._session.commit()

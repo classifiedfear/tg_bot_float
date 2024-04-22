@@ -1,22 +1,16 @@
 import typing
 
 import fastapi
-from pydantic import BaseModel
 from sqlalchemy.exc import IntegrityError
 
 from tg_bot_float_db_app.database.contexts.quality import QualityContext
 from tg_bot_float_db_app.dependencies import db_dependencies
 from tg_bot_float_db_app.database.models.skin_models import QualityModel
+from tg_bot_float_db_app.misc.msg_response_dto import MsgResponseDTO
+from tg_bot_float_db_app.misc.post_models import QualityPostModel
 
-quality_router = fastapi.APIRouter(
-    prefix="/qualities",
-    tags=["qualities"],
-    dependencies=[fastapi.Depends(db_dependencies.get_db_quality_context)]
-)
+quality_router = fastapi.APIRouter(prefix="/qualities", tags=["qualities"])
 
-
-class QualityPostModel(BaseModel):
-    name: str
 
 
 @quality_router.post('/create')
@@ -28,49 +22,47 @@ async def create(
     try:
         await quality_context.create(quality_db_model)
     except IntegrityError:
-        return {"success": False, "message": f"Quality with this name already exists, names need to be unique!"}
+        return MsgResponseDTO(status=False, msg='Quality with this name already exists, names need to be unique!')
     await quality_context.save_changes()
     return quality_db_model
 
 
-@quality_router.get('/id/{id}')
+@quality_router.get('/id/{quality_id}')
 async def get_weapon_by_id(
-        id: int,
+        quality_id: int,
         quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
-    if quality_db_model := await quality_context.get_by_id(id):
+    if quality_db_model := await quality_context.get_by_id(quality_id):
         return quality_db_model
     else:
-        return {"status": False, "message": f"Quality with id - {str(id)!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Quality with id - {str(quality_id)!r} does not exist!")
 
-
-@quality_router.put('/id/{id}')
+@quality_router.put('/id/{quality_id}')
 async def update_weapon_by_id(
-        id: int,
+        quality_id: int,
         quality_post_model: QualityPostModel,
         quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
-    quality_db_model = await quality_context.get_by_id(id)
+    quality_db_model = await quality_context.get_by_id(quality_id)
     if quality_db_model is None:
-        return {"status": False, "message": f"Quality with id - {str(id)!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Quality with id - {str(quality_id)!r} does not exist!")
     try:
         quality_db_model.name = quality_post_model.name
         await quality_context.save_changes()
         return quality_db_model
     except IntegrityError:
-        return {"success": False,
-                "message": f"Quality with name {quality_post_model.name!r} already exists, names need be unique!"}
+        return MsgResponseDTO(status=False, msg=f"Quality with name {quality_post_model.name!r} already exists, names need be unique!")
 
 
-@quality_router.delete('/id/{id}')
+@quality_router.delete('/id/{quality_id}')
 async def delete_weapon_by_id(
-        id: int,
+        quality_id: int,
         quality_context: QualityContext = fastapi.Depends(db_dependencies.get_db_quality_context)
 ):
-    if await quality_context.delete_by_id(id):
+    if await quality_context.delete_by_id(quality_id):
         await quality_context.save_changes()
-        return {'success': True, "message": f"Quality with id - {str(id)!r} deleted"}
-    return {"success": False, "message": f'Quality with id - {str(id)!r} does not exist!'}
+        return MsgResponseDTO(status=True, msg=f"Quality with id - {str(quality_id)!r} deleted")
+    return MsgResponseDTO(status=False, msg=f'Quality with id - {str(quality_id)!r} does not exist!')
 
 
 @quality_router.get('/name/{name}')
@@ -81,7 +73,7 @@ async def get_weapon_by_name(
     if quality_db_model := await quality_context.get_by_name(name):
         return quality_db_model
     else:
-        return {"status": False, "message": f"Quality with name - {name!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Quality with name - {name!r} does not exist!")
 
 
 @quality_router.put('/name/{name}')
@@ -92,14 +84,16 @@ async def update_weapon_by_name(
 ):
     weapon_db_model = await quality_context.get_by_name(name)
     if weapon_db_model is None:
-        return {"status": False, "message": f"Quality with name - {name!r} does not exist!"}
+        return MsgResponseDTO(status=False, msg=f"Quality with name - {name!r} does not exist!")
     try:
         weapon_db_model.name = quality_post_model.name
         await quality_context.save_changes()
         return weapon_db_model
     except IntegrityError:
-        return {"success": False,
-                "message": f"Quality with name {quality_post_model.name!r} already exists, names need be unique!"}
+        return MsgResponseDTO(
+            status=False,
+            msg=f"Quality with name {quality_post_model.name!r} already exists, names need be unique!"
+            )
 
 
 @quality_router.delete('/name/{name}')
@@ -109,8 +103,8 @@ async def delete_weapon_by_name(
 ):
     if await quality_context.delete_by_name(name):
         await quality_context.save_changes()
-        return {'success': True, "message": f"Quality with name - {name!r} deleted"}
-    return {"success": False, "message": f'Quality with id - {name!r} does not exist!'}
+        return MsgResponseDTO(status=True, msg=f"Quality with name - {name!r} deleted")
+    return MsgResponseDTO(status=False, msg=f'Quality with id - {name!r} does not exist!')
 
 
 @quality_router.post('/create_many')
@@ -122,7 +116,7 @@ async def create_many(
     try:
         await quality_context.create_many(quality_db_models)
     except IntegrityError:
-        return {"success": False, "message": "Quality names should be unique!"}
+        return MsgResponseDTO(status=False, msg="Quality names should be unique!")
     await quality_context.save_changes()
     return quality_db_models
 
@@ -143,10 +137,10 @@ async def delete_many_by_id(
     if ids_on_delete:
         await quality_context.delete_many_by_id(ids_on_delete)
         await quality_context.save_changes()
-        return {
-            'success': True,
-            'message': f'Quality with ids: {ids_on_delete} deleted. {f'{not_found_ids} not found' if not_found_ids else ''}'}
-    return {"success": False, "message": f"Quality with {ids} not found"}
+        return MsgResponseDTO(
+            status=True,
+            msg=f'Quality with ids: {ids_on_delete} deleted. {f'{not_found_ids} not found' if not_found_ids else ''}')
+    return MsgResponseDTO(status=False, msg=f"Quality with {ids} not found")
 
 
 @quality_router.delete('/name')
@@ -160,9 +154,9 @@ async def delete_many_by_name(
     if names_on_delete:
         await quality_context.delete_many_by_name(names_on_delete)
         await quality_context.save_changes()
-        return {
-            'success': True,
-            'message': f'Quality with name {names_on_delete} deleted. {f'{not_found_names} not found' if not_found_names else ''}'
-        }
-    return {"success": False, "message": f"Quality with names {names} not found"}
+        return MsgResponseDTO(
+            status=True,
+            msg=f'Quality with name {names_on_delete} deleted. {f'{not_found_names} not found' if not_found_names else ''}'
+        )
+    return MsgResponseDTO(status=False, msg=f"Quality with names {names} not found")
 

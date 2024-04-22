@@ -4,15 +4,18 @@ from typing import Type
 import sqlalchemy
 
 from sqlalchemy.dialects import postgresql
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from tg_bot_float_db_app.database.models.skin_models import QualityModel
-from tg_bot_float_db_app.database.contexts.interface import Table
 
 
-class QualityContext(Table):
+class QualityContext:
+    def __init__(self, session: AsyncSession) -> None:
+        self._session = session
 
     async def create(self, model: QualityModel) -> None:
-        await super().create(model)
+        self._session.add(model)
+        await self._session.flush()
 
     async def get_by_id(self, id: int) -> Type[QualityModel] | None:
         return await self._session.get(QualityModel, id)
@@ -33,7 +36,8 @@ class QualityContext(Table):
         return True
 
     async def create_many(self, models: typing.List[QualityModel]) -> None:
-        await super().create_many(models)
+        self._session.add_all(models)
+        await self._session.flush()
 
     async def get_many_by_id(self, ids: typing.List[int]):
         select_stmt = sqlalchemy.select(QualityModel)
@@ -86,5 +90,8 @@ class QualityContext(Table):
     async def get_all(self) -> sqlalchemy.ScalarResult[QualityModel]:
         stmt = sqlalchemy.select(QualityModel)
         return await self._session.scalars(stmt)
+
+    async def save_changes(self) -> None:
+        await self._session.commit()
 
 
