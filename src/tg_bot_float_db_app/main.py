@@ -1,17 +1,23 @@
 
 from typing import Any, AsyncGenerator
 from fastapi import FastAPI
-from tg_bot_float_db_app.api.routers.db_router import DB_ROUTER
-from tg_bot_float_db_app.api.routers.quality_router import QUALITY_ROUTER
-from tg_bot_float_db_app.api.routers.relation_router import RELATION_ROUTER
-from tg_bot_float_db_app.api.routers.skin_router import SKIN_ROUTER
-from tg_bot_float_db_app.api.routers.subscription_router import SUBSCRIPTION_ROUTER
-from tg_bot_float_db_app.api.routers.user_router import USER_ROUTER
-from tg_bot_float_db_app.api.routers.weapon_router import WEAPON_ROUTER
+from tg_bot_float_db_app.api.routers.db_router import DBRouter
+from tg_bot_float_db_app.api.routers.quality_router import QualityRouter
+from tg_bot_float_db_app.api.routers.relation_router import RelationRouter
+from tg_bot_float_db_app.api.routers.skin_router import SkinRouter
+from tg_bot_float_db_app.api.routers.subscription_router import SubscriptionRouter
+from tg_bot_float_db_app.api.routers.user_router import UserRouter
+from tg_bot_float_db_app.api.routers.weapon_router import WeaponRouter
 from tg_bot_float_db_app.database.db_factory import BotDbFactory
 
 routers = [
-    SUBSCRIPTION_ROUTER, QUALITY_ROUTER, SKIN_ROUTER, WEAPON_ROUTER, RELATION_ROUTER, DB_ROUTER, USER_ROUTER
+    WeaponRouter(),
+    SkinRouter(),
+    QualityRouter(),
+    RelationRouter(),
+    DBRouter(),
+    UserRouter(),
+    SubscriptionRouter()
     ]
 
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, Any]:
@@ -20,5 +26,6 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, Any]:
     yield
 
 app = FastAPI(lifespan=lifespan)
+
 for router in routers:
-    app.include_router(router)
+    app.include_router(router.router)

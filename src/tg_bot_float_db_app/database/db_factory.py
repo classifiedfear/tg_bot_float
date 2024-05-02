@@ -15,8 +15,7 @@ class BotDbFactory:
 
     @staticmethod
     async def get_service_factory():
-        async with BotDbServiceFactory(BotDbFactory._engine) as service_factory:
-            yield service_factory
+        return BotDbServiceFactory(BotDbFactory._engine)
 
 
     @staticmethod

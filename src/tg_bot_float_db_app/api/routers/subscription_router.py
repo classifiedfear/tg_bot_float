@@ -1,5 +1,14 @@
-import fastapi
+from fastapi import APIRouter
 
-from tg_bot_float_db_app.database.db_factory import BotDbFactory
 
-SUBSCRIPTION_ROUTER = fastapi.APIRouter(prefix="/subscriptions", tags=["subscriptions"])
+class SubscriptionRouter:
+    def __init__(self):
+        self._router = APIRouter(prefix="/subscriptions", tags=["subscriptions"])
+        self._init_routes()
+
+    @property
+    def router(self) -> APIRouter:
+        return self._router
+
+    def _init_routes(self):
+        pass
