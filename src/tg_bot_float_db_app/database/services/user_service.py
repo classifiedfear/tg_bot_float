@@ -3,10 +3,10 @@ from sqlalchemy import delete
 from sqlalchemy.dialects import postgresql
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from tg_bot_float_db_app.database.models.user_models import UserModel
+from tg_bot_float_db_app.database.models.user_model import UserModel
 
 
-class UserContext:
+class UserService:
     def __init__(self, session: AsyncSession) -> None:
         self._session = session
 

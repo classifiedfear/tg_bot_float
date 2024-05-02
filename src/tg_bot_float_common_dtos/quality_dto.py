@@ -1,7 +1,5 @@
-import dataclasses
+from pydantic import BaseModel
 
-
-@dataclasses.dataclass
-class QualityDTO:
-    name: str = None
+class QualityDTO(BaseModel):
     id: int = 0
+    name: str | None = None

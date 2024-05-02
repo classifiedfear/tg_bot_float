@@ -1,6 +1,6 @@
-import dataclasses
+from pydantic import BaseModel
 
-@dataclasses.dataclass
-class MsgResponseDTO:
+
+class MsgResponseDTO(BaseModel):
     status: bool
     msg: str

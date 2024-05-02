@@ -1,7 +1,6 @@
-import dataclasses
+from pydantic import BaseModel
 
 
-@dataclasses.dataclass
-class WeaponDTO:
-    name: str = None
+class WeaponDTO(BaseModel):
     id: int = 0
+    name: str | None = None
