@@ -15,9 +15,7 @@ class WeaponService:
         self._session = session
 
     async def create(self, weapon_dto: WeaponDTO) -> WeaponModel:
-        weapon_model = WeaponModel(**weapon_dto.model_dump(
-            exclude_none=True, exclude={"id"}
-            ))
+        weapon_model = WeaponModel(**weapon_dto.model_dump(exclude_none=True, exclude={"id"}))
         self._session.add(weapon_model)
         await self._commit_and_rollback_if_errors()
         return weapon_model
@@ -26,9 +24,9 @@ class WeaponService:
         return await self._session.get(WeaponModel, weapon_id)
 
     async def update_by_id(self, weapon_id: int, weapon_dto: WeaponDTO) -> WeaponModel | None:
-        update_stmt = sqlalchemy.update(WeaponModel).values(**weapon_dto.model_dump(
-            exclude_none=True, exclude={"id"}
-            ))
+        update_stmt = sqlalchemy.update(WeaponModel).values(
+            **weapon_dto.model_dump(exclude_none=True, exclude={"id"})
+        )
         where_stmt = update_stmt.where(WeaponModel.id == weapon_id)
         returning_stmt = where_stmt.returning(WeaponModel)
         weapon_model = await self._session.scalar(returning_stmt)
@@ -46,10 +44,9 @@ class WeaponService:
 
     async def create_many(self, weapon_dtos: List[WeaponDTO]) -> List[WeaponModel]:
         weapon_models = [
-                WeaponModel(**weapon_dto.model_dump(
-                    exclude_none=True, exclude={"id"}
-                    )) for weapon_dto in weapon_dtos
-            ]
+            WeaponModel(**weapon_dto.model_dump(exclude_none=True, exclude={"id"}))
+            for weapon_dto in weapon_dtos
+        ]
         self._session.add_all(weapon_models)
         await self._commit_and_rollback_if_errors()
         return weapon_models
@@ -85,7 +82,7 @@ class WeaponService:
     async def upsert(self, weapon_dto: WeaponDTO) -> WeaponDTO | None:
         values = weapon_dto.model_dump(exclude_none=True, exclude={"id"})
         stmt = postgresql.insert(WeaponModel).values(**values)
-        do_update_stmt = stmt.on_conflict_do_update(index_elements=['name'], set_=values)
+        do_update_stmt = stmt.on_conflict_do_update(index_elements=["name"], set_=values)
         returning_stmt = do_update_stmt.returning(WeaponModel)
         return await self._session.scalar(returning_stmt)
 
@@ -94,9 +91,9 @@ class WeaponService:
         return await self._session.scalar(stmt)
 
     async def update_by_name(self, weapon_name: str, weapon_dto: WeaponDTO):
-        update_stmt = sqlalchemy.update(WeaponModel).values(**weapon_dto.model_dump(
-            exclude_none=True, exclude={"id"}
-            ))
+        update_stmt = sqlalchemy.update(WeaponModel).values(
+            **weapon_dto.model_dump(exclude_none=True, exclude={"id"})
+        )
         where_stmt = update_stmt.where(WeaponModel.name == weapon_name)
         returning_stmt = where_stmt.returning(WeaponModel)
         weapon = await self._session.scalar(returning_stmt)
@@ -131,4 +128,3 @@ class WeaponService:
         except:
             await self._session.rollback()
             raise
-

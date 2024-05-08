@@ -1,6 +1,8 @@
-
+from contextlib import asynccontextmanager
 from typing import Any, AsyncGenerator
+
 from fastapi import FastAPI
+
 from tg_bot_float_db_app.api.routers.db_router import DBRouter
 from tg_bot_float_db_app.api.routers.quality_router import QualityRouter
 from tg_bot_float_db_app.api.routers.relation_router import RelationRouter
@@ -17,13 +19,16 @@ routers = [
     RelationRouter(),
     DBRouter(),
     UserRouter(),
-    SubscriptionRouter()
-    ]
+    SubscriptionRouter(),
+]
 
+
+@asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, Any]:
     db_creator = BotDbFactory.get_db_creator()
     await db_creator.create_all_tables()
     yield
+
 
 app = FastAPI(lifespan=lifespan)
 

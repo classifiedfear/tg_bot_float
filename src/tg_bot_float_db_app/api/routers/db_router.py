@@ -18,10 +18,8 @@ class DBRouter:
         self._router.add_api_route("/update_db", self._update_db, methods=["POST"])
 
     async def _update_db(
-        self,
-        request: Request,
-        service_factory: BOT_DB_SERVICE_FACTORY
-        ) -> MsgResponseDTO:
+        self, request: Request, service_factory: BOT_DB_SERVICE_FACTORY
+    ) -> MsgResponseDTO:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             skin_service = service_factory.get_skin_service()
@@ -29,13 +27,12 @@ class DBRouter:
             relation_service = service_factory.get_relation_service()
             db_service = BotDBRefresherService(
                 weapon_service, skin_service, quality_service, relation_service
-                )
+            )
             try:
                 await db_service.update(await request.body())
             except Exception as exp:
                 return MsgResponseDTO(status=False, msg=repr(exp))
             return MsgResponseDTO(
                 status=True,
-                msg="Weapons, skins, qualities in the database were successfully updated.")
-
-
+                msg="Weapons, skins, qualities in the database were successfully updated.",
+            )

@@ -7,6 +7,7 @@ from tg_bot_float_db_app.database.services.relation_service import RelationServi
 from tg_bot_float_db_app.database.services.user_service import UserService
 from tg_bot_float_db_app.database.services.subscription_service import SubscriptionService
 
+
 class BotDbServiceFactory:
     def __init__(self, db_engine: AsyncEngine):
         self._db_engine = db_engine
@@ -38,4 +39,3 @@ class BotDbServiceFactory:
 
     def get_relation_service(self) -> RelationService:
         return RelationService(self._session)
-

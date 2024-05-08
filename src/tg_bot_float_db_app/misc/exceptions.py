@@ -1,7 +1,8 @@
-class BotDbExceptions(Exception):
-    """Base class for bot db exceptions"""
+from dataclasses import dataclass
 
-class BotDbDeleteException(BotDbExceptions):
-    """Error for basic deletion operations,
-    when the number of deleted rows does not match the
-    requested rows for deletion"""
+
+@dataclass
+class BotDbException(Exception):
+    item: str
+    identifier: str
+    msg: str
