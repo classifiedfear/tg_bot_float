@@ -17,7 +17,7 @@ class UserModel(Base):
 
     reg_date: Mapped[Date] = mapped_column(Date, default=datetime.date.today())
 
-    #subscriptions = relationship("SubscriptionModel", back_populates="user")
+    subscriptions = relationship("SubscriptionModel", back_populates="user")
 
     def __repr__(self) -> str:
         return f"{self.username}: " f"reg_day:{self.reg_date}; " f"id-{self.id} "
