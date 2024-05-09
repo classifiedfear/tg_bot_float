@@ -1,6 +1,6 @@
 # tg_bot_float
 
-To run tg_bot_float_db_ap in docker container you need to cd to the src directory and run this two commands:
+To run tg_bot_float_db_ap in docker container you need to cd to the src directory and run these two commands:
 
 `docker build -t tg_bot_float_db_app -f tg_bot_float_db_app/Dockerfile .`
 
