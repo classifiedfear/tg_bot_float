@@ -1,3 +1,5 @@
-ITEM_EXIST_MSG = "{item} with {identifier} - {item_identifier!r} already exist"
-ITEM_NOT_EXIST_MSG = "{item} with {identifier} - {item_identifier!r} does not exist!"
-ITEM_DELETED_MSG = "{item} with {identifier} - {item_identifier!r} deleted."
+ENTITY_FOUND_ERROR_MSG = "{entity} with {identifier} - {entity_identifier!r} already exist"
+ENTITY_NOT_FOUND_ERROR_MSG = "{entity} with {identifier} - {entity_identifier!r} does not exist!"
+ENTITY_DELETED_MSG = "{entity} with {identifier} - {entity_identifier!r} deleted."
+ENTITY_UPDATED_MSG = "{entity} successfully updated!"
+ENTITY_CREATED_MSG = "{entity} successfully created!"

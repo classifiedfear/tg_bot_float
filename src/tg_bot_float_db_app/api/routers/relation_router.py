@@ -1,18 +1,14 @@
 from typing import List
 
-from fastapi import APIRouter, Query
-from sqlalchemy.exc import IntegrityError
+from fastapi import APIRouter, status
+from fastapi.responses import JSONResponse
 
-from tg_bot_float_db_app.database.models.relation_model import RelationModel
-from tg_bot_float_db_app.misc.exceptions import BotDbDeleteException
-from tg_bot_float_db_app.misc.msg_response_dto import MsgResponseDTO
 from tg_bot_float_db_app.misc.router_constants import (
-    ITEM_EXIST_MSG,
-    ITEM_NOT_EXIST_MSG,
-    ITEM_DELETED_MSG,
+    ENTITY_DELETED_MSG,
+    ENTITY_CREATED_MSG,
 )
-from tg_bot_float_common_dtos.relation_id_dto import RelationIdDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
+from tg_bot_float_common_dtos.relation_id_dto import RelationIdDTO
 
 
 class RelationRouter:
@@ -25,50 +21,37 @@ class RelationRouter:
         return self._router
 
     def _init_routes(self) -> None:
-        self._router.add_api_route("/create", self._create, response_model=None, methods=["POST"])
+        self._router.add_api_route("/create", self._create, methods=["POST"])
         self._router.add_api_route(
             "{weapon_id}/{skin_id}/{quality_id}",
             self._get_relation_by_id,
-            response_model=None,
             methods=["GET"],
         )
         self._router.add_api_route(
             "{weapon_id}/{skin_id}/{quality_id}", self._delete_relation_by_id, methods=["DELETE"]
         )
+        self._router.add_api_route("/create_many", self._create_many, methods=["POST"])
+        self._router.add_api_route("", self._get_all, methods=["GET"])
         self._router.add_api_route(
-            "/create_many", self._create_many, response_model=None, methods=["POST"]
+            "/skins/name/", self._get_filtered_by_name_skins, methods=["GET"]
         )
-        self._router.add_api_route("", self._get_all, response_model=None, methods=["GET"])
-        self._router.add_api_route(
-            "/skins/name/", self._get_filtered_by_name_skins, response_model=None, methods=["GET"]
-        )
-        self._router.add_api_route(
-            "/skins/id/", self._get_filtered_by_id_skins, response_model=None, methods=["GET"]
-        )
+        self._router.add_api_route("/skins/id/", self._get_filtered_by_id_skins, methods=["GET"])
 
     async def _create(
         self, service_factory: BOT_DB_SERVICE_FACTORY, relation_id_dto: RelationIdDTO
-    ) -> MsgResponseDTO | RelationModel:
+    ) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            try:
-                relation_model = await relation_service.create(relation_id_dto)
-            except IntegrityError:
-                return MsgResponseDTO(
-                    status=False,
-                    msg=ITEM_EXIST_MSG.format(
-                        item="Relation",
-                        identifier="ids",
-                        item_identifier=", ".join(
-                            [
-                                str(relation_id_dto.weapon_id),
-                                str(relation_id_dto.skin_id),
-                                str(relation_id_dto.quality_id),
-                            ]
-                        ),
-                    ),
-                )
-            return relation_model
+            relation_model = await relation_service.create(relation_id_dto)
+            return JSONResponse(
+                status_code=status.HTTP_201_CREATED,
+                content={
+                    "message": ENTITY_CREATED_MSG.format(entity="Relation"),
+                    "item": RelationIdDTO.model_validate(
+                        relation_model,
+                    ).model_dump(),
+                },
+            )
 
     async def _get_relation_by_id(
         self,
@@ -76,20 +59,12 @@ class RelationRouter:
         weapon_id: int,
         skin_id: int,
         quality_id: int,
-    ) -> MsgResponseDTO | RelationModel:
+    ) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            if relation_db_model := await relation_service.get_by_id(
-                weapon_id, skin_id, quality_id
-            ):
-                return relation_db_model
-            return MsgResponseDTO(
-                status=False,
-                msg=ITEM_NOT_EXIST_MSG.format(
-                    item="Relation",
-                    identifier="ids",
-                    item_identifier=", ".join([str(weapon_id), str(skin_id), str(quality_id)]),
-                ),
+            relation_db_model = await relation_service.get_by_id(weapon_id, skin_id, quality_id)
+            return JSONResponse(
+                content={"item": RelationIdDTO.model_validate(relation_db_model).model_dump()}
             )
 
     async def _delete_relation_by_id(
@@ -98,65 +73,55 @@ class RelationRouter:
         weapon_id: int,
         skin_id: int,
         quality_id: int,
-    ) -> MsgResponseDTO:
+    ) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            try:
-                await relation_service.delete_by_id(weapon_id, skin_id, quality_id)
-            except BotDbDeleteException:
-                return MsgResponseDTO(
-                    status=False,
-                    msg=ITEM_NOT_EXIST_MSG.format(
+            await relation_service.delete_by_id(weapon_id, skin_id, quality_id)
+            return JSONResponse(
+                content={
+                    "message": ENTITY_DELETED_MSG.format(
                         item="Relation",
-                        identifier="ids",
-                        item_identifier=", ".join([str(weapon_id), str(skin_id), str(quality_id)]),
-                    ),
-                )
-            return MsgResponseDTO(
-                status=True,
-                msg=ITEM_DELETED_MSG.format(
-                    item="Relation",
-                    identifier="ids",
-                    item_identifier=", ".join([str(weapon_id), str(skin_id), str(quality_id)]),
-                ),
+                        identifier="weapon_id, skin_id, quality_id",
+                        item_identifier=f"({weapon_id}, {skin_id}, {quality_id})",
+                    )
+                }
             )
 
     async def _create_many(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         relation_id_dtos: List[RelationIdDTO],
-    ) -> List[RelationModel] | MsgResponseDTO:
+    ) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            try:
-                relation_db_models = await relation_service.create_many(relation_id_dtos)
-            except IntegrityError:
-                ids = [
-                    (
-                        relation_post_model.weapon_id,
-                        relation_post_model.skin_id,
-                        relation_post_model.quality_id,
-                    )
-                    for relation_post_model in relation_id_dtos
-                ]
-                existence_quality_db_models = await relation_service.get_many_by_id(ids)
-                return MsgResponseDTO(
-                    status=False,
-                    msg=ITEM_EXIST_MSG.format(
-                        item="Relation",
-                        identifier="weapon_id, skin_id, quality_id",
-                        item_names=", ".join(
-                            f"({relation.weapon_id}, {relation.skin_id}, {relation.quality_id})"
-                            for relation in existence_quality_db_models
-                        ),
-                    ),
-                )
-            return relation_db_models
+            relation_db_models = await relation_service.create_many(relation_id_dtos)
+            return JSONResponse(
+                status_code=status.HTTP_201_CREATED,
+                content={
+                    "message": ENTITY_CREATED_MSG.format(entity="Relations"),
+                    "items": [
+                        RelationIdDTO.model_validate(
+                            relation_db_model,
+                        ).model_dump()
+                        for relation_db_model in relation_db_models
+                    ],
+                },
+            )
 
-    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> List[RelationModel]:
+    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return list(await relation_service.get_all())
+            relation_db_models = await relation_service.get_all()
+            return JSONResponse(
+                content={
+                    "items": [
+                        RelationIdDTO.model_validate(
+                            relation_db_model,
+                        ).model_dump()
+                        for relation_db_model in list(relation_db_models)
+                    ]
+                }
+            )
 
     async def _get_filtered_by_name_skins(
         self,
@@ -164,13 +129,21 @@ class RelationRouter:
         weapon: str | None = None,
         quality: str | None = None,
         stattrak_existence: bool | None = None,
-    ):
+    ) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return set(
-                await relation_service.get_skins_by_name_for(
-                    weapon_name=weapon, quality_name=quality, stattrak_existence=stattrak_existence
-                )
+            filtered_skins = await relation_service.get_skins_by_name_for(
+                weapon_name=weapon, quality_name=quality, stattrak_existence=stattrak_existence
+            )
+            return JSONResponse(
+                content={
+                    "items": [
+                        RelationIdDTO.model_validate(
+                            skin_db_model,
+                        ).model_dump()
+                        for skin_db_model in list(filtered_skins)
+                    ]
+                }
             )
 
     async def _get_filtered_by_id_skins(
@@ -182,8 +155,16 @@ class RelationRouter:
     ):
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return set(
-                await relation_service.get_skins_by_id_for(
-                    weapon_id=weapon, quality_id=quality, stattrak_existence=stattrak_existence
-                )
+            filtered_skins = await relation_service.get_skins_by_id_for(
+                weapon_id=weapon, quality_id=quality, stattrak_existence=stattrak_existence
+            )
+            return JSONResponse(
+                content={
+                    "items": [
+                        RelationIdDTO.model_validate(
+                            skin_db_model,
+                        ).model_dump()
+                        for skin_db_model in list(filtered_skins)
+                    ]
+                }
             )

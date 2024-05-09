@@ -1,8 +1,5 @@
-from dataclasses import dataclass
-
-
-@dataclass
 class BotDbException(Exception):
-    item: str
-    identifier: str
-    msg: str
+    def __init__(self, msg: str, status: int):
+        self.msg = msg
+        self.status = status
+

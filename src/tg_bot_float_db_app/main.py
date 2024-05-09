@@ -11,6 +11,7 @@ from tg_bot_float_db_app.api.routers.subscription_router import SubscriptionRout
 from tg_bot_float_db_app.api.routers.user_router import UserRouter
 from tg_bot_float_db_app.api.routers.weapon_router import WeaponRouter
 from tg_bot_float_db_app.database.db_factory import BotDbFactory
+from tg_bot_float_db_app.middlewares.error_handling_middleware import ErrorHandlingMiddleware
 
 routers = [
     WeaponRouter(),
@@ -31,6 +32,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, Any]:
 
 
 app = FastAPI(lifespan=lifespan)
+app.add_middleware(ErrorHandlingMiddleware)
 
 for router in routers:
     app.include_router(router.router)

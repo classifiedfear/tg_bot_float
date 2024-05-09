@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Request
+from fastapi.responses import JSONResponse
 
 from tg_bot_float_db_app.database.services.bot_db_refresher_service import BotDBRefresherService
-from tg_bot_float_db_app.misc.msg_response_dto import MsgResponseDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 
 
@@ -19,7 +19,7 @@ class DBRouter:
 
     async def _update_db(
         self, request: Request, service_factory: BOT_DB_SERVICE_FACTORY
-    ) -> MsgResponseDTO:
+    ) -> JSONResponse:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             skin_service = service_factory.get_skin_service()
@@ -28,11 +28,5 @@ class DBRouter:
             db_service = BotDBRefresherService(
                 weapon_service, skin_service, quality_service, relation_service
             )
-            try:
-                await db_service.update(await request.body())
-            except Exception as exp:
-                return MsgResponseDTO(status=False, msg=repr(exp))
-            return MsgResponseDTO(
-                status=True,
-                msg="Weapons, skins, qualities in the database were successfully updated.",
-            )
+            await db_service.update(await request.body())
+            return JSONResponse(content={"message": "DB successfully updated!"})
