@@ -1,5 +1,5 @@
 import pickle
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Tuple
 
 import brotli
 
@@ -9,12 +9,12 @@ from tg_bot_float_db_app.database.services.relation_service import RelationServi
 from tg_bot_float_db_app.database.services.skin_service import SkinService
 from tg_bot_float_db_app.database.services.weapon_service import WeaponService
 
-from tg_bot_float_common_dtos.weapon_dto import WeaponDTO
-from tg_bot_float_common_dtos.skin_dto import SkinDTO
-from tg_bot_float_common_dtos.quality_dto import QualityDTO
-from tg_bot_float_common_dtos.relation_dto import RelationDTO
-from tg_bot_float_common_dtos.source_data_tree_dto import SourceDataTreeDTO
-from tg_bot_float_common_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
+from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
+from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 
 
 class BotDBRefresherService:
@@ -139,29 +139,29 @@ class BotDBRefresherService:
             await self._relation_service.delete_many_by_id(ids_relations_to_delete)
 
         if ids_relations_to_create:
-            await self._relation_service.create_many(
-                [
-                    RelationIdDTO(weapon_id=item[0], skin_id=item[1], quality_id=item[2])
-                    for item in ids_relations_to_create
-                ]
-            )
+            await self._relation_service.create_many(ids_relations_to_create)
 
     async def _get_ids_relations_to_create_and_delete(
         self, relations: List[RelationDTO]
-    ) -> Tuple[Set[Tuple[int, int, int]], List[Tuple[int, int, int]]]:
-        ids_relations_to_create = {
-            (relation.weapon.id, relation.skin.id, relation.quality.id) for relation in relations
-        }
-        ids_relations_to_delete: List[Tuple[int, int, int]] = []
+    ) -> Tuple[List[RelationIdDTO], List[RelationIdDTO]]:
+        ids_relations_to_create = [
+            RelationIdDTO(
+                weapon_id=relation.weapon.id,
+                skin_id=relation.skin.id,
+                quality_id=relation.quality.id,
+            )
+            for relation in relations
+        ]
+        ids_relations_to_delete: List[RelationIdDTO] = []
         for relation_db_model in await self._relation_service.get_all():
             if (
-                relation_id_tuple := (
-                    relation_db_model.weapon_id,
-                    relation_db_model.skin_id,
-                    relation_db_model.quality_id,
+                relation_id_dto := RelationIdDTO(
+                    weapon_id=relation_db_model.weapon_id,
+                    skin_id=relation_db_model.skin_id,
+                    quality_id=relation_db_model.quality_id,
                 )
             ) in ids_relations_to_create:
-                ids_relations_to_create.remove(relation_id_tuple)
+                ids_relations_to_create.remove(relation_id_dto)
             else:
-                ids_relations_to_delete.append(relation_id_tuple)
+                ids_relations_to_delete.append(relation_id_dto)
         return ids_relations_to_create, ids_relations_to_delete

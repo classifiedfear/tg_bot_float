@@ -6,6 +6,7 @@ from tg_bot_float_db_app.database.services.skin_service import SkinService
 from tg_bot_float_db_app.database.services.relation_service import RelationService
 from tg_bot_float_db_app.database.services.user_service import UserService
 from tg_bot_float_db_app.database.services.subscription_service import SubscriptionService
+from tg_bot_float_db_app.database.services.bot_db_refresher_service import BotDBRefresherService
 
 
 class BotDbServiceFactory:
@@ -39,3 +40,10 @@ class BotDbServiceFactory:
 
     def get_relation_service(self) -> RelationService:
         return RelationService(self._session)
+
+    def get_db_refresher_service(self) -> BotDBRefresherService:
+        weapon_service = self.get_weapon_service()
+        skin_service = self.get_skin_service()
+        quality_service = self.get_quality_service()
+        relation_service = self.get_relation_service()
+        return BotDBRefresherService(weapon_service, skin_service, quality_service, relation_service)

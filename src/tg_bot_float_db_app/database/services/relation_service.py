@@ -1,7 +1,8 @@
 from http import HTTPStatus
-from typing import Tuple, List
+from typing import List
 
-from sqlalchemy import select, delete, tuple_, ScalarResult, func
+from sqlalchemy import select, delete, tuple_, ScalarResult
+from sqlalchemy.sql.expression import func
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 
@@ -14,7 +15,7 @@ from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
 )
-from tg_bot_float_common_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 
 
 class RelationService:
@@ -48,12 +49,7 @@ class RelationService:
             await self._session.commit()
         except IntegrityError as exc:
             await self._session.rollback()
-            existence_relation_db_models = await self.get_many_by_id(
-                [
-                    (relation_dto.weapon_id, relation_dto.skin_id, relation_dto.quality_id)
-                    for relation_dto in relation_dtos
-                ]
-            )
+            existence_relation_db_models = await self.get_many_by_id(relation_dtos)
             raise BotDbException(
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Relations",
@@ -108,22 +104,26 @@ class RelationService:
             )
         await self._session.commit()
 
-    async def delete_many_by_id(self, ids: List[Tuple[int, int, int]]) -> None:
+    async def delete_many_by_id(self, relation_id_dtos: List[RelationIdDTO]) -> None:
+        relation_id_tuple = [
+            (relation_id.weapon_id, relation_id.skin_id, relation_id.quality_id)
+            for relation_id in relation_id_dtos
+        ]
         delete_stmt = delete(RelationModel)
         where_stmt = delete_stmt.where(
             tuple_(RelationModel.weapon_id, RelationModel.skin_id, RelationModel.quality_id).in_(
-                ids
+                relation_id_tuple
             )
         )
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
-        if deleted_rows != len(ids):
-            existence_relation_db_models = await self.get_many_by_id(ids)
+        if deleted_rows != len(relation_id_dtos):
+            existence_relation_db_models = await self.get_many_by_id(relation_id_dtos)
             existence_ids = {
                 (relation.weapon_id, relation.skin_id, relation.quality_id)
                 for relation in existence_relation_db_models
             }
-            difference_ids = set(ids).symmetric_difference(existence_ids)
+            difference_ids = set(relation_id_tuple).symmetric_difference(existence_ids)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Relation",
@@ -134,11 +134,15 @@ class RelationService:
             )
         await self._session.commit()
 
-    async def get_many_by_id(self, ids: List[Tuple[int, int, int]]):
+    async def get_many_by_id(self, relation_id_dtos: List[RelationIdDTO]):
+        relation_id_tuple = [
+            (relation_id.weapon_id, relation_id.skin_id, relation_id.quality_id)
+            for relation_id in relation_id_dtos
+        ]
         select_stmt = select(RelationModel)
         where_stmt = select_stmt.where(
             tuple_(RelationModel.weapon_id, RelationModel.skin_id, RelationModel.quality_id).in_(
-                ids
+                relation_id_tuple
             )
         )
         return await self._session.scalars(where_stmt)
@@ -156,22 +160,23 @@ class RelationService:
     async def get_random_weapon_from_db(self):
         stmt = (
             select(
-                SkinModel.name, WeaponModel.name, QualityModel.name, SkinModel.stattrak_existence
+                WeaponModel.name, SkinModel.name, QualityModel.name, SkinModel.stattrak_existence
             )
-            .join(SkinModel.relations)
-            .join(RelationModel.weapon)
+            .join(WeaponModel.relations)
+            .join(RelationModel.skin)
             .join(RelationModel.quality)
-            .order_by(func.random)
+            .order_by(func.random())
             .limit(1)
         )
-        return await self._session.scalar(stmt)
+        result = await self._session.execute(stmt)
+        return result.one()
 
     async def get_skins_by_name_for(
         self,
         weapon_name: str | None = None,
         quality_name: str | None = None,
         stattrak_existence: bool | None = None,
-    ):
+    ) -> ScalarResult[SkinModel]:
         stmt = select(SkinModel).join(SkinModel.relations)
         if weapon_name is not None:
             stmt = stmt.join(RelationModel.weapon).where(WeaponModel.name == weapon_name)
@@ -186,7 +191,7 @@ class RelationService:
         weapon_id: int | None = None,
         quality_id: int | None = None,
         stattrak_existence: bool | None = None,
-    ):
+    ) -> ScalarResult[SkinModel]:
         stmt = select(SkinModel).join(SkinModel.relations)
         if weapon_id is not None:
             stmt = stmt.join(RelationModel.weapon).where(WeaponModel.id == weapon_id)
