@@ -1,5 +1,2 @@
 ENTITY_FOUND_ERROR_MSG = "{entity} with {identifier} - {entity_identifier!r} already exist"
 ENTITY_NOT_FOUND_ERROR_MSG = "{entity} with {identifier} - {entity_identifier!r} does not exist!"
-ENTITY_DELETED_MSG = "{entity} with {identifier} - {entity_identifier!r} deleted."
-ENTITY_UPDATED_MSG = "{entity} successfully updated!"
-ENTITY_CREATED_MSG = "{entity} successfully created!"

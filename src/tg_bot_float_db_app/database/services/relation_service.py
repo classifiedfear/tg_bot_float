@@ -1,8 +1,6 @@
-from http import HTTPStatus
 from typing import List
 
 from sqlalchemy import select, delete, tuple_, ScalarResult
-from sqlalchemy.sql.expression import func
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 
@@ -35,7 +33,6 @@ class RelationService:
                     identifier="weapon_id, skin_id, quality_id",
                     entity_identifier=f"{relation_id_dto.weapon_id}, {relation_id_dto.skin_id}, {relation_id_dto.quality_id}",
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         return relation_model
 
@@ -59,13 +56,12 @@ class RelationService:
                         for relation in existence_relation_db_models
                     ),
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         return relation_models
 
     async def get_by_id(
         self, weapon_id: int, skin_id: int, quality_id: int
-    ) -> RelationModel | None:
+    ) -> RelationModel:
         relation_model = await self._session.get(
             RelationModel, {"weapon_id": weapon_id, "skin_id": skin_id, "quality_id": quality_id}
         )
@@ -76,7 +72,6 @@ class RelationService:
                     identifier="weapon_id, skin_id, quality_id",
                     entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         return relation_model
 
@@ -100,7 +95,6 @@ class RelationService:
                     identifier="weapon_id, skin_id, quality_id",
                     entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -130,7 +124,6 @@ class RelationService:
                     identifier="weapon_id, skin_id, quality_id",
                     entity_identifier=", ".join(f"{ids}" for ids in difference_ids),
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -156,47 +149,3 @@ class RelationService:
             .where(WeaponModel.id == weapon_id, SkinModel.id == skin_id)
         )
         return await self._session.scalars(stmt)
-
-    async def get_random_weapon_from_db(self):
-        stmt = (
-            select(
-                WeaponModel.name, SkinModel.name, QualityModel.name, SkinModel.stattrak_existence
-            )
-            .join(WeaponModel.relations)
-            .join(RelationModel.skin)
-            .join(RelationModel.quality)
-            .order_by(func.random())
-            .limit(1)
-        )
-        result = await self._session.execute(stmt)
-        return result.one()
-
-    async def get_skins_by_name_for(
-        self,
-        weapon_name: str | None = None,
-        quality_name: str | None = None,
-        stattrak_existence: bool | None = None,
-    ) -> ScalarResult[SkinModel]:
-        stmt = select(SkinModel).join(SkinModel.relations)
-        if weapon_name is not None:
-            stmt = stmt.join(RelationModel.weapon).where(WeaponModel.name == weapon_name)
-        if quality_name is not None:
-            stmt = stmt.join(RelationModel.quality).where(QualityModel.name == quality_name)
-        if stattrak_existence is not None:
-            stmt = stmt.where(SkinModel.stattrak_existence == stattrak_existence)
-        return await self._session.scalars(stmt.distinct())
-
-    async def get_skins_by_id_for(
-        self,
-        weapon_id: int | None = None,
-        quality_id: int | None = None,
-        stattrak_existence: bool | None = None,
-    ) -> ScalarResult[SkinModel]:
-        stmt = select(SkinModel).join(SkinModel.relations)
-        if weapon_id is not None:
-            stmt = stmt.join(RelationModel.weapon).where(WeaponModel.id == weapon_id)
-        if quality_id is not None:
-            stmt = stmt.join(RelationModel.quality).where(QualityModel.id == quality_id)
-        if stattrak_existence is not None:
-            stmt = stmt.where(SkinModel.stattrak_existence == stattrak_existence)
-        return await self._session.scalars(stmt.distinct())

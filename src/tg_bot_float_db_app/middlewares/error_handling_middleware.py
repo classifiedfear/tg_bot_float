@@ -1,6 +1,7 @@
 from typing import Awaitable, Callable
 
 from fastapi import Request
+from fastapi import status
 from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
@@ -16,4 +17,4 @@ class ErrorHandlingMiddleware(BaseHTTPMiddleware):
         try:
             return await call_next(request)
         except BotDbException as exc:
-            return JSONResponse(status_code=exc.status,content={"message": exc.msg})
+            return JSONResponse(status_code=status.HTTP_400_BAD_REQUEST, content={"message": exc.msg})

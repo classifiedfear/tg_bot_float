@@ -1,5 +1,4 @@
 from typing import List
-from http import HTTPStatus
 
 from sqlalchemy import ScalarResult, select, update, delete
 from sqlalchemy.dialects.postgresql import insert
@@ -7,12 +6,14 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
+from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
+from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_db_app.misc.exceptions import BotDbException
 from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
 )
-from tg_bot_float_common_dtos.skin_dto import SkinDTO
+from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 
 
 class SkinService:
@@ -29,19 +30,17 @@ class SkinService:
             raise BotDbException(
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="name", entity_identifier=skin_dto.name
-                ),
-                HTTPStatus.BAD_REQUEST,
+                )
             ) from exc
         return skin_model
 
-    async def get_by_id(self, skin_id: int) -> SkinModel | None:
+    async def get_by_id(self, skin_id: int) -> SkinModel:
         skin_model = await self._session.get(SkinModel, skin_id)
         if skin_model is None:
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="id", entity_identifier=str(skin_id)
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         return skin_model
 
@@ -57,7 +56,6 @@ class SkinService:
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Skin", identifier="id", entity_identifier=str(skin_id)
                     ),
-                    HTTPStatus.NOT_FOUND,
                 )
         except IntegrityError as exc:
             await self._session.rollback()
@@ -65,7 +63,6 @@ class SkinService:
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="name", entity_identifier=skin_dto.name
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         await self._session.commit()
         return skin_model
@@ -79,7 +76,6 @@ class SkinService:
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="id", entity_identifier=str(skin_id)
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -101,7 +97,6 @@ class SkinService:
                     identifier="names",
                     entity_identifier=", ".join(skin.name for skin in existence_skin_db_models),
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         return skin_models
 
@@ -121,16 +116,15 @@ class SkinService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(skin_ids):
-            existence_skin_db_models = await self.get_many_by_id(skin_ids)
-            existence_ids = {skin.id for skin in existence_skin_db_models}
-            difference_ids = set(skin_ids).symmetric_difference(existence_ids)
+            existing_skins = await self.get_many_by_id(skin_ids)
+            existing_ids = {skin.id for skin in existing_skins}
+            non_existing_ids = set(skin_ids).symmetric_difference(existing_ids)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin",
                     identifier="ids",
-                    entity_identifier=", ".join(str(id) for id in difference_ids),
+                    entity_identifier=", ".join(str(id) for id in non_existing_ids),
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -140,16 +134,15 @@ class SkinService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(skin_names):
-            existence_skin_db_models = await self.get_many_by_name(skin_names)
-            existence_names = {skin.name for skin in existence_skin_db_models}
-            difference_names = set(skin_names).symmetric_difference(existence_names)
+            existing_skins = await self.get_many_by_name(skin_names)
+            existing_names = {skin.name for skin in existing_skins}
+            non_existing_names = set(skin_names).symmetric_difference(existing_names)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin",
                     identifier="names",
-                    entity_identifier=", ".join(name for name in difference_names),
+                    entity_identifier=", ".join(name for name in non_existing_names),
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -161,7 +154,7 @@ class SkinService:
         await self._session.execute(returning_stmt)
         await self._session.commit()
 
-    async def get_by_name(self, skin_name: str) -> SkinModel | None:
+    async def get_by_name(self, skin_name: str) -> SkinModel:
         stmt = select(SkinModel).where(SkinModel.name == skin_name)
         skin_model = await self._session.scalar(stmt)
         if skin_model is None:
@@ -169,7 +162,6 @@ class SkinService:
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="name", entity_identifier=skin_name
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         return skin_model
 
@@ -185,7 +177,6 @@ class SkinService:
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Skin", identifier="name", entity_identifier=skin_name
                     ),
-                    HTTPStatus.NOT_FOUND,
                 )
         except IntegrityError as exc:
             await self._session.rollback()
@@ -193,7 +184,6 @@ class SkinService:
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="name", entity_identifier=skin_dto.name
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         await self._session.commit()
         return skin_model
@@ -207,10 +197,19 @@ class SkinService:
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin", identifier="name", entity_identifier=skin_name
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
     async def get_all(self) -> ScalarResult[SkinModel]:
         stmt = select(SkinModel)
         return await self._session.scalars(stmt)
+
+    async def get_many_by_weapon_name(self, weapon_name: str) -> ScalarResult[SkinModel]:
+        stmt = (
+            select(SkinModel)
+            .join(SkinModel.relations)
+            .join(RelationModel.weapon)
+            .where(WeaponModel.name == weapon_name)
+        )
+        without_duplicate_stmt = stmt.distinct()
+        return await self._session.scalars(without_duplicate_stmt)

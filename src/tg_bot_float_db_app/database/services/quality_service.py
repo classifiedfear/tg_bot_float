@@ -1,5 +1,4 @@
 from typing import List
-from http import HTTPStatus
 
 from sqlalchemy import update, select, delete, ScalarResult
 from sqlalchemy.dialects.postgresql import insert
@@ -7,12 +6,15 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
+from tg_bot_float_db_app.database.models.relation_model import RelationModel
+from tg_bot_float_db_app.database.models.skin_model import SkinModel
+from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.misc.exceptions import BotDbException
 from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
 )
-from tg_bot_float_common_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 
 
 class QualityService:
@@ -29,8 +31,7 @@ class QualityService:
             raise BotDbException(
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="name", entity_identifier=quality_dto.name
-                ),
-                HTTPStatus.BAD_REQUEST,
+                )
             ) from exc
         return quality_model
 
@@ -41,7 +42,6 @@ class QualityService:
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="id", entity_identifier=str(quality_id)
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         return quality_model
 
@@ -57,7 +57,6 @@ class QualityService:
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Quality", identifier="id", entity_identifier=str(quality_id)
                     ),
-                    HTTPStatus.NOT_FOUND,
                 )
         except IntegrityError as exc:
             await self._session.rollback()
@@ -65,7 +64,6 @@ class QualityService:
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="name", entity_identifier=quality_dto.name
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         await self._session.commit()
         return quality_model
@@ -78,8 +76,7 @@ class QualityService:
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="id", entity_identifier=str(quality_id)
-                ),
-                HTTPStatus.NOT_FOUND,
+                )
             )
         await self._session.commit()
 
@@ -94,16 +91,13 @@ class QualityService:
         except IntegrityError as exc:
             await self._session.rollback()
             names = [quality_dto.name for quality_dto in quality_dtos if quality_dto.name]
-            existence_quality_db_models = await self.get_many_by_name(names)
+            existing_qualities = await self.get_many_by_name(names)
             raise BotDbException(
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Quality",
                     identifier="names",
-                    entity_identifier=", ".join(
-                        quality.name for quality in existence_quality_db_models
-                    ),
-                ),
-                HTTPStatus.BAD_REQUEST,
+                    entity_identifier=", ".join(quality.name for quality in existing_qualities),
+                )
             ) from exc
         return quality_models
 
@@ -125,16 +119,15 @@ class QualityService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(quality_ids):
-            existence_quality_db_models = await self.get_many_by_id(quality_ids)
-            existence_ids = {quality.id for quality in existence_quality_db_models}
-            difference_ids = set(quality_ids).symmetric_difference(existence_ids)
+            existing_qualities = await self.get_many_by_id(quality_ids)
+            existing_ids = {quality.id for quality in existing_qualities}
+            non_existing_ids = set(quality_ids).symmetric_difference(existing_ids)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality",
                     identifier="ids",
-                    entity_identifier=", ".join(str(id) for id in difference_ids),
+                    entity_identifier=", ".join(str(id) for id in non_existing_ids),
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -144,16 +137,15 @@ class QualityService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(quality_names):
-            existence_quality_db_models = await self.get_many_by_name(quality_names)
-            existence_names = {quality.name for quality in existence_quality_db_models}
-            difference_names = set(quality_names).symmetric_difference(existence_names)
+            existing_qualities = await self.get_many_by_name(quality_names)
+            existing_names = {quality.name for quality in existing_qualities}
+            non_existing_names = set(quality_names).symmetric_difference(existing_names)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality",
                     identifier="names",
-                    entity_identifier=", ".join(name for name in difference_names),
+                    entity_identifier=", ".join(name for name in non_existing_names),
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         await self._session.commit()
 
@@ -173,7 +165,6 @@ class QualityService:
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="name", entity_identifier=quality_name
                 ),
-                HTTPStatus.NOT_FOUND,
             )
         return quality_model
 
@@ -189,7 +180,6 @@ class QualityService:
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Quality", identifier="name", entity_identifier=quality_name
                     ),
-                    HTTPStatus.NOT_FOUND,
                 )
         except IntegrityError as exc:
             await self._session.rollback()
@@ -197,7 +187,6 @@ class QualityService:
                 ENTITY_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="name", entity_identifier=quality_dto.name
                 ),
-                HTTPStatus.BAD_REQUEST,
             ) from exc
         await self._session.commit()
         return quality_model
@@ -211,10 +200,19 @@ class QualityService:
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="name", entity_identifier=quality_name
                 ),
-                HTTPStatus.NOT_FOUND
             )
         await self._session.commit()
 
     async def get_all(self) -> ScalarResult[QualityModel]:
         select_stmt = select(QualityModel)
         return await self._session.scalars(select_stmt)
+
+    async def get_many_by_weapon_skin_name(self, weapon_name: str, skin_name: str):
+        stmt = (
+            select(QualityModel)
+            .join(QualityModel.relations)
+            .join(RelationModel.skin)
+            .join(RelationModel.weapon)
+            .where(WeaponModel.name == weapon_name, SkinModel.name == skin_name)
+        )
+        return await self._session.scalars(stmt)
