@@ -1,7 +1,14 @@
+from typing import TYPE_CHECKING, List
+
 from sqlalchemy import Integer, String, Boolean
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from tg_bot_float_db_app.database.models.base import Base
+
+if TYPE_CHECKING:
+    from tg_bot_float_db_app.database.models.relation_model import RelationModel
+else:
+    RelationModel = "RelationModel"
 
 
 class SkinModel(Base):
@@ -13,6 +20,6 @@ class SkinModel(Base):
 
     stattrak_existence: Mapped[bool] = mapped_column(Boolean, nullable=False)
 
-    relations = relationship(
-        "RelationModel", back_populates="skin", cascade="all, delete", passive_deletes=True
+    relations: Mapped[List[RelationModel]] = relationship(
+        back_populates="skin", cascade="all, delete", passive_deletes=True
     )
