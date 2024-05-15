@@ -5,6 +5,7 @@ from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 
+
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
@@ -12,6 +13,7 @@ from tg_bot_float_db_app.misc.exceptions import BotDbException
 from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
+    NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 
@@ -21,17 +23,13 @@ class SkinService:
         self._session = session
 
     async def create(self, skin_dto: SkinDTO) -> SkinModel:
-        skin_model = SkinModel(**skin_dto.model_dump(exclude_none=True, exclude={"id"}))
+        skin_model = SkinModel(**skin_dto.model_dump(exclude={"id"}, exclude_none=True))
         self._session.add(skin_model)
         try:
             await self._session.commit()
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Skin", identifier="name", entity_identifier=skin_dto.name
-                )
-            ) from exc
+            self._reraise_bot_db_exception(exc, "name", str(skin_dto.name))
         return skin_model
 
     async def get_by_id(self, skin_id: int) -> SkinModel:
@@ -44,14 +42,15 @@ class SkinService:
             )
         return skin_model
 
-    async def update_by_id(self, skin_id: int, skin_dto: SkinDTO) -> SkinModel | None:
+    async def update_by_id(self, skin_id: int, skin_dto: SkinDTO) -> None:
         update_stmt = update(SkinModel).values(
             **skin_dto.model_dump(exclude_none=True, exclude={"id"})
         )
         where_stmt = update_stmt.where(SkinModel.id == skin_id)
-        returning_stmt = where_stmt.returning(SkinModel)
         try:
-            if (skin_model := await self._session.scalar(returning_stmt)) is None:
+            result = await self._session.execute(where_stmt)
+            row_updated = result.rowcount
+            if row_updated == 0:
                 raise BotDbException(
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Skin", identifier="id", entity_identifier=str(skin_id)
@@ -59,13 +58,8 @@ class SkinService:
                 )
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Skin", identifier="name", entity_identifier=skin_dto.name
-                ),
-            ) from exc
+            self._reraise_bot_db_exception(exc, "name", str(skin_dto.name))
         await self._session.commit()
-        return skin_model
 
     async def delete_by_id(self, skin_id: int) -> None:
         delete_stmt = delete(SkinModel).where(SkinModel.id == skin_id)
@@ -91,13 +85,9 @@ class SkinService:
             await self._session.rollback()
             names = [skin_dto.name for skin_dto in skin_dtos if skin_dto.name]
             existence_skin_db_models = await self.get_many_by_name(names)
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Skin",
-                    identifier="names",
-                    entity_identifier=", ".join(skin.name for skin in existence_skin_db_models),
-                ),
-            ) from exc
+            self._reraise_bot_db_exception(
+                exc, "names", ", ".join(skin.name for skin in existence_skin_db_models)
+            )
         return skin_models
 
     async def get_many_by_id(self, ids: List[int]):
@@ -116,6 +106,7 @@ class SkinService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(skin_ids):
+            await self._session.rollback()
             existing_skins = await self.get_many_by_id(skin_ids)
             existing_ids = {skin.id for skin in existing_skins}
             non_existing_ids = set(skin_ids).symmetric_difference(existing_ids)
@@ -124,7 +115,7 @@ class SkinService:
                     entity="Skin",
                     identifier="ids",
                     entity_identifier=", ".join(str(id) for id in non_existing_ids),
-                ),
+                )
             )
         await self._session.commit()
 
@@ -134,13 +125,14 @@ class SkinService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(skin_names):
+            await self._session.rollback()
             existing_skins = await self.get_many_by_name(skin_names)
             existing_names = {skin.name for skin in existing_skins}
             non_existing_names = set(skin_names).symmetric_difference(existing_names)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Skin",
-                    identifier="names",
+                    identifier="ids",
                     entity_identifier=", ".join(name for name in non_existing_names),
                 ),
             )
@@ -165,14 +157,15 @@ class SkinService:
             )
         return skin_model
 
-    async def update_by_name(self, skin_name: str, skin_dto: SkinDTO) -> SkinModel | None:
+    async def update_by_name(self, skin_name: str, skin_dto: SkinDTO) -> None:
         update_stmt = update(SkinModel).values(
             **skin_dto.model_dump(exclude_none=True, exclude={"id"})
         )
         where_stmt = update_stmt.where(SkinModel.name == skin_name)
-        returning_stmt = where_stmt.returning(SkinModel)
         try:
-            if (skin_model := await self._session.scalar(returning_stmt)) is None:
+            result = await self._session.execute(where_stmt)
+            row_updated = result.rowcount
+            if row_updated == 0:
                 raise BotDbException(
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Skin", identifier="name", entity_identifier=skin_name
@@ -180,13 +173,8 @@ class SkinService:
                 )
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Skin", identifier="name", entity_identifier=skin_dto.name
-                ),
-            ) from exc
+            self._reraise_bot_db_exception(exc, "name", str(skin_dto.name))
         await self._session.commit()
-        return skin_model
 
     async def delete_by_name(self, skin_name: str) -> None:
         delete_stmt = delete(SkinModel).where(SkinModel.name == skin_name)
@@ -213,3 +201,20 @@ class SkinService:
         )
         without_duplicate_stmt = stmt.distinct()
         return await self._session.scalars(without_duplicate_stmt)
+
+    def _reraise_bot_db_exception(
+        self, exc: IntegrityError, identifier: str, entity_identifier: str
+    ) -> None:
+        exc_msg = str(exc.orig)
+        if "NotNullViolationError" in exc_msg:
+            raise BotDbException(
+                NONE_FIELD_IN_ENTITY_ERROR_MSG.format(
+                    entity="Skin", fields="name, stattrak_existence"
+                )
+            ) from exc
+        if "UniqueViolationError" in exc_msg:
+            raise BotDbException(
+                ENTITY_FOUND_ERROR_MSG.format(
+                    entity="Skin", identifier=identifier, entity_identifier=entity_identifier
+                )
+            ) from exc

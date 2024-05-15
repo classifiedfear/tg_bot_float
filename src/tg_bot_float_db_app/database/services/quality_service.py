@@ -13,6 +13,7 @@ from tg_bot_float_db_app.misc.exceptions import BotDbException
 from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
+    NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 
@@ -28,11 +29,7 @@ class QualityService:
             await self._session.commit()
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Quality", identifier="name", entity_identifier=quality_dto.name
-                )
-            ) from exc
+            self._raise_bot_db_exception(exc, "name", str(quality_dto.name))
         return quality_model
 
     async def get_by_id(self, quality_id: int) -> QualityModel:
@@ -45,14 +42,15 @@ class QualityService:
             )
         return quality_model
 
-    async def update_by_id(self, quality_id: int, quality_dto: QualityDTO) -> QualityModel:
+    async def update_by_id(self, quality_id: int, quality_dto: QualityDTO) -> None:
         update_stmt = update(QualityModel).values(
             **quality_dto.model_dump(exclude_none=True, exclude={"id"})
         )
         where_stmt = update_stmt.where(QualityModel.id == quality_id)
-        returning_stmt = where_stmt.returning(QualityModel)
         try:
-            if (quality_model := await self._session.scalar(returning_stmt)) is None:
+            result = await self._session.execute(where_stmt)
+            row_update = result.rowcount
+            if row_update == 0:
                 raise BotDbException(
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Quality", identifier="id", entity_identifier=str(quality_id)
@@ -60,13 +58,8 @@ class QualityService:
                 )
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Quality", identifier="name", entity_identifier=quality_dto.name
-                ),
-            ) from exc
+            self._raise_bot_db_exception(exc, "name", str(quality_dto.name))
         await self._session.commit()
-        return quality_model
 
     async def delete_by_id(self, quality_id: int) -> None:
         delete_stmt = delete(QualityModel).where(QualityModel.id == quality_id)
@@ -76,7 +69,7 @@ class QualityService:
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality", identifier="id", entity_identifier=str(quality_id)
-                )
+                ),
             )
         await self._session.commit()
 
@@ -92,13 +85,9 @@ class QualityService:
             await self._session.rollback()
             names = [quality_dto.name for quality_dto in quality_dtos if quality_dto.name]
             existing_qualities = await self.get_many_by_name(names)
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Quality",
-                    identifier="names",
-                    entity_identifier=", ".join(quality.name for quality in existing_qualities),
-                )
-            ) from exc
+            self._raise_bot_db_exception(
+                exc, "names", ", ".join(quality.name for quality in existing_qualities)
+            )
         return quality_models
 
     async def get_many_by_id(self, ids: List[int]) -> ScalarResult[QualityModel]:
@@ -119,6 +108,7 @@ class QualityService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(quality_ids):
+            await self._session.rollback()
             existing_qualities = await self.get_many_by_id(quality_ids)
             existing_ids = {quality.id for quality in existing_qualities}
             non_existing_ids = set(quality_ids).symmetric_difference(existing_ids)
@@ -137,13 +127,14 @@ class QualityService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(quality_names):
+            await self._session.rollback()
             existing_qualities = await self.get_many_by_name(quality_names)
             existing_names = {quality.name for quality in existing_qualities}
             non_existing_names = set(quality_names).symmetric_difference(existing_names)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Quality",
-                    identifier="names",
+                    identifier="ids",
                     entity_identifier=", ".join(name for name in non_existing_names),
                 ),
             )
@@ -163,33 +154,29 @@ class QualityService:
         if quality_model is None:
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
-                    entity="Quality", identifier="name", entity_identifier=quality_name
+                    entity="Quality", identifier="id", entity_identifier=quality_name
                 ),
             )
         return quality_model
 
-    async def update_by_name(self, quality_name: str, quality_dto: QualityDTO) -> QualityModel:
+    async def update_by_name(self, quality_name: str, quality_dto: QualityDTO) -> None:
         update_stmt = update(QualityModel).values(
             **quality_dto.model_dump(exclude_none=True, exclude={"id"})
         )
         where_stmt = update_stmt.where(QualityModel.name == quality_name)
-        returning_stmt = where_stmt.returning(QualityModel)
         try:
-            if (quality_model := await self._session.scalar(returning_stmt)) is None:
+            result = await self._session.execute(where_stmt)
+            row_updated = result.rowcount
+            if row_updated == 0:
                 raise BotDbException(
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Quality", identifier="name", entity_identifier=quality_name
-                    ),
+                    )
                 )
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Quality", identifier="name", entity_identifier=quality_dto.name
-                ),
-            ) from exc
+            self._raise_bot_db_exception(exc, "name", str(quality_dto.name))
         await self._session.commit()
-        return quality_model
 
     async def delete_by_name(self, quality_name: str) -> None:
         delete_stmt = delete(QualityModel).where(QualityModel.name == quality_name)
@@ -197,10 +184,10 @@ class QualityService:
         deleted_row = result.rowcount
         if deleted_row == 0:
             raise BotDbException(
-                ENTITY_NOT_FOUND_ERROR_MSG.format(
-                    entity="Quality", identifier="name", entity_identifier=quality_name
-                ),
-            )
+                    ENTITY_NOT_FOUND_ERROR_MSG.format(
+                        entity="Quality", identifier="name", entity_identifier=quality_name
+                    )
+                )
         await self._session.commit()
 
     async def get_all(self) -> ScalarResult[QualityModel]:
@@ -216,3 +203,23 @@ class QualityService:
             .where(WeaponModel.name == weapon_name, SkinModel.name == skin_name)
         )
         return await self._session.scalars(stmt)
+
+    def _raise_bot_db_exception(
+        self,
+        exc: IntegrityError,
+        identifier: str,
+        entity_identifier: str,
+    ) -> None:
+        exc_msg = str(exc.orig)
+        if "NotNullViolationError" in exc_msg:
+            raise BotDbException(
+                NONE_FIELD_IN_ENTITY_ERROR_MSG.format(
+                    entity="Quality", fields="name, stattrak_existence"
+                )
+            ) from exc
+        if "UniqueViolationError" in exc_msg:
+            raise BotDbException(
+                ENTITY_FOUND_ERROR_MSG.format(
+                    entity="Quality", identifier=identifier, entity_identifier=entity_identifier
+                )
+            ) from exc

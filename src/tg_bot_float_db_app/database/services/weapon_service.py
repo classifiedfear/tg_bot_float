@@ -12,6 +12,7 @@ from tg_bot_float_db_app.misc.exceptions import BotDbException
 from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
+    NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 
@@ -27,11 +28,7 @@ class WeaponService:
             await self._session.commit()
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Weapon", identifier="name", entity_identifier=weapon_dto.name
-                ),
-            ) from exc
+            self._raise_bot_db_exception(exc, "name", str(weapon_dto.name))
         return weapon_model
 
     async def get_by_id(self, weapon_id: int) -> WeaponModel:
@@ -44,14 +41,15 @@ class WeaponService:
             )
         return weapon_model
 
-    async def update_by_id(self, weapon_id: int, weapon_dto: WeaponDTO) -> WeaponModel | None:
+    async def update_by_id(self, weapon_id: int, weapon_dto: WeaponDTO) -> None:
         update_stmt = update(WeaponModel).values(
             **weapon_dto.model_dump(exclude_none=True, exclude={"id"})
         )
         where_stmt = update_stmt.where(WeaponModel.id == weapon_id)
-        returning_stmt = where_stmt.returning(WeaponModel)
         try:
-            if (weapon_model := await self._session.scalar(returning_stmt)) is None:
+            result = await self._session.execute(where_stmt)
+            row_updated = result.rowcount
+            if row_updated == 0:
                 raise BotDbException(
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Weapon", identifier="id", entity_identifier=str(weapon_id)
@@ -59,13 +57,9 @@ class WeaponService:
                 )
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Weapon", identifier="name", entity_identifier=weapon_dto.name
-                ),
-            ) from exc
-        await self._session.commit()
-        return weapon_model
+            self._raise_bot_db_exception(exc, "name", str(weapon_dto.name))
+        else:
+            await self._session.commit()
 
     async def delete_by_id(self, weapon_id: int) -> None:
         delete_stmt = delete(WeaponModel).where(WeaponModel.id == weapon_id)
@@ -91,15 +85,10 @@ class WeaponService:
             await self._session.rollback()
             names = [weapon_dto.name for weapon_dto in weapon_dtos if weapon_dto.name]
             existence_weapon_db_models = await self.get_many_by_name(names)
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Weapon",
-                    identifier="names",
-                    entity_identifier=", ".join(
-                        weapon.name for weapon in existence_weapon_db_models
-                    ),
-                ),
-            ) from exc
+            self._raise_bot_db_exception(
+                exc, "names", ", ".join(weapon.name for weapon in existence_weapon_db_models)
+            )
+
         return weapon_models
 
     async def get_many_by_id(self, weapon_ids: List[int]):
@@ -120,13 +109,14 @@ class WeaponService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(weapon_ids):
+            await self._session.rollback()
             existing_weapons = await self.get_many_by_id(weapon_ids)
             existing_ids = {weapon.id for weapon in existing_weapons}
             non_existing_ids = set(weapon_ids).symmetric_difference(existing_ids)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Weapon",
-                    identifier="ids",
+                    identifier="id",
                     entity_identifier=", ".join(str(id) for id in non_existing_ids),
                 ),
             )
@@ -138,13 +128,14 @@ class WeaponService:
         result = await self._session.execute(where_stmt)
         deleted_rows = result.rowcount
         if deleted_rows != len(weapon_names):
+            await self._session.rollback()
             existing_weapons = await self.get_many_by_name(weapon_names)
             existing_names = {weapon.name for weapon in existing_weapons}
             non_existing_names = set(weapon_names).symmetric_difference(existing_names)
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Weapon",
-                    identifier="names",
+                    identifier="id",
                     entity_identifier=", ".join(name for name in non_existing_names),
                 ),
             )
@@ -169,14 +160,15 @@ class WeaponService:
             )
         return weapon_model
 
-    async def update_by_name(self, weapon_name: str, weapon_dto: WeaponDTO):
+    async def update_by_name(self, weapon_name: str, weapon_dto: WeaponDTO) -> None:
         update_stmt = update(WeaponModel).values(
             **weapon_dto.model_dump(exclude_none=True, exclude={"id"})
         )
         where_stmt = update_stmt.where(WeaponModel.name == weapon_name)
-        returning_stmt = where_stmt.returning(WeaponModel)
         try:
-            if (weapon_model := await self._session.scalar(returning_stmt)) is None:
+            result = await self._session.execute(where_stmt)
+            row_updated = result.rowcount
+            if row_updated == 0:
                 raise BotDbException(
                     ENTITY_NOT_FOUND_ERROR_MSG.format(
                         entity="Weapon", identifier="name", entity_identifier=weapon_name
@@ -184,13 +176,8 @@ class WeaponService:
                 )
         except IntegrityError as exc:
             await self._session.rollback()
-            raise BotDbException(
-                ENTITY_FOUND_ERROR_MSG.format(
-                    entity="Weapon", identifier="name", entity_identifier=weapon_dto.name
-                ),
-            ) from exc
+            self._raise_bot_db_exception(exc, "name", weapon_name)
         await self._session.commit()
-        return weapon_model
 
     async def delete_by_name(self, weapon_name: str) -> None:
         delete_stmt = delete(WeaponModel).where(WeaponModel.name == weapon_name)
@@ -217,3 +204,21 @@ class WeaponService:
         )
         without_duplicate_stmt = stmt.distinct()
         return await self._session.scalars(without_duplicate_stmt)
+
+    def _raise_bot_db_exception(
+        self,
+        exc: IntegrityError,
+        identifier: str,
+        entity_identifier: str,
+    ) -> None:
+        exc_msg = str(exc.orig)
+        if "NotNullViolationError" in exc_msg:
+            raise BotDbException(
+                NONE_FIELD_IN_ENTITY_ERROR_MSG.format(entity="Weapon", fields="name")
+            ) from exc
+        if "UniqueViolationError" in exc_msg:
+            raise BotDbException(
+                ENTITY_FOUND_ERROR_MSG.format(
+                    entity="Weapon", identifier=identifier, entity_identifier=entity_identifier
+                )
+            ) from exc
