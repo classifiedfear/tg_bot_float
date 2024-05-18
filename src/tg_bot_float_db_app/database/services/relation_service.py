@@ -8,7 +8,7 @@ from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
-from tg_bot_float_db_app.misc.exceptions import BotDbException
+from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
 from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
