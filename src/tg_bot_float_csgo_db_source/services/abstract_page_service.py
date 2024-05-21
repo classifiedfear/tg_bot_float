@@ -8,7 +8,7 @@ from aiohttp_retry import RetryClient, ExponentialRetry
 from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
 
-from settings import CsgoDbSourceSettings
+from settings.csgo_db_source_settings import CsgoDbSourceSettings
 
 
 class AbstractPageService(abc.ABC):

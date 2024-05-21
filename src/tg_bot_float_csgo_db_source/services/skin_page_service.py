@@ -7,7 +7,7 @@ class SkinPageService(AbstractPageService):
         if weapon[0] == "★":
             skin_names = await self._get_item_names(
                 self._settings.base_url + self._settings.skins_page.format(weapon=weapon[2:])
-                )
+            )
         else:
             skin_names = await self._get_item_names(
                 self._settings.base_url + self._settings.skins_page.format(weapon=weapon)

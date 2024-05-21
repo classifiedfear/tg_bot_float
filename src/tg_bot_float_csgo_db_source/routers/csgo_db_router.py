@@ -1,7 +1,8 @@
 from typing import List
 from fastapi import APIRouter
 
-from tg_bot_float_csgo_db_source.dependencies import WEAPON_PAGE_SERVICE, SKIN_PAGE_SERVICE
+from tg_bot_float_csgo_db_source.dependencies.services import WEAPON_PAGE_SERVICE, SKIN_PAGE_SERVICE
+
 
 class CsgoDBRouter:
     def __init__(self) -> None:
