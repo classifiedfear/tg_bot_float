@@ -1,5 +1,7 @@
 import json
 from typing import Any, Dict, Set
+from http import HTTPStatus
+
 
 import aiohttp
 from fake_useragent import UserAgent
@@ -24,35 +26,49 @@ class CsmWikiSurceService:
     _retry_options = ExponentialRetry(statuses=_statuses)
     _settings = CsmWikiSourceSettings()
 
-    def __init__(self) -> None:
-        self._headers = {"user-agent": f"{UserAgent.random}"}
+    @property
+    def headers(self) -> Dict[str, Any]:
+        return {
+            "Accept": "*/*",
+            "Accept-Encoding": "gzip, deflate, br, zstd",
+            "Accept-Language": "en,ru;q=0.9,en-US;q=0.8",
+            "Content-Length": "394",
+            "Content-Type": "application/json",
+            "Origin": "https://wiki.cs.money",
+            "user-agent": f"{UserAgent.random}",
+        }
 
     async def get_csm_wiki_skin_data(self, weapon: str, skin: str):
-        data_from_page = await self._get_response(weapon, skin)
+        data_from_page = await self._get_response_with_retries(weapon, skin)
         return self._get_csm_wiki_skin_data_dto(data_from_page)
 
-    async def _get_response(self, weapon: str, skin: str) -> Dict[str, Any]:
+    async def _get_response_with_retries(self, weapon: str, skin: str) -> Dict[str, Any] | None:
         get_min_available = self._prep_query(weapon, skin)
-        async with aiohttp.ClientSession() as session:
-            retry_session = RetryClient(session)
-            async with retry_session.post(
-                self._settings.base_url + self._settings.graphql_url, json=get_min_available
-            ) as response:
-                response_text = await response.text()
-                json_response = json.loads(response_text)
-                return json_response["data"]["get_min_available"]
+        for retry in range(1, 4):
+            async with aiohttp.ClientSession() as session:
+                retry_session = RetryClient(session)
+                async with retry_session.post(
+                    self._settings.base_url + self._settings.graphql_url, json=get_min_available
+                ) as response:
+                    if retry <= 3 and response.status == HTTPStatus.FORBIDDEN:
+                        continue
+                    response_text = await response.text()
+                    json_response = json.loads(response_text)
+                    return json_response["data"]["get_min_available"]
 
-    def _get_csm_wiki_skin_data_dto(self, data_from_page: Dict[str, Any]) -> CSMWikiSkinDataDTO:
+    def _get_csm_wiki_skin_data_dto(
+        self, data_from_page: Dict[str, Any] | None
+    ) -> CSMWikiSkinDataDTO:
         qualities: Set[str] = set()
         stattrak_existence = False
-        try:
+        if data_from_page:
             for item in data_from_page:
                 if item["isStatTrack"]:
                     stattrak_existence = True
                 name = item["name"]
                 quality = name.split("(")[-1]
                 qualities.add(quality[:-1])
-        except TypeError:
+        else:
             return CSMWikiSkinDataDTO()
         return CSMWikiSkinDataDTO(qualities=list(qualities), stattrak_existence=stattrak_existence)
 
