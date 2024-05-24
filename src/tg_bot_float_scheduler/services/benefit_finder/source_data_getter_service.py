@@ -4,7 +4,7 @@ from aiohttp import ClientSession
 from aiohttp.client_exceptions import ContentTypeError
 from aiohttp_retry import ExponentialRetry, RetryClient
 
-from settings.update_db_scheduler_settings import SchedulerSettings
+from settings.scheduler_settings import SchedulerSettings
 
 
 class SourceDataGetterService:
@@ -19,6 +19,10 @@ class SourceDataGetterService:
 
     async def __aexit__(self, type, value, traceback) -> None:
         await self._session.close()
+
+    async def get_item_to_find(self) -> Dict[str, Any]:
+        # Unfinished
+        return {"weapon": "AK-47", "skin": "Asiimov", "quality": "Field-Tested", "stattrak": False}
 
     async def get_csm_items(
         self, weapon: str, skin: str, quality: str, stattrak: bool

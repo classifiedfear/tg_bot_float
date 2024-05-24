@@ -6,11 +6,11 @@ from tg_bot_float_scheduler.services.db_updater.db_source_data_getter_service im
     DbSourceDataGetterService,
 )
 
-from tg_bot_float_scheduler.services.items_matcher.db_source_data_getter_service import (
+from tg_bot_float_scheduler.services.benefit_finder.source_data_getter_service import (
     SourceDataGetterService,
 )
-from tg_bot_float_scheduler.services.items_matcher.steam_csm_matcher import SteamCsmMatcher
-from settings.update_db_scheduler_settings import SchedulerSettings
+from tg_bot_float_scheduler.services.benefit_finder.benefit_finder_service import BenefitFinderService
+from settings.scheduler_settings import SchedulerSettings
 
 
 class SchedulerServiceFabric:
@@ -23,7 +23,7 @@ class SchedulerServiceFabric:
         db_updater = DbDataUpdaterService(db_source_data_getter, db_data_sender)
         return db_updater
 
-    def get_steam_csm_matcher(self) -> SteamCsmMatcher:
+    def get_benefit_finder(self) -> BenefitFinderService:
         source_data_getter = SourceDataGetterService(self._scheduler_settings)
-        steam_csm_matcher = SteamCsmMatcher(source_data_getter)
+        steam_csm_matcher = BenefitFinderService(source_data_getter)
         return steam_csm_matcher

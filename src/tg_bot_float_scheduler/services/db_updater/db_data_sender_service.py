@@ -3,7 +3,7 @@ import pickle
 from aiohttp import ClientSession
 import brotli
 
-from settings.update_db_scheduler_settings import SchedulerSettings
+from settings.scheduler_settings import SchedulerSettings
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 
 
