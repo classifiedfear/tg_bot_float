@@ -4,7 +4,8 @@ from tg_bot_float_csgo_db_source.services.abstract_page_service import AbstractP
 class WeaponPageService(AbstractPageService):
     async def get_weapon_names(self):
         weapon_names = await self._get_item_names(
-            self._settings.base_url + self._settings.weapons_page
+            self._settings.base_url + self._settings.weapons_page,
+            self._settings.weapon_regex_pattern,
         )
         knife_index = float("inf")
         for index, weapon_name in enumerate(weapon_names):
