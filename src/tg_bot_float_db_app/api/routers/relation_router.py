@@ -37,6 +37,7 @@ class RelationRouter:
             "/create_many", self._create_many, methods=["POST"], status_code=status.HTTP_201_CREATED
         )
         self._router.add_api_route("", self._get_all, methods=["GET"], response_model=None)
+        self.router.add_api_route("names_by_id/{weapon_id}/{skin_id}/{quality_id}", self._get_weapon_skin_quality_names, methods=["GET"])
 
     async def _create(
         self,
@@ -99,3 +100,9 @@ class RelationRouter:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
             return list(await relation_service.get_all())
+
+    async def _get_weapon_skin_quality_names(self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int, skin_id: int, quality_id: int):
+        async with service_factory:
+            relation_service = service_factory.get_relation_service()
+            result = list(await relation_service.get_weapon_skin_quality_names(weapon_id, skin_id, quality_id))
+            return JSONResponse(content={"weapon": result[0], "skin": result[1], "quality": result[2]})
