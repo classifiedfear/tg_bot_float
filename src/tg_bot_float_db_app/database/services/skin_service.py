@@ -1,10 +1,11 @@
 from typing import List
 
+from fastapi_pagination.links import Page
 from sqlalchemy import ScalarResult, select, update, delete
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
-
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
@@ -188,9 +189,9 @@ class SkinService:
             )
         await self._session.commit()
 
-    async def get_all(self) -> ScalarResult[SkinModel]:
+    async def get_all(self) -> Page[SkinDTO]:
         stmt = select(SkinModel)
-        return await self._session.scalars(stmt)
+        return await paginate(self._session, stmt)
 
     async def get_many_by_weapon_name(self, weapon_name: str) -> ScalarResult[SkinModel]:
         stmt = (

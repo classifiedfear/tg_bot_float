@@ -4,6 +4,8 @@ from sqlalchemy import update, select, delete, ScalarResult
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
+from fastapi_pagination.links import Page
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
@@ -184,15 +186,15 @@ class QualityService:
         deleted_row = result.rowcount
         if deleted_row == 0:
             raise BotDbException(
-                    ENTITY_NOT_FOUND_ERROR_MSG.format(
-                        entity="Quality", identifier="name", entity_identifier=quality_name
-                    )
+                ENTITY_NOT_FOUND_ERROR_MSG.format(
+                    entity="Quality", identifier="name", entity_identifier=quality_name
                 )
+            )
         await self._session.commit()
 
-    async def get_all(self) -> ScalarResult[QualityModel]:
+    async def get_all(self) -> Page[QualityDTO]:
         select_stmt = select(QualityModel)
-        return await self._session.scalars(select_stmt)
+        return await paginate(self._session, select_stmt)
 
     async def get_many_by_weapon_skin_name(self, weapon_name: str, skin_name: str):
         stmt = (

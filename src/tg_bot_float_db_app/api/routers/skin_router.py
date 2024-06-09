@@ -2,6 +2,7 @@ from typing import List
 
 from fastapi import APIRouter, Query, Response, status
 from fastapi.responses import JSONResponse
+from fastapi_pagination.links import Page
 
 
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
@@ -65,7 +66,9 @@ class SkinRouter:
             methods=["POST"],
             status_code=status.HTTP_201_CREATED,
         )
-        self._router.add_api_route("/", self._get_all, response_model=None, methods=["GET"])
+        self._router.add_api_route(
+            "/", self._get_all, response_model=Page[SkinDTO], methods=["GET"]
+        )
         self._router.add_api_route(
             "/id",
             self._delete_many_by_id,
@@ -151,10 +154,10 @@ class SkinRouter:
                 },
             )
 
-    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> List[SkinModel]:
+    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[SkinDTO]:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
-            return list(await skin_service.get_all())
+            return await skin_service.get_all()
 
     async def _delete_many_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)

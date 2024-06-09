@@ -2,6 +2,7 @@ from typing import List
 
 from fastapi import APIRouter, Query, Response, status
 from fastapi.responses import JSONResponse
+from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
@@ -61,7 +62,9 @@ class QualityRouter:
         self._router.add_api_route(
             "/create_many", self._create_many, methods=["POST"], status_code=status.HTTP_201_CREATED
         )
-        self._router.add_api_route("/", self._get_all, methods=["GET"], response_model=None)
+        self._router.add_api_route(
+            "/", self._get_all, methods=["GET"], response_model=Page[QualityDTO]
+        )
         self._router.add_api_route(
             "/id",
             self._delete_many_by_id,
@@ -144,10 +147,10 @@ class QualityRouter:
                 },
             )
 
-    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> List[QualityModel]:
+    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[QualityDTO]:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
-            return list(await quality_service.get_all())
+            return await quality_service.get_all()
 
     async def _delete_many_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
