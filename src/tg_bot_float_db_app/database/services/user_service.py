@@ -1,6 +1,9 @@
+from fastapi_pagination import Page
 from sqlalchemy import delete, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
+
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
 from tg_bot_float_db_app.database.models.user_model import UserModel
@@ -16,7 +19,7 @@ class UserService:
     def __init__(self, session: AsyncSession) -> None:
         self._session = session
 
-    async def create(self, user_dto: UserDTO):
+    async def create(self, user_dto: UserDTO) -> UserModel:
         user_model = UserModel(**user_dto.model_dump(exclude_none=True, exclude={"id"}))
         self._session.add(user_model)
         try:
@@ -89,6 +92,10 @@ class UserService:
                 )
             )
         await self._session.commit()
+
+    async def get_all(self) -> Page[UserModel]:
+        select_stmt = select(UserModel)
+        return await paginate(self._session, select_stmt)
 
     def _raise_bot_db_exception(
         self,

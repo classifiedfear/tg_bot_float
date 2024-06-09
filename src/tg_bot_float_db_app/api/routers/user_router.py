@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Response, status
+from fastapi_pagination.links import Page
 
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
@@ -14,7 +15,7 @@ class UserRouter:
     def router(self) -> APIRouter:
         return self._router
 
-    def _init_routes(self):
+    def _init_routes(self) -> None:
         self._router.add_api_route(
             "/create",
             self._create,
@@ -48,6 +49,7 @@ class UserRouter:
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
+        self._router.add_api_route("/", self._get_all, methods=["GET"], response_model=Page[UserDTO])
 
     async def _create(
         self, service_factory: BOT_DB_SERVICE_FACTORY, response: Response, user_dto: UserDTO
@@ -91,3 +93,8 @@ class UserRouter:
         async with service_factory:
             user_service = service_factory.get_user_service()
             await user_service.delete_by_telegram_id(telegram_id)
+
+    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[UserModel]:
+        async with service_factory:
+            user_service = service_factory.get_user_service()
+            return await user_service.get_all()

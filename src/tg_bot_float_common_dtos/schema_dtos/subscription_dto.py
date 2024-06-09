@@ -7,4 +7,4 @@ class SubscriptionDTO(BaseDTO):
     weapon_id: int | None = 0
     skin_id: int | None = 0
     quality_id: int | None = 0
-    statrak: bool | None = None
+    stattrak: bool | None = None
