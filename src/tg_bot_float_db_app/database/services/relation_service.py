@@ -142,15 +142,15 @@ class RelationService:
         )
         return await self._session.scalars(where_stmt)
 
-    async def get_qualities_for_weapon_and_skin(self, weapon_id: int, skin_id: int):
-        stmt = (
-            select(QualityModel)
-            .join(QualityModel.relations)
-            .join(RelationModel.weapon)
+    async def get_weapon_skin_quality_names(self, weapon_id: int, skin_id: int, quality_id: int):
+        select_stmt = (
+            select(WeaponModel.name, SkinModel.name, QualityModel.name)
+            .join(WeaponModel.relations)
             .join(RelationModel.skin)
-            .where(WeaponModel.id == weapon_id, SkinModel.id == skin_id)
-        )
-        return await self._session.scalars(stmt)
+            .join(RelationModel.quality)
+        ).where(WeaponModel.id == weapon_id, SkinModel.id == skin_id, QualityModel.id == quality_id)
+        result = await self._session.execute(select_stmt)
+        return result.one()
 
     def _raise_bot_db_exception(
         self,

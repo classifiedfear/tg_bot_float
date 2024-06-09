@@ -2,6 +2,7 @@ from contextlib import asynccontextmanager
 from typing import Any, AsyncGenerator
 
 from fastapi import FastAPI
+from fastapi_pagination import add_pagination
 
 from tg_bot_float_db_app.api.routers.db_router import DBRouter
 from tg_bot_float_db_app.api.routers.quality_router import QualityRouter
@@ -36,3 +37,5 @@ app.add_middleware(ErrorHandlingMiddleware)
 
 for router in routers:
     app.include_router(router.router)
+
+add_pagination(app)
