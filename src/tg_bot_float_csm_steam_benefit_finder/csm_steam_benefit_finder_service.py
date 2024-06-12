@@ -9,29 +9,49 @@ from tg_bot_float_common_dtos.source_dtos.csm_item_response_dto import CsmItemRe
 from tg_bot_float_common_dtos.source_dtos.steam_item_response_dto import SteamItemResponseDTO
 
 
-class BenefitFinderService:
+class CsmSteamBenefitFinderService:
     def __init__(self, source_data_getter_service: SourceDataGetterService):
+        self._count = -1
         self._source_data_getter_service = source_data_getter_service
 
     async def find_items_with_benefit(self):
-        items_to_compare = await self._try_find_items_to_compare()
+        async with self._source_data_getter_service:
+            weapon, skin, quality, stattrak = await self._get_item_to_find()
+            items_to_compare = await self._try_find_items_to_compare(
+                weapon, skin, quality, stattrak
+            )
         return await self._try_to_find_items_with_benefit(items_to_compare)
 
-    async def _try_find_items_to_compare(self) -> ItemsToCompareDTO:
-        async with self._source_data_getter_service:
-            item_to_find = await self._source_data_getter_service.get_item_to_find()
-            csm_items = await self._source_data_getter_service.get_csm_items(
-                item_to_find["weapon"],
-                item_to_find["skin"],
-                item_to_find["quality"],
-                item_to_find["stattrak"],
-            )
-            steam_items = await self._source_data_getter_service.get_steam_items(
-                item_to_find["weapon"],
-                item_to_find["skin"],
-                item_to_find["quality"],
-                item_to_find["stattrak"],
-            )
+    async def _get_item_to_find(self):
+        subscriptions = await self._source_data_getter_service.get_user_subscriptions()
+        # temporary solution
+        if self._count == -1:
+            self._count = len(subscriptions) - 1
+        else:
+            self._count -= 1
+        subscription = subscriptions[self._count]
+        ###############
+        item_to_find = await self._source_data_getter_service.get_weapon_skin_quality_names(
+            subscription["weapon_id"],
+            subscription["skin_id"],
+            subscription["quality_id"],
+        )
+        return (
+            item_to_find["weapon"],
+            item_to_find["skin"],
+            item_to_find["quality"],
+            subscription["stattrak"],
+        )
+
+    async def _try_find_items_to_compare(
+        self, weapon: str, skin: str, quality: str, stattrak: bool
+    ) -> ItemsToCompareDTO:
+        csm_items = await self._source_data_getter_service.get_csm_items(
+            weapon, skin, quality, stattrak
+        )
+        steam_items = await self._source_data_getter_service.get_steam_items(
+            weapon, skin, quality, stattrak
+        )
         if not (csm_items or steam_items):
             return ItemsToCompareDTO()
         csm_items = [CsmItemResponseDTO.model_validate(item) for item in csm_items]
