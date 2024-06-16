@@ -3,7 +3,7 @@ import pickle
 from aiohttp import ClientSession
 import brotli
 
-from settings.db_updater_settings import DbUpdaterSettings
+from tg_bot_float_db_updater.db_updater_settings import DbUpdaterSettings
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 
 
@@ -11,7 +11,7 @@ class DbDataSenderService:
     def __init__(self, settings: DbUpdaterSettings) -> None:
         self._settings = settings
 
-    async def send(self, db_dto: SourceDataTreeDTO):
+    async def send(self, db_dto: SourceDataTreeDTO) -> None:
         async with ClientSession() as session:
             bytes_db_dto = pickle.dumps(db_dto)
             compressed_db_dto = brotli.compress(bytes_db_dto)

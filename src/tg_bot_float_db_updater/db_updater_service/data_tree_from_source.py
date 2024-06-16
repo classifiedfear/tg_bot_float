@@ -9,11 +9,11 @@ from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto impo
 
 
 class DataTreeFromSource:
-    def __init__(self):
+    def __init__(self) -> None:
         self._all_weapons: Dict[str, WeaponDTO] = {}
         self._all_skins: Dict[str, SkinDTO] = {}
         self._all_qualities: Dict[str, QualityDTO] = {}
-        self._all_relations: Dict[Tuple[int, int, int], RelationDTO] = {}
+        self._all_relations: Dict[Tuple[str, str, str], RelationDTO] = {}
 
     def add_weapons(self, weapon_names: List[str]) -> List[WeaponDTO]:
         weapons: List[WeaponDTO] = []
@@ -38,7 +38,7 @@ class DataTreeFromSource:
 
     def add_relation(self, weapon: WeaponDTO, skin: SkinDTO, quality: QualityDTO) -> None:
         self._all_relations.setdefault(
-            (weapon.name, skin.name, quality.name),
+            (str(weapon.name), str(skin.name), str(quality.name)),
             RelationDTO(weapon=weapon, skin=skin, quality=quality),
         )
 

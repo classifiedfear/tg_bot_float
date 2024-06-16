@@ -3,9 +3,11 @@ import asyncio
 
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
-from tg_bot_float_db_updater.db_data_sender_service import DbDataSenderService
-from tg_bot_float_db_updater.data_tree_from_source import DataTreeFromSource
-from tg_bot_float_db_updater.db_source_data_getter_service import DbSourceDataGetterService
+from tg_bot_float_db_updater.db_updater_service.db_data_sender_service import DbDataSenderService
+from tg_bot_float_db_updater.db_updater_service.data_tree_from_source import DataTreeFromSource
+from tg_bot_float_db_updater.db_updater_service.db_source_data_getter_service import (
+    DbSourceDataGetterService,
+)
 
 
 class DbDataUpdaterService:
@@ -15,13 +17,13 @@ class DbDataUpdaterService:
         self._source_data_getter = source_data_getter
         self._db_data_sender = db_data_sender
 
-    async def update(self):
+    async def update(self) -> None:
         datatree = DataTreeFromSource()
         async with self._source_data_getter:
             await self._process_datatree(datatree)
         await self._db_data_sender.send(datatree.to_dto())
 
-    async def _process_datatree(self, datatree: DataTreeFromSource):
+    async def _process_datatree(self, datatree: DataTreeFromSource) -> None:
         tasks = []
         weapons = datatree.add_weapons(await self._source_data_getter.get_weapon_names())
         for weapon in weapons:
@@ -29,9 +31,11 @@ class DbDataUpdaterService:
             tasks.append(task)
         await asyncio.gather(*tasks)
 
-    async def _process_weapon_in_datatree(self, datatree: DataTreeFromSource, weapon: WeaponDTO):
+    async def _process_weapon_in_datatree(
+        self, datatree: DataTreeFromSource, weapon: WeaponDTO
+    ) -> None:
         tasks = []
-        skins = datatree.add_skins(await self._source_data_getter.get_skin_names(weapon.name))
+        skins = datatree.add_skins(await self._source_data_getter.get_skin_names(str(weapon.name)))
         for skin in skins:
             task = asyncio.create_task(
                 self._process_weapon_skin_in_datatree(datatree, weapon, skin)
@@ -44,12 +48,13 @@ class DbDataUpdaterService:
         datatree: DataTreeFromSource,
         weapon: WeaponDTO,
         skin: SkinDTO,
-    ):
+    ) -> None:
         csm_wiki_skin_data = await self._source_data_getter.get_csm_wiki_skin_data(
-            weapon.name,
-            skin.name,
+            str(weapon.name),
+            str(skin.name),
         )
         qualities = datatree.add_qualities(csm_wiki_skin_data["qualities"])
+        print(csm_wiki_skin_data)
         skin.stattrak_existence = csm_wiki_skin_data["stattrak_existence"]
         for quality in qualities:
             datatree.add_relation(weapon, skin, quality)
