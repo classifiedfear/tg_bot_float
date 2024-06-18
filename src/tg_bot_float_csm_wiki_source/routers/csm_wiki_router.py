@@ -13,7 +13,7 @@ class CsmWikiRouter:
     def router(self) -> APIRouter:
         return self._router
 
-    def _init_routes(self):
+    def _init_routes(self) -> None:
         self._router.add_api_route(
             "/{weapon}/{skin}", self._get_csm_wiki_skin_data, methods=["GET"]
         )

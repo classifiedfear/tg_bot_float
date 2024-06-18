@@ -4,24 +4,22 @@ from http import HTTPStatus
 
 
 import aiohttp
-from fake_useragent import UserAgent
 from aiohttp_retry import ExponentialRetry, RetryClient
 
-from settings.csm_wiki_source_settings import CsmWikiSourceSettings
+from tg_bot_float_csm_wiki_source.csm_wiki_source_settings import CsmWikiSourceSettings
 from tg_bot_float_csm_wiki_source.services.csm_wiki_skin_data_dto import CSMWikiSkinDataDTO
 
-class CsmWikiSurceService:
-    _statuses = {
-        x
-        for x in range(100, 600)
-        if x not in [HTTPStatus.OK, HTTPStatus.NOT_FOUND, HTTPStatus.FORBIDDEN]
-    }
-    _retry_options = ExponentialRetry(statuses=_statuses)
 
-    def __init__(self) -> None:
-        self._settings = CsmWikiSourceSettings()
+class CsmWikiSourceService:
 
-    async def get_csm_wiki_skin_data(self, weapon: str, skin: str):
+    def __init__(self, csm_wiki_source_settings: CsmWikiSourceSettings) -> None:
+        self._settings = csm_wiki_source_settings
+        self._statuses = {
+            x for x in range(100, 600) if str(x) not in self._settings.statuses.split(",")
+        }
+        self._retry_options = ExponentialRetry(statuses=self._statuses)
+
+    async def get_csm_wiki_skin_data(self, weapon: str, skin: str) -> CSMWikiSkinDataDTO:
         data_from_page = await self._get_response_with_retries(weapon, skin)
         return self._get_csm_wiki_skin_data_dto(data_from_page)
 
@@ -31,9 +29,13 @@ class CsmWikiSurceService:
             async with aiohttp.ClientSession() as session:
                 retry_session = RetryClient(session)
                 async with retry_session.post(
-                    self._settings.base_url + self._settings.graphql_url, json=get_min_available,
+                    self._settings.base_url + self._settings.graphql_url,
+                    json=get_min_available,
                 ) as response:
-                    if retry <= 3 and response.status == HTTPStatus.FORBIDDEN:
+                    if (
+                        retry < self._settings.retry_numbers
+                        and response.status == HTTPStatus.FORBIDDEN
+                    ):
                         continue
                     response_text = await response.text()
                     json_response = json.loads(response_text)
@@ -55,7 +57,7 @@ class CsmWikiSurceService:
             return CSMWikiSkinDataDTO()
         return CSMWikiSkinDataDTO(qualities=list(qualities), stattrak_existence=stattrak_existence)
 
-    def _prep_query(self, weapon: str, skin: str):
+    def _prep_query(self, weapon: str, skin: str) -> Dict[str, Any]:
         graphql_query = json.loads(self._settings.graphql_query, strict=False)
         graphql_query["variables"]["name"] = f"{weapon} | {skin}"
         return graphql_query

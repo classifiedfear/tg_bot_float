@@ -8,3 +8,4 @@ class CsmWikiSourceSettings(BaseSettings):
     graphql_url: str
     graphql_query: str
     retry_numbers: int
+    statuses: str
