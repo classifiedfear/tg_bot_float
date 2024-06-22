@@ -19,8 +19,7 @@ class DbDataUpdaterService:
 
     async def update(self) -> None:
         datatree = DataTreeFromSource()
-        async with self._source_data_getter:
-            await self._process_datatree(datatree)
+        await self._process_datatree(datatree)
         await self._db_data_sender.send(datatree.to_dto())
 
     async def _process_datatree(self, datatree: DataTreeFromSource) -> None:
@@ -54,7 +53,6 @@ class DbDataUpdaterService:
             str(skin.name),
         )
         qualities = datatree.add_qualities(csm_wiki_skin_data["qualities"])
-        print(csm_wiki_skin_data)
         skin.stattrak_existence = csm_wiki_skin_data["stattrak_existence"]
         for quality in qualities:
             datatree.add_relation(weapon, skin, quality)

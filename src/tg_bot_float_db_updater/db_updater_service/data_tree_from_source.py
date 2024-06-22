@@ -16,25 +16,15 @@ class DataTreeFromSource:
         self._all_relations: Dict[Tuple[str, str, str], RelationDTO] = {}
 
     def add_weapons(self, weapon_names: List[str]) -> List[WeaponDTO]:
-        weapons: List[WeaponDTO] = []
-        for name in weapon_names:
-            weapon_dto = self._all_weapons.setdefault(name, WeaponDTO(name=name))
-            weapons.append(weapon_dto)
-        return weapons
+        return [self._all_weapons.setdefault(name, WeaponDTO(name=name)) for name in weapon_names]
 
     def add_skins(self, skin_names: List[str]) -> List[SkinDTO]:
-        skins: List[SkinDTO] = []
-        for name in skin_names:
-            skin_dto = self._all_skins.setdefault(name, SkinDTO(name=name))
-            skins.append(skin_dto)
-        return skins
+        return [self._all_skins.setdefault(name, SkinDTO(name=name)) for name in skin_names]
 
     def add_qualities(self, quality_names: List[str]) -> List[QualityDTO]:
-        qualities: List[QualityDTO] = []
-        for name in quality_names:
-            quality_dto = self._all_qualities.setdefault(name, QualityDTO(name=name))
-            qualities.append(quality_dto)
-        return qualities
+        return [
+            self._all_qualities.setdefault(name, QualityDTO(name=name)) for name in quality_names
+        ]
 
     def add_relation(self, weapon: WeaponDTO, skin: SkinDTO, quality: QualityDTO) -> None:
         self._all_relations.setdefault(

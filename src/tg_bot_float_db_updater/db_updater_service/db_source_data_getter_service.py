@@ -12,13 +12,19 @@ class DbSourceDataGetterService:
 
     def __init__(self, settings: DbUpdaterSettings) -> None:
         self._settings = settings
+        self._session = ClientSession()
 
     async def __aenter__(self) -> Self:
-        self._session = ClientSession()
+        self._session = ClientSession() if self._session is None else self._session
         return self
 
     async def __aexit__(self, type, value, traceback) -> None:
-        await self._session.close()
+        await self.close_session()
+
+    async def close_session(self) -> None:
+        if self._session is not None:
+            await self._session.close()
+        self._session = None
 
     async def get_weapon_names(self) -> List[str]:
         return await self._get_response(

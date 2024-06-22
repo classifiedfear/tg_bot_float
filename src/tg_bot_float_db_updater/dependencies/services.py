@@ -20,11 +20,14 @@ def get_db_updater_settings() -> DbUpdaterSettings:
 DB_UPDATER_SETTINGS = Annotated[DbUpdaterSettings, Depends(get_db_updater_settings)]
 
 
-def get_updater_service(settings: DB_UPDATER_SETTINGS) -> DbDataUpdaterService:
+async def get_updater_service(settings: DB_UPDATER_SETTINGS):
     db_data_getter_service = DbSourceDataGetterService(settings)
     db_data_sender_service = DbDataSenderService(settings)
     db_updater_service = DbDataUpdaterService(db_data_getter_service, db_data_sender_service)
-    return db_updater_service
+    try:
+        yield db_updater_service
+    finally:
+        await db_data_getter_service.close_session()
 
 
 DB_UPDATER_SERVICE = Annotated[DbDataUpdaterService, Depends(get_updater_service)]

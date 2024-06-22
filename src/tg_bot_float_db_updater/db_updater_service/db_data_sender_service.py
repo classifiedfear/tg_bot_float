@@ -19,4 +19,4 @@ class DbDataSenderService:
                 self._settings.db_update_url,
                 data=compressed_db_dto,
             ) as response:
-                assert response.status == 200
+                assert response.status in list(range(200, 300))
