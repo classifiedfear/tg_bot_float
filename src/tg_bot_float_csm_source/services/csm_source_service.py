@@ -1,40 +1,33 @@
 from decimal import Decimal, localcontext
+import json
 from typing import Any, Dict, List
 
 from aiohttp import ClientSession
 from fake_useragent import UserAgent
 
-from settings.csm_source_settings import CsmSourceSettings
-from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
-from tg_bot_float_common_dtos.source_dtos.csm_item_response_dto import CsmItemResponseDTO
+from tg_bot_float_csm_source.csm_source_settings import CsmSourceSettings
+from tg_bot_float_csm_source.services.csm_item_response_dto import CsmItemResponseDTO
 from tg_bot_float_csm_source.services.exceptions import CsmSourceExceptions
+from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
 
 
 class CsmService:
-    _settings = CsmSourceSettings()
+    def __init__(self, settings: CsmSourceSettings) -> None:
+        self._settings = settings
 
     @property
     def _headers(self) -> Dict[str, Any]:
-        return {
-            "Accept": "application/json, text/plain, */*",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Accept-Language": "en,ru;q=0.9",
-            "Sec-Fetch-Dest": "empty",
-            "Sec-Fetch-Mode": "cors",
-            "Sec-Fetch-Site": "same-origin",
-            "user-agent": f"{UserAgent.random}",
-        }
+        headers = json.loads(self._settings.headers)
+        headers["user-agent"] = f"{UserAgent.random}"
+        return headers
 
     async def get_csm_items(
-        self, weapon: str, skin: str, quality: str, stattrak: bool, *, offset: int = 0
+        self, item_request_dto: ItemRequestDTO, *, offset: int = 0
     ) -> List[CsmItemResponseDTO]:
         """Parse 1 page from csm_tests"""
         items: List[CsmItemResponseDTO] = []
         async with ClientSession() as session:
-            print(self._get_valid_link(ItemRequestDTO(weapon, skin, quality, stattrak), offset))
-            async with session.get(
-                self._get_valid_link(ItemRequestDTO(weapon, skin, quality, stattrak), offset)
-            ) as response:
+            async with session.get(self._get_valid_link(item_request_dto, offset)) as response:
                 json_response = await response.json()
                 if self._has_error(json_response):
                     raise CsmSourceExceptions(
