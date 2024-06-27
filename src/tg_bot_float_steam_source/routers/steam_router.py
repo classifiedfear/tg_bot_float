@@ -2,7 +2,8 @@ from typing import List
 from fastapi import APIRouter
 
 from tg_bot_float_steam_source.dependencies.services import STEAM_SOURCE_SERVICE
-from tg_bot_float_common_dtos.source_dtos.steam_item_response_dto import SteamItemResponseDTO
+from tg_bot_float_steam_source.services.dtos.steam_item_response_dto import SteamItemResponseDTO
+from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
 
 
 class SteamRouter:
@@ -33,10 +34,7 @@ class SteamRouter:
         currency: int = 1,
     ) -> List[SteamItemResponseDTO]:
         return await steam_source_service.get_steam_items(
-            weapon=weapon,
-            skin=skin,
-            quality=quality,
-            stattrak=stattrak,
+            ItemRequestDTO(weapon=weapon, skin=skin, quality=quality, stattrak=stattrak),
             start=start,
             count=count,
             currency=currency,
