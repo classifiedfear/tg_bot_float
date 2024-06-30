@@ -5,5 +5,6 @@ RUN pip install --no-cache-dir --upgrade -r tg_bot_float_db_updater/requirements
 COPY tg_bot_float_db_updater/ tg_bot_float_db_updater/
 COPY tg_bot_float_common_dtos/schema_dtos/ tg_bot_float_common_dtos/schema_dtos/
 COPY tg_bot_float_common_dtos/update_db_scheduler_dtos/ tg_bot_float_common_dtos/update_db_scheduler_dtos/
+COPY tg_bot_float_common_dtos/source_dtos/csm_wiki_dto tg_bot_float_common_dtos/source_dtos/
 EXPOSE 5006
 ENTRYPOINT ["python", "-m", "uvicorn", "tg_bot_float_db_updater.main:app", "--host", "0.0.0.0", "--port", "5006"]

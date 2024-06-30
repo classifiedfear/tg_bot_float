@@ -5,16 +5,23 @@ from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_db_updater.db_updater_service.db_data_sender_service import DbDataSenderService
 from tg_bot_float_db_updater.db_updater_service.data_tree_from_source import DataTreeFromSource
-from tg_bot_float_db_updater.db_updater_service.db_source_data_getter_service import (
-    DbSourceDataGetterService,
+from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.csm_wiki_source_getter_service import (
+    CsmWikiSourceGetterService,
+)
+from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.db_source_data_getter_service import (
+    CsgoDbSourceGetterService,
 )
 
 
 class DbDataUpdaterService:
     def __init__(
-        self, source_data_getter: DbSourceDataGetterService, db_data_sender: DbDataSenderService
+        self,
+        csgo_db_source_getter_service: CsgoDbSourceGetterService,
+        csm_wiki_source_getter_service: CsmWikiSourceGetterService,
+        db_data_sender: DbDataSenderService,
     ) -> None:
-        self._source_data_getter = source_data_getter
+        self._source_data_getter = csgo_db_source_getter_service
+        self._csm_wiki_source_getter_service = csm_wiki_source_getter_service
         self._db_data_sender = db_data_sender
 
     async def update(self) -> None:
@@ -48,11 +55,11 @@ class DbDataUpdaterService:
         weapon: WeaponDTO,
         skin: SkinDTO,
     ) -> None:
-        csm_wiki_skin_data = await self._source_data_getter.get_csm_wiki_skin_data(
+        csm_wiki_skin_data = await self._csm_wiki_source_getter_service.get_csm_wiki_skin_data(
             str(weapon.name),
             str(skin.name),
         )
-        qualities = datatree.add_qualities(csm_wiki_skin_data["qualities"])
-        skin.stattrak_existence = csm_wiki_skin_data["stattrak_existence"]
+        qualities = datatree.add_qualities(csm_wiki_skin_data.qualities)
+        skin.stattrak_existence = csm_wiki_skin_data.stattrak_existence
         for quality in qualities:
             datatree.add_relation(weapon, skin, quality)
