@@ -1,5 +1,6 @@
 import abc
 from typing import Any, Dict, List
+from http import HTTPStatus
 
 import re
 
@@ -12,13 +13,13 @@ from tg_bot_float_csgo_db_source.csgo_db_source_settings import CsgoDbSourceSett
 
 
 class AbstractPageService(abc.ABC):
+    _statuses = {
+        x for x in range(100, 600) if x not in list(range(200, 300)) + [HTTPStatus.FORBIDDEN]
+    }
 
     def __init__(self, settings: CsgoDbSourceSettings) -> None:
         self._settings = settings
-        _statuses = {
-            x for x in range(100, 600) if str(x) not in self._settings.not_retry_statuses.split(",")
-        }
-        self._retry_options = ExponentialRetry(statuses=_statuses)
+        self._retry_options = ExponentialRetry(statuses=self._statuses)
 
     @property
     def _headers(self) -> Dict[str, Any]:
@@ -26,10 +27,10 @@ class AbstractPageService(abc.ABC):
 
     async def _get_item_names(self, link: str, regex_pattern: re.Pattern[str]) -> List[str]:
         response_text = await self._get_response_with_retries(link)
-        return [match.group(1) for match in regex_pattern.finditer(response_text)]
+        return [match.group(1) for match in regex_pattern.finditer(str(response_text))]
 
     async def _get_response_with_retries(self, link: str):
-        for retry in range(self._settings.retry_when_unauthorized):
+        for retry in range(self._settings.number_of_retries_when_unauthorized):
             try:
                 async with aiohttp.ClientSession() as session:
                     retry_session = RetryClient(session)
@@ -38,5 +39,5 @@ class AbstractPageService(abc.ABC):
                     ) as response:
                         return await response.text(encoding="utf-8")
             except HTTPForbidden:
-                if retry == self._settings.retry_when_unauthorized:
+                if retry == self._settings.number_of_retries_when_unauthorized:
                     raise
