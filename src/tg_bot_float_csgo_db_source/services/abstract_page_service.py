@@ -1,10 +1,10 @@
 import abc
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Self
 from http import HTTPStatus
 
 import re
 
-import aiohttp
+from aiohttp import ClientSession, TCPConnector
 from aiohttp.web_exceptions import HTTPForbidden
 from aiohttp_retry import RetryClient, ExponentialRetry
 from fake_useragent import UserAgent
@@ -21,6 +21,13 @@ class AbstractPageService(abc.ABC):
         self._settings = settings
         self._retry_options = ExponentialRetry(statuses=self._statuses)
 
+    async def __aenter__(self) -> Self:
+        self._connector = TCPConnector()
+        return self
+
+    async def __aexit__(self, type, value, traceback) -> None:
+        await self._connector.close()
+
     @property
     def _headers(self) -> Dict[str, Any]:
         return {"user-agent": f"{UserAgent.random}"}
@@ -32,12 +39,14 @@ class AbstractPageService(abc.ABC):
     async def _get_response_with_retries(self, link: str):
         for retry in range(self._settings.number_of_retries_when_unauthorized):
             try:
-                async with aiohttp.ClientSession() as session:
-                    retry_session = RetryClient(session)
-                    async with retry_session.get(
-                        link, headers=self._headers, retry_options=self._retry_options
-                    ) as response:
+                async with ClientSession(
+                    connector=self._connector, connector_owner=False
+                ) as session:
+                    retry_session = RetryClient(session, retry_options=self._retry_options)
+                    async with retry_session.get(link, headers=self._headers) as response:
                         return await response.text(encoding="utf-8")
             except HTTPForbidden:
                 if retry == self._settings.number_of_retries_when_unauthorized:
                     raise
+                self._connector.close()
+                self._connector = TCPConnector()

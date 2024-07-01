@@ -1,5 +1,5 @@
 from functools import lru_cache
-from typing import Annotated
+from typing import Annotated, Any, AsyncGenerator
 
 from fastapi import Depends
 
@@ -16,12 +16,18 @@ def get_settings():
 CSGO_DB_SOURCE_SETTINGS = Annotated[CsgoDbSourceSettings, Depends(get_settings)]
 
 
-def get_weapon_page_service(settings: CSGO_DB_SOURCE_SETTINGS) -> WeaponPageService:
-    return WeaponPageService(settings)
+async def get_weapon_page_service(
+    settings: CSGO_DB_SOURCE_SETTINGS,
+) -> AsyncGenerator[WeaponPageService, Any]:
+    async with WeaponPageService(settings) as weapon_page_service:
+        yield weapon_page_service
 
 
-def get_skin_page_service(settings: CSGO_DB_SOURCE_SETTINGS) -> SkinPageService:
-    return SkinPageService(settings)
+async def get_skin_page_service(
+    settings: CSGO_DB_SOURCE_SETTINGS,
+) -> AsyncGenerator[SkinPageService, Any]:
+    async with SkinPageService(settings) as skin_page_service:
+        yield skin_page_service
 
 
 WEAPON_PAGE_SERVICE = Annotated[WeaponPageService, Depends(get_weapon_page_service)]
