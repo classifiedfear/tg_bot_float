@@ -10,8 +10,8 @@ from fastapi_pagination.ext.sqlalchemy import paginate
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.api.routers.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
@@ -189,9 +189,13 @@ class SkinService:
             )
         await self._session.commit()
 
-    async def get_all(self) -> Page[SkinDTO]:
-        stmt = select(SkinModel)
-        return await paginate(self._session, stmt)
+    async def get_all_paginated(self) -> Page[SkinDTO]:
+        select_stmt = select(SkinModel)
+        return await paginate(self._session, select_stmt)
+
+    async def get_all(self) -> ScalarResult[SkinModel]:
+        select_stmt = select(SkinModel)
+        return await self._session.scalars(select_stmt)
 
     async def get_many_by_weapon_name(self, weapon_name: str) -> ScalarResult[SkinModel]:
         stmt = (

@@ -150,7 +150,7 @@ class QualityRouter:
     async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[QualityDTO]:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
-            return await quality_service.get_all()
+            return await quality_service.get_all_paginated()
 
     async def _delete_many_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)

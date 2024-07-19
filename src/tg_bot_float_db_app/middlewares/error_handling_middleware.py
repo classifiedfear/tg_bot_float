@@ -6,7 +6,7 @@ from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
 
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
+from tg_bot_float_db_app.bot_db_exception import BotDbException
 
 
 class ErrorHandlingMiddleware(BaseHTTPMiddleware):

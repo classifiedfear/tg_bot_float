@@ -101,4 +101,4 @@ class RelationRouter:
     async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[RelationIdDTO]:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return await relation_service.get_all()
+            return await relation_service.get_all_paginated()

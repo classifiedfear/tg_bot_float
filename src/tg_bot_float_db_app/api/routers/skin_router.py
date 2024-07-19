@@ -157,7 +157,7 @@ class SkinRouter:
     async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[SkinDTO]:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
-            return await skin_service.get_all()
+            return await skin_service.get_all_paginated()
 
     async def _delete_many_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)

@@ -1,6 +1,6 @@
 from typing import List
 
-from sqlalchemy import select, delete, tuple_
+from sqlalchemy import select, delete, tuple_, ScalarResult
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 from fastapi_pagination.links import Page
@@ -10,8 +10,8 @@ from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.api.routers.router_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
@@ -78,9 +78,13 @@ class RelationService:
             )
         return relation_model
 
-    async def get_all(self) -> Page[RelationIdDTO]:
+    async def get_all_paginated(self) -> Page[RelationIdDTO]:
         select_stmt = select(RelationModel)
         return await paginate(self._session, select_stmt)
+
+    async def get_all(self) -> ScalarResult[RelationModel]:
+        select_stmt = select(RelationModel)
+        return await self._session.scalars(select_stmt)
 
     async def delete_by_id(self, weapon_id: int, skin_id: int, quality_id: int) -> None:
         del_stmt = delete(RelationModel)

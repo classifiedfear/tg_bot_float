@@ -139,7 +139,7 @@ class WeaponRouter:
     async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[WeaponDTO]:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
-            return await weapon_service.get_all()
+            return await weapon_service.get_all_paginated()
 
     async def _delete_many_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
