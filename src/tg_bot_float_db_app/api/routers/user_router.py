@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 
+
 class UserRouter:
     def __init__(self):
         self._router = APIRouter(prefix="/users", tags=["users"])
