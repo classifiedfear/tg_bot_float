@@ -1,10 +1,25 @@
-from fastapi import APIRouter, Response, status
+from typing import Annotated
+from fastapi import APIRouter, Depends, Response, status
 from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
+
+
+class SubscriptionQuery:
+    def __init__(
+        self, telegram_id: int, weapon_id: int, skin_id: int, quality_id: int, stattrak: bool
+    ):
+        self.telegram_id = telegram_id
+        self.weapon_id = weapon_id
+        self.skin_id = skin_id
+        self.quality_id = quality_id
+        self.stattrak = stattrak
+
+
+SUBSCRIPTION_QUERY = Annotated[SubscriptionQuery, Depends(SubscriptionQuery)]
 
 
 class SubscriptionRouter:
@@ -41,6 +56,12 @@ class SubscriptionRouter:
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
+        self.router.add_api_route(
+            "/{telegram_id}",
+            self._get_subscriptions_by_telegram_id,
+            methods=["GET"],
+            response_model=Page[SubscriptionDTO],
+        )
 
     async def _create(
         self,
@@ -56,39 +77,44 @@ class SubscriptionRouter:
     async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[SubscriptionModel]:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
-            return await subscription_service.get_all()
+            return await subscription_service.get_all_paginated()
 
     async def _get_subscription(
-        self,
-        service_factory: BOT_DB_SERVICE_FACTORY,
-        telegram_id: int,
-        weapon_id: int,
-        skin_id: int,
-        quality_id: int,
-        stattrak: bool,
+        self, service_factory: BOT_DB_SERVICE_FACTORY, query: SUBSCRIPTION_QUERY
     ) -> SubscriptionModel:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
             return await subscription_service.get_subscription(
-                telegram_id, weapon_id, skin_id, quality_id, stattrak
+                query.telegram_id, query.weapon_id, query.skin_id, query.quality_id, query.stattrak
             )
 
     async def _delete_subscribtion(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        telegram_id: int,
-        weapon_id: int,
-        skin_id: int,
-        quality_id: int,
-        stattrak: bool,
+        query: SUBSCRIPTION_QUERY,
     ) -> None:
         async with service_factory:
             subsciption_service = service_factory.get_subscription_service()
-            await subsciption_service.delete(telegram_id, weapon_id, skin_id, quality_id, stattrak)
+            await subsciption_service.delete(
+                query.telegram_id,
+                query.weapon_id,
+                query.skin_id,
+                query.quality_id,
+                query.stattrak,
+            )
 
     async def _get_subscription_by_valuables(
         self, service_factory: BOT_DB_SERVICE_FACTORY
     ) -> Page[SubscriptionToFindDTO]:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
-            return await subscription_service.get_valuable_subscription()
+            return await subscription_service.get_valuable_subscriptions()
+
+    async def _get_subscriptions_by_telegram_id(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, telegram_id: int
+    ) -> Page[SubscriptionModel]:
+        async with service_factory:
+            subscription_service = service_factory.get_subscription_service()
+            return await subscription_service.get_subscriptions_by_telegram_id_paginated(
+                telegram_id
+            )

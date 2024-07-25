@@ -1,5 +1,5 @@
 from fastapi_pagination import Page
-from sqlalchemy import delete, select, update
+from sqlalchemy import delete, select, update, ScalarResult
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 
@@ -7,8 +7,8 @@ from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
 from tg_bot_float_db_app.database.models.user_model import UserModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
@@ -93,7 +93,11 @@ class UserService:
             )
         await self._session.commit()
 
-    async def get_all(self) -> Page[UserModel]:
+    async def get_all(self) -> ScalarResult[UserModel]:
+        select_stmt = select(UserModel)
+        return await self._session.scalars(select_stmt)
+
+    async def get_all_paginated(self) -> Page[UserModel]:
         select_stmt = select(UserModel)
         return await paginate(self._session, select_stmt)
 

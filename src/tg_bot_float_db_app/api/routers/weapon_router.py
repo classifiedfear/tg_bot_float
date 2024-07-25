@@ -2,6 +2,7 @@ from typing import List
 
 from fastapi import APIRouter, Query, Response, status
 from fastapi.responses import JSONResponse
+from fastapi_pagination.links import Page
 
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
@@ -55,7 +56,9 @@ class WeaponRouter:
         self._router.add_api_route(
             "/create_many", self._create_many, methods=["POST"], status_code=status.HTTP_201_CREATED
         )
-        self._router.add_api_route("/", self._get_all, methods=["GET"], response_model=None)
+        self._router.add_api_route(
+            "/", self._get_all, methods=["GET"], response_model=Page[WeaponDTO]
+        )
         self._router.add_api_route(
             "/id",
             self._delete_many_by_id,
@@ -67,6 +70,24 @@ class WeaponRouter:
             self._delete_many_by_name,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
+        )
+        self._router.add_api_route(
+            "/id", self._get_many_by_id, methods=["GET"], response_model=Page[WeaponDTO]
+        )
+        self._router.add_api_route(
+            "/name", self._get_many_by_name, methods=["GET"], response_model=Page[WeaponDTO]
+        )
+        self._router.add_api_route(
+            "/skin/id/{skin_id}",
+            self._get_many_by_skin_name,
+            methods=["GET"],
+            response_model=Page[WeaponDTO],
+        )
+        self._router.add_api_route(
+            "/skin/name/{skin_name}",
+            self._get_many_by_skin_name,
+            methods=["GET"],
+            response_model=Page[WeaponDTO],
         )
 
     async def _create(
@@ -129,16 +150,15 @@ class WeaponRouter:
                 status_code=status.HTTP_201_CREATED,
                 content={
                     "items": [
-                        f"/weapons/id/{weapon_db_model.id}"
-                        for weapon_db_model in weapon_db_models
+                        f"/weapons/id/{weapon_db_model.id}" for weapon_db_model in weapon_db_models
                     ],
                 },
             )
 
-    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> List[WeaponModel]:
+    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[WeaponModel]:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
-            return list(await weapon_service.get_all())
+            return await weapon_service.get_all_paginated()
 
     async def _delete_many_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
@@ -153,3 +173,31 @@ class WeaponRouter:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             await weapon_service.delete_many_by_name(names)
+
+    async def _get_many_by_id(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+    ) -> Page[WeaponModel]:
+        async with service_factory:
+            weapon_service = service_factory.get_weapon_service()
+            return await weapon_service.get_many_by_id_paginated(ids)
+
+    async def _get_many_by_name(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+    ) -> Page[WeaponModel]:
+        async with service_factory:
+            weapon_service = service_factory.get_weapon_service()
+            return await weapon_service.get_many_by_name_paginated(names)
+
+    async def _get_many_by_skin_name(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, skin_name: str
+    ) -> Page[WeaponModel]:
+        async with service_factory:
+            weapon_service = service_factory.get_weapon_service()
+            return await weapon_service.get_many_by_skin_name_paginated(skin_name)
+
+    async def _get_many_by_skin_id(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, skin_id: int
+    ) -> Page[WeaponModel]:
+        async with service_factory:
+            weapon_service = service_factory.get_weapon_service()
+            return await weapon_service.get_many_by_skin_id_paginated(skin_id)

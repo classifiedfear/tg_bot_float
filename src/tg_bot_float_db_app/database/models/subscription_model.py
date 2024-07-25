@@ -16,7 +16,7 @@ class SubscriptionModel(Base):
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
 
-    user_id: Mapped[BigInteger] = mapped_column(
+    user_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("user.id", ondelete="cascade"), nullable=False
     )
 

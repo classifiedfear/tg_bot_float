@@ -2,10 +2,12 @@ from typing import List
 
 from fastapi import APIRouter, Response, status
 from fastapi.responses import JSONResponse
+from fastapi_pagination.links import Page
 
+from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 
 
 class RelationRouter:
@@ -36,8 +38,14 @@ class RelationRouter:
         self._router.add_api_route(
             "/create_many", self._create_many, methods=["POST"], status_code=status.HTTP_201_CREATED
         )
-        self._router.add_api_route("", self._get_all, methods=["GET"], response_model=None)
-        self.router.add_api_route("names_by_id/{weapon_id}/{skin_id}/{quality_id}", self._get_weapon_skin_quality_names, methods=["GET"])
+        self._router.add_api_route(
+            "", self._get_all, methods=["GET"], response_model=Page[RelationIdDTO]
+        )
+        self.router.add_api_route(
+            "names_by_id/{weapon_id}/{skin_id}/{quality_id}",
+            self._get_weapon_skin_quality_names,
+            methods=["GET"],
+        )
 
     async def _create(
         self,
@@ -96,13 +104,16 @@ class RelationRouter:
                 },
             )
 
-    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> List[RelationModel]:
+    async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[RelationModel]:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return list(await relation_service.get_all())
+            return await relation_service.get_all_paginated()
 
-    async def _get_weapon_skin_quality_names(self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int, skin_id: int, quality_id: int):
+    async def _get_weapon_skin_quality_names(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int, skin_id: int, quality_id: int
+    ) -> RelationNameDTO:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            result = list(await relation_service.get_weapon_skin_quality_names(weapon_id, skin_id, quality_id))
-            return JSONResponse(content={"weapon": result[0], "skin": result[1], "quality": result[2]})
+            return await relation_service.get_weapon_skin_quality_names(
+                weapon_id, skin_id, quality_id
+            )

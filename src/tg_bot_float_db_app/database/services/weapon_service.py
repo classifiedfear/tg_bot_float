@@ -4,12 +4,14 @@ from sqlalchemy import select, update, delete, ScalarResult
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
+from fastapi_pagination.links import Page
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
@@ -91,17 +93,25 @@ class WeaponService:
 
         return weapon_models
 
-    async def get_many_by_id(self, weapon_ids: List[int]):
+    async def get_many_by_id(self, weapon_ids: List[int]) -> ScalarResult[WeaponModel]:
         select_stmt = select(WeaponModel)
         where_stmt = select_stmt.where(WeaponModel.id.in_(weapon_ids))
-        weapon_models = await self._session.scalars(where_stmt)
-        return weapon_models
+        return await self._session.scalars(where_stmt)
 
-    async def get_many_by_name(self, weapon_names: List[str]):
+    async def get_many_by_id_paginated(self, weapon_ids: List[int]) -> Page[WeaponModel]:
+        select_stmt = select(WeaponModel)
+        where_stmt = select_stmt.where(WeaponModel.id.in_(weapon_ids))
+        return await paginate(self._session, where_stmt)
+
+    async def get_many_by_name(self, weapon_names: List[str]) -> ScalarResult[WeaponModel]:
         select_stmt = select(WeaponModel)
         where_stmt = select_stmt.where(WeaponModel.name.in_(weapon_names))
-        weapon_models = await self._session.scalars(where_stmt)
-        return weapon_models
+        return await self._session.scalars(where_stmt)
+
+    async def get_many_by_name_paginated(self, weapon_names: List[str]) -> Page[WeaponModel]:
+        select_stmt = select(WeaponModel)
+        where_stmt = select_stmt.where(WeaponModel.name.in_(weapon_names))
+        return await paginate(self._session, where_stmt)
 
     async def delete_many_by_id(self, weapon_ids: List[int]) -> None:
         delete_stmt = delete(WeaponModel)
@@ -192,18 +202,36 @@ class WeaponService:
         await self._session.commit()
 
     async def get_all(self) -> ScalarResult[WeaponModel]:
-        stmt = select(WeaponModel)
-        return await self._session.scalars(stmt)
+        select_stmt = select(WeaponModel)
+        return await self._session.scalars(select_stmt)
+
+    async def get_all_paginated(self) -> Page[WeaponModel]:
+        select_stmt = select(WeaponModel)
+        return await paginate(self._session, select_stmt)
 
     async def get_many_by_skin_name(self, skin_name: str) -> ScalarResult[WeaponModel]:
-        stmt = (
-            select(WeaponModel)
-            .join(WeaponModel.relations)
-            .join(RelationModel.skin)
-            .where(SkinModel.name == skin_name)
-        )
-        without_duplicate_stmt = stmt.distinct()
+        select_stmt = select(WeaponModel).join(WeaponModel.relations).join(RelationModel.skin)
+        where_stmt = select_stmt.where(SkinModel.name == skin_name)
+        without_duplicate_stmt = where_stmt.distinct()
         return await self._session.scalars(without_duplicate_stmt)
+
+    async def get_many_by_skin_name_paginated(self, skin_name: str) -> Page[WeaponModel]:
+        select_stmt = select(WeaponModel).join(WeaponModel.relations).join(RelationModel.skin)
+        where_stmt = select_stmt.where(SkinModel.name == skin_name)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_duplicate_stmt)
+
+    async def get_many_by_skin_id(self, skin_id: int) -> ScalarResult[WeaponModel]:
+        select_stmt = select(WeaponModel).join(WeaponModel.relations).join(RelationModel.skin)
+        where_stmt = select_stmt.where(SkinModel.id == skin_id)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await self._session.scalars(without_duplicate_stmt)
+
+    async def get_many_by_skin_id_paginated(self, skin_id: int) -> Page[WeaponModel]:
+        select_stmt = select(WeaponModel).join(WeaponModel.relations).join(RelationModel.skin)
+        where_stmt = select_stmt.where(SkinModel.id == skin_id)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_duplicate_stmt)
 
     def _raise_bot_db_exception(
         self,

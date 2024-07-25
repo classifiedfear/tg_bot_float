@@ -3,18 +3,21 @@ from typing import List
 from sqlalchemy import select, delete, tuple_, ScalarResult
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
+from fastapi_pagination.links import Page
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
 from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 
 
 class RelationService:
@@ -80,6 +83,10 @@ class RelationService:
         select_stmt = select(RelationModel)
         return await self._session.scalars(select_stmt)
 
+    async def get_all_paginated(self) -> Page[RelationModel]:
+        select_stmt = select(RelationModel)
+        return await paginate(self._session, select_stmt)
+
     async def delete_by_id(self, weapon_id: int, skin_id: int, quality_id: int) -> None:
         del_stmt = delete(RelationModel)
         where_stmt = del_stmt.where(
@@ -142,15 +149,30 @@ class RelationService:
         )
         return await self._session.scalars(where_stmt)
 
-    async def get_weapon_skin_quality_names(self, weapon_id: int, skin_id: int, quality_id: int):
+    async def get_weapon_skin_quality_names(self, weapon_id: int, skin_id: int, quality_id: int) -> RelationNameDTO:
         select_stmt = (
             select(WeaponModel.name, SkinModel.name, QualityModel.name)
             .join(WeaponModel.relations)
             .join(RelationModel.skin)
             .join(RelationModel.quality)
-        ).where(WeaponModel.id == weapon_id, SkinModel.id == skin_id, QualityModel.id == quality_id)
-        result = await self._session.execute(select_stmt)
-        return result.one()
+        )
+        where_stmt = select_stmt.where(
+            WeaponModel.id == weapon_id, SkinModel.id == skin_id, QualityModel.id == quality_id
+        )
+        result = await self._session.execute(where_stmt)
+        row = result.one_or_none()
+        if row is not None:
+            weapon_name, skin_name, quality_name = row.tuple()
+            return RelationNameDTO(
+                weapon_name=weapon_name, skin_name=skin_name, quality_name=quality_name
+            )
+        raise BotDbException(
+            ENTITY_NOT_FOUND_ERROR_MSG.format(
+                entity="Relation",
+                identifier="weapon_id, skin_id, quality_id",
+                entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
+            ),
+        )
 
     def _raise_bot_db_exception(
         self,

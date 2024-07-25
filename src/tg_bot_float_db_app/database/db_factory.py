@@ -6,7 +6,7 @@ from tg_bot_float_db_app.db_settings import DBSettings
 
 
 class BotDbFactory:
-    _settings = DBSettings()
+    _settings = DBSettings() # type: ignore "Load settings for db_app_variables.env file"
     _engine = async_alchemy.create_async_engine(_settings.url, echo=True, pool_pre_ping=True)
 
     @staticmethod

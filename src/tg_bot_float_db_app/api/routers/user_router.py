@@ -97,4 +97,4 @@ class UserRouter:
     async def _get_all(self, service_factory: BOT_DB_SERVICE_FACTORY) -> Page[UserModel]:
         async with service_factory:
             user_service = service_factory.get_user_service()
-            return await user_service.get_all()
+            return await user_service.get_all_paginated()

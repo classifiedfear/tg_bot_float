@@ -18,9 +18,9 @@ class UserModel(Base):
 
     telegram_id: Mapped[int] = mapped_column(BigInteger, unique=True, nullable=False)
 
-    username: Mapped[VARCHAR] = mapped_column(VARCHAR(32), unique=False, nullable=True)
+    username: Mapped[str] = mapped_column(VARCHAR(32), unique=False, nullable=True)
 
-    full_name: Mapped[VARCHAR] = mapped_column(VARCHAR(100), unique=False, nullable=True)
+    full_name: Mapped[str] = mapped_column(VARCHAR(100), unique=False, nullable=True)
 
     reg_date: Mapped[Date] = mapped_column(Date, server_default=func.now())
 
