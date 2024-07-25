@@ -10,7 +10,7 @@ from tg_bot_float_csgo_db_source.services.skin_page_service import SkinPageServi
 
 @lru_cache
 def get_settings():
-    return CsgoDbSourceSettings()
+    return CsgoDbSourceSettings()  # type: ignore "Load variables from 'csgo_db_source_variables.env file'"
 
 
 CSGO_DB_SOURCE_SETTINGS = Annotated[CsgoDbSourceSettings, Depends(get_settings)]
@@ -18,16 +18,18 @@ CSGO_DB_SOURCE_SETTINGS = Annotated[CsgoDbSourceSettings, Depends(get_settings)]
 
 async def get_weapon_page_service(
     settings: CSGO_DB_SOURCE_SETTINGS,
-) -> AsyncGenerator[WeaponPageService, Any]:
-    async with WeaponPageService(settings) as weapon_page_service:
-        yield weapon_page_service
+) -> WeaponPageService:
+    # async with WeaponPageService(settings) as weapon_page_service:
+    #    yield weapon_page_service
+    return WeaponPageService(settings)
 
 
 async def get_skin_page_service(
     settings: CSGO_DB_SOURCE_SETTINGS,
-) -> AsyncGenerator[SkinPageService, Any]:
-    async with SkinPageService(settings) as skin_page_service:
-        yield skin_page_service
+) -> SkinPageService:
+    # async with SkinPageService(settings) as skin_page_service:
+    #    yield skin_page_service
+    return SkinPageService(settings)
 
 
 WEAPON_PAGE_SERVICE = Annotated[WeaponPageService, Depends(get_weapon_page_service)]
