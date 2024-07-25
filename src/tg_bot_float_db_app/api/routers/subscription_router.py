@@ -1,25 +1,11 @@
-from typing import Annotated
-from fastapi import APIRouter, Depends, Response, status
+from fastapi import APIRouter, Response, status
 from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
+from tg_bot_float_db_app.api.dependencies.queries import SUBSCRIPTION_QUERY
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
-
-
-class SubscriptionQuery:
-    def __init__(
-        self, telegram_id: int, weapon_id: int, skin_id: int, quality_id: int, stattrak: bool
-    ):
-        self.telegram_id = telegram_id
-        self.weapon_id = weapon_id
-        self.skin_id = skin_id
-        self.quality_id = quality_id
-        self.stattrak = stattrak
-
-
-SUBSCRIPTION_QUERY = Annotated[SubscriptionQuery, Depends(SubscriptionQuery)]
 
 
 class SubscriptionRouter:
