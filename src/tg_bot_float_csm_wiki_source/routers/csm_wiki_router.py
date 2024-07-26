@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 from tg_bot_float_csm_wiki_source.dependencies.services import CSM_WIKI_SKIN_SERVICE
-from tg_bot_float_csm_wiki_source.services.csm_wiki_skin_data_dto import CSMWikiSkinDataDTO
+from tg_bot_float_csm_wiki_source.services.dtos.csm_wiki_skin_data_dto import CSMWikiSkinDataDTO
 
 
 class CsmWikiRouter:
