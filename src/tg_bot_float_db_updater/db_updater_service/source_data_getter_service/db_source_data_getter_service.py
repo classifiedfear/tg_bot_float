@@ -14,5 +14,8 @@ class CsgoDbSourceGetterService(AbstractSourceGetterService):
 
     async def get_skin_names(self, weapon: str) -> List[str]:
         return await self._get_response(
-            self._settings.csgo_db_url + self._settings.csgo_db_skins_url.format(weapon=weapon)
+            self._settings.csgo_db_url
+            + self._settings.csgo_db_skins_url.format(
+                weapon=weapon.lower().replace("★ ", "").replace(" ", "-")
+            )
         )
