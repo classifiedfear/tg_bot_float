@@ -1,8 +1,8 @@
 from typing import List
 from fastapi import APIRouter
-
+from tg_bot_float_csm_source.dependencies.params import GET_CSM_SKIN_DATA_PARAMS
 from tg_bot_float_csm_source.dependencies.services import CSM_SERVICE
-from tg_bot_float_csm_source.services.csm_item_response_dto import CsmItemResponseDTO
+from tg_bot_float_csm_source.services.dtos.csm_item_response_dto import CsmItemDTO
 from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
 
 
@@ -23,14 +23,11 @@ class CsmRouter:
         )
 
     async def _get_csm_skin_data(
-        self,
-        csm_service: CSM_SERVICE,
-        weapon: str,
-        skin: str,
-        quality: str,
-        stattrak: bool,
-        offset: int = 0,
-    ) -> List[CsmItemResponseDTO]:
+        self, csm_service: CSM_SERVICE, path_params: GET_CSM_SKIN_DATA_PARAMS
+    ) -> List[CsmItemDTO]:
         return await csm_service.get_csm_items(
-            ItemRequestDTO(weapon, skin, quality, stattrak), offset=offset
+            ItemRequestDTO(
+                path_params.weapon, path_params.skin, path_params.quality, path_params.stattrak
+            ),
+            offset=path_params.offset,
         )

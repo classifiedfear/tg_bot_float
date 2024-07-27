@@ -1,19 +1,28 @@
 from decimal import Decimal, localcontext
 import json
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Self
 
 from aiohttp import ClientSession
 from fake_useragent import UserAgent
 
 from tg_bot_float_csm_source.csm_source_settings import CsmSourceSettings
-from tg_bot_float_csm_source.services.csm_item_response_dto import CsmItemResponseDTO
-from tg_bot_float_csm_source.services.exceptions import CsmSourceExceptions
+from tg_bot_float_csm_source.services.dtos.csm_item_response_dto import CsmItemDTO
+from tg_bot_float_csm_source.services.dtos.csm_response_dto import CsmResponse
+from tg_bot_float_csm_source.services.csm_source_exceptions import CsmSourceExceptions
+from tg_bot_float_csm_source.services.dtos.data_from_csm_item_dto import CsmItemResponseDTO
 from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
 
 
 class CsmService:
     def __init__(self, settings: CsmSourceSettings) -> None:
         self._settings = settings
+
+    async def __aenter__(self) -> Self:
+        self._session = ClientSession()
+        return self
+
+    async def __aexit__(self, type, exc, traceback) -> None:
+        await self._session.close()
 
     @property
     def _headers(self) -> Dict[str, Any]:
@@ -23,21 +32,22 @@ class CsmService:
 
     async def get_csm_items(
         self, item_request_dto: ItemRequestDTO, *, offset: int = 0
-    ) -> List[CsmItemResponseDTO]:
-        """Parse 1 page from csm_tests"""
-        items: List[CsmItemResponseDTO] = []
-        async with ClientSession() as session:
-            async with session.get(self._get_valid_link(item_request_dto, offset)) as response:
-                json_response = await response.json()
-                if self._has_error(json_response):
-                    raise CsmSourceExceptions(
-                        "Items with this parameters does not exists in csm market!"
-                    )
-                for item in json_response["items"]:
-                    if (overpay := item.get("overpay")) and (overpay_float := overpay.get("float")):
-                        csm_skin_response_dto = self._get_csm_skin_response(item, overpay_float)
-                        items.append(csm_skin_response_dto)
-        return items
+    ) -> List[CsmItemDTO]:
+        """Parse 1 page from csm source"""
+        csm_items: List[CsmItemDTO] = []
+        link = self._get_valid_link(item_request_dto, offset)
+        csm_response = await self._get_response(link)
+        self._check_on_errors(csm_response)
+        for item in csm_response.items:
+            item_response_dto = CsmItemResponseDTO.model_validate(item)
+            if item_response_dto.overpay and (
+                overpay_float := item_response_dto.overpay.get("float")
+            ):
+                csm_skin_response_dto = self._get_csm_skin_response(
+                    item_response_dto, overpay_float
+                )
+                csm_items.append(csm_skin_response_dto)
+        return csm_items
 
     def _get_valid_link(self, item_dto: ItemRequestDTO, offset: int) -> str:
         weapon = item_dto.weapon.replace(" ", "%20")
@@ -51,21 +61,24 @@ class CsmService:
             weapon=weapon, skin=skin, quality=quality.lower(), stattrak=stattrak, offset=offset
         )
 
-    @staticmethod
-    def _has_error(json_response: Dict[str, Any]) -> bool:
-        return "error" in json_response
+    async def _get_response(self, link: str) -> CsmResponse:
+        async with self._session.get(link, headers=self._headers) as response:
+            json_response = await response.json()
+            return CsmResponse.model_validate(json_response)
 
-    def _get_csm_skin_response(self, item: Dict[str, Any], overpay_float: str):
-        item_name = item["fullName"]
-        default_price = item["defaultPrice"]
-        item_float = item["float"]
+    @staticmethod
+    def _check_on_errors(csm_response: CsmResponse) -> None:
+        if csm_response.error:
+            raise CsmSourceExceptions("Items with this parameters does not exists in csm market!")
+
+    def _get_csm_skin_response(self, item: CsmItemResponseDTO, overpay_float: str):
         default_price_with_float = self._get_default_price_with_float(
-            default_price, float(overpay_float)
+            item.defaultPrice, float(overpay_float)
         )
-        return CsmItemResponseDTO(
-            name=item_name,
-            item_float=float(item_float),
-            price=default_price,
+        return CsmItemDTO(
+            name=item.fullName,
+            item_float=float(item.float),
+            price=item.defaultPrice,
             price_with_float=default_price_with_float,
             overpay_float=float(overpay_float),
         )

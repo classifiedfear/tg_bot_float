@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
 
-from tg_bot_float_csm_source.services.exceptions import CsmSourceExceptions
+from tg_bot_float_csm_source.services.csm_source_exceptions import CsmSourceExceptions
 
 
 class ErrorHandlingMiddleware(BaseHTTPMiddleware):
