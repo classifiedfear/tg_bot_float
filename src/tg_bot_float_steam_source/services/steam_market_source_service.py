@@ -14,6 +14,7 @@ from tg_bot_float_steam_source.services.steam_source_exceptions import (
 from tg_bot_float_steam_source.services.dtos.data_from_steam import DataFromSteam
 from tg_bot_float_steam_source.services.dtos.listing_info_dto import ListingInfoDTO
 from tg_bot_float_steam_source.services.dtos.asset_info_dto import AssetInfoDTO
+from tg_bot_float_steam_source.steam_source_constants import REQUESTS_ERROR_MSG, SKIN_DATA_ERROR_MSG
 
 
 class SteamMarketSourceService(AbstractSteamSourceService):
@@ -103,8 +104,6 @@ class SteamMarketSourceService(AbstractSteamSourceService):
 
     def _check_on_errors(self, steam_response_dto: SteamResponseDTO) -> None:
         if not steam_response_dto.success:
-            raise TooManyRequestsException("Too many requests!")
+            raise TooManyRequestsException(REQUESTS_ERROR_MSG)
         if not steam_response_dto.listinginfo:
-            raise IncorrectDataException(
-                "Incorect skin data!",
-            )
+            raise IncorrectDataException(SKIN_DATA_ERROR_MSG)
