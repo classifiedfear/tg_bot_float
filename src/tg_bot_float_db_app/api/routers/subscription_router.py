@@ -2,7 +2,7 @@ from fastapi import APIRouter, Response, status
 from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
-from tg_bot_float_db_app.api.dependencies.queries import SUBSCRIPTION_QUERY
+from tg_bot_float_db_app.api.dependencies.params import SUBSCRIPTION_QUERY
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
@@ -66,27 +66,27 @@ class SubscriptionRouter:
             return await subscription_service.get_all_paginated()
 
     async def _get_subscription(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, query: SUBSCRIPTION_QUERY
+        self, service_factory: BOT_DB_SERVICE_FACTORY, params: SUBSCRIPTION_QUERY
     ) -> SubscriptionModel:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
             return await subscription_service.get_subscription(
-                query.telegram_id, query.weapon_id, query.skin_id, query.quality_id, query.stattrak
+                params.telegram_id, params.weapon_id, params.skin_id, params.quality_id, params.stattrak
             )
 
     async def _delete_subscribtion(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        query: SUBSCRIPTION_QUERY,
+        params: SUBSCRIPTION_QUERY,
     ) -> None:
         async with service_factory:
             subsciption_service = service_factory.get_subscription_service()
             await subsciption_service.delete(
-                query.telegram_id,
-                query.weapon_id,
-                query.skin_id,
-                query.quality_id,
-                query.stattrak,
+                params.telegram_id,
+                params.weapon_id,
+                params.skin_id,
+                params.quality_id,
+                params.stattrak,
             )
 
     async def _get_subscription_by_valuables(
