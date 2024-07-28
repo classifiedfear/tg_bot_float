@@ -20,10 +20,15 @@ class CsmWikiSourceService:
 
     def __init__(self, csm_wiki_source_settings: CsmWikiSourceSettings) -> None:
         self._settings = csm_wiki_source_settings
-        self._statuses = {
-            x for x in range(100, 600) if str(x) not in self._settings.not_retry_statuses.split(",")
-        }
-        self._retry_options = ExponentialRetry(statuses=self._statuses)
+        statuses = self._configure_not_retry_statuses()
+        self._retry_options = ExponentialRetry(statuses=statuses)
+
+    def _configure_not_retry_statuses(self):
+        not_retry_statuses_str = self._settings.not_retry_statuses.split(",")
+        not_retry_statuses = set(range(200, 300))
+        not_retry_statuses |= {int(x) for x in not_retry_statuses_str}
+        statuses = {x for x in range(100, 600) if x not in not_retry_statuses}
+        return statuses
 
     async def __aenter__(self) -> Self:
         self._session = ClientSession()
@@ -36,13 +41,13 @@ class CsmWikiSourceService:
         graphql_query = self._prep_query(weapon, skin)
         graphql_response = await self._get_response_with_retries(graphql_query)
         if graphql_response.errors:
-            raise CsmWikiSourceExceptions(", ".join([item["message"] for item in graphql_response.errors]))
+            raise CsmWikiSourceExceptions(
+                ", ".join([item["message"] for item in graphql_response.errors])
+            )
         get_min_available_csm_wiki_dto = GraphqlCsmWikiDataDTO.model_validate(graphql_response.data)
         return self._get_csm_wiki_skin_data_dto(get_min_available_csm_wiki_dto)
 
-    async def _get_response_with_retries(
-        self, graphql_query: Dict[str, Any]
-    ) -> GraphqlResponse:
+    async def _get_response_with_retries(self, graphql_query: Dict[str, Any]) -> GraphqlResponse:
         for _ in range(self._settings.number_of_retries_on_http_forbidden):
             retry_session = RetryClient(self._session, retry_options=self._retry_options)
             async with retry_session.post(
