@@ -6,11 +6,14 @@ from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
 from tg_bot_float_steam_source.services.abstact_steam_source_service import (
     AbstractSteamSourceService,
 )
+from tg_bot_float_steam_source.services.dtos.steam_response_dto import SteamResponseDTO
 from tg_bot_float_steam_source.services.steam_source_exceptions import (
     IncorrectDataException,
     TooManyRequestsException,
 )
-from tg_bot_float_steam_source.services.dtos.steam_response_dto import SteamResponseDTO
+from tg_bot_float_steam_source.services.dtos.data_from_steam import DataFromSteam
+from tg_bot_float_steam_source.services.dtos.listing_info_dto import ListingInfoDTO
+from tg_bot_float_steam_source.services.dtos.asset_info_dto import AssetInfoDTO
 
 
 class SteamMarketSourceService(AbstractSteamSourceService):
@@ -20,12 +23,31 @@ class SteamMarketSourceService(AbstractSteamSourceService):
         headers.update(json.loads(self._settings.steam_market_source_headers))
         return headers
 
+    async def _get_response(self, link: str) -> SteamResponseDTO:
+        response_json = await super()._get_response(link)
+        return SteamResponseDTO.model_validate(response_json)
+
+    async def get_steam_response_dtos(
+        self,
+        item_request_dto: ItemRequestDTO,
+        *,
+        start: int = 0,
+        count: int = 10,
+        currency: int = 1,
+    ) -> List[DataFromSteam]:
+        link = self._get_valid_link(item_request_dto, start, count, currency)
+        steam_response_dto = await self._get_response(link)
+        self._check_on_errors(steam_response_dto)
+        return self._find_items_from_steam_response(steam_response_dto, item_request_dto)
+
     def _get_valid_link(
         self, item_request_dto: ItemRequestDTO, start: int, count: int, currency: int
     ) -> str:
         market_link = self._get_market_link(item_request_dto)
-        return market_link + self._settings.params.format(
-            currency=currency, start=start, count=count
+        return (
+            market_link
+            + self._settings.render
+            + self._settings.params.format(currency=currency, start=start, count=count)
         )
 
     def _get_market_link(self, item_request_dto: ItemRequestDTO) -> str:
@@ -37,50 +59,52 @@ class SteamMarketSourceService(AbstractSteamSourceService):
             weapon=weapon, skin=skin, quality=quality, stattrak=stattrak
         )
 
-    async def get_steam_response_dtos(
-        self,
-        item_request_dto: ItemRequestDTO,
-        *,
-        start: int = 0,
-        count: int = 10,
-        currency: int = 1,
-    ) -> List[SteamResponseDTO]:
-        link = self._get_valid_link(item_request_dto, start, count, currency)
-        json_response = await self._get_response(link)
-        return self._find_items_from_steam_response(json_response, item_request_dto)
-
     def _find_items_from_steam_response(
-        self, json_response: Dict[str, Any], item_request_dto: ItemRequestDTO
-    ) -> List[SteamResponseDTO]:
-        items: List[SteamResponseDTO] = []
-        listing_info = self._get_listing_info(json_response)
-        for item in listing_info.values():
-            asset = item["asset"]
-            inspect_link = (
-                asset["market_actions"][0]["link"]
-                .replace("%listingid%", item["listingid"])
-                .replace("%assetid%", asset["id"])
-            )
-            buy_link = self._get_market_link(item_request_dto) + self._settings.item_buy_url.format(
-                listing_id=item["listingid"],
-                app_id=asset["appid"],
-                context_id=asset["contextid"],
-                asset_id=asset["id"],
-            )
-            price = str(item["converted_price_per_unit"] + item["converted_fee_per_unit"])
-            price = price[0:-2] + "." + price[-2:]
+        self, steam_response_dto: SteamResponseDTO, item_request_dto: ItemRequestDTO
+    ):
+        items: List[DataFromSteam] = []
+        for item in steam_response_dto.listinginfo.values():
+            listing_info_dto = ListingInfoDTO.model_validate(item)
+            asset_info_dto = AssetInfoDTO.model_validate(listing_info_dto.asset)
+            inspect_link = self._get_inpect_link(asset_info_dto, listing_info_dto)
+            buy_link = self._get_buy_link(item_request_dto, asset_info_dto, listing_info_dto)
+            price = self._get_price(listing_info_dto)
             items.append(
-                SteamResponseDTO(
-                    buy_link=buy_link, inspect_skin_link=inspect_link, price=float(price)
-                )
+                DataFromSteam(buy_link=buy_link, inspect_skin_link=inspect_link, price=float(price))
             )
         return items
 
-    def _get_listing_info(self, json_response: Dict[str, Any]) -> Dict[str, Any]:
-        if not json_response["success"]:
+    def _get_inpect_link(self, asset_info_dto: AssetInfoDTO, listing_info_dto: ListingInfoDTO):
+        return (
+            asset_info_dto.market_actions[0]["link"]
+            .replace("%listingid%", listing_info_dto.listingid)
+            .replace("%assetid%", asset_info_dto.id)
+        )
+
+    def _get_buy_link(
+        self,
+        item_request_dto: ItemRequestDTO,
+        asset_info_dto: AssetInfoDTO,
+        listing_info_dto: ListingInfoDTO,
+    ):
+        return self._get_market_link(item_request_dto) + self._settings.item_buy_url.format(
+            listing_id=listing_info_dto.listingid,
+            app_id=asset_info_dto.appid,
+            context_id=asset_info_dto.contextid,
+            asset_id=asset_info_dto.id,
+        )
+
+    def _get_price(self, listing_info_dto: ListingInfoDTO):
+        price = str(
+            listing_info_dto.converted_price_per_unit + listing_info_dto.converted_fee_per_unit
+        )
+        price = price[0:-2] + "." + price[-2:]
+        return price
+
+    def _check_on_errors(self, steam_response_dto: SteamResponseDTO) -> None:
+        if not steam_response_dto.success:
             raise TooManyRequestsException("Too many requests!")
-        if not (listing_info := json_response["listinginfo"]):
+        if not steam_response_dto.listinginfo:
             raise IncorrectDataException(
                 "Incorect skin data!",
             )
-        return listing_info

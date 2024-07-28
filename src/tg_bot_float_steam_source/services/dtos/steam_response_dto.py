@@ -1,7 +1,9 @@
-from pydantic import BaseModel
+from typing import Any, Dict
+from pydantic import BaseModel, ConfigDict
 
 
 class SteamResponseDTO(BaseModel):
-    buy_link: str
-    inspect_skin_link: str
-    price: float
+    model_config = ConfigDict(from_attributes=True)
+
+    success: bool
+    listinginfo: Dict[str, Any]

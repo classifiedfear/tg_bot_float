@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Dict, Any
+from typing import Dict, Any, Set
 
 from aiohttp import ClientSession
 from aiohttp_retry import ExponentialRetry, RetryClient
@@ -12,18 +12,23 @@ class AbstractSteamSourceService(ABC):
 
     def __init__(self, settings: SteamSourceSettings, session: ClientSession) -> None:
         self._settings = settings
-        _statuses = {
-            x for x in range(100, 600) if str(x) not in self._settings.not_retry_statuses.split(",")
-        }
-        self._retry_options = ExponentialRetry(statuses=_statuses)
         self._session = session
+        statuses = self._configure_not_retry_statuses()
+        self._retry_options = ExponentialRetry(statuses=statuses)
+
+    def _configure_not_retry_statuses(self) -> Set[int]:
+        not_retry_statuses_str = self._settings.not_retry_statuses.split(",")
+        not_retry_statuses = set(range(200, 300))
+        not_retry_statuses |= {int(x) for x in not_retry_statuses_str}
+        statuses = {x for x in range(100, 600) if x not in not_retry_statuses}
+        return statuses
 
     @property
     @abstractmethod
     def _headers(self) -> Dict[str, Any]:
         return {"user-agent": f"{UserAgent.random}"}
 
-    async def _get_response(self, link: str) -> Dict[str, Any]:
+    async def _get_response(self, link: str) -> Any:
         retry_session = RetryClient(self._session)
         async with retry_session.get(
             link, headers=self._headers, retry_options=self._retry_options

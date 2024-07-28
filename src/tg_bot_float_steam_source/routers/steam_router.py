@@ -1,8 +1,9 @@
 from typing import List
 from fastapi import APIRouter
 
+from tg_bot_float_steam_source.dependencies.params import GET_STEAM_SKIN_DATA_PARAMS
 from tg_bot_float_steam_source.dependencies.services import STEAM_SOURCE_SERVICE
-from tg_bot_float_steam_source.services.dtos.steam_item_response_dto import SteamItemResponseDTO
+from tg_bot_float_steam_source.services.dtos.steam_item_dto import SteamItemDTO
 from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
 
 
@@ -23,19 +24,16 @@ class SteamRouter:
         )
 
     async def _get_steam_skin_data(
-        self,
-        steam_source_service: STEAM_SOURCE_SERVICE,
-        weapon: str,
-        skin: str,
-        quality: str,
-        stattrak: bool,
-        start: int = 0,
-        count: int = 10,
-        currency: int = 1,
-    ) -> List[SteamItemResponseDTO]:
+        self, steam_source_service: STEAM_SOURCE_SERVICE, steam_params: GET_STEAM_SKIN_DATA_PARAMS
+    ) -> List[SteamItemDTO]:
         return await steam_source_service.get_steam_items(
-            ItemRequestDTO(weapon=weapon, skin=skin, quality=quality, stattrak=stattrak),
-            start=start,
-            count=count,
-            currency=currency,
+            ItemRequestDTO(
+                weapon=steam_params.weapon,
+                skin=steam_params.skin,
+                quality=steam_params.quality,
+                stattrak=steam_params.stattrak,
+            ),
+            start=steam_params.start,
+            count=steam_params.count,
+            currency=steam_params.currency,
         )
