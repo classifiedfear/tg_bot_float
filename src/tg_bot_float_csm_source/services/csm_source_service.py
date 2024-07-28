@@ -5,6 +5,7 @@ from typing import Any, Dict, List, Self
 from aiohttp import ClientSession
 from fake_useragent import UserAgent
 
+from tg_bot_float_csm_source.csm_source_constants import NOT_EXIST_ERROR_MSG
 from tg_bot_float_csm_source.csm_source_settings import CsmSourceSettings
 from tg_bot_float_csm_source.services.dtos.csm_item_response_dto import CsmItemDTO
 from tg_bot_float_csm_source.services.dtos.csm_response_dto import CsmResponse
@@ -69,7 +70,7 @@ class CsmService:
     @staticmethod
     def _check_on_errors(csm_response: CsmResponse) -> None:
         if csm_response.error:
-            raise CsmSourceExceptions("Items with this parameters does not exists in csm market!")
+            raise CsmSourceExceptions(NOT_EXIST_ERROR_MSG)
 
     def _get_csm_skin_response(self, item: CsmItemResponseDTO, overpay_float: str):
         default_price_with_float = self._get_default_price_with_float(
