@@ -6,7 +6,7 @@ from http import HTTPStatus
 from aiohttp import ClientResponse, ClientSession
 from aiohttp_retry import ExponentialRetry, RetryClient
 
-from tg_bot_float_csm_wiki_source.csm_wiki_source_exceptions import CsmWikiSourceExceptions
+from tg_bot_float_csm_wiki_source.services.csm_wiki_source_exceptions import CsmWikiSourceExceptions
 from tg_bot_float_csm_wiki_source.csm_wiki_source_settings import CsmWikiSourceSettings
 from tg_bot_float_csm_wiki_source.services.dtos.csm_wiki_skin_data_dto import CSMWikiSkinDataDTO
 from tg_bot_float_csm_wiki_source.services.dtos.graphql_csm_wiki_data_dto import (
@@ -14,6 +14,7 @@ from tg_bot_float_csm_wiki_source.services.dtos.graphql_csm_wiki_data_dto import
 )
 from tg_bot_float_csm_wiki_source.services.dtos.graphql_item_data_dto import GraphqlItemDataDTO
 from tg_bot_float_csm_wiki_source.services.dtos.graphql_response import GraphqlResponse
+from tg_bot_float_csm_wiki_source.csm_wiki_constants import FORBIDDEN_ERROR_MSG
 
 
 class CsmWikiSourceService:
@@ -58,7 +59,7 @@ class CsmWikiSourceService:
                     continue
                 response_json = await response.json()
                 return GraphqlResponse.model_validate(response_json)
-        return GraphqlResponse(errors=[{"message": "Forbidden: Access is denied"}])
+        return GraphqlResponse(errors=[{"message": FORBIDDEN_ERROR_MSG}])
 
     async def _check_on_forbidden(self, response: ClientResponse) -> bool:
         if response.status == HTTPStatus.FORBIDDEN:

@@ -6,7 +6,7 @@ from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
 
-from tg_bot_float_csm_wiki_source.csm_wiki_source_exceptions import CsmWikiSourceExceptions
+from tg_bot_float_csm_wiki_source.services.csm_wiki_source_exceptions import CsmWikiSourceExceptions
 from tg_bot_float_csm_wiki_source.csm_wiki_constants import NO_INFO_ERROR_MSG
 
 
