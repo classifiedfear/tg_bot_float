@@ -8,7 +8,7 @@ from aiohttp_retry import ExponentialRetry, RetryClient
 
 from tg_bot_float_csm_wiki_source.services.csm_wiki_source_exceptions import CsmWikiSourceExceptions
 from tg_bot_float_csm_wiki_source.csm_wiki_source_settings import CsmWikiSourceSettings
-from tg_bot_float_csm_wiki_source.services.dtos.csm_wiki_skin_data_dto import CSMWikiSkinDataDTO
+from tg_bot_float_common_dtos.source_dtos.csm_wiki_dto import CSMWikiDTO
 from tg_bot_float_csm_wiki_source.services.dtos.graphql_csm_wiki_data_dto import (
     GraphqlCsmWikiDataDTO,
 )
@@ -38,7 +38,7 @@ class CsmWikiSourceService:
     async def __aexit__(self, type, exc, traceback) -> None:
         await self._session.close()
 
-    async def get_csm_wiki_skin_data(self, weapon: str, skin: str) -> CSMWikiSkinDataDTO:
+    async def get_csm_wiki_skin_data(self, weapon: str, skin: str) -> CSMWikiDTO:
         graphql_query = self._prep_query(weapon, skin)
         graphql_response = await self._get_response_with_retries(graphql_query)
         if graphql_response.errors:
@@ -68,9 +68,7 @@ class CsmWikiSourceService:
             return True
         return False
 
-    def _get_csm_wiki_skin_data_dto(
-        self, data_from_page: GraphqlCsmWikiDataDTO
-    ) -> CSMWikiSkinDataDTO:
+    def _get_csm_wiki_skin_data_dto(self, data_from_page: GraphqlCsmWikiDataDTO) -> CSMWikiDTO:
         qualities: Set[str] = set()
         stattrak_existence = False
 
@@ -82,7 +80,7 @@ class CsmWikiSourceService:
             quality = name.split("(")[-1]
             qualities.add(quality[:-1])
 
-        return CSMWikiSkinDataDTO(qualities=list(qualities), stattrak_existence=stattrak_existence)
+        return CSMWikiDTO(qualities=list(qualities), stattrak_existence=stattrak_existence)
 
     def _prep_query(self, weapon: str, skin: str) -> Dict[str, Any]:
         graphql_query = json.loads(self._settings.graphql_query, strict=False)
