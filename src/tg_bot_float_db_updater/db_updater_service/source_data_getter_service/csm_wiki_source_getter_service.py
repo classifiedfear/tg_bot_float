@@ -9,4 +9,6 @@ class CsmWikiSourceGetterService(AbstractSourceGetterService):
         response = await self._get_response(
             self._settings.csm_wiki_url.format(weapon=weapon, skin=skin)
         )
+        if response.get("message"):
+            return CsmWikiDTO()
         return CsmWikiDTO.model_validate(response)
