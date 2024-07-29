@@ -18,7 +18,7 @@ from tg_bot_float_db_updater.db_updater_settings import DbUpdaterSettings
 
 @lru_cache
 def get_db_updater_settings() -> DbUpdaterSettings:
-    return DbUpdaterSettings()
+    return DbUpdaterSettings() #type: ignore "Load variables from db_updater_variables.env file"
 
 
 DB_UPDATER_SETTINGS = Annotated[DbUpdaterSettings, Depends(get_db_updater_settings)]
