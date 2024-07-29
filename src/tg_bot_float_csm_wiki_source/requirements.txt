@@ -1,6 +1,7 @@
 aiohttp==3.9.5
 aiohttp_retry==2.8.3
-fastapi==0.111.0
-pydantic==2.7.4
-pydantic_settings==2.3.3
+fastapi==0.111.1
+pydantic==2.8.2
+pydantic_settings==2.3.4
+starlette==0.37.2
 uvicorn~=0.29.0
