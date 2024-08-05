@@ -104,6 +104,6 @@ class SteamMarketSourceService(AbstractSteamSourceService):
 
     def _check_on_errors(self, steam_response_dto: SteamResponseDTO) -> None:
         if not steam_response_dto.success:
-            raise TooManyRequestsException(REQUESTS_ERROR_MSG)
-        if not steam_response_dto.listinginfo:
             raise IncorrectDataException(SKIN_DATA_ERROR_MSG)
+        if not steam_response_dto.listinginfo:
+            raise TooManyRequestsException(REQUESTS_ERROR_MSG)

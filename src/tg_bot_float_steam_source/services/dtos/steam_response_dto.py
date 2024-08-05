@@ -1,4 +1,4 @@
-from typing import Any, Dict
+from typing import Any, Dict, List
 from pydantic import BaseModel, ConfigDict
 
 
@@ -6,4 +6,4 @@ class SteamResponseDTO(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     success: bool
-    listinginfo: Dict[str, Any]
+    listinginfo: Dict[str, Any] | List[str]
