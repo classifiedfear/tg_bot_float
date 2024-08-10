@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class CsmItemResponseDTO(BaseModel):
+class CsmItemDTO(BaseModel):
     name: str
     item_float: float
     price: float
