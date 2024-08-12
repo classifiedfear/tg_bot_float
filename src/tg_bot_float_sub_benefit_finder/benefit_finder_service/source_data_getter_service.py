@@ -6,11 +6,11 @@ from aiohttp_retry import ExponentialRetry, RetryClient
 
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find import SubscriptionToFindDTO
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
-from tg_bot_float_csm_steam_benefit_finder.csm_steam_benefit_finder_settings import (
-    CsmSteamBenefitFinderSettings,
-)
 from tg_bot_float_common_dtos.source_dtos.csm_item_dto import CsmItemDTO
 from tg_bot_float_common_dtos.source_dtos.steam_item_dto import SteamItemDTO
+from tg_bot_float_sub_benefit_finder.csm_steam_benefit_finder_settings import (
+    CsmSteamBenefitFinderSettings,
+)
 
 
 class SourceDataGetterService:

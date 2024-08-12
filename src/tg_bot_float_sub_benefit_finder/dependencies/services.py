@@ -4,17 +4,20 @@ from typing import Annotated
 from aiohttp import ClientSession
 from fastapi import Depends
 
-from tg_bot_float_csm_steam_benefit_finder.csm_steam_benefit_finder_settings import (
+from tg_bot_float_sub_benefit_finder.csm_steam_benefit_finder_settings import (
     CsmSteamBenefitFinderSettings,
 )
-from tg_bot_float_csm_steam_benefit_finder.benefit_finder_service.csm_steam_benefit_finder_service import (
-    CsmSteamBenefitFinderService,
+from tg_bot_float_sub_benefit_finder.benefit_finder_service.sub_benefit_finder_service import (
+    SubBenefitFinderService,
 )
-from tg_bot_float_csm_steam_benefit_finder.benefit_finder_service.source_data_getter_service import (
+from tg_bot_float_sub_benefit_finder.benefit_finder_service.source_data_getter_service import (
     SourceDataGetterService,
 )
-from tg_bot_float_csm_steam_benefit_finder.benefit_finder_service.csm_steam_benefit_sender_service import (
-    CsmSteamBenefitSenderService,
+from tg_bot_float_sub_benefit_finder.benefit_finder_service.result_sender_service import (
+    ResultSenderService,
+)
+from tg_bot_float_sub_benefit_finder.benefit_finder_service.csm_steam_comparer import (
+    CsmSteamComparer,
 )
 
 
@@ -39,13 +42,14 @@ async def get_benefit_finder_service(
 ):
     async with SourceDataGetterService(
         settings, aiohttp_session
-    ) as getter_service, CsmSteamBenefitSenderService(settings, aiohttp_session) as sender_service:
+    ) as getter_service, ResultSenderService(settings, aiohttp_session) as sender_service:
+        comparer = CsmSteamComparer()
         try:
-            yield CsmSteamBenefitFinderService(getter_service, sender_service)
+            yield SubBenefitFinderService(getter_service, sender_service, comparer)
         finally:
             await aiohttp_session.close()
 
 
 CSM_STEAM_BENEFIT_FINDER_SERVICE = Annotated[
-    CsmSteamBenefitFinderService, Depends(get_benefit_finder_service)
+    SubBenefitFinderService, Depends(get_benefit_finder_service)
 ]

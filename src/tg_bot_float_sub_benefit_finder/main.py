@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from tg_bot_float_csm_steam_benefit_finder.routers.benefit_finder_router import BenefitFinderRouter
+from tg_bot_float_sub_benefit_finder.routers.benefit_finder_router import BenefitFinderRouter
 
 
 routers = [BenefitFinderRouter()]

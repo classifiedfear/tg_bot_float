@@ -4,13 +4,13 @@ from typing import List, Self
 from aiohttp import ClientSession
 import brotli
 
-from tg_bot_float_csm_steam_benefit_finder.csm_steam_benefit_finder_settings import (
+from tg_bot_float_sub_benefit_finder.csm_steam_benefit_finder_settings import (
     CsmSteamBenefitFinderSettings,
 )
-from tg_bot_float_csm_steam_benefit_finder.benefit_finder_service.item_with_benefit_dto import ItemWithBenefitDTO
+from tg_bot_float_sub_benefit_finder.benefit_finder_service.dtos.item_with_benefit_dto import ItemWithBenefitDTO
 
 
-class CsmSteamBenefitSenderService:
+class ResultSenderService:
     def __init__(self, settings: CsmSteamBenefitFinderSettings, session: ClientSession):
         self._settings = settings
         self._session = session

@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from tg_bot_float_csm_steam_benefit_finder.dependencies.services import (
+from tg_bot_float_sub_benefit_finder.dependencies.services import (
     CSM_STEAM_BENEFIT_FINDER_SERVICE,
 )
 
@@ -9,7 +9,6 @@ class BenefitFinderRouter:
     def __init__(self) -> None:
         self._router = APIRouter()
         self._init_routes()
-        self._subscriptions = []
 
     @property
     def router(self) -> APIRouter:
@@ -23,4 +22,4 @@ class BenefitFinderRouter:
     async def _find_items_with_benefit(
         self, finder_service: CSM_STEAM_BENEFIT_FINDER_SERVICE
     ) -> None:
-        await finder_service.find_items_with_benefit(self._subscriptions)
+        await finder_service.find_items_with_benefit()
