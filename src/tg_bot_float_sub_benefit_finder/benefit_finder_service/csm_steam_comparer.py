@@ -4,7 +4,7 @@ from typing import Dict, List
 
 from tg_bot_float_common_dtos.source_dtos.csm_item_dto import CsmItemDTO
 from tg_bot_float_common_dtos.source_dtos.steam_item_dto import SteamItemDTO
-from tg_bot_float_sub_benefit_finder.benefit_finder_service.dtos.item_with_benefit_dto import (
+from tg_bot_float_common_dtos.tg_result_dtos.item_with_benefit_dto import (
     ItemWithBenefitDTO,
 )
 from tg_bot_float_sub_benefit_finder.benefit_finder_service.dtos.items_to_compare_dto import (
@@ -16,7 +16,9 @@ class CsmSteamComparer:
     def compare(self, items_to_compare: ItemsToCompareDTO):
         with localcontext() as context:
             context.prec = 2
-            steam_items_by_float = self._get_dict_with_steam_items_by_float(items_to_compare.steam_items)
+            steam_items_by_float = self._get_dict_with_steam_items_by_float(
+                items_to_compare.steam_items
+            )
             return self._find_items(items_to_compare.csm_items, steam_items_by_float)
 
     @staticmethod

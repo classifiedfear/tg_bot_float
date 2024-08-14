@@ -1,7 +1,7 @@
 import asyncio
 
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
-from tg_bot_float_common_dtos.tg_result import TgResult
+from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
 from tg_bot_float_sub_benefit_finder.benefit_finder_service.csm_steam_comparer import (
     CsmSteamComparer,
 )
@@ -36,7 +36,7 @@ class SubBenefitFinderService:
             items_to_compare = await self._try_find_items_to_compare(item_to_find)
             items_with_benefit = self._csm_steam_comparer.compare(items_to_compare)
             await self._benefit_sender_service.send(
-                TgResult(items_with_benefit=items_with_benefit, subscription_info=item_to_find)
+                TgResultDTO(items_with_benefit=items_with_benefit, subscription_info=item_to_find)
             )
             await asyncio.sleep(5)
 

@@ -7,7 +7,7 @@ import brotli
 from tg_bot_float_sub_benefit_finder.sub_benefit_finder_settings import (
     CsmSteamBenefitFinderSettings,
 )
-from tg_bot_float_common_dtos.tg_result import TgResult
+from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
 
 
 class ResultSenderService:
@@ -21,7 +21,7 @@ class ResultSenderService:
     async def __aexit__(self, type, exc, traceback) -> None:
         await self._session.close()
 
-    async def send(self, tg_result_dto: TgResult):
+    async def send(self, tg_result_dto: TgResultDTO):
         bytes_tg_result = pickle.dumps(tg_result_dto)
         compressed_items_dto = brotli.compress(bytes_tg_result)
         async with self._session.post(
