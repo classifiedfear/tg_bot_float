@@ -35,7 +35,9 @@ class SubBenefitFinderService:
             )
             items_to_compare = await self._try_find_items_to_compare(item_to_find)
             items_with_benefit = self._csm_steam_comparer.compare(items_to_compare)
-            await self._benefit_sender_service.send(items_with_benefit)
+            await self._benefit_sender_service.send(
+                TgResult(items_with_benefit=items_with_benefit, subscription_info=item_to_find)
+            )
             await asyncio.sleep(5)
 
     async def _try_find_items_to_compare(
