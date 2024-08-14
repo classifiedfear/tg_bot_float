@@ -4,7 +4,6 @@ from aiogram.types import InlineKeyboardMarkup, ReplyKeyboardMarkup
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 
 
-
 class Keyboard:
     def __init__(self) -> None:
         self._init_buttons()
@@ -38,9 +37,12 @@ class Keyboard:
     def choose_stattrak_buttons(self) -> ReplyKeyboardMarkup:
         return self._choose_stattrak_buttons
 
+    def create_buy_link(self, link: str) -> InlineKeyboardMarkup:
+        return self._create_inline_keyboard(["Купить в стиме"], url=link)
+
     def _create_reply_keyboard(
         self, buttons_text: List[str], *row_sizes: int
-        ) -> ReplyKeyboardMarkup:
+    ) -> ReplyKeyboardMarkup:
         builder = ReplyKeyboardBuilder()
         for text in buttons_text:
             builder.button(text=text)
@@ -49,7 +51,7 @@ class Keyboard:
 
     def _create_inline_keyboard(
         self, buttons_text: List[str], *row_sizes: int, **inline_button_kwargs: Any
-        ) -> InlineKeyboardMarkup:
+    ) -> InlineKeyboardMarkup:
         builder = InlineKeyboardBuilder()
         for text in buttons_text:
             builder.button(text=text, **inline_button_kwargs)

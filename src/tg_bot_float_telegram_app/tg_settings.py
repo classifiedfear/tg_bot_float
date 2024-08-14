@@ -22,6 +22,7 @@ class TgSettings(BaseSettings):
     get_subscriptions_by_telegram_id_url: str
     get_weapon_skin_quality_names_url: str
     delete_subscription_url: str
+    get_users_telegram_ids_by_subscription_url: str
 
     # webhook variables
     ngrok_tunnel_url: str

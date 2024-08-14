@@ -14,7 +14,6 @@ from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameD
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 
 
-
 class DBAppServiceClient:
     _success_responses = list(range(200, 300))
 
@@ -172,6 +171,20 @@ class DBAppServiceClient:
                 [SubscriptionDTO.model_validate(item) for item in response_json.get("items")]
             )
         return subscription_dtos
+
+    async def get_users_telegram_ids_by_subscription(
+        self, subscription_info: FullSubscriptionDTO
+    ) -> List[int]:
+        response_json = await self._get_json_response(
+            self._tg_settings.db_app_base_url
+            + self._tg_settings.get_users_telegram_ids_by_subscription_url.format(
+                weapon_id=subscription_info.weapon_id,
+                skin_id=subscription_info.skin_id,
+                quality_id=subscription_info.quality_id,
+                stattrak=subscription_info.stattrak,
+            )
+        )
+        return response_json
 
     async def _get_json_response(self, link: str) -> Any:
         async with ClientSession() as session:

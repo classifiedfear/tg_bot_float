@@ -64,3 +64,15 @@ class TgBotFloatApp:
     async def update_feed(self, data: Dict[str, Any]) -> None:
         update = Update.model_validate(data, context={"bot": self._bot})
         await self._dp.feed_update(self._bot, update)
+
+    @property
+    def bot(self) -> Bot:
+        return self._bot
+
+    @property
+    def keyboard(self) -> Keyboard:
+        return self._keyboard
+
+    @property
+    def db_app_service_client(self) -> DBAppServiceClient:
+        return self._db_app_service_client
