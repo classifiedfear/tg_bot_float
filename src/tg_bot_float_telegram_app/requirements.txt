@@ -1,0 +1,7 @@
+aiogram==3.11.0
+aiohttp==3.9.5
+Brotli==1.1.0
+fastapi==0.112.0
+pydantic_settings==2.4.0
+redis==5.0.7
+uvicorn~=0.29.0
