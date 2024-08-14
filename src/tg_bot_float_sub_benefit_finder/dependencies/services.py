@@ -4,7 +4,7 @@ from typing import Annotated
 from aiohttp import ClientSession
 from fastapi import Depends
 
-from tg_bot_float_sub_benefit_finder.csm_steam_benefit_finder_settings import (
+from tg_bot_float_sub_benefit_finder.sub_benefit_finder_settings import (
     CsmSteamBenefitFinderSettings,
 )
 from tg_bot_float_sub_benefit_finder.benefit_finder_service.sub_benefit_finder_service import (

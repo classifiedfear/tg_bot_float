@@ -8,7 +8,7 @@ from tg_bot_float_common_dtos.schema_dtos.subscription_to_find import Subscripti
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.source_dtos.csm_item_dto import CsmItemDTO
 from tg_bot_float_common_dtos.source_dtos.steam_item_dto import SteamItemDTO
-from tg_bot_float_sub_benefit_finder.csm_steam_benefit_finder_settings import (
+from tg_bot_float_sub_benefit_finder.sub_benefit_finder_settings import (
     CsmSteamBenefitFinderSettings,
 )
 
