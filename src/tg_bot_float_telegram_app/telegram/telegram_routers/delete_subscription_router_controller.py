@@ -3,19 +3,21 @@ from aiogram.fsm.context import FSMContext
 
 from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
 from tg_bot_float_telegram_app.telegram.handlers.delete_subscripton_handler import (
-    DeleteSubscriptionHandelr,
+    DeleteSubscriptionHandler,
 )
 from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
 from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
-    AbstractRouterController,
+    AbstractTGRouterController,
 )
-from tg_bot_float_telegram_app.telegram.states import DeleteSubscriptionStates
+from tg_bot_float_telegram_app.telegram.states.delete_subscription_states import (
+    DeleteSubscriptionStates,
+)
 
 
-class DeleteSubscriptionRouterController(AbstractRouterController):
+class DeleteSubscriptionRouterController(AbstractTGRouterController):
     def __init__(self, keyboard: Keyboard, db_app_service_client: DBAppServiceClient) -> None:
         super().__init__()
-        self._handler = DeleteSubscriptionHandelr(keyboard, db_app_service_client)
+        self._handler = DeleteSubscriptionHandler(keyboard, db_app_service_client)
         self._init_routes()
 
     def _init_routes(self) -> None:
@@ -25,7 +27,12 @@ class DeleteSubscriptionRouterController(AbstractRouterController):
             lambda message: message.text == "Отписаться",
         )
         self._router.message.register(
-            self._delete_subscription, DeleteSubscriptionStates.CHOOSE_SUBSCRIPTION
+            self._cancel,
+            lambda message: message.text == "Отменить",
+        )
+        self._router.message.register(
+            self._delete_subscription,
+            DeleteSubscriptionStates.CHOOSE_SUBSCRIPTION,
         )
 
     async def _cancel(self, message: Message, state: FSMContext):

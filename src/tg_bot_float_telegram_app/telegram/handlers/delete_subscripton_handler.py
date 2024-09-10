@@ -3,60 +3,71 @@ from typing import List
 from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 
-from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_id_dto import SubscriptionIdDTO
 from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
-from tg_bot_float_telegram_app.msg_creator import AddSubscriptionMsgCreator
+from tg_bot_float_telegram_app.telegram.msg_creators.delete_subscription_msg_creator import (
+    DeleteSubscriptionMsgCreator,
+)
 from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
-from tg_bot_float_telegram_app.telegram.states import DeleteSubscriptionStates
+from tg_bot_float_telegram_app.telegram.states.state_controllers.delete_subscription_state_controller import (
+    DeleteSubscriptionStateController,
+)
+from tg_bot_float_telegram_app.tg_constants import (
+    BACK_TO_MAIN_MENU_MSG_TEXT,
+    WRONG_ITEM_NAME_MSG_TEXT,
+)
 
 
-class DeleteSubscriptionHandelr:
+class DeleteSubscriptionHandler:
     def __init__(self, keyboard: Keyboard, db_app_service_client: DBAppServiceClient) -> None:
         self._keyboard = keyboard
         self._db_app_service_client = db_app_service_client
+        self._state_controller = DeleteSubscriptionStateController()
+        self._msg_creator = DeleteSubscriptionMsgCreator()
 
     async def cancel(self, message: Message, state: FSMContext) -> None:
-        current_state = await state.get_state()
-        if current_state is None:
-            return
-        await state.clear()
-        await message.answer("Возвращаю в главное меню", reply_markup=self._keyboard.main_buttons)
+        await self._state_controller.clear_states(state)
+        await message.answer(BACK_TO_MAIN_MENU_MSG_TEXT, reply_markup=self._keyboard.main_buttons)
 
     async def show_subscriptions(self, message: Message, state: FSMContext) -> None:
-        await state.set_state(DeleteSubscriptionStates.CHOOSE_SUBSCRIPTION)
+        await self._state_controller.set_choosing_subscription_state(state)
         subscriptions = await self._db_app_service_client.get_subscriptions_by_telegram_id(
             message.from_user.id
         )
-        full_subscription_dtos = await self._get_full_subscription_dtos(subscriptions)
-        sub_data_for_state = {
-            f"({sub.weapon_name}, {sub.skin_name}, {sub.quality_name}, {sub.stattrak})".lower(): sub.model_dump()
-            for sub in full_subscription_dtos
-        }
+        subscription_dtos = await self._get_subscription_dtos(subscriptions)
+        if not subscription_dtos:
+            await message.answer("У вас нет подписок!", reply_markup=self._keyboard.main_buttons)
+            await self._state_controller.clear_states(state)
+            return
+        await self._state_controller.update_subscriptions(state, subscription_dtos)
+        answer = self._msg_creator.create_watch_subscription_msg(subscription_dtos)
+        await message.answer(answer, reply_markup=self._keyboard.back_button)
 
-        await state.update_data(sub_data_for_state)
-        answer = AddSubscriptionMsgCreator.create_watch_subscription_msg(full_subscription_dtos)
-        await message.answer(answer)
-
-    async def _get_full_subscription_dtos(
-        self, subscriptions: List[SubscriptionDTO]
-    ) -> List[FullSubscriptionDTO]:
+    async def _get_subscription_dtos(
+        self, subscriptions: List[SubscriptionIdDTO]
+    ) -> List[SubscriptionDTO]:
         tasks = []
         for sub in subscriptions:
             task = asyncio.create_task(
                 self._db_app_service_client.get_weapon_skin_quality_names(sub)
             )
             tasks.append(task)
-        dtos: List[FullSubscriptionDTO] = await asyncio.gather(*tasks)
+        dtos: List[SubscriptionDTO] = await asyncio.gather(*tasks)
         return dtos
 
     async def delete_subscription(self, message: Message, state: FSMContext):
-        subs_data = await state.get_data()
-        subscription_from_state = subs_data.get(str(message.text).strip().lower())
-        sub = FullSubscriptionDTO.model_validate(subscription_from_state)
-        await self._db_app_service_client.delete_subscription(message.from_user.id, sub)
-        await message.answer(
-            f"Подписка: ({sub.weapon_name}, {sub.skin_name}, {sub.quality_name}, {sub.stattrak}) - удалена!",
-            reply_markup=self._keyboard.main_buttons,
+        subscription = await self._state_controller.try_get_subscription_from_text(
+            state, str(message.text)
         )
-        await state.clear()
+        if subscription:
+            await self._db_app_service_client.delete_subscription(
+                message.from_user.id, subscription
+            )
+            await message.answer(
+                self._msg_creator.create_delete_subscription_msg(subscription),
+                reply_markup=self._keyboard.main_buttons,
+            )
+            await state.clear()
+        else:
+            await message.answer(WRONG_ITEM_NAME_MSG_TEXT.format(item="подписки"))

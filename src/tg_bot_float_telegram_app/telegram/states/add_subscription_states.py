@@ -6,8 +6,3 @@ class AddSubscriptionStates(StatesGroup):
     CHOOSE_SKIN = State()
     CHOOSE_QUALITY = State()
     CHOOSE_STATTRAK = State()
-
-class DeleteSubscriptionStates(StatesGroup):
-    CHOOSE_SUBSCRIPTION = State()
-
-

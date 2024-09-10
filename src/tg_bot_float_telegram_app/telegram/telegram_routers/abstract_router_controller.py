@@ -3,7 +3,7 @@ from abc import abstractmethod, ABC
 from aiogram import Router
 
 
-class AbstractRouterController(ABC):
+class AbstractTGRouterController(ABC):
     def __init__(self) -> None:
         self._router = Router()
 

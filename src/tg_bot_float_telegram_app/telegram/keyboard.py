@@ -14,7 +14,7 @@ class Keyboard:
         self._choose_stattrak_buttons = self._create_choose_stattrak_buttons()
 
     def _create_main_buttons(self) -> ReplyKeyboardMarkup:
-        return self._create_reply_keyboard(["Отслеживать", "Отписаться", "Поиск"])
+        return self._create_reply_keyboard(["Отслеживать", "Отписаться"])
 
     def _create_buy_url_button(self, url: str):
         return self._create_inline_keyboard(["Купить"], url=url)

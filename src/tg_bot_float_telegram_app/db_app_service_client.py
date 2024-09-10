@@ -4,12 +4,12 @@ from typing import Any, Dict, List
 from aiohttp import ClientSession
 
 
-from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
-from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_id_dto import SubscriptionIdDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 
@@ -19,22 +19,25 @@ class DBAppServiceClient:
 
     def __init__(self, tg_settings: TgSettings) -> None:
         self._tg_settings = tg_settings
+        self._session = ClientSession()
 
-    async def delete_subscription(self, telegram_id: int, subscription_dto: FullSubscriptionDTO):
-        async with ClientSession() as session:
-            async with session.delete(
-                self._tg_settings.db_app_base_url
-                + self._tg_settings.delete_subscription_url.format(
-                    telegram_id=telegram_id,
-                    weapon_id=subscription_dto.weapon_id,
-                    skin_id=subscription_dto.skin_id,
-                    quality_id=subscription_dto.quality_id,
-                    stattrak=subscription_dto.stattrak,
-                )
-            ) as response:
-                assert response.status == 204
+    async def close(self) -> None:
+        await self._session.close()
 
-    async def get_weapon_skin_quality_names(self, subscription_dto: SubscriptionDTO):
+    async def delete_subscription(self, telegram_id: int, subscription_dto: SubscriptionDTO):
+        async with self._session.delete(
+            self._tg_settings.db_app_base_url
+            + self._tg_settings.delete_subscription_url.format(
+                telegram_id=telegram_id,
+                weapon_id=subscription_dto.weapon_id,
+                skin_id=subscription_dto.skin_id,
+                quality_id=subscription_dto.quality_id,
+                stattrak=subscription_dto.stattrak,
+            )
+        ) as response:
+            assert response.status == 204
+
+    async def get_weapon_skin_quality_names(self, subscription_dto: SubscriptionIdDTO):
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
             + self._tg_settings.get_weapon_skin_quality_names_url.format(
@@ -44,7 +47,7 @@ class DBAppServiceClient:
             )
         )
         relation_name_dto = RelationNameDTO.model_validate(response_json)
-        return FullSubscriptionDTO(
+        return SubscriptionDTO(
             weapon_id=subscription_dto.weapon_id,
             skin_id=subscription_dto.skin_id,
             quality_id=subscription_dto.quality_id,
@@ -153,7 +156,7 @@ class DBAppServiceClient:
         )
 
     async def get_subscriptions_by_telegram_id(self, telegram_id: int):
-        subscription_dtos: List[SubscriptionDTO] = []
+        subscription_dtos: List[SubscriptionIdDTO] = []
 
         current_link: str = (
             self._tg_settings.db_app_base_url
@@ -168,12 +171,12 @@ class DBAppServiceClient:
             else:
                 current_link = self._tg_settings.db_app_base_url + next_link_part
             subscription_dtos.extend(
-                [SubscriptionDTO.model_validate(item) for item in response_json.get("items")]
+                [SubscriptionIdDTO.model_validate(item) for item in response_json.get("items")]
             )
         return subscription_dtos
 
     async def get_users_telegram_ids_by_subscription(
-        self, subscription_info: FullSubscriptionDTO
+        self, subscription_info: SubscriptionDTO
     ) -> List[int]:
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
@@ -186,13 +189,27 @@ class DBAppServiceClient:
         )
         return response_json
 
+    async def is_subscription_exists(
+        self, telegram_id: int, subscription_dto: SubscriptionDTO
+    ) -> bool:
+        response_json = await self._get_json_response(
+            self._tg_settings.db_app_base_url
+            + self._tg_settings.get_subscription_url.format(
+                telegram_id=telegram_id,
+                weapon_id=subscription_dto.weapon_id,
+                skin_id=subscription_dto.skin_id,
+                quality_id=subscription_dto.quality_id,
+                stattrak=subscription_dto.stattrak,
+            )
+        )
+        if not response_json.get("message"):
+            return True
+        return False
+
     async def _get_json_response(self, link: str) -> Any:
-        async with ClientSession() as session:
-            async with session.get(link) as response:
-                if response.status in self._success_responses:
-                    return await response.json()
+        async with self._session.get(link) as response:
+            return await response.json()
 
     async def _post_request(self, link: str, json: Dict[str, Any]) -> None:
-        async with ClientSession() as session:
-            async with session.post(link, json=json) as response:
-                assert response.status == HTTPStatus.CREATED
+        async with self._session.post(link, json=json) as response:
+            assert response.status == HTTPStatus.CREATED

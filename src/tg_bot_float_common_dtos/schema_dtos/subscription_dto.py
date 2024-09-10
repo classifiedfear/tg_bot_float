@@ -1,10 +1,11 @@
-from tg_bot_float_common_dtos.schema_dtos.base_dto import BaseDTO
+from pydantic import BaseModel
 
 
-class SubscriptionDTO(BaseDTO):
-    id: int = 0
-    user_id: int = 0
-    weapon_id: int | None = 0
-    skin_id: int | None = 0
-    quality_id: int | None = 0
-    stattrak: bool | None = None
+class SubscriptionDTO(BaseModel):
+    weapon_id: int
+    weapon_name: str
+    skin_id: int
+    skin_name: str
+    quality_id: int
+    quality_name: str
+    stattrak: bool

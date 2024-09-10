@@ -23,6 +23,7 @@ class TgSettings(BaseSettings):
     get_weapon_skin_quality_names_url: str
     delete_subscription_url: str
     get_users_telegram_ids_by_subscription_url: str
+    get_subscription_url: str
 
     # webhook variables
     ngrok_tunnel_url: str
@@ -35,4 +36,4 @@ class TgSettings(BaseSettings):
 
 @lru_cache()
 def get_tg_settings() -> TgSettings:
-    return TgSettings()
+    return TgSettings() #type: ignore "Load from telegram_app_variables.env file."

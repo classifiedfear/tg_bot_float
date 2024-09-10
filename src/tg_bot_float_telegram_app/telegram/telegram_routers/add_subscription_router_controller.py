@@ -6,13 +6,13 @@ from tg_bot_float_telegram_app.telegram.handlers.add_subscription_handler import
     AddSubscriptionHandler,
 )
 from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
-from tg_bot_float_telegram_app.telegram.states import AddSubscriptionStates
+from tg_bot_float_telegram_app.telegram.states.add_subscription_states import AddSubscriptionStates
 from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
-    AbstractRouterController,
+    AbstractTGRouterController,
 )
 
 
-class AddSubscriptionRouterController(AbstractRouterController):
+class AddSubscriptionRouterController(AbstractTGRouterController):
     def __init__(self, keyboard: Keyboard, db_app_service_client: DBAppServiceClient):
         super().__init__()
         self._hanlder_service = AddSubscriptionHandler(keyboard, db_app_service_client)

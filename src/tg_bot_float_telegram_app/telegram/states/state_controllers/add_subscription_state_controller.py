@@ -3,15 +3,20 @@ from typing import Any, Dict, List
 from aiogram.fsm.context import FSMContext
 
 
-from tg_bot_float_telegram_app.telegram.states import AddSubscriptionStates
+from tg_bot_float_telegram_app.telegram.states.add_subscription_states import (
+    AddSubscriptionStates,
+)
 
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
-from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
+from tg_bot_float_telegram_app.telegram.states.state_controllers.abstract_state_controller import (
+    AbstractStateController,
+)
 
 
-class AddSubscriptionStateController:
+class AddSubscriptionStateController(AbstractStateController):
     @staticmethod
     async def update_all_weapons(state: FSMContext, weapons: List[WeaponDTO]) -> None:
         await state.update_data(
@@ -86,11 +91,9 @@ class AddSubscriptionStateController:
             {"id": subs_data["quality_id"], "name": subs_data["quality_name"]}
         )
 
-    async def get_full_subscription_dto(
-        self, state: FSMContext, stattrak: bool
-    ) -> FullSubscriptionDTO:
+    async def get_subscription_dto(self, state: FSMContext, stattrak: bool) -> SubscriptionDTO:
         subs_data = await state.get_data()
-        return FullSubscriptionDTO(
+        return SubscriptionDTO(
             weapon_id=subs_data["weapon_id"],
             skin_id=subs_data["skin_id"],
             quality_id=subs_data["quality_id"],
@@ -100,13 +103,7 @@ class AddSubscriptionStateController:
             stattrak=stattrak,
         )
 
-    async def clear_states(self, state: FSMContext) -> None:
-        current_state = await state.get_state()
-        if current_state is None:
-            return
-        await state.clear()
-
     def _try_get_item_data_by_msg(
         self, msg: str, items: Dict[str, Dict[str, Any]]
     ) -> Dict[str, Any] | None:
-        return items.get(msg.lower().strip())
+        return items.get(msg.lower().strip().replace('"', ""))
