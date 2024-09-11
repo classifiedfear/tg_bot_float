@@ -17,6 +17,11 @@ class SchedulerService:
             async with session.get(self._scheduler_settings.db_updater) as response:
                 assert response.status == 200
 
+    #async def _find_items_with_benefit(self) -> None:
+    #    async with ClientSession() as session:
+    #        async with session.get(self._scheduler_settings.find_item_with_benefit_url) as response:
+    #            assert response.status == 200
+
     async def schedule(self) -> None:
         async with AsyncScheduler(
             data_store=SQLAlchemyDataStore(self._scheduler_settings.db_url),
