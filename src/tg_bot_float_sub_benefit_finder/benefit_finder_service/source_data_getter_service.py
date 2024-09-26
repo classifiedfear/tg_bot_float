@@ -4,7 +4,7 @@ from aiohttp import ClientSession
 from aiohttp.client_exceptions import ContentTypeError
 from aiohttp_retry import ExponentialRetry, RetryClient
 
-from tg_bot_float_common_dtos.schema_dtos.subscription_to_find import SubscriptionToFindDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.source_dtos.csm_item_dto import CsmItemDTO
 from tg_bot_float_common_dtos.source_dtos.steam_item_dto import SteamItemDTO
