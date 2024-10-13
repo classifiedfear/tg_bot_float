@@ -13,7 +13,6 @@ class ErrorHandlingMiddleware(BaseHTTPMiddleware):
     async def dispatch(
         self, request: Request, call_next: Callable[[Request], Awaitable[Response]]
     ) -> Response:
-
         try:
             return await call_next(request)
         except CsgoDbException as exc:

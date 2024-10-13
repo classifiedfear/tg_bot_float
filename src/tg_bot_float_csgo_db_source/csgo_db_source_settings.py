@@ -9,7 +9,13 @@ class CsgoDbSourceSettings(BaseSettings):
 
     base_url: str
     weapons_page: str
+    gloves_page: str
+    gloves_skin_page: str
+    agents_page: str
     skins_page: str
     weapon_regex_pattern: str
     skin_regex_pattern: str
-    number_of_retries_when_unauthorized: int
+    glove_regex_pattern: str
+    agent_regex_pattern: str
+    first_knife_weapon: str
+    first_other_weapon: str
