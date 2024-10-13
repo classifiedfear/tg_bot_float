@@ -5,5 +5,5 @@ from pydantic import BaseModel
 
 class WeaponsPageResponseDTO(BaseModel):
     weapons: List[str]
-    knifes: List[str]
+    knives: List[str]
     other: List[str]

@@ -26,4 +26,4 @@ class WeaponsPageService(AbstractPageService):
         weapons: List[str] = weapon_names[:knife_index]
         knifes: List[str] = [f"★ {knife}" for knife in weapon_names[knife_index:other_index]]
         other: List[str] = weapon_names[other_index:]
-        return WeaponsPageResponseDTO(weapons=weapons, knifes=knifes, other=other)
+        return WeaponsPageResponseDTO(weapons=weapons, knives=knifes, other=other)
