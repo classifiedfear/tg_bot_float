@@ -1,9 +1,11 @@
-from pydantic import BaseModel
+from typing import Any, Dict
+from pydantic import BaseModel, ConfigDict
 
 
-class CsmItemDTO(BaseModel):
-    name: str = ""
-    item_float: float = 0
-    price: float = 0
-    price_with_float: float = 0
-    overpay_float: float = 0
+class CsmItemResponseDTO(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    fullName: str = ""
+    defaultPrice: float = 0
+    float: str = ""
+    overpay: Dict[str, Any] | None = None
