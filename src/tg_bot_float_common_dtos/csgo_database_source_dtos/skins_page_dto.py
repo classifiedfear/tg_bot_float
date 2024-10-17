@@ -2,6 +2,6 @@ from typing import List
 from pydantic import BaseModel
 
 
-class AgentsPageResponseDTO(BaseModel):
-    fraction_name: str
+class SkinsPageDTO(BaseModel):
+    weapon_name: str
     skins: List[str]
