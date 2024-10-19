@@ -2,9 +2,7 @@ from typing import Annotated
 
 from fastapi import Depends
 
-from tg_bot_float_steam_source.routers.steam_params.get_steam_skin_data_params import (
-    GetSteamSkinDataParams,
-)
+from tg_bot_float_steam_source.routers.steam_router_params.steam_params import SteamParams
 
 
-GET_STEAM_SKIN_DATA_PARAMS = Annotated[GetSteamSkinDataParams, Depends(GetSteamSkinDataParams)]
+STEAM_PARAMS = Annotated[SteamParams, Depends(SteamParams)]

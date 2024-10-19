@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class GetSteamSkinDataParams(BaseModel):
+class SteamParams(BaseModel):
     weapon: str
     skin: str
     quality: str

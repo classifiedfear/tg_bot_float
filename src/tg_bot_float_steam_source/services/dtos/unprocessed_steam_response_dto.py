@@ -2,7 +2,7 @@ from typing import Any, Dict, List
 from pydantic import BaseModel, ConfigDict
 
 
-class SteamResponseDTO(BaseModel):
+class UnprocessedSteamResponseDTO(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     success: bool

@@ -1,40 +1,40 @@
 import asyncio
-from typing import List, Self
-from aiohttp import ClientSession
+from typing import List
 
-from tg_bot_float_common_dtos.source_dtos.item_request_dto import ItemRequestDTO
-from tg_bot_float_steam_source.services.steam_float_source_service import SteamFloatSourceService
-from tg_bot_float_steam_source.services.dtos.steam_item_dto import SteamItemDTO
+from tg_bot_float_steam_source.routers.steam_router_params.steam_params import SteamParams
+from tg_bot_float_steam_source.services.dtos.steam_market_response_dto import SteamMarketResponseDTO
+from tg_bot_float_steam_source.services.float_source_service import FloatSourceService
 from tg_bot_float_steam_source.services.steam_market_source_service import SteamMarketSourceService
-from tg_bot_float_steam_source.steam_source_settings import SteamSourceSettings
+from tg_bot_float_common_dtos.steam_source_dtos.steam_item_dto import SteamItemDTO
 
 
 class SteamSourceService:
-    def __init__(self, settings: SteamSourceSettings) -> None:
-        self._settings = settings
-
-    async def __aenter__(self) -> Self:
-        self._session = ClientSession()
-        return self
-
-    async def __aexit__(self, type, exc, traceback) -> None:
-        await self._session.close()
-
-    async def get_steam_items(
+    def __init__(
         self,
-        item_request_dto: ItemRequestDTO,
-        *,
-        start: int = 0,
-        count: int = 10,
-        currency: int = 1
-    ) -> List[SteamItemDTO]:
+        steam_market_source_service: SteamMarketSourceService,
+        float_source_service: FloatSourceService,
+    ) -> None:
+
+        self._steam_market_source_service = steam_market_source_service
+        self._float_source_service = float_source_service
+
+    async def get_steam_items(self, steam_params: SteamParams) -> List[SteamItemDTO]:
         tasks = []
-        steam_market_source_service = SteamMarketSourceService(self._settings, self._session)
-        steam_float_source_service = SteamFloatSourceService(self._settings, self._session)
-        data_from_steam_dtos = await steam_market_source_service.get_steam_response_dtos(
-            item_request_dto, start=start, count=count, currency=currency
+        steam_market_response_dtos = (
+            await self._steam_market_source_service.get_steam_market_response_dtos(steam_params)
         )
-        for response_dto in data_from_steam_dtos:
-            task = asyncio.create_task(steam_float_source_service.get_steam_item(response_dto))
+        for response_dto in steam_market_response_dtos:
+            task = asyncio.create_task(self._get_steam_item_dto(response_dto))
             tasks.append(task)
         return list(await asyncio.gather(*tasks))
+
+    async def _get_steam_item_dto(self, steam_response_dto: SteamMarketResponseDTO) -> SteamItemDTO:
+        float_item_info_dto = await self._float_source_service.get_float_item_info_dto(
+            steam_response_dto.inspect_skin_link
+        )
+        return SteamItemDTO(
+            name=float_item_info_dto.full_item_name,
+            item_float=float_item_info_dto.floatvalue,
+            price=steam_response_dto.price,
+            buy_link=steam_response_dto.buy_link,
+        )
