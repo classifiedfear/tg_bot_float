@@ -2,8 +2,8 @@ from typing import Annotated
 
 from fastapi import Depends
 
-from tg_bot_float_db_app.api.routers.params.subscription_params import SubscriptionParams
-from tg_bot_float_db_app.api.routers.params.users_by_subscription_params import (
+from tg_bot_float_db_app.api.router_controllers.params.subscription_params import SubscriptionParams
+from tg_bot_float_db_app.api.router_controllers.params.users_by_subscription_params import (
     UsersBySubscriptionParams,
 )
 

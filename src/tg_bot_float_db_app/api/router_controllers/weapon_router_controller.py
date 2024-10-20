@@ -6,18 +6,17 @@ from fastapi_pagination.links import Page
 
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
+from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+    AbstractRouterController,
+)
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 
 
-class WeaponRouter:
+class WeaponRouterController(AbstractRouterController):
     def __init__(self):
         self._router = APIRouter(prefix="/weapons", tags=["weapons"])
-        self._init_routes()
-
-    @property
-    def router(self) -> APIRouter:
-        return self._router
+        super().__init__()
 
     def _init_routes(self):
         self._router.add_api_route(

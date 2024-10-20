@@ -3,19 +3,18 @@ from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.api.dependencies.params import SUBSCRIPTION_QUERY
+from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+    AbstractRouterController,
+)
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
 
 
-class SubscriptionRouter:
+class SubscriptionRouter(AbstractRouterController):
     def __init__(self):
         self._router = APIRouter(prefix="/subscriptions", tags=["subscriptions"])
-        self._init_routes()
-
-    @property
-    def router(self) -> APIRouter:
-        return self._router
+        super().__init__()
 
     def _init_routes(self):
         self._router.add_api_route(
@@ -71,7 +70,11 @@ class SubscriptionRouter:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
             return await subscription_service.get_subscription(
-                params.telegram_id, params.weapon_id, params.skin_id, params.quality_id, params.stattrak
+                params.telegram_id,
+                params.weapon_id,
+                params.skin_id,
+                params.quality_id,
+                params.stattrak,
             )
 
     async def _delete_subscribtion(

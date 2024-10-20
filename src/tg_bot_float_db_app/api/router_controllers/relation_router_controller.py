@@ -7,17 +7,16 @@ from fastapi_pagination.links import Page
 from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
+from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+    AbstractRouterController,
+)
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 
 
-class RelationRouter:
+class RelationRouterController(AbstractRouterController):
     def __init__(self) -> None:
         self._router = APIRouter(prefix="/relations", tags=["relations"])
-        self._init_routes()
-
-    @property
-    def router(self) -> APIRouter:
-        return self._router
+        super().__init__()
 
     def _init_routes(self) -> None:
         self._router.add_api_route(
