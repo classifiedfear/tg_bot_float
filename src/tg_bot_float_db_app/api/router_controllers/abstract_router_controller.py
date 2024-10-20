@@ -1,13 +1,18 @@
+from abc import ABC, abstractmethod
+
 from fastapi import APIRouter
 
-class UserRouter:
-    def __init__(self):
-        self._router = APIRouter(prefix="/users", tags=["users"])
+
+class AbstractRouterController(ABC):
+    _router: APIRouter
+
+    def __init__(self) -> None:
         self._init_routes()
 
     @property
     def router(self) -> APIRouter:
         return self._router
 
+    @abstractmethod
     def _init_routes(self):
         pass
