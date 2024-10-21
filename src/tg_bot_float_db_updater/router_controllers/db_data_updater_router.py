@@ -1,10 +1,10 @@
 from fastapi import APIRouter
 
 from tg_bot_float_db_updater.dependencies.services import DB_UPDATER_SERVICE
-from tg_bot_float_abstracts.router_controller.abstract_router_controller import AbstractRouterController
+from tg_bot_float_misc.router_controller.abstract_router_controller import AbstractRouterController
 
 class DbDataUpdaterRouterController(AbstractRouterController):
-    def __init__(self):
+    def __init__(self) -> None:
         self._router = APIRouter()
         super().__init__()
 

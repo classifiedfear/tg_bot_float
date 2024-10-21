@@ -1,5 +1,5 @@
 from functools import lru_cache
-from typing import Annotated
+from typing import Annotated, AsyncGenerator, Any
 
 from aiohttp import ClientSession
 from fastapi import Depends
@@ -8,7 +8,7 @@ from fastapi import Depends
 from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.csm_wiki_source_getter_service import (
     CsmWikiSourceGetterService,
 )
-from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.db_source_data_getter_service import (
+from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.csgo_db_source_getter_service import (
     CsgoDbSourceGetterService,
 )
 from tg_bot_float_db_updater.db_updater_service.db_data_updater_service import DbDataUpdaterService
@@ -18,20 +18,20 @@ from tg_bot_float_db_updater.db_updater_settings import DbUpdaterSettings
 
 @lru_cache
 def get_db_updater_settings() -> DbUpdaterSettings:
-    return DbUpdaterSettings() #type: ignore "Load variables from db_updater_variables.env file"
+    return DbUpdaterSettings()  # type: ignore "Load variables from db_updater_variables.env file"
 
 
 DB_UPDATER_SETTINGS = Annotated[DbUpdaterSettings, Depends(get_db_updater_settings)]
 
 
-async def get_aiohttp_session():
+async def get_aiohttp_session() -> AsyncGenerator[ClientSession, Any]:
     async with ClientSession() as session:
         yield session
 
 
 async def get_updater_service(
     settings: DB_UPDATER_SETTINGS, aiohttp_session: ClientSession = Depends(get_aiohttp_session)
-):
+) -> AsyncGenerator[DbDataUpdaterService, Any]:
     async with CsgoDbSourceGetterService(
         settings, aiohttp_session
     ) as csgo_db, CsmWikiSourceGetterService(
