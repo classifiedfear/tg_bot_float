@@ -1,4 +1,4 @@
-from tg_bot_float_common_dtos.source_dtos.csm_wiki_dto import CsmWikiDTO
+from tg_bot_float_common_dtos.csm_wiki_source_dtos.csm_wiki_dto import CsmWikiDTO
 from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.abstract_source_getter_service import (
     AbstractSourceGetterService,
 )

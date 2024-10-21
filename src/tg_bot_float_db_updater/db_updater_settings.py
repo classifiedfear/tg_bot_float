@@ -10,4 +10,6 @@ class DbUpdaterSettings(BaseSettings):
     csgo_db_url: str
     csgo_db_weapons_url: str
     csgo_db_skins_url: str
+    csgo_db_gloves_url: str
+    csgo_db_agents_url: str
     csm_wiki_url: str

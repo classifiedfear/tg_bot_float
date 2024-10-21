@@ -1,9 +1,15 @@
+from typing import List
 from fastapi import FastAPI
 
-from tg_bot_float_db_updater.routers.db_data_updater_router import DbDataUpdaterRouter
+from tg_bot_float_abstracts.router_controller.abstract_router_controller import (
+    AbstractRouterController,
+)
+from tg_bot_float_db_updater.router_controllers.db_data_updater_router import (
+    DbDataUpdaterRouterController,
+)
 
 
-routers = [DbDataUpdaterRouter()]
+routers: List[AbstractRouterController] = [DbDataUpdaterRouterController()]
 
 app = FastAPI()
 
