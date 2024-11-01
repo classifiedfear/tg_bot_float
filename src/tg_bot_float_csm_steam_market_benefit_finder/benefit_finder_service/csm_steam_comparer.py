@@ -2,18 +2,18 @@ from collections import defaultdict
 from decimal import Decimal, localcontext
 from typing import Dict, List
 
-from tg_bot_float_common_dtos.source_dtos.csm_item_dto import CsmItemDTO
-from tg_bot_float_common_dtos.source_dtos.steam_item_dto import SteamItemDTO
+from tg_bot_float_common_dtos.csm_source_dtos.csm_item_dto import CsmItemDTO
+from tg_bot_float_common_dtos.steam_source_dtos.steam_item_dto import SteamItemDTO
 from tg_bot_float_common_dtos.tg_result_dtos.item_with_benefit_dto import (
     ItemWithBenefitDTO,
 )
-from tg_bot_float_sub_benefit_finder.benefit_finder_service.dtos.items_to_compare_dto import (
-    ItemsToCompareDTO,
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.dtos.csm_steam_items_to_compare_dto import (
+    CsmSteamItemsToCompareDTO,
 )
 
 
 class CsmSteamComparer:
-    def compare(self, items_to_compare: ItemsToCompareDTO):
+    def compare(self, items_to_compare: CsmSteamItemsToCompareDTO):
         with localcontext() as context:
             context.prec = 2
             steam_items_by_float = self._get_dict_with_steam_items_by_float(
@@ -39,12 +39,12 @@ class CsmSteamComparer:
         result: List[ItemWithBenefitDTO] = []
         for csm_item in csm_items:
             if (
-                steam_csm_match_dto := self._try_to_find_by_find(csm_item, steam_items)
+                steam_csm_match_dto := self._try_to_find(csm_item, steam_items)
             ) is not None:
                 result.append(steam_csm_match_dto)
         return result
 
-    def _try_to_find_by_find(
+    def _try_to_find(
         self, csm_skin: CsmItemDTO, steam_skins: Dict[Decimal, List[SteamItemDTO]]
     ):
         if matched_by_float_steam_skins := self._try_to_find_by_float(csm_skin, steam_skins):
