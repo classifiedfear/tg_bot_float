@@ -1,14 +1,16 @@
+from typing import List
 from fastapi import FastAPI
 
-from tg_bot_float_csm_source.routers.csm_router import CsmRouter
+from tg_bot_float_csm_source.router_controllers.csm_router_controller import CsmRouterController
 from tg_bot_float_csm_source.middlewares.error_handling_middleware import ErrorHandlingMiddleware
+from tg_bot_float_misc.router_controller.abstact_router_controller import AbstractRouterController
 
 app = FastAPI()
 
-routers = [CsmRouter()]
+router_controllers: List[AbstractRouterController] = [CsmRouterController()]
 
 app = FastAPI()
 app.add_middleware(ErrorHandlingMiddleware)
 
-for router in routers:
-    app.include_router(router.router)
+for controller in router_controllers:
+    app.include_router(controller.router)

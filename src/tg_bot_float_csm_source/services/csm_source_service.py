@@ -7,11 +7,11 @@ from fake_useragent import UserAgent
 
 from tg_bot_float_csm_source.csm_source_constants import NOT_EXIST_ERROR_MSG
 from tg_bot_float_csm_source.csm_source_settings import CsmSourceSettings
-from tg_bot_float_csm_source.routers.csm_router_params.csm_params import CsmParams
-from tg_bot_float_common_dtos.csm_source_dtos.csm_item_dto import CsmItemDTO
+from tg_bot_float_csm_source.router_controllers.csm_router_params.csm_params import CsmParams
 from tg_bot_float_csm_source.services.dtos.csm_response_dto import CsmResponse
 from tg_bot_float_csm_source.services.csm_source_exceptions import CsmSourceExceptions
 from tg_bot_float_csm_source.services.dtos.csm_item_response_dto import CsmItemResponseDTO
+from tg_bot_float_common_dtos.csm_source_dtos.csm_item_dto import CsmItemDTO
 
 
 class CsmService:

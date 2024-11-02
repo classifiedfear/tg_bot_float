@@ -2,16 +2,13 @@ from fastapi import APIRouter
 
 from tg_bot_float_csm_wiki_source.dependencies.services import CSM_WIKI_SKIN_SERVICE
 from tg_bot_float_common_dtos.csm_wiki_source_dtos.csm_wiki_dto import CsmWikiDTO
+from tg_bot_float_misc.router_controller.abstact_router_controller import AbstractRouterController
 
 
-class CsmWikiRouter:
+class CsmWikiRouterController(AbstractRouterController):
     def __init__(self):
         self._router = APIRouter()
-        self._init_routes()
-
-    @property
-    def router(self) -> APIRouter:
-        return self._router
+        super().__init__()
 
     def _init_routes(self) -> None:
         self._router.add_api_route(
