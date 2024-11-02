@@ -1,20 +1,16 @@
 from typing import List
 from fastapi import APIRouter
 
+from tg_bot_float_misc.router_controller.abstact_router_controller import AbstractRouterController
 from tg_bot_float_steam_source.dependencies.params import STEAM_PARAMS
 from tg_bot_float_steam_source.dependencies.services import STEAM_SOURCE_SERVICE
 from tg_bot_float_common_dtos.steam_source_dtos.steam_item_dto import SteamItemDTO
 
 
-
-class SteamRouter:
+class SteamRouterController(AbstractRouterController):
     def __init__(self) -> None:
         self._router = APIRouter()
-        self._init_routes()
-
-    @property
-    def router(self) -> APIRouter:
-        return self._router
+        super().__init__()
 
     def _init_routes(self) -> None:
         self._router.add_api_route(

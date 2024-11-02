@@ -1,14 +1,18 @@
+from typing import List
 from fastapi import FastAPI
 
-from tg_bot_float_csm_wiki_source.routers.csm_wiki_router import CsmWikiRouter
+from tg_bot_float_csm_wiki_source.router_controllers.csm_wiki_router_controller import (
+    CsmWikiRouterController,
+)
 from tg_bot_float_csm_wiki_source.middlewares.error_handling_middleware import (
     ErrorHandlingMiddleware,
 )
+from tg_bot_float_misc.router_controller.abstact_router_controller import AbstractRouterController
 
-routers = [CsmWikiRouter()]
+router_controllers: List[AbstractRouterController] = [CsmWikiRouterController()]
 
 app = FastAPI()
 app.add_middleware(ErrorHandlingMiddleware)
 
-for router in routers:
-    app.include_router(router.router)
+for controller in router_controllers:
+    app.include_router(controller.router)

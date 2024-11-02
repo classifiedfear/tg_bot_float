@@ -1,7 +1,9 @@
 import asyncio
 from typing import List
 
-from tg_bot_float_steam_source.routers.steam_router_params.steam_params import SteamParams
+from tg_bot_float_steam_source.router_controllers.steam_router_params.steam_params import (
+    SteamParams,
+)
 from tg_bot_float_steam_source.services.dtos.steam_market_response_dto import SteamMarketResponseDTO
 from tg_bot_float_steam_source.services.float_source_service import FloatSourceService
 from tg_bot_float_steam_source.services.steam_market_source_service import SteamMarketSourceService

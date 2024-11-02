@@ -2,7 +2,9 @@ import json
 from typing import Any, Dict, List
 
 
-from tg_bot_float_steam_source.routers.steam_router_params.steam_params import SteamParams
+from tg_bot_float_steam_source.router_controllers.steam_router_params.steam_params import (
+    SteamParams,
+)
 from tg_bot_float_steam_source.services.abstact_source_service import (
     AbstractSourceService,
 )
