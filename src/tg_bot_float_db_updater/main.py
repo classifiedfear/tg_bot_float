@@ -9,9 +9,9 @@ from tg_bot_float_db_updater.router_controllers.db_data_updater_router import (
 )
 
 
-routers: List[AbstractRouterController] = [DbDataUpdaterRouterController()]
+router_controllers: List[AbstractRouterController] = [DbDataUpdaterRouterController()]
 
 app = FastAPI()
 
-for router in routers:
-    app.include_router(router.router)
+for controller in router_controllers:
+    app.include_router(controller.router)
