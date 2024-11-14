@@ -6,7 +6,6 @@ from sqlalchemy.exc import IntegrityError
 from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
-from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
 from tg_bot_float_db_app.database.models.user_model import UserModel
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
 from tg_bot_float_db_app.bot_db_exception import BotDbException

@@ -14,7 +14,7 @@ else:
 class SubscriptionModel(Base):
     __tablename__ = "subscription"
 
-    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, nullable=False, unique=True)
 
     user_id: Mapped[int] = mapped_column(
         BigInteger, ForeignKey("user.id", ondelete="cascade"), nullable=False

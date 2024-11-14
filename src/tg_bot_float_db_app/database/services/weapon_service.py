@@ -132,7 +132,7 @@ class WeaponService:
             )
         await self._session.commit()
 
-    async def delete_many_by_name(self, weapon_names: List[str]):
+    async def delete_many_by_name(self, weapon_names: List[str]) -> None:
         delete_stmt = delete(WeaponModel)
         where_stmt = delete_stmt.where(WeaponModel.name.in_(weapon_names))
         result = await self._session.execute(where_stmt)

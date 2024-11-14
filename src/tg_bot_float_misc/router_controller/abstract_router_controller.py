@@ -6,7 +6,7 @@ from fastapi import APIRouter
 class AbstractRouterController(ABC):
     _router: APIRouter
 
-    def __init__(self) -> None:
+    def __init__(self):
         self._init_routes()
 
     @property
@@ -14,5 +14,5 @@ class AbstractRouterController(ABC):
         return self._router
 
     @abstractmethod
-    def _init_routes(self):
+    def _init_routes(self) -> None:
         pass

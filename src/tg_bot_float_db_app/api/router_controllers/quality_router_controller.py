@@ -5,10 +5,10 @@ from fastapi.responses import JSONResponse
 from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
-from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+from tg_bot_float_db_app.database.models.quality_model import QualityModel
+from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
-from tg_bot_float_db_app.database.models.quality_model import QualityModel
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 
 
@@ -26,35 +26,35 @@ class QualityRouterController(AbstractRouterController):
             status_code=status.HTTP_201_CREATED,
         )
         self._router.add_api_route(
-            "/id/{quality_id}", self._get_quality_by_id, methods=["GET"], response_model=None
+            "/id/{quality_id}", self._get_by_id, methods=["GET"], response_model=None
         )
         self._router.add_api_route(
             "/id/{quality_id}",
-            self._update_quality_by_id,
+            self._update_by_id,
             methods=["PUT"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/id/{quality_id}",
-            self._delete_quality_by_id,
+            self._delete_by_id,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/name/{quality_name}",
-            self._get_quality_by_name,
+            self._get_by_name,
             methods=["GET"],
             response_model=None,
         )
         self._router.add_api_route(
             "/name/{quality_name}",
-            self._update_quality_by_name,
+            self._update_by_name,
             methods=["PUT"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/name/{quality_name}",
-            self._delete_quality_by_name,
+            self._delete_by_name,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
@@ -103,35 +103,33 @@ class QualityRouterController(AbstractRouterController):
             quality_db_model = await quality_service.create(quality_dto)
             response.headers["Location"] = f"/qualities/id/{quality_db_model.id}"
 
-    async def _get_quality_by_id(
+    async def _get_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, quality_id: int
     ) -> QualityModel:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             return await quality_service.get_by_id(quality_id)
 
-    async def _update_quality_by_id(
+    async def _update_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, quality_id: int, quality_dto: QualityDTO
     ) -> None:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             await quality_service.update_by_id(quality_id, quality_dto)
 
-    async def _delete_quality_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, quality_id: int
-    ) -> None:
+    async def _delete_by_id(self, service_factory: BOT_DB_SERVICE_FACTORY, quality_id: int) -> None:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             await quality_service.delete_by_id(quality_id)
 
-    async def _get_quality_by_name(
+    async def _get_by_name(
         self, service_factory: BOT_DB_SERVICE_FACTORY, quality_name: str
     ) -> QualityModel:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             return await quality_service.get_by_name(quality_name)
 
-    async def _update_quality_by_name(
+    async def _update_by_name(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         quality_name: str,
@@ -141,7 +139,7 @@ class QualityRouterController(AbstractRouterController):
             quality_service = service_factory.get_quality_service()
             await quality_service.update_by_name(quality_name, quality_dto)
 
-    async def _delete_quality_by_name(
+    async def _delete_by_name(
         self, service_factory: BOT_DB_SERVICE_FACTORY, quality_name: str
     ) -> None:
         async with service_factory:

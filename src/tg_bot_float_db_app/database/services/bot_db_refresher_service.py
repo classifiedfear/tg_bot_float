@@ -4,6 +4,7 @@ from typing import Dict, List, Tuple
 import brotli
 
 
+from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
 from tg_bot_float_db_app.database.services.quality_service import QualityService
 from tg_bot_float_db_app.database.services.relation_service import RelationService
 from tg_bot_float_db_app.database.services.skin_service import SkinService
@@ -49,6 +50,8 @@ class BotDBRefresherService:
         await self._update_skins(db_dto.skins)
         await self._update_qualities(db_dto.qualities)
         await self._update_relations(db_dto.relations)
+        await self._update_gloves(db_dto.gloves)
+        await self._update_agents(db_dto.agents)
 
     async def _update_weapons(self, weapons: List[WeaponDTO]) -> None:
         weapons_dtos_to_create, weapons_names_to_delete = (
@@ -165,3 +168,9 @@ class BotDBRefresherService:
             else:
                 ids_relations_to_delete.append(relation_id_dto)
         return ids_relations_to_create, ids_relations_to_delete
+
+    # async def _update_gloves(self, gloves: List[GloveDTO]) -> None:
+        # glove_dtos_to_create, glove_names_to_delete = (await self._get_glove_dtos_to_create_and_names_to_delete(gloves))
+        #
+    # async def _get_glove_dtos_to_create_and_names_to_delete(self, gloves: List[GloveDTO]) -> Tuple[Dict[str, GloveDTO], List[str]]:
+        # glove_dtos_to_create = {glove.name: glove for }

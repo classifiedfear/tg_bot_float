@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Request
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
-from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
 

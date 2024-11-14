@@ -7,10 +7,10 @@ from fastapi_pagination.links import Page
 from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
-from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+from tg_bot_float_db_app.database.models.relation_model import RelationModel
+from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
-from tg_bot_float_db_app.database.models.relation_model import RelationModel
 
 
 class RelationRouterController(AbstractRouterController):
@@ -24,13 +24,13 @@ class RelationRouterController(AbstractRouterController):
         )
         self._router.add_api_route(
             "{weapon_id}/{skin_id}/{quality_id}",
-            self._get_relation_by_id,
+            self._get_by_id,
             methods=["GET"],
             response_model=None,
         )
         self._router.add_api_route(
             "{weapon_id}/{skin_id}/{quality_id}",
-            self._delete_relation_by_id,
+            self._delete_by_id,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
@@ -59,7 +59,7 @@ class RelationRouterController(AbstractRouterController):
                 f"/relations/{relation_db_model.weapon_id}/{relation_db_model.skin_id}/{relation_db_model.quality_id}"
             )
 
-    async def _get_relation_by_id(
+    async def _get_by_id(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         weapon_id: int,
@@ -70,7 +70,7 @@ class RelationRouterController(AbstractRouterController):
             relation_service = service_factory.get_relation_service()
             return await relation_service.get_by_id(weapon_id, skin_id, quality_id)
 
-    async def _delete_relation_by_id(
+    async def _delete_by_id(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         weapon_id: int,

@@ -6,10 +6,10 @@ from fastapi_pagination.links import Page
 
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
-from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
+from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
-from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 
 
@@ -23,32 +23,32 @@ class WeaponRouterController(AbstractRouterController):
             "/create", self._create, methods=["POST"], status_code=status.HTTP_201_CREATED
         )
         self._router.add_api_route(
-            "/id/{weapon_id}", self._get_weapon_by_id, methods=["GET"], response_model=None
+            "/id/{weapon_id}", self._get_by_id, methods=["GET"], response_model=None
         )
         self._router.add_api_route(
             "/id/{weapon_id}",
-            self._update_weapon_by_id,
+            self._update_by_id,
             methods=["PUT"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/id/{weapon_id}",
-            self._delete_weapon_by_id,
+            self._delete_by_id,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
-            "/name/{weapon_name}", self._get_weapon_by_name, methods=["GET"], response_model=None
+            "/name/{weapon_name}", self._get_by_name, methods=["GET"], response_model=None
         )
         self._router.add_api_route(
             "/name/{weapon_name}",
-            self._update_weapon_by_name,
+            self._update_by_name,
             methods=["PUT"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/name/{weapon_name}",
-            self._delete_weapon_by_name,
+            self._delete_by_name,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
@@ -97,42 +97,40 @@ class WeaponRouterController(AbstractRouterController):
             weapon_db_model = await weapon_service.create(weapon_dto)
             response.headers["Location"] = f"/weapons/id/{weapon_db_model.id}"
 
-    async def _get_weapon_by_id(
+    async def _get_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int
     ) -> WeaponModel:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             return await weapon_service.get_by_id(weapon_id)
 
-    async def _update_weapon_by_id(
+    async def _update_by_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int, weapon_dto: WeaponDTO
     ) -> None:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             await weapon_service.update_by_id(weapon_id, weapon_dto)
 
-    async def _delete_weapon_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int
-    ) -> None:
+    async def _delete_by_id(self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int) -> None:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             await weapon_service.delete_by_id(weapon_id)
 
-    async def _get_weapon_by_name(
+    async def _get_by_name(
         self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_name: str
     ) -> WeaponModel:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             return await weapon_service.get_by_name(weapon_name)
 
-    async def _update_weapon_by_name(
+    async def _update_by_name(
         self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_name: str, weapon_dto: WeaponDTO
     ) -> None:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             await weapon_service.update_by_name(weapon_name, weapon_dto)
 
-    async def _delete_weapon_by_name(
+    async def _delete_by_name(
         self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_name: str
     ) -> None:
         async with service_factory:

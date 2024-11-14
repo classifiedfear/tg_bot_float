@@ -7,10 +7,10 @@ from fastapi_pagination.links import Page
 
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
-from tg_bot_float_db_app.api.router_controllers.abstract_router_controller import (
+from tg_bot_float_db_app.database.models.skin_model import SkinModel
+from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
-from tg_bot_float_db_app.database.models.skin_model import SkinModel
 
 
 class SkinRouterController(AbstractRouterController):
@@ -27,18 +27,18 @@ class SkinRouterController(AbstractRouterController):
             status_code=status.HTTP_201_CREATED,
         )
         self._router.add_api_route(
-            "/id/{skin_id}", self._get_skin_by_id, response_model=None, methods=["GET"]
+            "/id/{skin_id}", self._get_by_id, response_model=None, methods=["GET"]
         )
         self._router.add_api_route(
             "/id/{skin_id}",
-            self._update_skin_by_id,
+            self._update_by_id,
             response_model=None,
             methods=["PUT"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/id/{skin_id}",
-            self._delete_skin_by_id,
+            self._delete_by_id,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
@@ -47,14 +47,14 @@ class SkinRouterController(AbstractRouterController):
         )
         self._router.add_api_route(
             "/name/{skin_name}",
-            self._update_skin_by_name,
+            self._update_by_name,
             response_model=None,
             methods=["PUT"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
         self._router.add_api_route(
             "/name/{skin_name}",
-            self._delete_skin_by_name,
+            self._delete_by_name,
             methods=["DELETE"],
             status_code=status.HTTP_204_NO_CONTENT,
         )
@@ -110,14 +110,12 @@ class SkinRouterController(AbstractRouterController):
             skin_db_model = await skin_service.create(skin_dto)
             response.headers["Location"] = f"/skins/id/{skin_db_model.id}"
 
-    async def _get_skin_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, skin_id: int
-    ) -> SkinModel:
+    async def _get_by_id(self, service_factory: BOT_DB_SERVICE_FACTORY, skin_id: int) -> SkinModel:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
             return await skin_service.get_by_id(skin_id)
 
-    async def _update_skin_by_id(
+    async def _update_by_id(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         skin_id: int,
@@ -127,9 +125,7 @@ class SkinRouterController(AbstractRouterController):
             skin_service = service_factory.get_skin_service()
             await skin_service.update_by_id(skin_id, skin_dto)
 
-    async def _delete_skin_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, skin_id: int
-    ) -> None:
+    async def _delete_by_id(self, service_factory: BOT_DB_SERVICE_FACTORY, skin_id: int) -> None:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
             await skin_service.delete_by_id(skin_id)
@@ -141,7 +137,7 @@ class SkinRouterController(AbstractRouterController):
             skin_service = service_factory.get_skin_service()
             return await skin_service.get_by_name(skin_name)
 
-    async def _update_skin_by_name(
+    async def _update_by_name(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         skin_name: str,
@@ -151,7 +147,7 @@ class SkinRouterController(AbstractRouterController):
             skin_service = service_factory.get_skin_service()
             await skin_service.update_by_name(skin_name, skin_dto)
 
-    async def _delete_skin_by_name(
+    async def _delete_by_name(
         self, service_factory: BOT_DB_SERVICE_FACTORY, skin_name: str
     ) -> None:
         async with service_factory:
