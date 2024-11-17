@@ -1,10 +1,12 @@
 import pickle
-from typing import Dict, List, Tuple
+from typing import List
 
 import brotli
 
 
-from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
+from tg_bot_float_common_dtos.csgo_database_source_dtos.gloves_page_dto import GlovesPageDTO
+
+from tg_bot_float_db_app.database.services.dtos.db_refresher_dtos import CreateDeleteDTO, IdRelationsCreateDeleteDTO
 from tg_bot_float_db_app.database.services.quality_service import QualityService
 from tg_bot_float_db_app.database.services.relation_service import RelationService
 from tg_bot_float_db_app.database.services.skin_service import SkinService
@@ -54,23 +56,22 @@ class BotDBRefresherService:
         await self._update_agents(db_dto.agents)
 
     async def _update_weapons(self, weapons: List[WeaponDTO]) -> None:
-        weapons_dtos_to_create, weapons_names_to_delete = (
-            await self._get_weapon_dtos_to_create_and_names_to_delete(weapons)
-        )
-        if weapons_names_to_delete:
-            await self._weapon_service.delete_many_by_name(weapons_names_to_delete)
+        create_delete_dto = await self._get_weapon_dtos_to_create_and_names_to_delete(weapons)
 
-        if weapons_dtos_to_create:
+        if to_delete := create_delete_dto.names_to_delete:
+            await self._weapon_service.delete_many_by_name(to_delete)
+
+        if to_create := create_delete_dto.dtos_to_create:
             weapon_db_models = await self._weapon_service.create_many(
-                list(weapons_dtos_to_create.values())
+                list(create_delete_dto.dtos_to_create.values())
             )
 
             for weapon_db_model in weapon_db_models:
-                weapons_dtos_to_create[weapon_db_model.name].id = weapon_db_model.id
+                to_create[weapon_db_model.name].id = weapon_db_model.id
 
     async def _get_weapon_dtos_to_create_and_names_to_delete(
         self, weapons: List[WeaponDTO]
-    ) -> Tuple[Dict[str, WeaponDTO], List[str]]:
+    ) -> CreateDeleteDTO[WeaponDTO]:
         weapon_dtos_to_create = {weapon.name: weapon for weapon in weapons if weapon.name}
         weapon_names_to_delete: List[str] = []
         for weapon_db_model in await self._weapon_service.get_all():
@@ -78,26 +79,25 @@ class BotDBRefresherService:
                 weapon_dto.id = weapon_db_model.id
             else:
                 weapon_names_to_delete.append(weapon_db_model.name)
-        return weapon_dtos_to_create, weapon_names_to_delete
+        return CreateDeleteDTO(dtos_to_create=weapon_dtos_to_create, names_to_delete=weapon_names_to_delete)
 
     async def _update_skins(self, skins: List[SkinDTO]) -> None:
-        skin_dtos_to_create, skin_names_to_delete = (
-            await self._get_skin_dtos_to_create_and_names_to_delete(skins)
-        )
-        if skin_names_to_delete:
-            await self._skin_service.delete_many_by_name(skin_names_to_delete)
+        create_delete_dto = await self._get_skin_dtos_to_create_and_names_to_delete(skins)
 
-        if skin_dtos_to_create:
+        if to_delete := create_delete_dto.names_to_delete:
+            await self._skin_service.delete_many_by_name(to_delete)
+
+        if to_create := create_delete_dto.dtos_to_create:
             skin_db_models = await self._skin_service.create_many(
-                list(skin_dtos_to_create.values())
+                list(create_delete_dto.dtos_to_create.values())
             )
 
             for skin_db_model in skin_db_models:
-                skin_dtos_to_create[skin_db_model.name].id = skin_db_model.id
+                to_create[skin_db_model.name].id = skin_db_model.id
 
     async def _get_skin_dtos_to_create_and_names_to_delete(
         self, skins: List[SkinDTO]
-    ) -> Tuple[Dict[str, SkinDTO], List[str]]:
+    ) -> CreateDeleteDTO[SkinDTO]:
         skin_dtos_to_create = {skin.name: skin for skin in skins if skin.name}
         skin_names_to_delete: List[str] = []
         for skin_db_model in await self._skin_service.get_all():
@@ -105,26 +105,25 @@ class BotDBRefresherService:
                 skin_dto.id = skin_db_model.id
             else:
                 skin_names_to_delete.append(skin_db_model.name)
-        return skin_dtos_to_create, skin_names_to_delete
+        return CreateDeleteDTO(dtos_to_create=skin_dtos_to_create, names_to_delete=skin_names_to_delete)
 
     async def _update_qualities(self, qualities: List[QualityDTO]) -> None:
-        quality_dtos_to_create, quality_names_to_delete = (
-            await self._get_quality_dtos_to_create_and_names_to_delete(qualities)
-        )
-        if quality_names_to_delete:
-            await self._quality_service.delete_many_by_name(quality_names_to_delete)
+        create_delete_dto = await self._get_quality_dtos_to_create_and_names_to_delete(qualities)
 
-        if quality_dtos_to_create:
+        if to_delete := create_delete_dto.names_to_delete:
+            await self._quality_service.delete_many_by_name(to_delete)
+
+        if to_create := create_delete_dto.dtos_to_create:
             quality_db_models = await self._quality_service.create_many(
-                list(quality_dtos_to_create.values())
+                list(create_delete_dto.dtos_to_create.values())
             )
 
             for quality_db_model in quality_db_models:
-                quality_dtos_to_create[quality_db_model.name].id = quality_db_model.id
+                to_create[quality_db_model.name].id = quality_db_model.id
 
     async def _get_quality_dtos_to_create_and_names_to_delete(
         self, qualities: List[QualityDTO]
-    ) -> Tuple[Dict[str, QualityDTO], List[str]]:
+    ) -> CreateDeleteDTO[QualityDTO]:
         quality_dtos_to_create = {quality.name: quality for quality in qualities if quality.name}
         quality_names_to_delete: List[str] = []
         for quality_db_model in await self._quality_service.get_all():
@@ -132,21 +131,19 @@ class BotDBRefresherService:
                 quality_dto.id = quality_db_model.id
             else:
                 quality_names_to_delete.append(quality_db_model.name)
-        return quality_dtos_to_create, quality_names_to_delete
+        return CreateDeleteDTO(dtos_to_create=quality_dtos_to_create, names_to_delete=quality_names_to_delete)
 
     async def _update_relations(self, relations: List[RelationDTO]) -> None:
-        ids_relations_to_create, ids_relations_to_delete = (
-            await self._get_ids_relations_to_create_and_delete(relations)
-        )
-        if ids_relations_to_delete:
-            await self._relation_service.delete_many_by_id(ids_relations_to_delete)
+        id_relations_create_delete_dto = await self._get_ids_relations_to_create_and_delete(relations)
+        if to_delete := id_relations_create_delete_dto.ids_relations_to_delete:
+            await self._relation_service.delete_many_by_id(to_delete)
 
-        if ids_relations_to_create:
-            await self._relation_service.create_many(ids_relations_to_create)
+        if to_create := id_relations_create_delete_dto.ids_relations_to_create:
+            await self._relation_service.create_many(to_create)
 
     async def _get_ids_relations_to_create_and_delete(
         self, relations: List[RelationDTO]
-    ) -> Tuple[List[RelationIdDTO], List[RelationIdDTO]]:
+    ) -> IdRelationsCreateDeleteDTO:
         ids_relations_to_create = [
             RelationIdDTO(
                 weapon_id=relation.weapon.id,
@@ -167,10 +164,7 @@ class BotDBRefresherService:
                 ids_relations_to_create.remove(relation_id_dto)
             else:
                 ids_relations_to_delete.append(relation_id_dto)
-        return ids_relations_to_create, ids_relations_to_delete
+        return IdRelationsCreateDeleteDTO(ids_relations_to_create=ids_relations_to_create, ids_relations_to_delete=ids_relations_to_delete)
 
-    # async def _update_gloves(self, gloves: List[GloveDTO]) -> None:
-        # glove_dtos_to_create, glove_names_to_delete = (await self._get_glove_dtos_to_create_and_names_to_delete(gloves))
-        #
-    # async def _get_glove_dtos_to_create_and_names_to_delete(self, gloves: List[GloveDTO]) -> Tuple[Dict[str, GloveDTO], List[str]]:
-        # glove_dtos_to_create = {glove.name: glove for }
+    #async def _update_gloves(self, gloves: List[GlovesPageDTO]) -> None:
+
