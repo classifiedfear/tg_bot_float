@@ -18,7 +18,7 @@ class AbstractSourceGetterService(ABC):
     async def __aenter__(self) -> Self:
         return self
 
-    async def __aexit__(self, exc_type, exc_val, exc_tb):
+    async def __aexit__(self, exc_type, exc_val, exc_tb):  # type: ignore
         await self._session.close()
 
     async def _get_response(self, link: str) -> Any:

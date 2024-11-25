@@ -1,6 +1,10 @@
 import asyncio
-from typing import Awaitable, List
+from typing import Awaitable, Dict, List
 
+from tg_bot_float_common_dtos.csgo_database_source_dtos.agents_page_dto import AgentsPageDTO
+from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
+from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
+from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_db_updater.db_updater_service.db_data_sender_service import DbDataSenderService
@@ -27,40 +31,61 @@ class DbDataUpdaterService:
     async def update(self) -> None:
         datatree = DataTreeFromSource()
         await self._process_datatree(datatree)
-        await self._db_data_sender.send(datatree.to_dto())
+        dto_to_send = datatree.to_dto()
+        await self._db_data_sender.send(dto_to_send)
 
     async def _process_datatree(self, datatree: DataTreeFromSource) -> None:
-        await self._process_gloves_agents_in_datatree(datatree)
-        await self._process_weapons_in_datatree(datatree)
-
-    async def _process_gloves_agents_in_datatree(self, datatree: DataTreeFromSource) -> None:
-        gloves_page_dtos, agents_page_dtos = await asyncio.gather(
-            self._source_data_getter.get_gloves_page(), self._source_data_getter.get_agents_page()
+        await asyncio.gather(
+            self._process_agents_in_datatree(datatree),
+            self._process_gloves_in_datatree(datatree),
+            self._process_weapons_in_datatree(datatree),
         )
-        datatree.add_gloves(gloves_page_dtos)
-        datatree.add_agents(agents_page_dtos)
+
+    async def _process_gloves_in_datatree(self, datatree: DataTreeFromSource) -> None:
+        gloves_page_dtos = await self._source_data_getter.get_gloves_page()
+        gloves_relations: Dict[str, List[SkinDTO]] = {}
+        for glove_page in gloves_page_dtos:
+            glove_skin_dtos: List[SkinDTO] = datatree.add_skins(glove_page.skins)
+            gloves_relations[glove_page.glove_name] = glove_skin_dtos
+        glove_dtos: List[GloveDTO] = datatree.add_gloves(list(gloves_relations.keys()))
+        for glove_dto in glove_dtos:
+            for glove_skin_dto in gloves_relations[str(glove_dto.name)]:
+                datatree.add_glove_relations(glove_dto, glove_skin_dto)
+
+    async def _process_agents_in_datatree(self, datatree: DataTreeFromSource) -> None:
+        agents_page_dtos: List[AgentsPageDTO] = await self._source_data_getter.get_agents_page()
+        agent_relations: Dict[str, List[SkinDTO]] = {}
+        for agent_page in agents_page_dtos:
+            agent_skin_dtos: List[SkinDTO] = datatree.add_skins(agent_page.skins)
+            agent_relations[agent_page.fraction_name] = agent_skin_dtos
+        agent_dtos: List[AgentDTO] = datatree.add_agents(list(agent_relations.keys()))
+        for agent_dto in agent_dtos:
+            for agent_skin_dto in agent_relations[str(agent_dto.name)]:
+                datatree.add_agent_relations(agent_dto, agent_skin_dto)
 
     async def _process_weapons_in_datatree(self, datatree: DataTreeFromSource) -> None:
         tasks: List[Awaitable[None]] = []
         weapons_page = await self._source_data_getter.get_weapons_page()
-        weapons = datatree.add_weapons(
+        weapon_dtos: List[WeaponDTO] = datatree.add_weapons(
             weapons_page.weapons + weapons_page.knives + weapons_page.other
         )
-        for weapon in weapons:
-            task = asyncio.create_task(self._process_skins_for_weapon_in_datatree(datatree, weapon))
+        for weapon_dto in weapon_dtos:
+            task = asyncio.create_task(
+                self._process_skins_for_weapon_in_datatree(datatree, weapon_dto)
+            )
             tasks.append(task)
         await asyncio.gather(*tasks)
 
     async def _process_skins_for_weapon_in_datatree(
-        self, datatree: DataTreeFromSource, weapon: WeaponDTO
+        self, datatree: DataTreeFromSource, weapon_dto: WeaponDTO
     ) -> None:
         tasks: List[Awaitable[None]] = []
-        skins_page = await self._source_data_getter.get_skins_page(str(weapon.name))
-        skins = datatree.add_skins(skins_page.skins)
-        for skin in skins:
+        skins_page = await self._source_data_getter.get_skins_page(str(weapon_dto.name))
+        skin_dtos = datatree.add_skins(skins_page.skins)
+        for skin_dto in skin_dtos:
             task = asyncio.create_task(
                 self._process_qualities_stattrak_for_weapon_skin_in_datattree(
-                    datatree, weapon, skin
+                    datatree, weapon_dto, skin_dto
                 )
             )
             tasks.append(task)
@@ -69,14 +94,14 @@ class DbDataUpdaterService:
     async def _process_qualities_stattrak_for_weapon_skin_in_datattree(
         self,
         datatree: DataTreeFromSource,
-        weapon: WeaponDTO,
-        skin: SkinDTO,
+        weapon_dto: WeaponDTO,
+        skin_dto: SkinDTO,
     ) -> None:
         csm_wiki_dto = await self._csm_wiki_source_getter_service.get_csm_wiki_skin_data(
-            str(weapon.name),
-            str(skin.name),
+            str(weapon_dto.name),
+            str(skin_dto.name),
         )
-        qualities = datatree.add_qualities(csm_wiki_dto.qualities)
-        skin.stattrak_existence = csm_wiki_dto.stattrak_existence
-        for quality in qualities:
-            datatree.add_relation(weapon, skin, quality)
+        quality_dtos: List[QualityDTO] = datatree.add_qualities(csm_wiki_dto.qualities)
+        skin_dto.stattrak_existence = csm_wiki_dto.stattrak_existence
+        for quality_dto in quality_dtos:
+            datatree.add_relation(weapon_dto, skin_dto, quality_dto)
