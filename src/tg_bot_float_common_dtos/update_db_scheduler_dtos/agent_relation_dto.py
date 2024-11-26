@@ -1,3 +1,5 @@
+from typing import List
+
 from pydantic import BaseModel, ConfigDict
 
 from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
@@ -8,4 +10,4 @@ class AgentRelationDTO(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     agent: AgentDTO
-    skin: SkinDTO
+    skins: List[SkinDTO]
