@@ -4,31 +4,45 @@ from typing import List
 import brotli
 
 
-from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
-from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
-from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
-from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
-from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.agent_relation_dto import AgentRelationDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.glove_relation_dto import GloveRelationDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
-from tg_bot_float_db_app.database.bot_db_service_factory import BotDbServiceFactory
+from tg_bot_float_db_app.database.services.agent_service import AgentService
 from tg_bot_float_db_app.database.services.dtos.db_refresher_dtos import (
     CreateDeleteDTO,
     IdRelationsCreateDeleteDTO,
 )
+from tg_bot_float_db_app.database.services.glove_service import GloveService
+from tg_bot_float_db_app.database.services.quality_service import QualityService
+from tg_bot_float_db_app.database.services.relation_service import RelationService
+from tg_bot_float_db_app.database.services.skin_service import SkinService
+from tg_bot_float_db_app.database.services.weapon_service import WeaponService
+
+from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
+from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
+from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
+from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 
 
 class BotDBRefresherService:
-    def __init__(self, db_service_factory: BotDbServiceFactory):
-        self._weapon_service = db_service_factory.get_weapon_service()
-        self._skin_service = db_service_factory.get_skin_service()
-        self._quality_service = db_service_factory.get_quality_service()
-        self._relation_service = db_service_factory.get_relation_service()
-        self._glove_service = db_service_factory.get_glove_service()
-        self._agent_service = db_service_factory.get_agent_service()
+    def __init__(
+        self,
+        weapon_service: WeaponService,
+        skin_service: SkinService,
+        quality_service: QualityService,
+        relation_service: RelationService,
+        glove_service: GloveService,
+        agent_service: AgentService,
+    ):
+        self._weapon_service = weapon_service
+        self._skin_service = skin_service
+        self._quality_service = quality_service
+        self._relation_service = relation_service
+        self._glove_service = glove_service
+        self._agent_service = agent_service
 
     async def update(self, request: bytes) -> None:
         """Update Weapon, Skin, Quality, Relations tables in database.
