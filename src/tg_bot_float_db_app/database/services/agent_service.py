@@ -207,12 +207,8 @@ class AgentService:
         select_stmt = select(AgentModel)
         return await paginate(self._session, select_stmt)
 
-    async def update_relations(
-        self, agent_model: AgentModel, skin_models: ScalarResult[SkinModel]
-    ) -> None:
-        for skin_db_model in skin_models:
-            skin_db_model.agent = agent_model
-            skin_db_model.agent_id = agent_model.id
+    async def update_relations(self, agent_model: AgentModel, skin_models: List[SkinModel]) -> None:
+        agent_model.skins.extend(skin_models)
         await self._session.commit()
 
     def _raise_bot_db_exception(

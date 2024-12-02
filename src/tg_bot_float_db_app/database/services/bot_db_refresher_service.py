@@ -240,7 +240,7 @@ class BotDBRefresherService:
             skin_db_models = await self._skin_service.get_many_by_name(
                 [str(skin.name) for skin in glove_relation.skins]
             )
-            await self._glove_service.update_relations(glove_db_model, skin_db_models)
+            await self._glove_service.update_relations(glove_db_model, list(skin_db_models))
 
     async def _update_agent_relations(self, agent_relations: List[AgentRelationDTO]) -> None:
         for agent_relation in agent_relations:
@@ -248,4 +248,4 @@ class BotDBRefresherService:
             skin_db_models = await self._skin_service.get_many_by_name(
                 [str(skin.name) for skin in agent_relation.skins]
             )
-            await self._agent_service.update_relations(agent_db_model, skin_db_models)
+            await self._agent_service.update_relations(agent_db_model, list(skin_db_models))

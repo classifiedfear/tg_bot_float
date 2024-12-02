@@ -209,12 +209,8 @@ class GloveService:
         select_stmt = select(GloveModel)
         return await paginate(self._session, select_stmt)
 
-    async def update_relations(
-        self, glove_model: GloveModel, skin_models: ScalarResult[SkinModel]
-    ) -> None:
-        for skin_db_model in skin_models:
-            skin_db_model.glove = glove_model
-            skin_db_model.glove_id = glove_model.id
+    async def update_relations(self, glove_model: GloveModel, skin_models: List[SkinModel]) -> None:
+        glove_model.skins.extend(skin_models)
         await self._session.commit()
 
     def _raise_bot_db_exception(
