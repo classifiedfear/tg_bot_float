@@ -1,3 +1,4 @@
+from typing import List
 from pydantic import BaseModel, ConfigDict
 
 from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
@@ -8,4 +9,4 @@ class GloveRelationDTO(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     glove: GloveDTO
-    skin: SkinDTO
+    skins: List[SkinDTO]

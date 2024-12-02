@@ -6,42 +6,29 @@ import brotli
 
 from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
 from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
+from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
+from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
+from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.agent_relation_dto import AgentRelationDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.glove_relation_dto import GloveRelationDTO
-from tg_bot_float_db_app.database.services.agent_service import AgentService
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
+from tg_bot_float_db_app.database.bot_db_service_factory import BotDbServiceFactory
 from tg_bot_float_db_app.database.services.dtos.db_refresher_dtos import (
     CreateDeleteDTO,
     IdRelationsCreateDeleteDTO,
 )
-from tg_bot_float_db_app.database.services.glove_service import GloveService
-from tg_bot_float_db_app.database.services.quality_service import QualityService
-from tg_bot_float_db_app.database.services.relation_service import RelationService
-from tg_bot_float_db_app.database.services.skin_service import SkinService
-from tg_bot_float_db_app.database.services.weapon_service import WeaponService
-
-from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
-from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
-from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 
 
 class BotDBRefresherService:
-    def __init__(
-        self,
-        weapon_service: WeaponService,
-        skin_service: SkinService,
-        quality_service: QualityService,
-        relation_service: RelationService,
-        glove_service: GloveService,
-        agent_service: AgentService,
-    ):
-        self._weapon_service = weapon_service
-        self._skin_service = skin_service
-        self._quality_service = quality_service
-        self._relation_service = relation_service
-        self._glove_service = glove_service
-        self._agent_service = agent_service
+    def __init__(self, db_service_factory: BotDbServiceFactory):
+        self._weapon_service = db_service_factory.get_weapon_service()
+        self._skin_service = db_service_factory.get_skin_service()
+        self._quality_service = db_service_factory.get_quality_service()
+        self._relation_service = db_service_factory.get_relation_service()
+        self._glove_service = db_service_factory.get_glove_service()
+        self._agent_service = db_service_factory.get_agent_service()
 
     async def update(self, request: bytes) -> None:
         """Update Weapon, Skin, Quality, Relations tables in database.
@@ -64,8 +51,8 @@ class BotDBRefresherService:
         await self._update_relations(db_dto.relations)
         await self._update_gloves(db_dto.gloves)
         await self._update_agents(db_dto.agents)
-        await self._update_glove_skin_relations()
-        await self._update_agent_skin_relations()
+        await self._update_glove_relations(db_dto.glove_relations)
+        await self._update_agent_relations(db_dto.agent_relations)
 
     async def _update_weapons(self, weapons: List[WeaponDTO]) -> None:
         create_delete_dto = await self._get_weapon_create_delete_dto(weapons)
@@ -233,10 +220,18 @@ class BotDBRefresherService:
             dtos_to_create=agent_dtos_to_create, names_to_delete=agent_names_to_delete
         )
 
-    #async def _update_glove_relations(self, glove_relations: List[GloveRelationDTO]) -> None:
-    #    for glove_relation in glove_relations:
-    #        skin_db_model = await self._skin_service.get_by_name(str(glove_relation.skin.name))
-    #        glove_db_model = await self._glove_service.get_by_name(str(glove_relation.glove.name))
-    #        skin_db_model.glove_id = glove_db_model.id
-    #        skin_db_model.glove = glove_db_model
+    async def _update_glove_relations(self, glove_relations: List[GloveRelationDTO]) -> None:
+        for glove_relation in glove_relations:
+            glove_db_model = await self._glove_service.get_by_name(str(glove_relation.glove.name))
+            skin_db_models = await self._skin_service.get_many_by_name(
+                [str(skin.name) for skin in glove_relation.skins]
+            )
+            await self._glove_service.update_relations(glove_db_model, skin_db_models)
 
+    async def _update_agent_relations(self, agent_relations: List[AgentRelationDTO]) -> None:
+        for agent_relation in agent_relations:
+            agent_db_model = await self._agent_service.get_by_name(str(agent_relation.agent.name))
+            skin_db_models = await self._skin_service.get_many_by_name(
+                [str(skin.name) for skin in agent_relation.skins]
+            )
+            await self._agent_service.update_relations(agent_db_model, skin_db_models)

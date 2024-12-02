@@ -50,10 +50,4 @@ class BotDbServiceFactory:
         return RelationService(self._session)
 
     def get_db_refresher_service(self) -> BotDBRefresherService:
-        weapon_service = self.get_weapon_service()
-        skin_service = self.get_skin_service()
-        quality_service = self.get_quality_service()
-        relation_service = self.get_relation_service()
-        return BotDBRefresherService(
-            weapon_service, skin_service, quality_service, relation_service
-        )
+        return BotDBRefresherService(self)

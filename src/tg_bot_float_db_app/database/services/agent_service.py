@@ -9,6 +9,7 @@ from fastapi_pagination.ext.sqlalchemy import paginate
 from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
 from tg_bot_float_db_app.bot_db_exception import BotDbException
 from tg_bot_float_db_app.database.models.agent_model import AgentModel
+from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
@@ -205,6 +206,14 @@ class AgentService:
     async def get_all_paginated(self) -> Page[AgentModel]:
         select_stmt = select(AgentModel)
         return await paginate(self._session, select_stmt)
+
+    async def update_relations(
+        self, agent_model: AgentModel, skin_models: ScalarResult[SkinModel]
+    ) -> None:
+        for skin_db_model in skin_models:
+            skin_db_model.agent = agent_model
+            skin_db_model.agent_id = agent_model.id
+        await self._session.commit()
 
     def _raise_bot_db_exception(
         self,

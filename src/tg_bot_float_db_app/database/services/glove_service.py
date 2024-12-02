@@ -10,6 +10,7 @@ from fastapi_pagination.ext.sqlalchemy import paginate
 from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
 from tg_bot_float_db_app.bot_db_exception import BotDbException
 from tg_bot_float_db_app.database.models.glove_model import GloveModel
+from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
@@ -207,6 +208,14 @@ class GloveService:
     async def get_all_paginated(self) -> Page[GloveModel]:
         select_stmt = select(GloveModel)
         return await paginate(self._session, select_stmt)
+
+    async def update_relations(
+        self, glove_model: GloveModel, skin_models: ScalarResult[SkinModel]
+    ) -> None:
+        for skin_db_model in skin_models:
+            skin_db_model.glove = glove_model
+            skin_db_model.glove_id = glove_model.id
+        await self._session.commit()
 
     def _raise_bot_db_exception(
         self,
