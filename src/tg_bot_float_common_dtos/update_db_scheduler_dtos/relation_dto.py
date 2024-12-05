@@ -9,3 +9,4 @@ class RelationDTO(BaseModel):
     weapon: WeaponDTO
     skin: SkinDTO
     quality: QualityDTO
+    stattrak_existence: bool
