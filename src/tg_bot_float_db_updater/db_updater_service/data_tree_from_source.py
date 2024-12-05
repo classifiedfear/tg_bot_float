@@ -20,7 +20,7 @@ class DataTreeFromSource:
         self._all_qualities: Dict[str, QualityDTO] = {}
         self._all_gloves: Dict[str, GloveDTO] = {}
         self._all_agents: Dict[str, AgentDTO] = {}
-        self._all_relations: Dict[Tuple[str, str, str], RelationDTO] = {}
+        self._all_relations: Dict[Tuple[str, str, str, str], RelationDTO] = {}
         self._all_glove_relations: Dict[str, List[SkinDTO]] = defaultdict(list)
         self._all_agent_relations: Dict[str, List[SkinDTO]] = defaultdict(list)
 
@@ -53,10 +53,14 @@ class DataTreeFromSource:
     def add_glove_relations(self, glove: GloveDTO, skin: SkinDTO) -> None:
         self._all_glove_relations[str(glove.name)].append(skin)
 
-    def add_relation(self, weapon: WeaponDTO, skin: SkinDTO, quality: QualityDTO) -> None:
+    def add_relation(
+        self, weapon: WeaponDTO, skin: SkinDTO, quality: QualityDTO, stattrak_existence: bool
+    ) -> None:
         self._all_relations.setdefault(
-            (str(weapon.name), str(skin.name), str(quality.name)),
-            RelationDTO(weapon=weapon, skin=skin, quality=quality),
+            (str(weapon.name), str(skin.name), str(quality.name), str(stattrak_existence)),
+            RelationDTO(
+                weapon=weapon, skin=skin, quality=quality, stattrak_existence=stattrak_existence
+            ),
         )
 
     def to_dto(self) -> SourceDataTreeDTO:

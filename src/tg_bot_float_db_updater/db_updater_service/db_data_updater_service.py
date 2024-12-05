@@ -102,6 +102,7 @@ class DbDataUpdaterService:
             str(skin_dto.name),
         )
         quality_dtos: List[QualityDTO] = datatree.add_qualities(csm_wiki_dto.qualities)
-        skin_dto.stattrak_existence = csm_wiki_dto.stattrak_existence
         for quality_dto in quality_dtos:
-            datatree.add_relation(weapon_dto, skin_dto, quality_dto)
+            datatree.add_relation(
+                weapon_dto, skin_dto, quality_dto, csm_wiki_dto.stattrak_existence
+            )
