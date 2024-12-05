@@ -56,30 +56,22 @@ class RelationRouterController(AbstractRouterController):
             relation_service = service_factory.get_relation_service()
             relation_db_model = await relation_service.create(relation_id_dto)
             response.headers["Location"] = (
-                f"/relations/{relation_db_model.weapon_id}/{relation_db_model.skin_id}/{relation_db_model.quality_id}"
+                f"/relations/{relation_db_model.weapon_id}/{relation_db_model.skin_id}/{relation_db_model.quality_id}/{relation_db_model.stattrak_existence}"
             )
 
     async def _get_by_id(
-        self,
-        service_factory: BOT_DB_SERVICE_FACTORY,
-        weapon_id: int,
-        skin_id: int,
-        quality_id: int,
+        self, service_factory: BOT_DB_SERVICE_FACTORY, relation_id_dto: RelationIdDTO
     ) -> RelationModel:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return await relation_service.get_by_id(weapon_id, skin_id, quality_id)
+            return await relation_service.get_by_id(relation_id_dto)
 
     async def _delete_by_id(
-        self,
-        service_factory: BOT_DB_SERVICE_FACTORY,
-        weapon_id: int,
-        skin_id: int,
-        quality_id: int,
+        self, service_factory: BOT_DB_SERVICE_FACTORY, relation_id_dto: RelationIdDTO
     ) -> None:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            await relation_service.delete_by_id(weapon_id, skin_id, quality_id)
+            await relation_service.delete_by_id(relation_id_dto)
 
     async def _create_many(
         self,
@@ -97,6 +89,7 @@ class RelationRouterController(AbstractRouterController):
                             f"/relations/{relation_db_model.weapon_id}"
                             f"/{relation_db_model.skin_id}"
                             f"/{relation_db_model.quality_id}"
+                            f"/{relation_db_model.stattrak_existence}"
                         )
                         for relation_db_model in relation_db_models
                     ],
@@ -109,10 +102,8 @@ class RelationRouterController(AbstractRouterController):
             return await relation_service.get_all_paginated()
 
     async def _get_weapon_skin_quality_names(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int, skin_id: int, quality_id: int
+        self, service_factory: BOT_DB_SERVICE_FACTORY, relation_id_dto: RelationIdDTO
     ) -> RelationNameDTO:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
-            return await relation_service.get_weapon_skin_quality_names(
-                weapon_id, skin_id, quality_id
-            )
+            return await relation_service.get_weapon_skin_quality_names(relation_id_dto)

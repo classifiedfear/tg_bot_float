@@ -4,11 +4,11 @@ from typing import Any, AsyncGenerator, List
 from fastapi import FastAPI
 from fastapi_pagination import add_pagination
 
-from tg_bot_float_db_app.api.router_controllers.agent_router_controller import AgentRouterController
-from tg_bot_float_db_app.api.router_controllers.glove_router_controller import GloveRouterController
 from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
+from tg_bot_float_db_app.api.router_controllers.agent_router_controller import AgentRouterController
+from tg_bot_float_db_app.api.router_controllers.glove_router_controller import GloveRouterController
 from tg_bot_float_db_app.api.router_controllers.quality_router_controller import (
     QualityRouterController,
 )
@@ -23,9 +23,9 @@ from tg_bot_float_db_app.api.router_controllers.user_router_controller import Us
 from tg_bot_float_db_app.api.router_controllers.weapon_router_controller import (
     WeaponRouterController,
 )
+from tg_bot_float_db_app.api.router_controllers.db_router_controller import DBRouterController
 from tg_bot_float_db_app.database.db_factory import BotDbFactory
 from tg_bot_float_db_app.middlewares.error_handling_middleware import ErrorHandlingMiddleware
-from tg_bot_float_db_app.api.router_controllers.db_router_controller import DBRouterController
 
 routers: List[AbstractRouterController] = [
     WeaponRouterController(),

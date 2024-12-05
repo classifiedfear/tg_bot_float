@@ -5,3 +5,4 @@ class RelationNameDTO(BaseDTO):
     weapon_name: str
     skin_name: str
     quality_name: str
+    stattrak_existence: bool
