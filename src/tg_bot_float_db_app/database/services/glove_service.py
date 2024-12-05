@@ -210,7 +210,8 @@ class GloveService:
         return await paginate(self._session, select_stmt)
 
     async def update_relations(self, glove_model: GloveModel, skin_models: List[SkinModel]) -> None:
-        glove_model.skins.extend(skin_models)
+        skins: List[SkinModel] = await glove_model.skins
+        skins.extend(skin_models)
         await self._session.commit()
 
     def _raise_bot_db_exception(
