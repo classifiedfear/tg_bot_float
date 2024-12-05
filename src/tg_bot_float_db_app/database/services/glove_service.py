@@ -210,7 +210,7 @@ class GloveService:
         return await paginate(self._session, select_stmt)
 
     async def update_relations(self, glove_model: GloveModel, skin_models: List[SkinModel]) -> None:
-        skins: List[SkinModel] = await glove_model.skins
+        skins: List[SkinModel] = await glove_model.awaitable_attrs.skins
         skins.extend(skin_models)
         await self._session.commit()
 
