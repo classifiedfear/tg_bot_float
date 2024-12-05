@@ -162,6 +162,7 @@ class BotDBRefresherService:
                 weapon_id=relation.weapon.id,
                 skin_id=relation.skin.id,
                 quality_id=relation.quality.id,
+                stattrak_existence=relation.stattrak_existence
             )
             for relation in relations
         ]
@@ -172,6 +173,7 @@ class BotDBRefresherService:
                     weapon_id=relation_db_model.weapon_id,
                     skin_id=relation_db_model.skin_id,
                     quality_id=relation_db_model.quality_id,
+                    stattrak_existence=relation_db_model.stattrak_existence
                 )
             ) in ids_relations_to_create:
                 ids_relations_to_create.remove(relation_id_dto)
