@@ -4,13 +4,17 @@ from sqlalchemy import ScalarResult, select, update, delete
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
+from fastapi_pagination.links import Page
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 
+from tg_bot_float_db_app.database.models.agent_model import AgentModel
+from tg_bot_float_db_app.database.models.glove_model import GloveModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
@@ -90,15 +94,25 @@ class SkinService:
             )
         return skin_models
 
-    async def get_many_by_id(self, ids: List[int]):
+    async def get_many_by_id(self, ids: List[int]) -> ScalarResult[SkinModel]:
         select_stmt = select(SkinModel)
         where_stmt = select_stmt.where(SkinModel.id.in_(ids))
         return await self._session.scalars(where_stmt)
 
-    async def get_many_by_name(self, skin_names: List[str]):
+    async def get_many_by_id_paginated(self, ids: List[int]) -> Page[SkinModel]:
+        select_stmt = select(SkinModel)
+        where_stmt = select_stmt.where(SkinModel.id.in_(ids))
+        return await paginate(self._session, where_stmt)
+
+    async def get_many_by_name(self, skin_names: List[str]) -> ScalarResult[SkinModel]:
         select_stmt = select(SkinModel)
         where_stmt = select_stmt.where(SkinModel.name.in_(skin_names))
         return await self._session.scalars(where_stmt)
+
+    async def get_many_by_name_paginated(self, skin_names: List[str]) -> Page[SkinModel]:
+        select_stmt = select(SkinModel)
+        where_stmt = select_stmt.where(SkinModel.name.in_(skin_names))
+        return await paginate(self._session, where_stmt)
 
     async def delete_many_by_id(self, skin_ids: List[int]) -> None:
         delete_stmt = delete(SkinModel)
@@ -189,18 +203,84 @@ class SkinService:
         await self._session.commit()
 
     async def get_all(self) -> ScalarResult[SkinModel]:
-        stmt = select(SkinModel)
-        return await self._session.scalars(stmt)
+        select_stmt = select(SkinModel)
+        return await self._session.scalars(select_stmt)
+
+    async def get_all_paginated(self) -> Page[SkinModel]:
+        select_stmt = select(SkinModel)
+        return await paginate(self._session, select_stmt)
 
     async def get_many_by_weapon_name(self, weapon_name: str) -> ScalarResult[SkinModel]:
-        stmt = (
-            select(SkinModel)
-            .join(SkinModel.relations)
-            .join(RelationModel.weapon)
-            .where(WeaponModel.name == weapon_name)
-        )
-        without_duplicate_stmt = stmt.distinct()
+        select_stmt = select(SkinModel).join(SkinModel.relations).join(RelationModel.weapon)
+        where_stmt = select_stmt.where(WeaponModel.name == weapon_name)
+        without_duplicate_stmt = where_stmt.distinct()
         return await self._session.scalars(without_duplicate_stmt)
+
+    async def get_many_by_weapon_name_paginated(self, weapon_name: str) -> Page[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.relations).join(RelationModel.weapon)
+        where_stmt = select_stmt.where(WeaponModel.name == weapon_name)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_duplicate_stmt)
+
+    async def get_many_by_weapon_id(self, weapon_id: int) -> ScalarResult[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.relations).join(RelationModel.weapon)
+        where_stmt = select_stmt.where(WeaponModel.id == weapon_id)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await self._session.scalars(without_duplicate_stmt)
+
+    async def get_many_by_weapon_id_paginated(self, weapon_id: int) -> Page[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.relations).join(RelationModel.weapon)
+        where_stmt = select_stmt.where(WeaponModel.id == weapon_id)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_duplicate_stmt)
+
+    async def get_many_by_glove_name(self, glove_name: str) -> ScalarResult[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.glove)
+        where_stmt = select_stmt.where(GloveModel.name == glove_name)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await self._session.scalars(without_duplicate_stmt)
+
+    async def get_many_by_glove_id(self, glove_id: int) -> ScalarResult[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.glove)
+        where_stmt = select_stmt.where(GloveModel.id == glove_id)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await self._session.scalars(without_duplicate_stmt)
+
+    async def get_many_by_glove_name_paginated(self, glove_name: str) -> Page[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.glove)
+        where_stmt = select_stmt.where(GloveModel.name == glove_name)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_duplicate_stmt)
+
+    async def get_many_by_glove_id_paginated(self, glove_id: int) -> Page[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.glove)
+        where_stmt = select_stmt.where(GloveModel.id == glove_id)
+        without_duplicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_duplicate_stmt)
+
+    async def get_many_by_agent_name(self, agent_name: str) -> ScalarResult[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.agent)
+        where_stmt = select_stmt.where(AgentModel.name == agent_name)
+        without_dupicate_stmt = where_stmt.distinct()
+        return await self._session.scalars(without_dupicate_stmt)
+
+    async def get_many_by_agent_id(self, agent_id: int) -> ScalarResult[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.agent)
+        where_stmt = select_stmt.where(AgentModel.id == agent_id)
+        without_dupicate_stmt = where_stmt.distinct()
+        return await self._session.scalars(without_dupicate_stmt)
+
+    async def get_many_by_agent_name_paginated(self, agent_name: str) -> Page[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.agent)
+        where_stmt = select_stmt.where(AgentModel.name == agent_name)
+        without_dupicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_dupicate_stmt)
+
+    async def get_many_by_agent_id_paginated(self, agent_id: int) -> Page[SkinModel]:
+        select_stmt = select(SkinModel).join(SkinModel.agent)
+        where_stmt = select_stmt.where(AgentModel.id == agent_id)
+        without_dupicate_stmt = where_stmt.distinct()
+        return await paginate(self._session, without_dupicate_stmt)
 
     def _reraise_bot_db_exception(
         self, exc: IntegrityError, identifier: str, entity_identifier: str

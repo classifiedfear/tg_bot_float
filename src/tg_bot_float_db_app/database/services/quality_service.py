@@ -4,13 +4,15 @@ from sqlalchemy import update, select, delete, ScalarResult
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
+from fastapi_pagination.links import Page
+from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
-from tg_bot_float_db_app.misc.router_constants import (
+from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
@@ -96,11 +98,21 @@ class QualityService:
         quality_models = await self._session.scalars(where_stmt)
         return quality_models
 
+    async def get_many_by_id_paginated(self, ids: List[int]) -> Page[QualityModel]:
+        select_stmt = select(QualityModel)
+        where_stmt = select_stmt.where(QualityModel.id.in_(ids))
+        return await paginate(self._session, where_stmt)
+
     async def get_many_by_name(self, quality_names: List[str]) -> ScalarResult[QualityModel]:
         select_stmt = select(QualityModel)
         where_stmt = select_stmt.where(QualityModel.name.in_(quality_names))
         quality_models = await self._session.scalars(where_stmt)
         return quality_models
+
+    async def get_many_by_name_paginated(self, quality_names: List[str]) -> Page[QualityModel]:
+        select_stmt = select(QualityModel)
+        where_stmt = select_stmt.where(QualityModel.name.in_(quality_names))
+        return await paginate(self._session, where_stmt)
 
     async def delete_many_by_id(self, quality_ids: List[int]) -> None:
         delete_stmt = delete(QualityModel)
@@ -184,25 +196,67 @@ class QualityService:
         deleted_row = result.rowcount
         if deleted_row == 0:
             raise BotDbException(
-                    ENTITY_NOT_FOUND_ERROR_MSG.format(
-                        entity="Quality", identifier="name", entity_identifier=quality_name
-                    )
+                ENTITY_NOT_FOUND_ERROR_MSG.format(
+                    entity="Quality", identifier="name", entity_identifier=quality_name
                 )
+            )
         await self._session.commit()
 
     async def get_all(self) -> ScalarResult[QualityModel]:
         select_stmt = select(QualityModel)
         return await self._session.scalars(select_stmt)
 
-    async def get_many_by_weapon_skin_name(self, weapon_name: str, skin_name: str):
-        stmt = (
+    async def get_all_paginated(self) -> Page[QualityModel]:
+        select_stmt = select(QualityModel)
+        return await paginate(self._session, select_stmt)
+
+    async def get_many_by_weapon_skin_name(
+        self, weapon_name: str, skin_name: str
+    ) -> ScalarResult[QualityModel]:
+        select_stmt = (
             select(QualityModel)
             .join(QualityModel.relations)
             .join(RelationModel.skin)
             .join(RelationModel.weapon)
-            .where(WeaponModel.name == weapon_name, SkinModel.name == skin_name)
         )
-        return await self._session.scalars(stmt)
+        where_stmt = select_stmt.where(WeaponModel.name == weapon_name, SkinModel.name == skin_name)
+        return await self._session.scalars(where_stmt)
+
+    async def get_many_by_weapon_skin_name_paginated(
+        self, weapon_name: str, skin_name: str
+    ) -> Page[QualityModel]:
+        select_stmt = (
+            select(QualityModel)
+            .join(QualityModel.relations)
+            .join(RelationModel.skin)
+            .join(RelationModel.weapon)
+        )
+        where_stmt = select_stmt.where(WeaponModel.name == weapon_name, SkinModel.name == skin_name)
+        return await paginate(self._session, where_stmt)
+
+    async def get_many_by_weapon_skin_id(
+        self, weapon_id: int, skin_id: int
+    ) -> ScalarResult[QualityModel]:
+        select_stmt = (
+            select(QualityModel)
+            .join(QualityModel.relations)
+            .join(RelationModel.skin)
+            .join(RelationModel.weapon)
+        )
+        where_stmt = select_stmt.where(WeaponModel.id == weapon_id, SkinModel.id == skin_id)
+        return await self._session.scalars(where_stmt)
+
+    async def get_many_by_weapon_skin_id_paginated(
+        self, weapon_id: int, skin_id: int
+    ) -> Page[QualityModel]:
+        select_stmt = (
+            select(QualityModel)
+            .join(QualityModel.relations)
+            .join(RelationModel.skin)
+            .join(RelationModel.weapon)
+        )
+        where_stmt = select_stmt.where(WeaponModel.id == weapon_id, SkinModel.id == skin_id)
+        return await paginate(self._session, where_stmt)
 
     def _raise_bot_db_exception(
         self,

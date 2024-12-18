@@ -6,7 +6,7 @@ from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.responses import Response
 
-from tg_bot_float_db_app.misc.bot_db_exception import BotDbException
+from tg_bot_float_db_app.bot_db_exception import BotDbException
 
 
 class ErrorHandlingMiddleware(BaseHTTPMiddleware):
@@ -17,4 +17,6 @@ class ErrorHandlingMiddleware(BaseHTTPMiddleware):
         try:
             return await call_next(request)
         except BotDbException as exc:
-            return JSONResponse(status_code=status.HTTP_400_BAD_REQUEST, content={"message": exc.msg})
+            return JSONResponse(
+                status_code=status.HTTP_400_BAD_REQUEST, content={"message": exc.msg}
+            )
