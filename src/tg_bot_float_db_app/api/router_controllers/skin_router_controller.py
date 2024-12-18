@@ -98,6 +98,30 @@ class SkinRouterController(AbstractRouterController):
         self._router.add_api_route(
             "/name", self._get_many_by_name, methods=["GET"], response_model=Page[SkinDTO]
         )
+        self._router.add_api_route(
+            "/glove_name/{glove_name}",
+            self._get_many_by_glove_name,
+            methods=["GET"],
+            response_model=Page[SkinDTO],
+        )
+        self._router.add_api_route(
+            "/glove_id/{glove_id}",
+            self._get_many_by_glove_id,
+            methods=["GET"],
+            response_model=Page[SkinDTO],
+        )
+        self._router.add_api_route(
+            "/agent_name/{agent_name}",
+            self._get_many_by_agent_name,
+            methods=["GET"],
+            response_model=Page[SkinDTO],
+        )
+        self._router.add_api_route(
+            "/agent_id/{agent_id}",
+            self._get_many_by_agent_id,
+            methods=["GET"],
+            response_model=Page[SkinDTO],
+        )
 
     async def _create(
         self,
@@ -213,3 +237,31 @@ class SkinRouterController(AbstractRouterController):
         async with service_factory:
             skin_service = service_factory.get_skin_service()
             return await skin_service.get_many_by_weapon_id_paginated(weapon_id)
+
+    async def _get_many_by_glove_name(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, glove_name: str
+    ) -> Page[SkinModel]:
+        async with service_factory:
+            skin_service = service_factory.get_skin_service()
+            return await skin_service.get_many_by_glove_name_paginated(glove_name)
+
+    async def _get_many_by_glove_id(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, glove_id: int
+    ) -> Page[SkinModel]:
+        async with service_factory:
+            skin_service = service_factory.get_skin_service()
+            return await skin_service.get_many_by_glove_id_paginated(glove_id)
+
+    async def _get_many_by_agent_name(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, agent_name: str
+    ) -> Page[SkinModel]:
+        async with service_factory:
+            skin_service = service_factory.get_skin_service()
+            return await skin_service.get_many_by_agent_name_paginated(agent_name)
+
+    async def _get_many_by_agent_id(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, agent_id: int
+    ) -> Page[SkinModel]:
+        async with service_factory:
+            skin_service = service_factory.get_skin_service()
+            return await skin_service.get_many_by_agent_id_paginated(agent_id)
