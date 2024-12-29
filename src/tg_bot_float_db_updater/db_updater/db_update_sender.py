@@ -8,7 +8,7 @@ from tg_bot_float_db_updater.db_updater_settings import DbUpdaterSettings
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 
 
-class DbDataSenderService:
+class DbUpdateSender:
     _success_statuses = list(range(200, 300))
 
     def __init__(self, settings: DbUpdaterSettings, session: ClientSession) -> None:

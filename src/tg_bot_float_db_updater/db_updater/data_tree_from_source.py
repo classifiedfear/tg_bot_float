@@ -1,6 +1,6 @@
 from __future__ import annotations
-from collections import defaultdict
 from typing import List, Dict, Tuple
+from collections import defaultdict
 
 from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
 from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO

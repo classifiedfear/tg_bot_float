@@ -3,12 +3,12 @@ from tg_bot_float_common_dtos.csgo_database_source_dtos.agents_page_dto import A
 from tg_bot_float_common_dtos.csgo_database_source_dtos.gloves_page_dto import GlovesPageDTO
 from tg_bot_float_common_dtos.csgo_database_source_dtos.skins_page_dto import SkinsPageDTO
 from tg_bot_float_common_dtos.csgo_database_source_dtos.weapons_page_dto import WeaponsPageDTO
-from tg_bot_float_db_updater.db_updater_service.source_data_getter_service.abstract_source_getter_service import (
-    AbstractSourceGetterService,
+from tg_bot_float_db_updater.db_updater.source_data_getter.abstract_source_data_getter import (
+    AbstractSourceGetter,
 )
 
 
-class CsgoDbSourceGetterService(AbstractSourceGetterService):
+class CsgoDbSourceDataGetter(AbstractSourceGetter):
 
     async def get_weapons_page(self) -> WeaponsPageDTO:
         json_response = await self._get_response(

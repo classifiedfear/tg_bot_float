@@ -8,7 +8,7 @@ from aiohttp_retry import ExponentialRetry, RetryClient
 from tg_bot_float_db_updater.db_updater_settings import DbUpdaterSettings
 
 
-class AbstractSourceGetterService(ABC):
+class AbstractSourceGetter(ABC):
     _retry_options = ExponentialRetry(exceptions={ContentTypeError})
 
     def __init__(self, settings: DbUpdaterSettings, session: ClientSession) -> None:
