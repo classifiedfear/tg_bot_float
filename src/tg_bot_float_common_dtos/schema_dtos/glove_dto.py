@@ -6,3 +6,4 @@ class GloveDTO(BaseDTO):
     id: int = 0
     name: str | None = None
     skins: List[str] = []
+
