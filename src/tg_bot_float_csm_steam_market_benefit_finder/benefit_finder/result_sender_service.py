@@ -1,8 +1,8 @@
-import pickle
 from typing import Self
+import pickle
 
 from aiohttp import ClientSession
-import brotli
+import brotli # type: ignore
 
 from tg_bot_float_csm_steam_market_benefit_finder.csm_steam_market_benefit_finder_settings import (
     CsmSteamMarketBenefitFinderSettings,
@@ -18,12 +18,12 @@ class ResultSenderService:
     async def __aenter__(self) -> Self:
         return self
 
-    async def __aexit__(self, type, exc, traceback) -> None:
+    async def __aexit__(self, type, exc, traceback) -> None: # type: ignore
         await self._session.close()
 
     async def send(self, tg_result_dto: TgResultDTO) -> None:
         bytes_tg_result = pickle.dumps(tg_result_dto)
-        compressed_items_dto = brotli.compress(bytes_tg_result)
+        compressed_items_dto = brotli.compress(bytes_tg_result) # type: ignore
         async with self._session.post(
             self._settings.telegram_app_base_url + self._settings.send_update_url,
             data=compressed_items_dto,

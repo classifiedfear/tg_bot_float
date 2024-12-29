@@ -2,36 +2,36 @@ import asyncio
 
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.csm_steam_comparer import (
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.csm_steam_comparer import (
     CsmSteamComparer,
 )
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.dtos.csm_steam_items_to_compare_dto import (
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.dtos.csm_steam_items_to_compare_dto import (
     CsmSteamItemsToCompareDTO,
 )
 
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.result_sender_service import (
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.result_sender_service import (
     ResultSenderService,
 )
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.source_getter_service.csm_steam_source_getter_service import (
-    CsmSteamSourceGetterService,
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.csm_steam_source_data_getter import (
+    CsmSteamSourceDataGetter,
 )
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.source_getter_service.subscription_source_servive import (
-    SubscriptionSourceGetterService,
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.subscription_source_data_getter import (
+    SubscriptionSourceDataGetter,
 )
 
 
 class CsmSteamMarketBenefitFinderService:
     def __init__(
         self,
-        subscription_source_getter_service: SubscriptionSourceGetterService,
-        csm_steam_source_getter_service: CsmSteamSourceGetterService,
-        result_sender_service: ResultSenderService,
+        csm_steam_source_data_getter: CsmSteamSourceDataGetter,
+        subscription_source_data_getter: SubscriptionSourceDataGetter,
         csm_steam_comparer: CsmSteamComparer,
+        result_sender_service: ResultSenderService,
     ):
-        self._subscription_source_getter_service = subscription_source_getter_service
-        self._csm_steam_source_getter_service = csm_steam_source_getter_service
-        self._result_sender_service = result_sender_service
+        self._csm_steam_source_getter_service = csm_steam_source_data_getter
+        self._subscription_source_getter_service = subscription_source_data_getter
         self._csm_steam_comparer = csm_steam_comparer
+        self._result_sender_service = result_sender_service
 
     async def find_items_with_benefit(self) -> None:
         for subscription in await self._subscription_source_getter_service.get_user_subscriptions():

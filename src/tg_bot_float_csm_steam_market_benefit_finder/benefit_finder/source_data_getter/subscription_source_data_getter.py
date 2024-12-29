@@ -1,12 +1,12 @@
 from typing import List
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.source_getter_service.abstract_source_getter_service import (
-    AbstractSourceGetterService,
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.abstract_source_data_getter import (
+    AbstractSourceDataGetter,
 )
 
 
-class SubscriptionSourceGetterService(AbstractSourceGetterService):
+class SubscriptionSourceDataGetter(AbstractSourceDataGetter):
     async def get_user_subscriptions(self) -> List[SubscriptionToFindDTO]:
         subscription_dtos: List[SubscriptionToFindDTO] = []
 

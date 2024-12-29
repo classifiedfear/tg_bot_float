@@ -8,7 +8,7 @@ from tg_bot_float_csm_steam_market_benefit_finder.csm_steam_market_benefit_finde
 )
 
 
-class AbstractSourceGetterService:
+class AbstractSourceDataGetter:
     _retry_options = ExponentialRetry(exceptions={ContentTypeError})
 
     def __init__(

@@ -1,14 +1,14 @@
 from typing import List
 
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.source_getter_service.abstract_source_getter_service import (
-    AbstractSourceGetterService,
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.abstract_source_data_getter import (
+    AbstractSourceDataGetter,
 )
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.csm_source_dtos.csm_item_dto import CsmItemDTO
 from tg_bot_float_common_dtos.steam_source_dtos.steam_item_dto import SteamItemDTO
 
 
-class CsmSteamSourceGetterService(AbstractSourceGetterService):
+class CsmSteamSourceDataGetter(AbstractSourceDataGetter):
     async def get_csm_items(self, subscription: FullSubscriptionDTO) -> List[CsmItemDTO]:
         csm_items: List[CsmItemDTO] = []
         current_link = self._settings.csm_base_url + self._settings.get_item_url.format(

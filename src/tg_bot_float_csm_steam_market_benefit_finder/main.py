@@ -1,4 +1,5 @@
 from typing import List
+
 from fastapi import FastAPI
 
 from tg_bot_float_misc.router_controller.abstract_router_controller import AbstractRouterController

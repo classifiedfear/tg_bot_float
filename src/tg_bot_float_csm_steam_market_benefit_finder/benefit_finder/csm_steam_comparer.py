@@ -7,7 +7,7 @@ from tg_bot_float_common_dtos.steam_source_dtos.steam_item_dto import SteamItemD
 from tg_bot_float_common_dtos.tg_result_dtos.item_with_benefit_dto import (
     ItemWithBenefitDTO,
 )
-from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder_service.dtos.csm_steam_items_to_compare_dto import (
+from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.dtos.csm_steam_items_to_compare_dto import (
     CsmSteamItemsToCompareDTO,
 )
 
@@ -38,15 +38,11 @@ class CsmSteamComparer:
     ):
         result: List[ItemWithBenefitDTO] = []
         for csm_item in csm_items:
-            if (
-                steam_csm_match_dto := self._try_to_find(csm_item, steam_items)
-            ) is not None:
+            if (steam_csm_match_dto := self._try_to_find(csm_item, steam_items)) is not None:
                 result.append(steam_csm_match_dto)
         return result
 
-    def _try_to_find(
-        self, csm_skin: CsmItemDTO, steam_skins: Dict[Decimal, List[SteamItemDTO]]
-    ):
+    def _try_to_find(self, csm_skin: CsmItemDTO, steam_skins: Dict[Decimal, List[SteamItemDTO]]):
         if matched_by_float_steam_skins := self._try_to_find_by_float(csm_skin, steam_skins):
             if matched_by_percent := self._try_to_find_by_percent(
                 csm_skin, matched_by_float_steam_skins
