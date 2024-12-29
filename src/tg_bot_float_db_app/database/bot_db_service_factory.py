@@ -1,5 +1,7 @@
 from sqlalchemy.ext.asyncio import AsyncEngine, async_sessionmaker
 
+from tg_bot_float_db_app.database.services.agent_service import AgentService
+from tg_bot_float_db_app.database.services.glove_service import GloveService
 from tg_bot_float_db_app.database.services.weapon_service import WeaponService
 from tg_bot_float_db_app.database.services.quality_service import QualityService
 from tg_bot_float_db_app.database.services.skin_service import SkinService
@@ -32,6 +34,12 @@ class BotDbServiceFactory:
     def get_quality_service(self) -> QualityService:
         return QualityService(self._session)
 
+    def get_glove_service(self) -> GloveService:
+        return GloveService(self._session)
+
+    def get_agent_service(self) -> AgentService:
+        return AgentService(self._session)
+
     def get_user_service(self) -> UserService:
         return UserService(self._session)
 
@@ -46,4 +54,13 @@ class BotDbServiceFactory:
         skin_service = self.get_skin_service()
         quality_service = self.get_quality_service()
         relation_service = self.get_relation_service()
-        return BotDBRefresherService(weapon_service, skin_service, quality_service, relation_service)
+        glove_service = self.get_glove_service()
+        agent_service = self.get_agent_service()
+        return BotDBRefresherService(
+            weapon_service,
+            skin_service,
+            quality_service,
+            relation_service,
+            glove_service,
+            agent_service,
+        )

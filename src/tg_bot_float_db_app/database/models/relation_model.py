@@ -1,6 +1,6 @@
 from typing import TYPE_CHECKING
 
-from sqlalchemy import ForeignKey
+from sqlalchemy import Boolean, ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from tg_bot_float_db_app.database.models.base import Base
@@ -27,6 +27,8 @@ class RelationModel(Base):
     quality_id: Mapped[int] = mapped_column(
         ForeignKey("quality.id", ondelete="cascade"), primary_key=True, nullable=False
     )
+
+    stattrak_existence: Mapped[bool] = mapped_column(Boolean, nullable=False)
 
     weapon: Mapped[WeaponModel] = relationship(back_populates="relations")
     skin: Mapped[SkinModel] = relationship(back_populates="relations")

@@ -1,16 +1,15 @@
 from fastapi import APIRouter, Request
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
+from tg_bot_float_misc.router_controller.abstract_router_controller import (
+    AbstractRouterController,
+)
 
 
-class DBRouter:
+class DBRouterController(AbstractRouterController):
     def __init__(self) -> None:
         self._router = APIRouter(prefix="/db", tags=["db"])
-        self._init_routes()
-
-    @property
-    def router(self) -> APIRouter:
-        return self._router
+        super().__init__()
 
     def _init_routes(self):
         self._router.add_api_route("/update_db", self._update_db, methods=["POST"])
