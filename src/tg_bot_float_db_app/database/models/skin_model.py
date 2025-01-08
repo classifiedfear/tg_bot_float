@@ -6,6 +6,7 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from tg_bot_float_db_app.database.models.base import Base
 
 if TYPE_CHECKING:
+    from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
     from tg_bot_float_db_app.database.models.relation_model import RelationModel
     from tg_bot_float_db_app.database.models.agent_model import AgentModel
     from tg_bot_float_db_app.database.models.glove_model import GloveModel
@@ -13,6 +14,7 @@ else:
     RelationModel = "RelationModel"
     AgentModel = "AgentModel"
     GloveModel = "GloveModel"
+    SubscriptionModel = "SubscriptionModel"
 
 
 class SkinModel(Base):
@@ -33,3 +35,5 @@ class SkinModel(Base):
     glove_id: Mapped[int] = mapped_column(ForeignKey("glove.id", ondelete="cascade"), nullable=True)
 
     glove: Mapped[GloveModel] = relationship(GloveModel, back_populates="skins")
+
+    subscriptions: Mapped[List[SubscriptionModel]] = relationship(back_populates="skin")

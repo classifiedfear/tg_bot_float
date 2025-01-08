@@ -1,4 +1,4 @@
-from sqlalchemy import ScalarResult, delete, desc, func, select
+from sqlalchemy import ScalarResult, delete, desc, func, select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
 from fastapi_pagination.links import Page
@@ -6,9 +6,12 @@ from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
+from tg_bot_float_db_app.database.models.quality_model import QualityModel
+from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
 from tg_bot_float_db_app.database.models.user_model import UserModel
 from tg_bot_float_db_app.bot_db_exception import BotDbException
+from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.db_app_constants import (
     ENTITY_FOUND_ERROR_MSG,
     ENTITY_NOT_FOUND_ERROR_MSG,
@@ -78,24 +81,36 @@ class SubscriptionService:
         await self._session.commit()
 
     async def get_valuable_subscriptions(self) -> Page[SubscriptionToFindDTO]:
-        select_stmt = (
-            select(
-                SubscriptionModel.weapon_id,
-                SubscriptionModel.skin_id,
-                SubscriptionModel.quality_id,
-                SubscriptionModel.stattrak,
-                func.count("*").label("count"),
-            )
-            .select_from(SubscriptionModel)
-            .group_by(
-                SubscriptionModel.weapon_id,
-                SubscriptionModel.skin_id,
-                SubscriptionModel.quality_id,
-                SubscriptionModel.stattrak,
-            )
-            .order_by(desc("count"))
+        select_stmt = select(
+            SubscriptionModel.weapon_id,
+            WeaponModel.name.label("weapon_name"),
+            SubscriptionModel.skin_id,
+            SkinModel.name.label("skin_name"),
+            SubscriptionModel.quality_id,
+            QualityModel.name.label("quality_name"),
+            SubscriptionModel.stattrak,
+            func.count("*").label("count"),
         )
-        return await paginate(self._session, select_stmt)
+
+        join_stmt = (
+            select_stmt.join(SubscriptionModel.weapon)
+            .join(SubscriptionModel.skin)
+            .join(SubscriptionModel.quality)
+        )
+
+        group_stmt = join_stmt.group_by(
+            WeaponModel.name,
+            SubscriptionModel.weapon_id,
+            SkinModel.name,
+            SubscriptionModel.skin_id,
+            QualityModel.name,
+            SubscriptionModel.quality_id,
+            SubscriptionModel.stattrak,
+        )
+
+        order_by_stmt = group_stmt.order_by(desc("count"))
+
+        return await paginate(self._session, order_by_stmt)
 
     async def get_all(self) -> ScalarResult[SubscriptionModel]:
         select_stmt = select(SubscriptionModel)
