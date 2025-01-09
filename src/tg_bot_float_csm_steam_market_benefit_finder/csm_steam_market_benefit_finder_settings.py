@@ -8,7 +8,6 @@ class CsmSteamMarketBenefitFinderSettings(BaseSettings):
     )
 
     db_app_base_url: str
-    get_item_names_for_subscription_url: str
     get_user_subscription_url: str
     csm_base_url: str
     steam_base_url: str

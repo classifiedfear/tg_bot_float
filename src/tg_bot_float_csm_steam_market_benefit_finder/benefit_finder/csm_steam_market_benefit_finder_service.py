@@ -1,6 +1,7 @@
 import asyncio
 
 from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
 from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
 from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.csm_steam_comparer import (
     CsmSteamComparer,
@@ -35,20 +36,15 @@ class CsmSteamMarketBenefitFinderService:
 
     async def find_items_with_benefit(self) -> None:
         for subscription in await self._subscription_source_getter_service.get_user_subscriptions():
-            item_to_find = (
-                await self._subscription_source_getter_service.get_weapon_skin_quality_names(
-                    subscription
-                )
-            )
-            items_to_compare = await self._try_find_items_to_compare(item_to_find)
+            items_to_compare = await self._try_find_items_to_compare(subscription)
             items_with_benefit = self._csm_steam_comparer.compare(items_to_compare)
             await self._result_sender_service.send(
-                TgResultDTO(items_with_benefit=items_with_benefit, subscription_info=item_to_find)
+                TgResultDTO(items_with_benefit=items_with_benefit, subscription_info=subscription)
             )
             await asyncio.sleep(5)
 
     async def _try_find_items_to_compare(
-        self, subscription: FullSubscriptionDTO
+        self, subscription: SubscriptionToFindDTO
     ) -> CsmSteamItemsToCompareDTO:
         csm_items, steam_items = await asyncio.gather(
             self._csm_steam_source_getter_service.get_csm_items(subscription),
