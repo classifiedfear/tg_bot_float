@@ -1,6 +1,5 @@
 import asyncio
 
-from tg_bot_float_common_dtos.schema_dtos.full_subscription_dto import FullSubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
 from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
 from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.csm_steam_comparer import (
@@ -14,7 +13,7 @@ from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.result_sender_s
     ResultSenderService,
 )
 from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.csm_steam_source_data_getter import (
-    CsmSteamSourceDataGetter,
+    CsmSteamMarketSourceDataGetter,
 )
 from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.subscription_source_data_getter import (
     SubscriptionSourceDataGetter,
@@ -24,7 +23,7 @@ from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_get
 class CsmSteamMarketBenefitFinderService:
     def __init__(
         self,
-        csm_steam_source_data_getter: CsmSteamSourceDataGetter,
+        csm_steam_source_data_getter: CsmSteamMarketSourceDataGetter,
         subscription_source_data_getter: SubscriptionSourceDataGetter,
         csm_steam_comparer: CsmSteamComparer,
         result_sender_service: ResultSenderService,
@@ -47,8 +46,18 @@ class CsmSteamMarketBenefitFinderService:
         self, subscription: SubscriptionToFindDTO
     ) -> CsmSteamItemsToCompareDTO:
         csm_items, steam_items = await asyncio.gather(
-            self._csm_steam_source_getter_service.get_csm_items(subscription),
-            self._csm_steam_source_getter_service.get_steam_items(subscription),
+            self._csm_steam_source_getter_service.get_csm_market_items(
+                subscription.weapon_name,
+                subscription.skin_name,
+                subscription.quality_name,
+                subscription.stattrak,
+            ),
+            self._csm_steam_source_getter_service.get_steam_market_items(
+                subscription.weapon_name,
+                subscription.skin_name,
+                subscription.quality_name,
+                subscription.stattrak,
+            ),
         )
         if not csm_items or not steam_items:
             return CsmSteamItemsToCompareDTO()

@@ -14,7 +14,7 @@ from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_get
     SubscriptionSourceDataGetter,
 )
 from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.source_data_getter.csm_steam_source_data_getter import (
-    CsmSteamSourceDataGetter,
+    CsmSteamMarketSourceDataGetter,
 )
 from tg_bot_float_csm_steam_market_benefit_finder.benefit_finder.result_sender_service import (
     ResultSenderService,
@@ -43,7 +43,7 @@ async def get_csm_steam_market_benefit_finder_service(
     settings: CSM_STEAM_BENEFIT_FINDER_SETTINGS,
     aiohttp_session: ClientSession = Depends(get_aiohttp_session),
 ):
-    async with CsmSteamSourceDataGetter(
+    async with CsmSteamMarketSourceDataGetter(
         settings, aiohttp_session
     ) as csm_steam_source_getter, SubscriptionSourceDataGetter(
         settings, aiohttp_session

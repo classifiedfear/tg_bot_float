@@ -16,65 +16,67 @@ class CsmSteamComparer:
     def compare(self, items_to_compare: CsmSteamItemsToCompareDTO):
         with localcontext() as context:
             context.prec = 2
-            steam_items_by_float = self._get_dict_with_steam_items_by_float(
-                items_to_compare.steam_items
-            )
-            return self._find_items(items_to_compare.csm_items, steam_items_by_float)
+            dict_steam_items = self._get_dict_steam_items(items_to_compare.steam_items)
+            dict_csm_items = self._get_dict_csm_items(items_to_compare.csm_items)
+            return self._find_benefit_items(dict_csm_items, dict_steam_items)
 
     @staticmethod
-    def _get_dict_with_steam_items_by_float(
+    def _get_dict_steam_items(
         steam_items: List[SteamItemDTO],
     ) -> Dict[Decimal, List[SteamItemDTO]]:
-        grouped_by_float: Dict[Decimal, List[SteamItemDTO]] = defaultdict(list)
-        for steam_item_dto in steam_items:
-            steam_float = Decimal(steam_item_dto.item_float) * 1
-            grouped_by_float[steam_float].append(steam_item_dto)
-        return grouped_by_float
-
-    def _find_items(
-        self,
-        csm_items: List[CsmItemDTO],
-        steam_items: Dict[Decimal, List[SteamItemDTO]],
-    ):
-        result: List[ItemWithBenefitDTO] = []
-        for csm_item in csm_items:
-            if (steam_csm_match_dto := self._try_to_find(csm_item, steam_items)) is not None:
-                result.append(steam_csm_match_dto)
-        return result
-
-    def _try_to_find(self, csm_skin: CsmItemDTO, steam_skins: Dict[Decimal, List[SteamItemDTO]]):
-        if matched_by_float_steam_skins := self._try_to_find_by_float(csm_skin, steam_skins):
-            if matched_by_percent := self._try_to_find_by_percent(
-                csm_skin, matched_by_float_steam_skins
-            ):
-                return max(
-                    matched_by_percent, key=lambda matched_skin: matched_skin.benefit_percent
-                )
-        return None
+        dict_steam_items: Dict[Decimal, List[SteamItemDTO]] = defaultdict(list)
+        for item_dto in steam_items:
+            steam_float = Decimal(item_dto.item_float) * 1
+            dict_steam_items[steam_float].append(item_dto)
+        return dict_steam_items
 
     @staticmethod
-    def _try_to_find_by_float(csm_skin: CsmItemDTO, steam_skins: Dict[Decimal, List[SteamItemDTO]]):
-        csm_float = Decimal(csm_skin.item_float) * 1
-        return steam_skins.get(csm_float)
+    def _get_dict_csm_items(csm_items: List[CsmItemDTO]) -> Dict[Decimal, List[CsmItemDTO]]:
+        dict_csm_items: Dict[Decimal, List[CsmItemDTO]] = defaultdict(list)
+        for item_dto in csm_items:
+            csm_float = Decimal(item_dto.item_float) * 1
+            dict_csm_items[csm_float].append(item_dto)
+        return dict_csm_items
 
-    def _try_to_find_by_percent(
-        self, csm_item: CsmItemDTO, matched_by_float_steam_skins: List[SteamItemDTO]
+    def _find_benefit_items(
+        self,
+        dict_csm_items: Dict[Decimal, List[CsmItemDTO]],
+        dict_steam_items: Dict[Decimal, List[SteamItemDTO]],
     ) -> List[ItemWithBenefitDTO]:
-        return [
-            ItemWithBenefitDTO(
-                steam_item.name,
-                steam_item.item_float,
-                steam_item.price,
-                steam_item.buy_link,
-                csm_item.item_float,
-                csm_item.price,
-                csm_item.price_with_float,
-                csm_item.overpay_float,
-                percent,
-            )
-            for steam_item in matched_by_float_steam_skins
-            if (percent := self._find_percent(csm_item, steam_item)) >= 10
-        ]
+        result: List[ItemWithBenefitDTO] = []
+        for csm_float in dict_csm_items.keys():
+            if (steam_items := dict_steam_items.get(csm_float)) is not None:
+                csm_items = dict_csm_items[csm_float]
+                max_benefit_item = self._find_max_benefit_item(csm_items, steam_items)
+                if max_benefit_item:
+                    result.append(max_benefit_item)
+        return result
+
+    def _find_max_benefit_item(
+        self, csm_items: List[CsmItemDTO], steam_items: List[SteamItemDTO]
+    ) -> ItemWithBenefitDTO | None:
+        benefit_items: List[ItemWithBenefitDTO] = []
+        for csm_item in csm_items:
+            for steam_item in steam_items:
+                if (percent := self._find_percent(csm_item, steam_item)) >= 10:
+                    benefit_items.append(
+                        ItemWithBenefitDTO(
+                            steam_item.name,
+                            steam_item.item_float,
+                            steam_item.price,
+                            steam_item.buy_link,
+                            csm_item.item_float,
+                            csm_item.price,
+                            csm_item.price_with_float,
+                            csm_item.overpay_float,
+                            percent,
+                        )
+                    )
+        return (
+            max(benefit_items, key=lambda matched: matched.benefit_percent)
+            if benefit_items
+            else None
+        )
 
     @staticmethod
     def _find_percent(csm_skin: CsmItemDTO, steam_skin: SteamItemDTO):
