@@ -9,4 +9,3 @@ class SchedulerSettings(BaseSettings):
     db_updater: str
     db_url: str
     sub_benefit_finder_url: str
-    find_item_with_benefit_url: str

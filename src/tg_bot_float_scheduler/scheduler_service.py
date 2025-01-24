@@ -19,10 +19,7 @@ class SchedulerService:
 
     async def _find_items_with_benefit_task(self) -> None:
         async with ClientSession() as session:
-            async with session.get(
-                self._scheduler_settings.sub_benefit_finder_url
-                + self._scheduler_settings.find_item_with_benefit_url
-            ) as response:
+            async with session.get(self._scheduler_settings.sub_benefit_finder_url) as response:
                 assert response.status == 200
 
     async def _add_tasks_to_scheduler(self, scheduler: AsyncScheduler) -> None:
