@@ -216,6 +216,24 @@ class RelationService:
             ),
         )
 
+    async def get_stattrak_existence(self, weapon_id: int, skin_id: int, quality_id: int) -> bool:
+        select_stmt = select(RelationModel.stattrak_existence)
+        where_stmt = select_stmt.where(
+            RelationModel.weapon_id == weapon_id,
+            RelationModel.skin_id == skin_id,
+            RelationModel.quality_id == quality_id,
+        )
+        result = await self._session.scalar(where_stmt)
+        if result is not None:
+            return result
+        raise BotDbException(
+            ENTITY_NOT_FOUND_ERROR_MSG.format(
+                entity="Relation",
+                identifier="weapon_id, skin_id, quality_id",
+                entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
+            ),
+        )
+
     def _raise_bot_db_exception(
         self,
         exc: IntegrityError,

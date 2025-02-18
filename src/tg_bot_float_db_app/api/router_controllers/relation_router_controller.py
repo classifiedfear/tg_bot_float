@@ -40,9 +40,14 @@ class RelationRouterController(AbstractRouterController):
         self._router.add_api_route(
             "", self._get_all, methods=["GET"], response_model=Page[RelationIdDTO]
         )
-        self.router.add_api_route(
-            "names_by_id/{weapon_id}/{skin_id}/{quality_id}",
+        self._router.add_api_route(
+            "/names_by_id/{weapon_id}/{skin_id}/{quality_id}",
             self._get_weapon_skin_quality_names,
+            methods=["GET"],
+        )
+        self._router.add_api_route(
+            "/stattrak_existence/{weapon_id}/{skin_id}/{quality_id}",
+            self._get_stattrak_existence,
             methods=["GET"],
         )
 
@@ -107,3 +112,10 @@ class RelationRouterController(AbstractRouterController):
         async with service_factory:
             relation_service = service_factory.get_relation_service()
             return await relation_service.get_weapon_skin_quality_names(relation_id_dto)
+
+    async def _get_stattrak_existence(
+        self, service_factory: BOT_DB_SERVICE_FACTORY, weapon_id: int, skin_id: int, quality_id: int
+    ) -> bool:
+        async with service_factory:
+            relation_service = service_factory.get_relation_service()
+            return await relation_service.get_stattrak_existence(weapon_id, skin_id, quality_id)
