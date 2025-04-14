@@ -8,9 +8,12 @@ from aiogram.enums import ParseMode
 from redis.asyncio import Redis
 
 
+# from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
+# from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
+# from tg_bot_float_telegram_app.tg_constants import RESULT_TEXT
 from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
-from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
-from tg_bot_float_telegram_app.tg_constants import RESULT_MSG_TEXT
+from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
+from tg_bot_float_telegram_app.tg_constants import RESULT_TEXT
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
     AbstractTGRouterController,
@@ -21,7 +24,7 @@ class TgBotFloatApp:
     def __init__(self, settings: TgSettings, redis: Redis) -> None:
         self._settings = settings
         self._bot = Bot(
-            token=settings.token, default=DefaultBotProperties(parse_mode=ParseMode.HTML)
+            token=settings.tg_token, default=DefaultBotProperties(parse_mode=ParseMode.HTML)
         )
         self._dp = Dispatcher(storage=RedisStorage(redis))
         self._controllers: List[AbstractTGRouterController] = []
@@ -57,7 +60,7 @@ class TgBotFloatApp:
             for item in tg_result_dto.items_with_benefit:
                 await self._bot.send_message(
                     chat_id=tg_id,
-                    text=RESULT_MSG_TEXT.format(
+                    text=RESULT_TEXT.format(
                         weapon_name=tg_result_dto.subscription_info.weapon_name,
                         skin_name=tg_result_dto.subscription_info.skin_name,
                         quality_name=tg_result_dto.subscription_info.quality_name,

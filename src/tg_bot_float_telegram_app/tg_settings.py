@@ -4,11 +4,11 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class TgSettings(BaseSettings):
     # tg specific variables
-    token: str
+    tg_token: str
 
     # db specific variables
     db_url: str
-    redis_host: str
+    redis_host_url: str
 
     # db_app_service_client variables
     db_app_base_url: str

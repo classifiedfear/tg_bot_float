@@ -19,7 +19,6 @@ class RegisterCheck(BaseMiddleware):
         event: Message,
         data: Dict[str, Any],
     ) -> Any:
-        await self._redis.delete(event.from_user.id)
         if await self._redis.get(event.from_user.id):
             return await handler(event, data)
         if not await self._db_app_service_client.get_user_by_telegram_id(event.from_user.id):

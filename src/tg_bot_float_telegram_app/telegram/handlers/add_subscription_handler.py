@@ -1,143 +1,209 @@
-from aiogram.types import Message
-from aiogram.fsm.context import FSMContext
+from typing import List
 
-from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
+
+from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
+
 from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
-from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
+from tg_bot_float_telegram_app.telegram.keyboard.buttons import Buttons
+from tg_bot_float_telegram_app.telegram.states.add_subscription_states import AddSubscriptionStates
 from tg_bot_float_telegram_app.telegram.states.state_controllers.add_subscription_state_controller import (
     AddSubscriptionStateController,
 )
 from tg_bot_float_telegram_app.telegram.msg_creators.add_subscription_msg_creator import (
     AddSubscriptionMsgCreator,
 )
-from tg_bot_float_telegram_app.tg_constants import (
-    ALREADY_SUBSCRIBED_MSG_TEXT,
-    BACK_TO_MAIN_MENU_MSG_TEXT,
-    CHOOSING_STATTRAK_MSG_TEXT,
-    WRONG_ITEM_NAME_MSG_TEXT,
-)
+
+from tg_bot_float_telegram_app.dtos.user_values_dto import UserDataValues
 
 
 class AddSubscriptionHandler:
-    def __init__(self, keyboard: Keyboard, db_app_service_client: DBAppServiceClient):
-        self._keyboard = keyboard
+    def __init__(self, db_app_service_client: DBAppServiceClient):
         self._db_app_service_client = db_app_service_client
-        self._state_controller = AddSubscriptionStateController()
-        self._msg_creator = AddSubscriptionMsgCreator()
 
-    async def cancel(self, message: Message, state: FSMContext):
-        await self._state_controller.clear_states(state)
-        await message.answer(BACK_TO_MAIN_MENU_MSG_TEXT, reply_markup=self._keyboard.main_buttons)
+    async def cancel(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ) -> None:
+        await state_controller.clear_states()
+        await msg_creator.show_cancel_msg()
 
-    async def start_add_subscription(self, message: Message, state: FSMContext) -> None:
-        await self._state_controller.set_choosing_weapon_state(state)
+    async def start_add_subscription(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ) -> None:
+        await self._prep_weapon_state(msg_creator, state_controller)
 
+    async def _prep_weapon_state(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ):
         weapons = await self._db_app_service_client.get_weapons()
-        await self._state_controller.update_all_weapons(state, weapons)
+        await state_controller.update_all_weapons(weapons)
+        await msg_creator.show_choose_weapon_msg(weapons)
+        await state_controller.set_state(AddSubscriptionStates.CHOOSE_WEAPON)
 
-        answer_string = self._msg_creator.create_choose_weapon_msg(weapons)
-        await message.answer(answer_string, reply_markup=self._keyboard.back_button)
-
-    async def add_subscription_weapon(self, message: Message, state: FSMContext):
-        if weapon_dto := await self._state_controller.try_get_weapon_from_text(
-            state, str(message.text)
-        ):
-            await self._state_controller.update_weapon_id_name(state, weapon_dto)
-            await self._state_controller.set_choosing_skin_state(state)
-
+    async def add_subscription_weapon(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        msg_from_user: str,
+        user_id: int,
+    ):
+        if weapon_dto := await state_controller.try_get_weapon_from_user_msg(msg_from_user):
+            await state_controller.update_weapon_id_name_for_user(user_id, weapon_dto)
             skins = await self._db_app_service_client.get_skins_for_weapon_id(weapon_dto.id)
-
-            if not skins:
-                await message.answer(
-                    "Для этого оружия не существует скинов",
-                    reply_markup=self._keyboard.main_buttons,
-                )
-                return
-
-            await self._state_controller.update_all_skins(state, skins)
-
-            answer_string = self._msg_creator.create_choose_skin(skins)
-            await message.answer(answer_string)
+            await self._prep_skin_state(msg_creator, state_controller, skins)
         else:
-            await message.answer(WRONG_ITEM_NAME_MSG_TEXT.format(item="оружия"))
+            await msg_creator.show_wrong_item_name_msg("оружия")
             return
 
-    async def add_subscription_skin(self, message: Message, state: FSMContext):
-        if skin_dto := await self._state_controller.try_get_skin_from_text(
-            state, str(message.text)
-        ):
-            await self._state_controller.update_skin_id_name(state, skin_dto)
-            await self._state_controller.set_choosing_quality_state(state)
+    async def _prep_skin_state(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        skins: List[SkinDTO],
+    ):
+        if await self._show_skins(msg_creator, skins):
+            await state_controller.update_all_skins(skins)
+            await state_controller.set_state(AddSubscriptionStates.CHOOSE_SKIN)
 
-            weapon_dto = await self._state_controller.get_weapon_dto(state)
+    async def _show_skins(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        skins: List[SkinDTO],
+    ) -> bool:
+        if not skins:
+            await msg_creator.show_weapon_skin_not_exist_msg()
+            return False
 
+        await msg_creator.show_choose_skin_msg(skins)
+        return True
+
+    async def add_subscription_skin(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_msg: str,
+        user_id: int,
+    ):
+        if skin_dto := await state_controller.try_get_skin_from_user_msg(user_msg):
+            await state_controller.update_skin_id_name_for_user(user_id, skin_dto)
+            weapon_dto = await state_controller.get_weapon_dto(user_id)
             qualities = await self._db_app_service_client.get_qualities_for_weapon_skin_ids(
                 weapon_dto.id, skin_dto.id
             )
-            await self._state_controller.update_all_qualities(state, qualities)
-
-            answer_string = self._msg_creator.create_choose_quality(qualities)
-            await message.answer(answer_string)
+            await self._prep_quality_state(msg_creator, state_controller, qualities)
         else:
-            await message.answer(WRONG_ITEM_NAME_MSG_TEXT.format(item="скина"))
+            await msg_creator.show_wrong_item_name_msg("скина")
             return
 
-    async def add_subscription_quality(self, message: Message, state: FSMContext):
-        if quality_dto := await self._state_controller.try_get_quality_from_text(
-            state, str(message.text)
-        ):
-            await self._state_controller.update_quality_id_name(state, quality_dto)
-            await self._state_controller.set_choosing_stattrak_state(state)
+    async def _prep_quality_state(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        qualities: List[QualityDTO],
+    ):
+        await state_controller.update_all_qualities(qualities)
+        await msg_creator.show_choose_quality_msg(qualities)
+        await state_controller.set_state(AddSubscriptionStates.CHOOSE_QUALITY)
 
-            skin_dto = await self._state_controller.get_skin_dto(state)
-
+    async def add_subscription_quality(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_msg: str,
+        user_id: int,
+    ):
+        if quality_dto := await state_controller.try_get_quality_from_user_msg(user_msg):
+            await state_controller.update_quality_id_name_for_user(user_id, quality_dto)
+            skin_dto = await state_controller.get_skin_dto(user_id)
+            weapon_dto = await state_controller.get_weapon_dto(user_id)
             stattrak_existence = (
-                await self._db_app_service_client.get_stattrak_existence_for_skin_id(skin_dto.id)
-            )
-
-            if not stattrak_existence:
-                await self._end_subscription(state, message, stattrak_existence)
-            else:
-                await message.answer(
-                    CHOOSING_STATTRAK_MSG_TEXT, reply_markup=self._keyboard.choose_stattrak_buttons
+                await self._db_app_service_client.get_stattrak_existence_for_skin_id(
+                    weapon_dto.id, skin_dto.id, quality_dto.id
                 )
-        else:
-            await message.answer(WRONG_ITEM_NAME_MSG_TEXT.format(item="качества"))
-            return
-
-    async def end_add_subscription(self, message: Message, state: FSMContext):
-        stattrak = False
-        if str(message.text).lower().strip() == "Stattrak версия".lower():
-            stattrak = True
-        subscription_dto = await self._state_controller.get_subscription_dto(state, stattrak)
-        if await self._db_app_service_client.is_subscription_exists(
-            message.from_user.id, subscription_dto
-        ):
-            await self._state_controller.clear_states(state)
-            await message.answer(
-                ALREADY_SUBSCRIBED_MSG_TEXT, reply_markup=self._keyboard.main_buttons
             )
+            if not stattrak_existence:
+                await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
+            else:
+                await self._prep_stattrak_state(msg_creator, state_controller)
+        else:
+            await msg_creator.show_wrong_item_name_msg("качества")
             return
-        await self._end_subscription(state, message, subscription_dto)
 
-    async def _end_subscription(
-        self, state: FSMContext, message: Message, subscription_dto: SubscriptionDTO
-    ) -> None:
-        await self._send_create_subscription_request(subscription_dto, message.from_user.id)
-        await self._state_controller.clear_states(state)
-        answer_string = self._msg_creator.create_subscribed_msg(subscription_dto)
-        await message.answer(answer_string, reply_markup=self._keyboard.main_buttons)
+    async def _prep_stattrak_state(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ):
+        await msg_creator.show_choose_stattrak_msg()
+        await state_controller.set_state(AddSubscriptionStates.CHOOSE_STATTRAK)
+
+    async def add_subscription_stattrak(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_msg: str,
+        user_id: int,
+    ):
+        if Buttons.STATTRAK_VERSION.value.lower() == user_msg.lower().strip():
+            await state_controller.update_stattrak_for_user(user_id, True)
+            await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
+        elif Buttons.BASE_VERSION.value.lower() == user_msg.lower().strip():
+            await state_controller.update_stattrak_for_user(user_id, False)
+            await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
+        else:
+            await msg_creator.show_choose_variants()
+            return
+
+    async def _prep_finish_subscription_state(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_id: int,
+    ):
+        weapon_dto = await state_controller.get_weapon_dto(user_id)
+        skin_dto = await state_controller.get_skin_dto(user_id)
+        quality_dto = await state_controller.get_quality_dto(user_id)
+        stattrak_existence = await state_controller.get_stattrak(user_id)
+        await msg_creator.show_confirm_msg(weapon_dto, skin_dto, quality_dto, stattrak_existence)
+        await state_controller.set_state(AddSubscriptionStates.CONFIRM_USER_REQUEST)
+
+    async def finish_subscription(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_msg: str,
+        user_id: int,
+    ):
+        if Buttons.CONFIRM.value.lower() == user_msg.lower().strip():
+            user_data_values = await state_controller.get_user_data_values(user_id)
+            if await self._db_app_service_client.is_subscription_exists(user_data_values):
+                await msg_creator.show_already_subscribed_msg()
+                await state_controller.clear_states()
+                return
+            await self._send_create_subscription_request(user_data_values)
+            await msg_creator.show_subscribed_msg(user_data_values)
+            await state_controller.clear_states()
+        if Buttons.CANCEL.value.lower() == user_msg.lower().strip():
+            await msg_creator.show_back_to_main_menu_msg()
+            await state_controller.clear_states()
 
     async def _send_create_subscription_request(
         self,
-        full_subscription_dto: SubscriptionDTO,
-        telegram_user_id: int,
+        user_data_values: UserDataValues,
     ) -> None:
-        user = await self._db_app_service_client.get_user_by_telegram_id(telegram_user_id)
+        user = await self._db_app_service_client.get_user_by_telegram_id(
+            user_data_values.tg_user_id
+        )
         await self._db_app_service_client.create_subscription(
             user.id,
-            full_subscription_dto.weapon_id,
-            full_subscription_dto.skin_id,
-            full_subscription_dto.quality_id,
-            full_subscription_dto.stattrak,
+            user_data_values.weapon_id,
+            user_data_values.skin_id,
+            user_data_values.quality_id,
+            user_data_values.stattrak,
         )

@@ -1,16 +1,16 @@
+import asyncio
 from http import HTTPStatus
 from typing import Any, Dict, List
 
 from aiohttp import ClientSession
 
 
-from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
+from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
-from tg_bot_float_common_dtos.schema_dtos.subscription_id_dto import SubscriptionIdDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
+from tg_bot_float_telegram_app.dtos.user_values_dto import UserDataValues
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 
 
@@ -24,45 +24,12 @@ class DBAppServiceClient:
     async def close(self) -> None:
         await self._session.close()
 
-    async def delete_subscription(self, telegram_id: int, subscription_dto: SubscriptionDTO):
-        async with self._session.delete(
-            self._tg_settings.db_app_base_url
-            + self._tg_settings.delete_subscription_url.format(
-                telegram_id=telegram_id,
-                weapon_id=subscription_dto.weapon_id,
-                skin_id=subscription_dto.skin_id,
-                quality_id=subscription_dto.quality_id,
-                stattrak=subscription_dto.stattrak,
-            )
-        ) as response:
-            assert response.status == 204
-
-    async def get_weapon_skin_quality_names(self, subscription_dto: SubscriptionIdDTO):
-        response_json = await self._get_json_response(
-            self._tg_settings.db_app_base_url
-            + self._tg_settings.get_weapon_skin_quality_names_url.format(
-                weapon_id=subscription_dto.weapon_id,
-                skin_id=subscription_dto.skin_id,
-                quality_id=subscription_dto.quality_id,
-            )
-        )
-        relation_name_dto = RelationNameDTO.model_validate(response_json)
-        return SubscriptionDTO(
-            weapon_id=subscription_dto.weapon_id,
-            skin_id=subscription_dto.skin_id,
-            quality_id=subscription_dto.quality_id,
-            stattrak=bool(subscription_dto.stattrak),
-            weapon_name=relation_name_dto.weapon_name,
-            skin_name=relation_name_dto.skin_name,
-            quality_name=relation_name_dto.quality_name,
-        )
-
     async def get_user_by_telegram_id(self, telegram_id: int) -> UserDTO | None:
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
             + self._tg_settings.get_user_url.format(telegram_id=telegram_id)
         )
-        if response_json:
+        if not response_json.get("message"):
             return UserDTO.model_validate(response_json)
 
     async def create_user(self, telegram_id: int, username: str, full_name: str) -> None:
@@ -134,12 +101,16 @@ class DBAppServiceClient:
             )
         return quality_dtos
 
-    async def get_stattrak_existence_for_skin_id(self, skin_id: int) -> bool:
+    async def get_stattrak_existence_for_skin_id(
+        self, weapon_id: int, skin_id: int, quality_id: int
+    ) -> bool:
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
-            + self._tg_settings.get_stattrak_existence_for_skin_id_url.format(skin_id=skin_id)
+            + self._tg_settings.get_stattrak_existence_for_skin_id_url.format(
+                weapon_id=weapon_id, skin_id=skin_id, quality_id=quality_id
+            )
         )
-        return response_json["stattrak_existence"]
+        return response_json
 
     async def create_subscription(
         self, user_id: int, weapon_id: int, skin_id: int, quality_id: int, stattrak: bool | None
@@ -155,56 +126,42 @@ class DBAppServiceClient:
             },
         )
 
-    async def get_subscriptions_by_telegram_id(self, telegram_id: int):
-        subscription_dtos: List[SubscriptionIdDTO] = []
-
-        current_link: str = (
-            self._tg_settings.db_app_base_url
-            + self._tg_settings.get_subscriptions_by_telegram_id_url.format(telegram_id=telegram_id)
-        )
-        next_link_exist: bool = True
-
-        while next_link_exist:
-            response_json = await self._get_json_response(current_link)
-            if (next_link_part := response_json.get("links").get("next")) is None:
-                next_link_exist = False
-            else:
-                current_link = self._tg_settings.db_app_base_url + next_link_part
-            subscription_dtos.extend(
-                [SubscriptionIdDTO.model_validate(item) for item in response_json.get("items")]
-            )
-        return subscription_dtos
-
-    async def get_users_telegram_ids_by_subscription(
-        self, subscription_info: SubscriptionDTO
-    ) -> List[int]:
-        response_json = await self._get_json_response(
-            self._tg_settings.db_app_base_url
-            + self._tg_settings.get_users_telegram_ids_by_subscription_url.format(
-                weapon_id=subscription_info.weapon_id,
-                skin_id=subscription_info.skin_id,
-                quality_id=subscription_info.quality_id,
-                stattrak=subscription_info.stattrak,
-            )
-        )
-        return response_json
-
-    async def is_subscription_exists(
-        self, telegram_id: int, subscription_dto: SubscriptionDTO
-    ) -> bool:
+    async def is_subscription_exists(self, user_data_values: UserDataValues) -> bool:
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
             + self._tg_settings.get_subscription_url.format(
-                telegram_id=telegram_id,
-                weapon_id=subscription_dto.weapon_id,
-                skin_id=subscription_dto.skin_id,
-                quality_id=subscription_dto.quality_id,
-                stattrak=subscription_dto.stattrak,
+                telegram_id=user_data_values.tg_user_id,
+                weapon_id=user_data_values.weapon_id,
+                skin_id=user_data_values.skin_id,
+                quality_id=user_data_values.quality_id,
+                stattrak=user_data_values.stattrak,
             )
         )
         if not response_json.get("message"):
             return True
         return False
+
+    #async def get_subscriptions_by_telegram_id(self, telegram_id: int) -> List[UserDataValues]:
+    #    tasks = []
+    #    response_json = await self._get_json_response(
+    #        self._tg_settings.db_app_base_url
+    #        + self._tg_settings.get_subscriptions_by_telegram_id_url.format(telegram_id=telegram_id)
+    #    )
+    #    items = response_json.get("items")
+    #    for item in items:
+    #        subscription = SubscriptionDTO.model_validate(item)
+    #        task = asyncio.create_task(
+    #            self._get_json_response(
+    #                self._tg_settings.db_app_base_url
+    #                + self._tg_settings.get_weapon_skin_quality_names_url.format(
+    #                    weapon_id=subscription.weapon_id,
+    #                    skin_id=subscription.skin_id,
+    #                    quality_id=subscription.quality_id,
+    #                )
+    #            )
+    #        )
+    #        tasks.append(task)
+    #    responses = await asyncio.gather(*tasks)
 
     async def _get_json_response(self, link: str) -> Any:
         async with self._session.get(link) as response:

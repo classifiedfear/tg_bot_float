@@ -1,4 +1,4 @@
-from typing import Any, AsyncGenerator
+from typing import Any, AsyncGenerator, List
 from fastapi import FastAPI
 from redis.asyncio import Redis
 
@@ -6,13 +6,14 @@ from tg_bot_float_telegram_app.api.api_router_controllers.tg_router_controller i
     TgRouterController,
 )
 from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
-from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
+from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
+from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
+    AbstractTGRouterController,
+)
 from tg_bot_float_telegram_app.telegram.telegram_routers.command_router_controller import (
     CommandRouterController,
 )
-from tg_bot_float_telegram_app.telegram.telegram_routers.delete_subscription_router_controller import (
-    DeleteSubscriptionRouterController,
-)
+
 from tg_bot_float_telegram_app.telegram.telegram_routers.add_subscription_router_controller import (
     AddSubscriptionRouterController,
 )
@@ -21,16 +22,15 @@ from tg_bot_float_telegram_app.tg_settings import get_tg_settings
 
 
 TG_SETTINGS = get_tg_settings()
-REDIS_STORAGE = Redis(host=TG_SETTINGS.redis_host)
+REDIS_STORAGE = Redis(host=TG_SETTINGS.redis_host_url)
 TG_KEYBOARD = Keyboard()
 
 tg_app = TgBotFloatApp(TG_SETTINGS, REDIS_STORAGE)
 db_app_service_client = DBAppServiceClient(TG_SETTINGS)
 
 fastapi_routers = [TgRouterController(TG_SETTINGS, TG_KEYBOARD, tg_app, db_app_service_client)]
-tg_routers = [
+tg_routers: List[AbstractTGRouterController] = [
     CommandRouterController(TG_KEYBOARD, REDIS_STORAGE, db_app_service_client),
-    DeleteSubscriptionRouterController(TG_KEYBOARD, db_app_service_client),
     AddSubscriptionRouterController(TG_KEYBOARD, db_app_service_client),
 ]
 

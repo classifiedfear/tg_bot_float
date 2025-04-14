@@ -6,7 +6,7 @@ import brotli
 
 
 from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
-from tg_bot_float_telegram_app.telegram.keyboard import Keyboard
+from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
 from tg_bot_float_telegram_app.telegram.tg_bot_float_app import TgBotFloatApp
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
