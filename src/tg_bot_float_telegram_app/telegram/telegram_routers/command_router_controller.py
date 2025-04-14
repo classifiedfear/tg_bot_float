@@ -22,6 +22,9 @@ class CommandRouterController(AbstractTGRouterController):
 
     def _init_routes(self):
         self._router.message.register(self._command_start, CommandStart())
+        self._router.message.register(
+            self._show_subscriptions, lambda message: message.text == "Мои подписки"
+        )
 
     async def _command_start(self, message: Message) -> None:
         await message.answer(
@@ -33,4 +36,10 @@ class CommandRouterController(AbstractTGRouterController):
         subscriptions = await self._db_app_service_client.get_subscriptions_by_telegram_id(
             message.from_user.id
         )
-        pass
+        message_text = "Ваши подписки:\n"
+        for subscription in subscriptions:
+            message_text += f"- {subscription.weapon_name}, {subscription.skin_name}, {subscription.quality_name}, {subscription.stattrak_existence}\n"
+        await message.answer(
+            text=message_text,
+            reply_markup=self._keyboard.main_buttons,
+        )

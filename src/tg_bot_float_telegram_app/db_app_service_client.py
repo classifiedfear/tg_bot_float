@@ -6,6 +6,7 @@ from aiohttp import ClientSession
 
 
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
@@ -141,27 +142,29 @@ class DBAppServiceClient:
             return True
         return False
 
-    #async def get_subscriptions_by_telegram_id(self, telegram_id: int) -> List[UserDataValues]:
-    #    tasks = []
-    #    response_json = await self._get_json_response(
-    #        self._tg_settings.db_app_base_url
-    #        + self._tg_settings.get_subscriptions_by_telegram_id_url.format(telegram_id=telegram_id)
-    #    )
-    #    items = response_json.get("items")
-    #    for item in items:
-    #        subscription = SubscriptionDTO.model_validate(item)
-    #        task = asyncio.create_task(
-    #            self._get_json_response(
-    #                self._tg_settings.db_app_base_url
-    #                + self._tg_settings.get_weapon_skin_quality_names_url.format(
-    #                    weapon_id=subscription.weapon_id,
-    #                    skin_id=subscription.skin_id,
-    #                    quality_id=subscription.quality_id,
-    #                )
-    #            )
-    #        )
-    #        tasks.append(task)
-    #    responses = await asyncio.gather(*tasks)
+    async def get_subscriptions_by_telegram_id(self, telegram_id: int) -> List[RelationNameDTO]:
+        tasks = []
+        response_json = await self._get_json_response(
+            self._tg_settings.db_app_base_url
+            + self._tg_settings.get_subscriptions_by_telegram_id_url.format(telegram_id=telegram_id)
+        )
+        items = response_json.get("items")
+        for item in items:
+            subscription = SubscriptionDTO.model_validate(item)
+            task = asyncio.create_task(
+                self._get_json_response(
+                    self._tg_settings.db_app_base_url
+                    + self._tg_settings.get_weapon_skin_quality_names_url.format(
+                        weapon_id=subscription.weapon_id,
+                        skin_id=subscription.skin_id,
+                        quality_id=subscription.quality_id,
+                        stattrak_existence=subscription.stattrak,
+                    )
+                )
+            )
+            tasks.append(task)
+        responses = await asyncio.gather(*tasks)
+        return [RelationNameDTO.model_validate(response) for response in responses]
 
     async def _get_json_response(self, link: str) -> Any:
         async with self._session.get(link) as response:
