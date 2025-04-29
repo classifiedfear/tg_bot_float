@@ -1,26 +1,22 @@
 from typing import List
 
-
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 
-from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
+from tg_bot_float_telegram_app.telegram.handlers.handler_service import HandlerService
 from tg_bot_float_telegram_app.telegram.keyboard.buttons import Buttons
 from tg_bot_float_telegram_app.telegram.states.add_subscription_states import AddSubscriptionStates
-from tg_bot_float_telegram_app.telegram.states.state_controllers.add_subscription_state_controller import (
+from tg_bot_float_telegram_app.telegram.state_controllers.add_subscription_state_controller import (
     AddSubscriptionStateController,
 )
 from tg_bot_float_telegram_app.telegram.msg_creators.add_subscription_msg_creator import (
     AddSubscriptionMsgCreator,
 )
 
-from tg_bot_float_telegram_app.dtos.user_values_dto import UserDataValues
+from tg_bot_float_telegram_app.dtos.add_user_values_dto import AddUserDataValues
 
 
-class AddSubscriptionHandler:
-    def __init__(self, db_app_service_client: DBAppServiceClient):
-        self._db_app_service_client = db_app_service_client
-
+class AddSubscriptionHandlerService(HandlerService):
     async def cancel(
         self,
         msg_creator: AddSubscriptionMsgCreator,
@@ -195,15 +191,24 @@ class AddSubscriptionHandler:
 
     async def _send_create_subscription_request(
         self,
-        user_data_values: UserDataValues,
+        user_data_values: AddUserDataValues,
     ) -> None:
-        user = await self._db_app_service_client.get_user_by_telegram_id(
-            user_data_values.tg_user_id
-        )
-        await self._db_app_service_client.create_subscription(
-            user.id,
-            user_data_values.weapon_id,
-            user_data_values.skin_id,
-            user_data_values.quality_id,
-            user_data_values.stattrak,
-        )
+        if db_user_id := await self._redis.get(str(user_data_values.tg_user_id)):
+            await self._db_app_service_client.create_subscription(
+                db_user_id.decode("utf-8"),
+                user_data_values.weapon_id,
+                user_data_values.skin_id,
+                user_data_values.quality_id,
+                user_data_values.stattrak,
+            )
+        else:
+            user = await self._db_app_service_client.get_user_by_telegram_id(
+                user_data_values.tg_user_id
+            )
+            await self._db_app_service_client.create_subscription(
+                user.id,
+                user_data_values.weapon_id,
+                user_data_values.skin_id,
+                user_data_values.quality_id,
+                user_data_values.stattrak,
+            )

@@ -12,7 +12,7 @@ from redis.asyncio import Redis
 # from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
 # from tg_bot_float_telegram_app.tg_constants import RESULT_TEXT
 from tg_bot_float_common_dtos.tg_result_dtos.tg_result_dto import TgResultDTO
-from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
+from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import KeyboardController
 from tg_bot_float_telegram_app.tg_constants import RESULT_TEXT
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
@@ -54,7 +54,7 @@ class TgBotFloatApp:
         self,
         telegram_ids: List[int],
         tg_result_dto: TgResultDTO,
-        keyboard: Keyboard,
+        keyboard: KeyboardController,
     ) -> None:
         for tg_id in telegram_ids:
             for item in tg_result_dto.items_with_benefit:

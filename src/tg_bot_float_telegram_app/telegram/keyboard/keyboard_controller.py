@@ -6,7 +6,7 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 from tg_bot_float_telegram_app.telegram.keyboard.buttons import Buttons
 
 
-class Keyboard:
+class KeyboardController:
     def __init__(self) -> None:
         self._init_buttons()
 
@@ -71,3 +71,6 @@ class Keyboard:
             builder.button(text=text, **inline_button_kwargs)
             builder.adjust(*row_sizes)
         return builder.as_markup()
+
+
+KEYBOARD_CONTROLLER = KeyboardController()

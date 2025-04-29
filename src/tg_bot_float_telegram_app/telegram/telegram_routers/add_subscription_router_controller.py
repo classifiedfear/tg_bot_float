@@ -1,18 +1,17 @@
+from aiogram import BaseMiddleware
 from aiogram.types import Message
 
-from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
-from tg_bot_float_telegram_app.telegram.handlers.add_subscription_handler import (
-    AddSubscriptionHandler,
+
+from tg_bot_float_telegram_app.telegram.handlers.add_subscription_handler_service import (
+    AddSubscriptionHandlerService,
 )
-from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
-from tg_bot_float_telegram_app.telegram.midlewares.prep_middleware import (
-    AddSubscriptionPrepMiddleware,
-)
+
 from tg_bot_float_telegram_app.telegram.msg_creators.add_subscription_msg_creator import (
     AddSubscriptionMsgCreator,
 )
 from tg_bot_float_telegram_app.telegram.states.add_subscription_states import AddSubscriptionStates
-from tg_bot_float_telegram_app.telegram.states.state_controllers.add_subscription_state_controller import (
+
+from tg_bot_float_telegram_app.telegram.state_controllers.add_subscription_state_controller import (
     AddSubscriptionStateController,
 )
 from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
@@ -21,10 +20,14 @@ from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_control
 
 
 class AddSubscriptionRouterController(AbstractTGRouterController):
-    def __init__(self, keyboard: Keyboard, db_app_service_client: DBAppServiceClient):
+    def __init__(
+        self,
+        handler_service: AddSubscriptionHandlerService,
+        middleware: BaseMiddleware,
+    ) -> None:
         super().__init__()
-        self._hanlder_service = AddSubscriptionHandler(db_app_service_client)
-        self.router.message.middleware(AddSubscriptionPrepMiddleware(keyboard))
+        self._handler_service = handler_service
+        self.router.message.middleware(middleware)
         self._init_routes()
 
     def _init_routes(self):
@@ -59,7 +62,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.cancel(msg_creator, state_controller)
+        await self._handler_service.cancel(msg_creator, state_controller)
 
     async def _start_add_subscription(
         self,
@@ -67,7 +70,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.start_add_subscription(msg_creator, state_controller)
+        await self._handler_service.start_add_subscription(msg_creator, state_controller)
 
     async def _add_subscription_weapon(
         self,
@@ -75,7 +78,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.add_subscription_weapon(
+        await self._handler_service.add_subscription_weapon(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
@@ -85,7 +88,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.add_subscription_skin(
+        await self._handler_service.add_subscription_skin(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
@@ -95,7 +98,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.add_subscription_quality(
+        await self._handler_service.add_subscription_quality(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
@@ -105,7 +108,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.add_subscription_stattrak(
+        await self._handler_service.add_subscription_stattrak(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
@@ -115,6 +118,6 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._hanlder_service.finish_subscription(
+        await self._handler_service.finish_subscription(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )

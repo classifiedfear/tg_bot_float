@@ -11,7 +11,7 @@ from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
-from tg_bot_float_telegram_app.dtos.user_values_dto import UserDataValues
+from tg_bot_float_telegram_app.dtos.add_user_values_dto import AddUserDataValues
 from tg_bot_float_telegram_app.tg_settings import TgSettings
 
 
@@ -25,6 +25,20 @@ class DBAppServiceClient:
     async def close(self) -> None:
         await self._session.close()
 
+    async def create_user(self, telegram_id: int, username: str, full_name: str) -> int:
+        create_user_link = self._tg_settings.db_app_base_url + self._tg_settings.create_user_url
+        user: Dict[str, Any] = {
+            "telegram_id": telegram_id,
+            "username": username,
+            "full_name": full_name,
+        }
+        async with self._session.post(create_user_link, json=user) as response:
+            if response.status in self._success_responses:
+                location_header: str = response.headers["Location"]
+                user_id = location_header.removeprefix("/users/id/")
+                return int(user_id)
+            raise AssertionError("User creation failed, response status: {response.status}")
+
     async def get_user_by_telegram_id(self, telegram_id: int) -> UserDTO | None:
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
@@ -32,16 +46,6 @@ class DBAppServiceClient:
         )
         if not response_json.get("message"):
             return UserDTO.model_validate(response_json)
-
-    async def create_user(self, telegram_id: int, username: str, full_name: str) -> None:
-        await self._post_request(
-            self._tg_settings.db_app_base_url + self._tg_settings.create_user_url,
-            json={
-                "telegram_id": telegram_id,
-                "username": username,
-                "full_name": full_name,
-            },
-        )
 
     async def get_weapons(self) -> List[WeaponDTO]:
         weapon_dtos: List[WeaponDTO] = []
@@ -127,7 +131,7 @@ class DBAppServiceClient:
             },
         )
 
-    async def is_subscription_exists(self, user_data_values: UserDataValues) -> bool:
+    async def is_subscription_exists(self, user_data_values: AddUserDataValues) -> bool:
         response_json = await self._get_json_response(
             self._tg_settings.db_app_base_url
             + self._tg_settings.get_subscription_url.format(
@@ -151,20 +155,22 @@ class DBAppServiceClient:
         items = response_json.get("items")
         for item in items:
             subscription = SubscriptionDTO.model_validate(item)
-            task = asyncio.create_task(
-                self._get_json_response(
-                    self._tg_settings.db_app_base_url
-                    + self._tg_settings.get_weapon_skin_quality_names_url.format(
-                        weapon_id=subscription.weapon_id,
-                        skin_id=subscription.skin_id,
-                        quality_id=subscription.quality_id,
-                        stattrak_existence=subscription.stattrak,
-                    )
+            link = (
+                self._tg_settings.db_app_base_url
+                + self._tg_settings.get_weapon_skin_quality_names_url.format(
+                    weapon_id=subscription.weapon_id,
+                    skin_id=subscription.skin_id,
+                    quality_id=subscription.quality_id,
+                    stattrak_existence=subscription.stattrak,
                 )
             )
+            task = asyncio.create_task(self._get_json_response(link))
             tasks.append(task)
         responses = await asyncio.gather(*tasks)
         return [RelationNameDTO.model_validate(response) for response in responses]
+
+    async def delete_subscription(self, user_id: int, sub: RelationNameDTO) -> None:
+        pass
 
     async def _get_json_response(self, link: str) -> Any:
         async with self._session.get(link) as response:

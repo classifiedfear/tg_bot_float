@@ -52,7 +52,7 @@ LEN_OF_WEAPONS_TEXT = "Количество оружия: {weapon_len}"
 LEN_OF_SKINS_TEXT = "Количество скинов: {skin_len}"
 LEN_OF_QUALITIES_TEXT = "Количество качеств: {quality_len}"
 
-WEAPON_SKIN_NOT_EXIST_TEXT = "Для этого оружия не существует скинов"
+WEAPON_SKIN_NOT_EXIST_TEXT = "Для этого оружия не существует скинов!"
 
 SUBSCRIBE_TEXT = "Отслеживать"
 UNSUBSCRIBE_TEXT = "Отписаться"
@@ -60,4 +60,4 @@ MY_SUBSCRIPTIONS_TEXT = "Мои подписки"
 BUY_TEXT = "Купить"
 CONFIRM_TEXT = "Подтвердить"
 CANCEL_TEXT = "Отменить"
-
+NO_SUBSCRIPTIONS_TEXT = "У вас нет подписок"

@@ -1,11 +1,9 @@
 from typing import Any, Dict, List
 
-from aiogram.fsm.state import State
 
-
-from tg_bot_float_telegram_app.dtos.user_values_dto import UserDataValues
-from tg_bot_float_telegram_app.telegram.states.state_controllers.abstract_state_controller import (
-    AbstractStateController,
+from tg_bot_float_telegram_app.dtos.add_user_values_dto import AddUserDataValues
+from tg_bot_float_telegram_app.telegram.state_controllers.abstract_state_controller import (
+    StateController,
 )
 
 from tg_bot_float_common_dtos.schema_dtos.weapon_dto import WeaponDTO
@@ -13,7 +11,7 @@ from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 
 
-class AddSubscriptionStateController(AbstractStateController):
+class AddSubscriptionStateController(StateController):
     """
     Controller for managing the state of adding a subscription.
 
@@ -21,23 +19,15 @@ class AddSubscriptionStateController(AbstractStateController):
     such as weapon, skin, quality, and stattrak information for a specific user.
     """
 
-    async def _get_or_create_user_in_state(self, telegram_id: str) -> UserDataValues:
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before adding user."
-            )
-        subs_data = await self._context.get_data()
-        if telegram_id not in subs_data:
-            user_data_values = UserDataValues(tg_user_id=int(telegram_id))
+    async def _get_or_create_user_in_state(self, telegram_id: str) -> AddUserDataValues:
+        context_data = await self._context.get_data()
+        if telegram_id not in context_data:
+            user_data_values = AddUserDataValues(tg_user_id=int(telegram_id))
             await self._context.update_data({telegram_id: user_data_values.model_dump()})
             return user_data_values
-        return UserDataValues.model_validate(subs_data[telegram_id])
+        return AddUserDataValues.model_validate(context_data[telegram_id])
 
     async def update_weapon_id_name_for_user(self, telegram_id: int, weapon_dto: WeaponDTO) -> None:
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating weapon id and name."
-            )
         telegram_id_str = str(telegram_id)
         user_data_values = await self._get_or_create_user_in_state(telegram_id_str)
         user_data_values.weapon_id, user_data_values.weapon_name = weapon_dto.id, weapon_dto.name
@@ -50,14 +40,8 @@ class AddSubscriptionStateController(AbstractStateController):
         Args:
             telegram_id (int): The Telegram ID of the user.
             skin_dto (SkinDTO): The skin DTO containing the skin ID and name.
-
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating skin id and name."
-            )
+
         telegram_id_str = str(telegram_id)
         user_data_values = await self._get_or_create_user_in_state(telegram_id_str)
         user_data_values.skin_id, user_data_values.skin_name = skin_dto.id, skin_dto.name
@@ -72,14 +56,7 @@ class AddSubscriptionStateController(AbstractStateController):
         Args:
             telegram_id (int): The Telegram ID of the user.
             quality_dto (QualityDTO): The quality DTO containing the quality ID and name.
-
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating quality id and name."
-            )
         telegram_id_str = str(telegram_id)
         user_data_values = await self._get_or_create_user_in_state(telegram_id_str)
         user_data_values.quality_id, user_data_values.quality_name = (
@@ -96,13 +73,7 @@ class AddSubscriptionStateController(AbstractStateController):
             telegram_id (int): The Telegram ID of the user.
             stattrak (bool): The stattrak existence to update in the state.
 
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating stattrak."
-            )
         telegram_id_str = str(telegram_id)
         user_data_values = await self._get_or_create_user_in_state(telegram_id_str)
         user_data_values.stattrak = stattrak
@@ -115,13 +86,7 @@ class AddSubscriptionStateController(AbstractStateController):
         Args:
             weapons (List[WeaponDTO]): List of weapon DTOs to update in the state.
 
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating weapons."
-            )
         await self._context.update_data(
             weapons={
                 f"{index+1} {str(weapon.name).lower()}": weapon.model_dump()
@@ -136,13 +101,7 @@ class AddSubscriptionStateController(AbstractStateController):
         Args:
             skins (List[SkinDTO]): List of skin DTOs to update in the state.
 
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating skins."
-            )
         await self._context.update_data(
             skins={
                 f"{index+1} {str(skin.name).lower()}": skin.model_dump()
@@ -157,13 +116,7 @@ class AddSubscriptionStateController(AbstractStateController):
         Args:
             qualities (List[QualityDTO]): List of quality DTOs to update in the state.
 
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before updating qualities."
-            )
         await self._context.update_data(
             qualities={
                 f"{index+1} {str(quality.name).lower()}": quality.model_dump()
@@ -172,10 +125,6 @@ class AddSubscriptionStateController(AbstractStateController):
         )
 
     async def try_get_weapon_from_user_msg(self, user_msg: str) -> WeaponDTO | None:
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting weapon."
-            )
         subs_data = await self._context.get_data()
         weapons: Dict[str, Any] = subs_data["weapons"]
         user_msg = self._normalize_text(user_msg)
@@ -192,14 +141,7 @@ class AddSubscriptionStateController(AbstractStateController):
 
         Returns:
             SkinDTO | None: The skin DTO if found, otherwise None.
-
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting skin."
-            )
         subs_data = await self._context.get_data()
         skins: Dict[str, Any] = subs_data["skins"]
         user_msg = self._normalize_text(user_msg)
@@ -217,13 +159,7 @@ class AddSubscriptionStateController(AbstractStateController):
         Returns:
             QualityDTO | None: The quality DTO if found, otherwise None.
 
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting quality."
-            )
         subs_data = await self._context.get_data()
         qualities: Dict[str, Any] = subs_data["qualities"]
         user_msg = self._normalize_text(user_msg)
@@ -246,22 +182,6 @@ class AddSubscriptionStateController(AbstractStateController):
             text = text.replace('"', "")
         return text
 
-    async def set_state(self, state: State) -> None:
-        """
-        Set the state to the specified state.
-
-        Args:
-            state (AddSubscriptionStates): The state to set.
-
-        Raises:
-            ValueError: If the state is not set.
-        """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before setting state."
-            )
-        await self._context.set_state(state)
-
     async def get_weapon_dto(self, telegram_id: int) -> WeaponDTO:
         """
         Get the weapon DTO for a specific user.
@@ -272,13 +192,7 @@ class AddSubscriptionStateController(AbstractStateController):
         Returns:
             WeaponDTO: The weapon DTO containing the weapon ID and name.
 
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting weapon DTO."
-            )
         user_data_values = await self._get_or_create_user_in_state(str(telegram_id))
         return WeaponDTO.model_validate(
             {"id": user_data_values.weapon_id, "name": user_data_values.weapon_name}
@@ -293,14 +207,7 @@ class AddSubscriptionStateController(AbstractStateController):
 
         Returns:
             SkinDTO: The skin DTO containing the skin ID and name.
-
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting skin DTO."
-            )
         user_data_values = await self._get_or_create_user_in_state(str(telegram_id))
         return SkinDTO.model_validate(
             {"id": user_data_values.skin_id, "name": user_data_values.skin_name}
@@ -315,35 +222,20 @@ class AddSubscriptionStateController(AbstractStateController):
 
         Returns:
             QualityDTO: The quality DTO containing the quality ID and name.
-
-        Raises:
-            ValueError: If the state is not set.
         """
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting quality DTO."
-            )
         user_data_values = await self._get_or_create_user_in_state(str(telegram_id))
         return QualityDTO.model_validate(
             {"id": user_data_values.quality_id, "name": user_data_values.quality_name}
         )
 
     async def get_stattrak(self, telegram_id: int) -> bool:
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting stattrak."
-            )
         user_data_values = await self._get_or_create_user_in_state(str(telegram_id))
         return user_data_values.stattrak
 
     async def get_user_data_values(
         self,
         telegram_id: int,
-    ) -> UserDataValues:
-        if self._context is None:
-            raise ValueError(
-                "FSMContext state is not set. Please set the state before getting subscription DTO."
-            )
+    ) -> AddUserDataValues:
         return await self._get_or_create_user_in_state(str(telegram_id))
 
     def _try_get_item_data_by_msg(

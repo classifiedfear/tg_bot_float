@@ -1,45 +1,37 @@
-from aiogram import html
+from aiogram import BaseMiddleware
 from aiogram.types import Message
 from aiogram.filters import CommandStart
-from redis.asyncio import Redis
 
-from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
-from tg_bot_float_telegram_app.telegram.midlewares.register_check import RegisterCheck
+from tg_bot_float_telegram_app.telegram.handlers.command_handler_service import CommandHandlerService
+
+from tg_bot_float_telegram_app.telegram.msg_creators.command_msg_creator import CommandMsgCreator
 from tg_bot_float_telegram_app.telegram.telegram_routers.abstract_router_controller import (
     AbstractTGRouterController,
 )
-from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import Keyboard
+from tg_bot_float_telegram_app.tg_constants import MY_SUBSCRIPTIONS_TEXT
 
 
 class CommandRouterController(AbstractTGRouterController):
-    def __init__(self, keyboard: Keyboard, redis: Redis, db_app_service_client: DBAppServiceClient):
+    def __init__(
+        self,
+        command_handler: CommandHandlerService,
+        middleware: BaseMiddleware,
+        outer_middleware: BaseMiddleware,
+    ):
         super().__init__()
-        self._keyboard = keyboard
-        self._router.message.middleware(RegisterCheck(redis, db_app_service_client))
-        self._db_app_service_client = db_app_service_client
-        self._redis = redis
+        self._router.message.outer_middleware(outer_middleware)
+        self._router.message.middleware(middleware)
+        self._command_handler = command_handler
         self._init_routes()
 
     def _init_routes(self):
         self._router.message.register(self._command_start, CommandStart())
         self._router.message.register(
-            self._show_subscriptions, lambda message: message.text == "Мои подписки"
+            self._show_subscriptions, lambda message: message.text == MY_SUBSCRIPTIONS_TEXT
         )
 
-    async def _command_start(self, message: Message) -> None:
-        await message.answer(
-            text=f"Привет, {html.bold(str(message.from_user.full_name))}!",
-            reply_markup=self._keyboard.main_buttons,
-        )
+    async def _command_start(self, message: Message, msg_creator: CommandMsgCreator) -> None:
+        await self._command_handler.command_start(msg_creator)
 
-    async def _show_subscriptions(self, message: Message) -> None:
-        subscriptions = await self._db_app_service_client.get_subscriptions_by_telegram_id(
-            message.from_user.id
-        )
-        message_text = "Ваши подписки:\n"
-        for subscription in subscriptions:
-            message_text += f"- {subscription.weapon_name}, {subscription.skin_name}, {subscription.quality_name}, {subscription.stattrak_existence}\n"
-        await message.answer(
-            text=message_text,
-            reply_markup=self._keyboard.main_buttons,
-        )
+    async def _show_subscriptions(self, message: Message, msg_creator: CommandMsgCreator) -> None:
+        await self._command_handler.show_subscriptions(msg_creator, message.from_user.id)
