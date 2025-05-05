@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Response, status
+from fastapi import APIRouter, Query, Response, status
 from fastapi_pagination.links import Page
 
 from tg_bot_float_common_dtos.schema_dtos.user_dto import UserDTO
@@ -105,7 +105,7 @@ class UserRouterController(AbstractRouterController):
     async def _get_by_subscription(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        users_by_subscription: USERS_BY_SUBSCIPTION_PARAMS,
+        users_by_subscription: USERS_BY_SUBSCIPTION_PARAMS = Query(None),
     ):
         async with service_factory:
             user_service = service_factory.get_user_service()

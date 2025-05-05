@@ -6,6 +6,8 @@ import brotli
 
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.agent_relation_dto import AgentRelationDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.glove_relation_dto import GloveRelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 from tg_bot_float_db_app.database.services.agent_service import AgentService
 from tg_bot_float_db_app.database.services.dtos.db_refresher_dtos import (
     CreateDeleteDTO,
@@ -23,8 +25,6 @@ from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
 from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 
 
 class BotDBRefresherService:
@@ -162,7 +162,7 @@ class BotDBRefresherService:
                 weapon_id=relation.weapon.id,
                 skin_id=relation.skin.id,
                 quality_id=relation.quality.id,
-                stattrak_existence=relation.stattrak_existence
+                stattrak_existence=relation.stattrak_existence,
             )
             for relation in relations
         ]
@@ -173,7 +173,7 @@ class BotDBRefresherService:
                     weapon_id=relation_db_model.weapon_id,
                     skin_id=relation_db_model.skin_id,
                     quality_id=relation_db_model.quality_id,
-                    stattrak_existence=relation_db_model.stattrak_existence
+                    stattrak_existence=relation_db_model.stattrak_existence,
                 )
             ) in ids_relations_to_create:
                 ids_relations_to_create.remove(relation_id_dto)

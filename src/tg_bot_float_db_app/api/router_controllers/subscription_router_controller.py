@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Response, status
+from fastapi import APIRouter, Query, Response, status
 from fastapi_pagination.links import Page
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
@@ -65,7 +65,7 @@ class SubscriptionRouter(AbstractRouterController):
             return await subscription_service.get_all_paginated()
 
     async def _get(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, params: SUBSCRIPTION_QUERY
+        self, service_factory: BOT_DB_SERVICE_FACTORY, params: SUBSCRIPTION_QUERY = Query(None)
     ) -> SubscriptionModel:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
@@ -80,7 +80,7 @@ class SubscriptionRouter(AbstractRouterController):
     async def _delete(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        params: SUBSCRIPTION_QUERY,
+        params: SUBSCRIPTION_QUERY = Query(None),
     ) -> None:
         async with service_factory:
             subsciption_service = service_factory.get_subscription_service()

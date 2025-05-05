@@ -6,6 +6,7 @@ from sqlalchemy.exc import IntegrityError
 from fastapi_pagination.links import Page
 from fastapi_pagination.ext.sqlalchemy import paginate
 
+from tg_bot_float_common_dtos.schema_dtos.relation_id_request_dto import RelationIdRequestDTO
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
@@ -66,23 +67,20 @@ class RelationService:
 
         return relation_models
 
-    async def get_by_id(self, relation_id_dto: RelationIdDTO) -> RelationModel:
+    async def get_by_id(self, weapon_id: int, skin_id: int, quality_id: int) -> RelationModel:
         select_stmt = select(RelationModel)
         where_stmt = select_stmt.where(
-            RelationModel.weapon_id == relation_id_dto.weapon_id,
-            RelationModel.skin_id == relation_id_dto.skin_id,
-            RelationModel.quality_id == relation_id_dto.quality_id,
-            RelationModel.stattrak_existence == relation_id_dto.stattrak_existence,
-        )  # await self._session.get(
-        #    RelationModel, {"weapon_id": weapon_id, "skin_id": skin_id, "quality_id": quality_id}
-        # )
+            RelationModel.weapon_id == weapon_id,
+            RelationModel.skin_id == skin_id,
+            RelationModel.quality_id == quality_id,
+        )
         relation_model = await self._session.scalar(where_stmt)
         if relation_model is None:
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Relation",
-                    identifier="weapon_id, skin_id, quality_id, stattrak_existence",
-                    entity_identifier=f"{relation_id_dto.weapon_id}, {relation_id_dto.skin_id}, {relation_id_dto.quality_id}, {relation_id_dto.stattrak_existence}",
+                    identifier="weapon_id, skin_id, quality_id",
+                    entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
                 ),
             )
         return relation_model
@@ -95,13 +93,12 @@ class RelationService:
         select_stmt = select(RelationModel)
         return await paginate(self._session, select_stmt)
 
-    async def delete_by_id(self, relation_id_dto: RelationIdDTO) -> None:
+    async def delete_by_id(self, weapon_id: int, skin_id: int, quality_id: int) -> None:
         del_stmt = delete(RelationModel)
         where_stmt = del_stmt.where(
-            RelationModel.weapon_id == relation_id_dto.weapon_id,
-            RelationModel.skin_id == relation_id_dto.skin_id,
-            RelationModel.quality_id == relation_id_dto.quality_id,
-            RelationModel.stattrak_existence == relation_id_dto.stattrak_existence,
+            RelationModel.weapon_id == weapon_id,
+            RelationModel.skin_id == skin_id,
+            RelationModel.quality_id == quality_id,
         )
         result = await self._session.execute(where_stmt)
         deleted_row = result.rowcount
@@ -109,8 +106,8 @@ class RelationService:
             raise BotDbException(
                 ENTITY_NOT_FOUND_ERROR_MSG.format(
                     entity="Relation",
-                    identifier="weapon_id, skin_id, quality_id, stattrak_existence",
-                    entity_identifier=f"{relation_id_dto.weapon_id}, {relation_id_dto.skin_id}, {relation_id_dto.quality_id}, {relation_id_dto.stattrak_existence}",
+                    identifier="weapon_id, skin_id, quality_id",
+                    entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
                 ),
             )
         await self._session.commit()
@@ -179,7 +176,7 @@ class RelationService:
         return await self._session.scalars(where_stmt)
 
     async def get_weapon_skin_quality_names(
-        self, relation_id_dto: RelationIdDTO
+        self, weapon_id: int, skin_id: int, quality_id: int
     ) -> RelationNameDTO:
         select_stmt = (
             select(
@@ -193,10 +190,9 @@ class RelationService:
             .join(RelationModel.quality)
         )
         where_stmt = select_stmt.where(
-            WeaponModel.id == relation_id_dto.weapon_id,
-            SkinModel.id == relation_id_dto.skin_id,
-            QualityModel.id == relation_id_dto.quality_id,
-            RelationModel.stattrak_existence == relation_id_dto.stattrak_existence,
+            WeaponModel.id == weapon_id,
+            SkinModel.id == skin_id,
+            QualityModel.id == quality_id,
         )
         result = await self._session.execute(where_stmt)
         row = result.one_or_none()
@@ -211,8 +207,8 @@ class RelationService:
         raise BotDbException(
             ENTITY_NOT_FOUND_ERROR_MSG.format(
                 entity="Relation",
-                identifier="weapon_id, skin_id, quality_id, stattrak_existence",
-                entity_identifier=f"{relation_id_dto.weapon_id}, {relation_id_dto.skin_id}, {relation_id_dto.quality_id}, {relation_id_dto.stattrak_existence}",
+                identifier="weapon_id, skin_id, quality_id",
+                entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
             ),
         )
 
@@ -231,6 +227,38 @@ class RelationService:
                 entity="Relation",
                 identifier="weapon_id, skin_id, quality_id",
                 entity_identifier=f"{weapon_id}, {skin_id}, {quality_id}",
+            ),
+        )
+
+    async def get_weapon_skin_quality_ids(
+        self, weapon_name: str, skin_name: str, quality_name: str
+    ) -> RelationIdDTO:
+        select_stmt = (
+            select(WeaponModel.id, SkinModel.id, QualityModel.id, RelationModel.stattrak_existence)
+            .join(WeaponModel.relations)
+            .join(RelationModel.skin)
+            .join(RelationModel.quality)
+        )
+        where_stmt = select_stmt.where(
+            WeaponModel.name == weapon_name,
+            SkinModel.name == skin_name,
+            QualityModel.name == quality_name,
+        )
+        result = await self._session.execute(where_stmt)
+        row = result.one_or_none()
+        if row is not None:
+            weapon_id, skin_id, quality_id, stattrak_existence = row.tuple()
+            return RelationIdDTO(
+                weapon_id=weapon_id,
+                skin_id=skin_id,
+                quality_id=quality_id,
+                stattrak_existence=stattrak_existence,
+            )
+        raise BotDbException(
+            ENTITY_NOT_FOUND_ERROR_MSG.format(
+                entity="Relation",
+                identifier="weapon_name, skin_name, quality_name",
+                entity_identifier=f"{weapon_name}, {skin_name}, {quality_name}",
             ),
         )
 
