@@ -6,6 +6,7 @@ from aiohttp import ClientSession
 
 
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
@@ -170,11 +171,34 @@ class DBAppServiceClient:
         return [RelationNameDTO.model_validate(response) for response in responses]
 
     async def delete_subscription(self, user_id: int, sub: RelationNameDTO) -> None:
-        pass
+        json_response = await self._get_json_response(
+            self._tg_settings.db_app_base_url
+            + self._tg_settings.get_weapon_skin_quality_ids_url.format(
+                weapon_id=sub.weapon_name,
+                skin_id=sub.skin_name,
+                quality_id=sub.quality_name,
+                stattrak_existence=sub.stattrak_existence,
+            )
+        )
+        relation_id_dto = RelationIdDTO.model_validate(json_response)
+        await self._delete_request(
+            self._tg_settings.db_app_base_url
+            + self._tg_settings.delete_subscription_url.format(
+                telegram_id=user_id,
+                weapon_id=relation_id_dto.weapon_id,
+                skin_id=relation_id_dto.skin_id,
+                quality_id=relation_id_dto.quality_id,
+                stattrak=relation_id_dto.stattrak_existence,
+            )
+        )
 
     async def _get_json_response(self, link: str) -> Any:
         async with self._session.get(link) as response:
             return await response.json()
+
+    async def _delete_request(self, link: str) -> None:
+        async with self._session.delete(link) as response:
+            assert response.status == HTTPStatus.NO_CONTENT
 
     async def _post_request(self, link: str, json: Dict[str, Any]) -> None:
         async with self._session.post(link, json=json) as response:

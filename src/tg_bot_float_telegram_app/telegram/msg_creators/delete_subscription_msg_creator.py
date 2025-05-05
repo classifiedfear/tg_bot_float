@@ -15,3 +15,6 @@ class DeleteSubscriptionMsgCreator(CommandMsgCreator):
             for index, subscription in enumerate(subscriptions)
         )
         await self._message.answer(text="\n".join(lines))
+
+    async def show_subscription_not_found_msg(self) -> None:
+        await self._message.answer(text="Подписка не найдена. Пожалуйста, выберите цифру с нужной вам подпиской выше!.")

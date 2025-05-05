@@ -36,4 +36,4 @@ class DeleteSubscriptionHandlerService(HandlerService):
         if not sub:
             await msg_creator.show_subscription_not_found_msg()
             return
-        await self._db_app_service_client.
+        await self._db_app_service_client.delete_subscription(user_id, sub)
