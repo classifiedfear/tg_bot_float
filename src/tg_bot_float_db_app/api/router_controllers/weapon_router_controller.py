@@ -158,28 +158,28 @@ class WeaponRouterController(AbstractRouterController):
             return await weapon_service.get_all_paginated()
 
     async def _delete_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> None:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             await weapon_service.delete_many_by_id(ids)
 
     async def _delete_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> None:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             await weapon_service.delete_many_by_name(names)
 
     async def _get_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> Page[WeaponModel]:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()
             return await weapon_service.get_many_by_id_paginated(ids)
 
     async def _get_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> Page[WeaponModel]:
         async with service_factory:
             weapon_service = service_factory.get_weapon_service()

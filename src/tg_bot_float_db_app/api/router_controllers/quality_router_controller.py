@@ -168,28 +168,28 @@ class QualityRouterController(AbstractRouterController):
             return await quality_service.get_all_paginated()
 
     async def _get_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> Page[QualityModel]:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             return await quality_service.get_many_by_id_paginated(ids)
 
     async def _get_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> Page[QualityModel]:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             return await quality_service.get_many_by_name_paginated(names)
 
     async def _delete_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> None:
         async with service_factory:
             quality_service = service_factory.get_quality_service()
             await quality_service.delete_many_by_id(ids)
 
     async def _delete_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> None:
         async with service_factory:
             quality_service = service_factory.get_quality_service()

@@ -5,10 +5,9 @@ from fastapi.responses import JSONResponse
 from fastapi_pagination.links import Page
 
 from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_id_request_dto import RelationIdRequestDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_name_request_dto import RelationNameRequestDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
+from tg_bot_float_db_app.api.dependencies.params import RELATION_ID_REQUEST, RELATION_NAME_REQUEST
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
 from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
@@ -74,7 +73,7 @@ class RelationRouterController(AbstractRouterController):
     async def _get_by_id(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        relation_id_request_dto: RelationIdRequestDTO = Query(None),
+        relation_id_request_dto: RELATION_ID_REQUEST = Query(),
     ) -> RelationModel:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
@@ -87,7 +86,7 @@ class RelationRouterController(AbstractRouterController):
     async def _delete_by_id(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        relation_id_request_dto: RelationIdRequestDTO = Query(None),
+        relation_id_request_dto: RELATION_ID_REQUEST = Query(),
     ) -> None:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
@@ -128,7 +127,7 @@ class RelationRouterController(AbstractRouterController):
     async def _get_weapon_skin_quality_names(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        relation_id_request_dto: RelationIdRequestDTO = Query(None),
+        relation_id_request_dto: RELATION_ID_REQUEST = Query(),
     ) -> RelationNameDTO:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
@@ -141,7 +140,7 @@ class RelationRouterController(AbstractRouterController):
     async def _get_weapon_skin_quality_ids(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        relation_name_request_dto: RelationNameRequestDTO = Query(None),
+        relation_name_request_dto: RELATION_NAME_REQUEST = Query(),
     ) -> RelationIdDTO:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
@@ -154,7 +153,7 @@ class RelationRouterController(AbstractRouterController):
     async def _get_stattrak_existence(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        relation_id_request_dto: RelationIdRequestDTO = Query(None),
+        relation_id_request_dto: RELATION_ID_REQUEST = Query(),
     ) -> bool:
         async with service_factory:
             relation_service = service_factory.get_relation_service()

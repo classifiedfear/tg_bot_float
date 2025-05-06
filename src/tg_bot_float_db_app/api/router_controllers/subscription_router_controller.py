@@ -65,7 +65,7 @@ class SubscriptionRouter(AbstractRouterController):
             return await subscription_service.get_all_paginated()
 
     async def _get(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, params: SUBSCRIPTION_QUERY = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, params: SUBSCRIPTION_QUERY = Query()
     ) -> SubscriptionModel:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
@@ -80,7 +80,7 @@ class SubscriptionRouter(AbstractRouterController):
     async def _delete(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        params: SUBSCRIPTION_QUERY = Query(None),
+        params: SUBSCRIPTION_QUERY = Query(),
     ) -> None:
         async with service_factory:
             subsciption_service = service_factory.get_subscription_service()

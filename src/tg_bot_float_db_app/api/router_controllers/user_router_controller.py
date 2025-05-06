@@ -105,7 +105,7 @@ class UserRouterController(AbstractRouterController):
     async def _get_by_subscription(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        users_by_subscription: USERS_BY_SUBSCIPTION_PARAMS = Query(None),
+        users_by_subscription: USERS_BY_SUBSCIPTION_PARAMS = Query(),
     ):
         async with service_factory:
             user_service = service_factory.get_user_service()

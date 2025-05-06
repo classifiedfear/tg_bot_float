@@ -197,28 +197,28 @@ class SkinRouterController(AbstractRouterController):
             return await skin_service.get_all_paginated()
 
     async def _get_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> Page[SkinModel]:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
             return await skin_service.get_many_by_id_paginated(ids)
 
     async def _get_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> Page[SkinModel]:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
             return await skin_service.get_many_by_name_paginated(names)
 
     async def _delete_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> None:
         async with service_factory:
             skin_service = service_factory.get_skin_service()
             await skin_service.delete_many_by_id(ids)
 
     async def _delete_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> None:
         async with service_factory:
             skin_service = service_factory.get_skin_service()

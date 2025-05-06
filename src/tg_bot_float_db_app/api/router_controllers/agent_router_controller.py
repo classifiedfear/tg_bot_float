@@ -151,28 +151,28 @@ class AgentRouterController(AbstractRouterController):
             return await agent_service.get_all_paginated()
 
     async def _get_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> Page[AgentModel]:
         async with service_factory:
             agent_service = service_factory.get_agent_service()
             return await agent_service.get_many_by_id_paginated(ids)
 
     async def _get_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> Page[AgentModel]:
         async with service_factory:
             agent_service = service_factory.get_agent_service()
             return await agent_service.get_many_by_name_paginated(names)
 
     async def _delete_many_by_id(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, ids: List[int] = Query()
     ) -> None:
         async with service_factory:
             agent_service = service_factory.get_agent_service()
             await agent_service.delete_many_by_id(ids)
 
     async def _delete_many_by_name(
-        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query(None)
+        self, service_factory: BOT_DB_SERVICE_FACTORY, names: List[str] = Query()
     ) -> None:
         async with service_factory:
             agent_service = service_factory.get_agent_service()
