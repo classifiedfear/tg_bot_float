@@ -6,7 +6,6 @@ from sqlalchemy.exc import IntegrityError
 from fastapi_pagination.links import Page
 from fastapi_pagination.ext.sqlalchemy import paginate
 
-from tg_bot_float_common_dtos.schema_dtos.relation_id_request_dto import RelationIdRequestDTO
 from tg_bot_float_db_app.database.models.weapon_model import WeaponModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
