@@ -13,7 +13,7 @@ from tg_bot_float_telegram_app.telegram.msg_creators.add_subscription_msg_creato
     AddSubscriptionMsgCreator,
 )
 
-from tg_bot_float_telegram_app.dtos.add_user_values_dto import AddUserDataValues
+from tg_bot_float_telegram_app.dtos.sub_to_add_dto import SubToAddDTO
 
 
 class AddSubscriptionHandlerService(HandlerService):
@@ -173,25 +173,26 @@ class AddSubscriptionHandlerService(HandlerService):
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
-        user_msg: str,
         user_id: int,
     ):
-        if Buttons.CONFIRM.value.lower() == user_msg.lower().strip():
-            user_data_values = await state_controller.get_user_data_values(user_id)
-            if await self._db_app_service_client.is_subscription_exists(user_data_values):
-                await msg_creator.show_already_subscribed_msg()
-                await state_controller.clear_states()
-                return
-            await self._send_create_subscription_request(user_data_values)
-            await msg_creator.show_subscribed_msg(user_data_values)
+        user_data_values = await state_controller.get_user_data_values(user_id)
+        if await self._db_app_service_client.is_subscription_exists(
+            user_data_values.tg_user_id,
+            user_data_values.weapon_id,
+            user_data_values.skin_id,
+            user_data_values.quality_id,
+            user_data_values.stattrak,
+        ):
+            await msg_creator.show_already_subscribed_msg()
             await state_controller.clear_states()
-        if Buttons.CANCEL.value.lower() == user_msg.lower().strip():
-            await msg_creator.show_back_to_main_menu_msg()
-            await state_controller.clear_states()
+            return
+        await self._send_create_subscription_request(user_data_values)
+        await msg_creator.show_subscribed_msg(user_data_values)
+        await state_controller.clear_states()
 
     async def _send_create_subscription_request(
         self,
-        user_data_values: AddUserDataValues,
+        user_data_values: SubToAddDTO,
     ) -> None:
         if db_user_id := await self._redis.get(str(user_data_values.tg_user_id)):
             await self._db_app_service_client.create_subscription(

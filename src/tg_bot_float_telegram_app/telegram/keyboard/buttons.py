@@ -1,20 +1,21 @@
 from enum import Enum
-from tg_bot_float_telegram_app.tg_constants import (
-    MY_SUBSCRIPTIONS_TEXT,
-    SUBSCRIBE_TEXT,
-    UNSUBSCRIBE_TEXT,
+
+from tg_bot_float_telegram_app.telegram.constants.general_consts import (
     BUY_TEXT,
-    CONFIRM_TEXT,
     CANCEL_TEXT,
-    STATTRAK_VERSION_TEXT,
+    CONFIRM_TEXT,
     DEFAULT_VERSION_TEXT,
+    MY_SUBS_TEXT,
+    STATTRAK_VERSION_TEXT,
+    SUB_TEXT,
+    UNSUB_TEXT,
 )
 
 
 class Buttons(Enum):
-    SUB = SUBSCRIBE_TEXT
-    UNSUB = UNSUBSCRIBE_TEXT
-    MY_SUB = MY_SUBSCRIPTIONS_TEXT
+    SUB = SUB_TEXT
+    UNSUB = UNSUB_TEXT
+    MY_SUB = MY_SUBS_TEXT
     BUY = BUY_TEXT
     CONFIRM = CONFIRM_TEXT
     CANCEL = CANCEL_TEXT

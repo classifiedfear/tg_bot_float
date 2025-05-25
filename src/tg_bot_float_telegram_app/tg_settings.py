@@ -12,18 +12,25 @@ class TgSettings(BaseSettings):
 
     # db_app_service_client variables
     db_app_base_url: str
+
+    # user_requests_urls
     create_user_url: str
+    delete_user_url: str
     get_user_url: str
+    get_users_telegram_ids_by_subscription_url: str
+
+    # weapon_skin_quality requests urls
     get_weapons_url: str
     get_skins_for_weapon_id_url: str
     get_qualities_for_weapon_skin_ids_url: str
     get_stattrak_existence_for_skin_id_url: str
-    create_subscription_url: str
-    get_subscriptions_by_telegram_id_url: str
     get_weapon_skin_quality_names_url: str
     get_weapon_skin_quality_ids_url: str
+
+    # subscription requests urls
+    create_subscription_url: str
+    get_subscriptions_by_telegram_id_url: str
     delete_subscription_url: str
-    get_users_telegram_ids_by_subscription_url: str
     get_subscription_url: str
 
     # webhook variables

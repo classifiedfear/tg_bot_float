@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class AddUserDataValues(BaseModel):
+class SubToAddDTO(BaseModel):
     tg_user_id: int | None = None
     weapon_id: int | None = None
     weapon_name: str | None = None

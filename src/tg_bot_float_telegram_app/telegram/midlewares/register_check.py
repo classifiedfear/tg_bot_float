@@ -4,13 +4,13 @@ from aiogram import BaseMiddleware
 from aiogram.types import Message
 from redis.asyncio import Redis
 
-from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
+from tg_bot_float_telegram_app.service_client.db_app_service_client import DbAppServiceClient
 
 
 class RegisterCheckMiddleware(BaseMiddleware):
     def __init__(
         self,
-        db_app_service_client: DBAppServiceClient,
+        db_app_service_client: DbAppServiceClient,
         redis: Redis,
     ) -> None:
         super().__init__()

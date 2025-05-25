@@ -5,7 +5,7 @@ from fastapi import APIRouter, Request
 import brotli
 
 
-from tg_bot_float_telegram_app.db_app_service_client import DBAppServiceClient
+from tg_bot_float_telegram_app.service_client.db_app_service_client import DbAppServiceClient
 from tg_bot_float_telegram_app.telegram.keyboard.keyboard_controller import KeyboardController
 from tg_bot_float_telegram_app.telegram.tg_bot_float_app import TgBotFloatApp
 from tg_bot_float_telegram_app.tg_settings import TgSettings
@@ -20,7 +20,7 @@ class TgRouterController:
         settings: TgSettings,
         keyboard: KeyboardController,
         tg_bot_float_app: TgBotFloatApp,
-        db_app_service_client: DBAppServiceClient,
+        db_app_service_client: DbAppServiceClient,
     ):
         self._settings = settings
         self._db_app_service_client = db_app_service_client

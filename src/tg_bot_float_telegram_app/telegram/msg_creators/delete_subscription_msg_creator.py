@@ -1,20 +1,77 @@
 from typing import List
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
-from tg_bot_float_telegram_app.telegram.msg_creators.command_msg_creator import CommandMsgCreator
-from tg_bot_float_telegram_app.tg_constants import (
+from tg_bot_float_telegram_app.telegram.constants.delete_sub_consts import (
+    CHOOSING_SUB_FOR_DELETE_TEXT,
+    CONFIRM_DELETE_SUB_TEXT,
+    SUB_DELETED_TEXT,
+    SUB_NOT_FOUND_TEXT,
+)
+from tg_bot_float_telegram_app.telegram.constants.general_consts import (
+    BACK_TO_MAIN_MENU_TEXT,
     DEFAULT_VERSION_TEXT,
+    FULL_SUB_NAME_TEXT,
     STATTRAK_VERSION_TEXT,
 )
+from tg_bot_float_telegram_app.telegram.msg_creators.command_msg_creator import CommandMsgCreator
 
 
 class DeleteSubscriptionMsgCreator(CommandMsgCreator):
+    async def show_cancel_msg(self) -> None:
+        await self._message.answer(
+            BACK_TO_MAIN_MENU_TEXT, reply_markup=self._keyboard_controller.main_buttons
+        )
+
     async def show_subscriptions_msg(self, subscriptions: List[RelationNameDTO]) -> None:
-        lines = ["Выберите подписку для удаления:"]
+        lines = [
+            CHOOSING_SUB_FOR_DELETE_TEXT,
+        ]
         lines.extend(
-            f'{index + 1}) - "{subscription.weapon_name}, {subscription.skin_name}, {subscription.quality_name}, {f"{STATTRAK_VERSION_TEXT}" if subscription.stattrak_existence else f"{DEFAULT_VERSION_TEXT}"}"'
+            FULL_SUB_NAME_TEXT.format(
+                index=index + 1,
+                weapon_name=subscription.weapon_name,
+                skin_name=subscription.skin_name,
+                quality_name=subscription.quality_name,
+                stattrak=(
+                    STATTRAK_VERSION_TEXT
+                    if subscription.stattrak_existence
+                    else DEFAULT_VERSION_TEXT
+                ),
+            )
             for index, subscription in enumerate(subscriptions)
         )
-        await self._message.answer(text="\n".join(lines))
+        await self._message.answer(
+            text="\n".join(lines), reply_markup=self._keyboard_controller.back_button
+        )
 
     async def show_subscription_not_found_msg(self) -> None:
-        await self._message.answer(text="Подписка не найдена. Пожалуйста, выберите цифру с нужной вам подпиской выше!.")
+        await self._message.answer(text=SUB_NOT_FOUND_TEXT)
+
+    async def show_subscription_deleted_msg(self, subscription: RelationNameDTO) -> None:
+        await self._message.answer(
+            text=SUB_DELETED_TEXT.format(
+                weapon_name=subscription.weapon_name,
+                skin_name=subscription.skin_name,
+                quality_name=subscription.quality_name,
+                stattrak=(
+                    STATTRAK_VERSION_TEXT
+                    if subscription.stattrak_existence
+                    else DEFAULT_VERSION_TEXT
+                ),
+            ),
+            reply_markup=self._keyboard_controller.main_buttons,
+        )
+
+    async def confirm_delete_subscription_msg(self, subscription: RelationNameDTO) -> None:
+        await self._message.answer(
+            text=CONFIRM_DELETE_SUB_TEXT.format(
+                weapon_name=subscription.weapon_name,
+                skin_name=subscription.skin_name,
+                quality_name=subscription.quality_name,
+                stattrak=(
+                    STATTRAK_VERSION_TEXT
+                    if subscription.stattrak_existence
+                    else DEFAULT_VERSION_TEXT
+                ),
+            ),
+            reply_markup=self._keyboard_controller.confirm_buttons,
+        )

@@ -6,6 +6,7 @@ from tg_bot_float_telegram_app.telegram.handlers.add_subscription_handler_servic
     AddSubscriptionHandlerService,
 )
 
+from tg_bot_float_telegram_app.telegram.keyboard.buttons import Buttons
 from tg_bot_float_telegram_app.telegram.msg_creators.add_subscription_msg_creator import (
     AddSubscriptionMsgCreator,
 )
@@ -37,7 +38,7 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         )
         self._router.message.register(
             self._cancel,
-            lambda message: message.text == "Отменить",
+            lambda message: message.text.lower().strip() == Buttons.CANCEL.value.lower(),
         )
         self._router.message.register(
             self._add_subscription_weapon,
@@ -53,7 +54,9 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
             self._add_subscription_stattrak, AddSubscriptionStates.CHOOSE_STATTRAK
         )
         self._router.message.register(
-            self._finish_subscription, AddSubscriptionStates.CONFIRM_USER_REQUEST
+            self._finish_subscription,
+            AddSubscriptionStates.CONFIRM_USER_REQUEST,
+            lambda message: message.text.lower().strip() == Buttons.CONFIRM.value.lower(),
         )
 
     async def _cancel(
@@ -119,5 +122,5 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         state_controller: AddSubscriptionStateController,
     ):
         await self._handler_service.finish_subscription(
-            msg_creator, state_controller, str(message.text), message.from_user.id
+            msg_creator, state_controller, message.from_user.id
         )

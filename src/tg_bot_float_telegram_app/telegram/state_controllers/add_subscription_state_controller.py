@@ -1,7 +1,7 @@
 from typing import Any, Dict, List
 
 
-from tg_bot_float_telegram_app.dtos.add_user_values_dto import AddUserDataValues
+from tg_bot_float_telegram_app.dtos.sub_to_add_dto import SubToAddDTO
 from tg_bot_float_telegram_app.telegram.state_controllers.abstract_state_controller import (
     StateController,
 )
@@ -19,13 +19,13 @@ class AddSubscriptionStateController(StateController):
     such as weapon, skin, quality, and stattrak information for a specific user.
     """
 
-    async def _get_or_create_user_in_state(self, telegram_id: str) -> AddUserDataValues:
+    async def _get_or_create_user_in_state(self, telegram_id: str) -> SubToAddDTO:
         context_data = await self._context.get_data()
         if telegram_id not in context_data:
-            user_data_values = AddUserDataValues(tg_user_id=int(telegram_id))
+            user_data_values = SubToAddDTO(tg_user_id=int(telegram_id))
             await self._context.update_data({telegram_id: user_data_values.model_dump()})
             return user_data_values
-        return AddUserDataValues.model_validate(context_data[telegram_id])
+        return SubToAddDTO.model_validate(context_data[telegram_id])
 
     async def update_weapon_id_name_for_user(self, telegram_id: int, weapon_dto: WeaponDTO) -> None:
         telegram_id_str = str(telegram_id)
@@ -235,7 +235,7 @@ class AddSubscriptionStateController(StateController):
     async def get_user_data_values(
         self,
         telegram_id: int,
-    ) -> AddUserDataValues:
+    ) -> SubToAddDTO:
         return await self._get_or_create_user_in_state(str(telegram_id))
 
     def _try_get_item_data_by_msg(
