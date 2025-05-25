@@ -24,7 +24,7 @@ from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.agent_dto import AgentDTO
 from tg_bot_float_common_dtos.schema_dtos.glove_dto import GloveDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
 
 
 class BotDBRefresherService:
@@ -158,7 +158,7 @@ class BotDBRefresherService:
         self, relations: List[RelationDTO]
     ) -> IdRelationsCreateDeleteDTO:
         ids_relations_to_create = [
-            RelationIdDTO(
+            RelationDTO(
                 weapon_id=relation.weapon.id,
                 skin_id=relation.skin.id,
                 quality_id=relation.quality.id,
@@ -166,10 +166,10 @@ class BotDBRefresherService:
             )
             for relation in relations
         ]
-        ids_relations_to_delete: List[RelationIdDTO] = []
+        ids_relations_to_delete: List[RelationDTO] = []
         for relation_db_model in await self._relation_service.get_all():
             if (
-                relation_id_dto := RelationIdDTO(
+                relation_id_dto := RelationDTO(
                     weapon_id=relation_db_model.weapon_id,
                     skin_id=relation_db_model.skin_id,
                     quality_id=relation_db_model.quality_id,

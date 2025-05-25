@@ -2,7 +2,7 @@ from typing import Dict, Generic, List, TypeVar
 
 from pydantic import BaseModel
 
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
 
 ModelT = TypeVar("ModelT")
 
@@ -13,5 +13,5 @@ class CreateDeleteDTO(BaseModel, Generic[ModelT]):
 
 
 class IdRelationsCreateDeleteDTO(BaseModel):
-    ids_relations_to_create: List[RelationIdDTO]
-    ids_relations_to_delete: List[RelationIdDTO]
+    ids_relations_to_create: List[RelationDTO]
+    ids_relations_to_delete: List[RelationDTO]

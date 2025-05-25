@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Query, Response, status
 from fastapi_pagination.links import Page
 
+from tg_bot_float_common_dtos.schema_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.api.dependencies.params import SUBSCRIPTION_QUERY
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
@@ -8,7 +9,7 @@ from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
-from tg_bot_float_common_dtos.schema_dtos.subscription_to_find_dto import SubscriptionToFindDTO
+from tg_bot_float_common_dtos.schema_dtos.count_valuable_sub import CountValuableSub
 
 
 class SubscriptionRouter(AbstractRouterController):
@@ -24,10 +25,10 @@ class SubscriptionRouter(AbstractRouterController):
             "/", self._get_all, methods=["GET"], response_model=Page[SubscriptionDTO]
         )
         self._router.add_api_route(
-            "/tofind",
-            self._get_by_valuables,
+            "/count_valuable",
+            self._get_count_valuable_subs,
             methods=["GET"],
-            response_model=Page[SubscriptionToFindDTO],
+            response_model=Page[CountValuableSub],
         )
         self._router.add_api_route(
             "/{telegram_id}/{weapon_id}/{skin_id}/{quality_id}/{stattrak}",
@@ -45,7 +46,7 @@ class SubscriptionRouter(AbstractRouterController):
             "/{telegram_id}",
             self._get_by_telegram_id,
             methods=["GET"],
-            response_model=Page[SubscriptionDTO],
+            response_model=Page[FullSubDTO],
         )
 
     async def _create(
@@ -92,16 +93,16 @@ class SubscriptionRouter(AbstractRouterController):
                 params.stattrak,
             )
 
-    async def _get_by_valuables(
+    async def _get_count_valuable_subs(
         self, service_factory: BOT_DB_SERVICE_FACTORY
-    ) -> Page[SubscriptionToFindDTO]:
+    ) -> Page[CountValuableSub]:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
             return await subscription_service.get_valuable_subscriptions()
 
     async def _get_by_telegram_id(
         self, service_factory: BOT_DB_SERVICE_FACTORY, telegram_id: int
-    ) -> Page[SubscriptionModel]:
+    ) -> Page[FullSubDTO]:
         async with service_factory:
             subscription_service = service_factory.get_subscription_service()
             return await subscription_service.get_subscriptions_by_telegram_id_paginated(

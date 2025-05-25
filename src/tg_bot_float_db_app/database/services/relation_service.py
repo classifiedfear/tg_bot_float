@@ -16,7 +16,7 @@ from tg_bot_float_db_app.db_app_constants import (
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
 from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
 
 
@@ -24,7 +24,7 @@ class RelationService:
     def __init__(self, session: AsyncSession) -> None:
         self._session = session
 
-    async def create(self, relation_id_dto: RelationIdDTO) -> RelationModel:
+    async def create(self, relation_id_dto: RelationDTO) -> RelationModel:
         relation_model = RelationModel(**relation_id_dto.model_dump(exclude_none=True))
         self._session.add(relation_model)
         try:
@@ -44,7 +44,7 @@ class RelationService:
 
         return relation_model
 
-    async def create_many(self, relation_dtos: List[RelationIdDTO]) -> List[RelationModel]:
+    async def create_many(self, relation_dtos: List[RelationDTO]) -> List[RelationModel]:
         relation_models = [
             RelationModel(**relation_dto.model_dump(exclude_none=True))
             for relation_dto in relation_dtos
@@ -111,7 +111,7 @@ class RelationService:
             )
         await self._session.commit()
 
-    async def delete_many_by_id(self, relation_id_dtos: List[RelationIdDTO]) -> None:
+    async def delete_many_by_id(self, relation_id_dtos: List[RelationDTO]) -> None:
         relation_id_tuple = [
             (
                 relation_id.weapon_id,
@@ -153,7 +153,7 @@ class RelationService:
             )
         await self._session.commit()
 
-    async def get_many_by_id(self, relation_id_dtos: List[RelationIdDTO]):
+    async def get_many_by_id(self, relation_id_dtos: List[RelationDTO]):
         relation_id_tuple = [
             (
                 relation_id.weapon_id,
@@ -174,7 +174,7 @@ class RelationService:
         )
         return await self._session.scalars(where_stmt)
 
-    async def get_weapon_skin_quality_names(
+    async def get_weapon_skin_quality_name_by_id(
         self, weapon_id: int, skin_id: int, quality_id: int
     ) -> RelationNameDTO:
         select_stmt = (
@@ -229,9 +229,9 @@ class RelationService:
             ),
         )
 
-    async def get_weapon_skin_quality_ids(
+    async def get_weapon_skin_quality_id_by_name(
         self, weapon_name: str, skin_name: str, quality_name: str
-    ) -> RelationIdDTO:
+    ) -> RelationDTO:
         select_stmt = (
             select(WeaponModel.id, SkinModel.id, QualityModel.id, RelationModel.stattrak_existence)
             .join(WeaponModel.relations)
@@ -247,7 +247,7 @@ class RelationService:
         row = result.one_or_none()
         if row is not None:
             weapon_id, skin_id, quality_id, stattrak_existence = row.tuple()
-            return RelationIdDTO(
+            return RelationDTO(
                 weapon_id=weapon_id,
                 skin_id=skin_id,
                 quality_id=quality_id,

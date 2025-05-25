@@ -1,7 +1,7 @@
 from tg_bot_float_common_dtos.schema_dtos.base_dto import BaseDTO
 
 
-class SubscriptionToFindDTO(BaseDTO):
+class CountValuableSub(BaseDTO):
     weapon_id: int
     weapon_name: str
     skin_id: int
