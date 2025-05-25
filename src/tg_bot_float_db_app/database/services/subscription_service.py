@@ -1,3 +1,5 @@
+from types import CoroutineType
+from typing import Any
 from sqlalchemy import ScalarResult, delete, desc, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
@@ -5,7 +7,6 @@ from fastapi_pagination.links import Page
 from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_common_dtos.schema_dtos.count_valuable_sub import CountValuableSub
-from tg_bot_float_common_dtos.schema_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
@@ -121,28 +122,9 @@ class SubscriptionService:
         select_stmt = select(SubscriptionModel)
         return await paginate(self._session, select_stmt)
 
-    async def get_subscriptions_by_telegram_id(self, telegram_id: int):
-        select_stmt = select(
-            SubscriptionModel.weapon_id,
-            WeaponModel.name.label("weapon_name"),
-            SubscriptionModel.skin_id,
-            SkinModel.name.label("skin_name"),
-            SubscriptionModel.quality_id,
-            QualityModel.name.label("quality_name"),
-            SubscriptionModel.stattrak,
-        )
-        join_stmt = (
-            select_stmt.join(SubscriptionModel.weapon)
-            .join(SubscriptionModel.skin)
-            .join(SubscriptionModel.quality)
-            .join(SubscriptionModel.user)
-        )
-        where_stmt = join_stmt.where(UserModel.telegram_id == telegram_id)
-        return await self._session.scalars(where_stmt)
-
     async def get_subscriptions_by_telegram_id_paginated(
         self, telegram_id: int
-    ) -> Page[FullSubDTO]:
+    ) -> CoroutineType[Any, Any, Any]:
         select_stmt = select(
             SubscriptionModel.weapon_id,
             WeaponModel.name.label("weapon_name"),
