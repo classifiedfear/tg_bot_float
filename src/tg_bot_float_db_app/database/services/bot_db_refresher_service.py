@@ -6,7 +6,7 @@ import brotli
 
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.agent_relation_dto import AgentRelationDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.glove_relation_dto import GloveRelationDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_data_dto import RelationDataDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
 from tg_bot_float_db_app.database.services.agent_service import AgentService
 from tg_bot_float_db_app.database.services.dtos.db_refresher_dtos import (
@@ -146,7 +146,7 @@ class BotDBRefresherService:
             dtos_to_create=quality_dtos_to_create, names_to_delete=quality_names_to_delete
         )
 
-    async def _update_relations(self, relations: List[RelationDTO]) -> None:
+    async def _update_relations(self, relations: List[RelationDataDTO]) -> None:
         id_relations_create_delete_dto = await self._get_ids_relations_create_delete_dto(relations)
         if to_delete := id_relations_create_delete_dto.ids_relations_to_delete:
             await self._relation_service.delete_many_by_id(to_delete)
@@ -155,7 +155,7 @@ class BotDBRefresherService:
             await self._relation_service.create_many(to_create)
 
     async def _get_ids_relations_create_delete_dto(
-        self, relations: List[RelationDTO]
+        self, relations: List[RelationDataDTO]
     ) -> IdRelationsCreateDeleteDTO:
         ids_relations_to_create = [
             RelationDTO(

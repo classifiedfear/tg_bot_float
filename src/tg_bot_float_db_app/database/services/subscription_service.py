@@ -6,7 +6,7 @@ from sqlalchemy.exc import IntegrityError
 from fastapi_pagination.links import Page
 from fastapi_pagination.ext.sqlalchemy import paginate
 
-from tg_bot_float_common_dtos.schema_dtos.count_valuable_sub import CountValuableSub
+from tg_bot_float_common_dtos.db_app_dtos.count_valuable_sub import CountValuableSub
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel

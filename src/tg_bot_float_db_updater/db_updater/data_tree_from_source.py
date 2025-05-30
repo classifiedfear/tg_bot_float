@@ -9,8 +9,13 @@ from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.agent_relation_dto import AgentRelationDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.glove_relation_dto import GloveRelationDTO
-from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_dto import RelationDTO
+from tg_bot_float_common_dtos.update_db_scheduler_dtos.relation_data_dto import RelationDataDTO
 from tg_bot_float_common_dtos.update_db_scheduler_dtos.source_data_tree_dto import SourceDataTreeDTO
+
+
+FULL_NAME_WEAPON = Tuple[
+    str, str, str, str
+]  # (weapon_name, skin_name, quality_name, stattrak_existence)
 
 
 class DataTreeFromSource:
@@ -20,7 +25,7 @@ class DataTreeFromSource:
         self._all_qualities: Dict[str, QualityDTO] = {}
         self._all_gloves: Dict[str, GloveDTO] = {}
         self._all_agents: Dict[str, AgentDTO] = {}
-        self._all_relations: Dict[Tuple[str, str, str, str], RelationDTO] = {}
+        self._all_relations: Dict[FULL_NAME_WEAPON, RelationDataDTO] = {}
         self._all_glove_relations: Dict[str, List[SkinDTO]] = defaultdict(list)
         self._all_agent_relations: Dict[str, List[SkinDTO]] = defaultdict(list)
 
@@ -58,7 +63,7 @@ class DataTreeFromSource:
     ) -> None:
         self._all_relations.setdefault(
             (str(weapon.name), str(skin.name), str(quality.name), str(stattrak_existence)),
-            RelationDTO(
+            RelationDataDTO(
                 weapon=weapon, skin=skin, quality=quality, stattrak_existence=stattrak_existence
             ),
         )

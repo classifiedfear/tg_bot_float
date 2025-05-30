@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from fastapi_pagination.links import Page
 
 from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
+from tg_bot_float_common_dtos.db_app_dtos.relation_name_dto import RelationNameDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.api.dependencies.params import RELATION_ID_REQUEST, RELATION_NAME_REQUEST
 from tg_bot_float_db_app.database.models.relation_model import RelationModel

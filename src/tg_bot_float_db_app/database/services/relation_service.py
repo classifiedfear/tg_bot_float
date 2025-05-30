@@ -17,7 +17,7 @@ from tg_bot_float_db_app.db_app_constants import (
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
 from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
-from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
+from tg_bot_float_common_dtos.db_app_dtos.relation_name_dto import RelationNameDTO
 
 
 class RelationService:

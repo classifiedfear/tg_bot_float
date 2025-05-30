@@ -1,7 +1,6 @@
 from fastapi import APIRouter, Query, Response, status
 from fastapi_pagination.links import Page
 
-from tg_bot_float_common_dtos.schema_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.api.dependencies.params import SUBSCRIPTION_QUERY
 from tg_bot_float_db_app.database.models.subscription_model import SubscriptionModel
@@ -9,7 +8,8 @@ from tg_bot_float_misc.router_controller.abstract_router_controller import (
     AbstractRouterController,
 )
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
-from tg_bot_float_common_dtos.schema_dtos.count_valuable_sub import CountValuableSub
+from tg_bot_float_common_dtos.db_app_dtos.full_sub_dto import FullSubDTO
+from tg_bot_float_common_dtos.db_app_dtos.count_valuable_sub import CountValuableSub
 
 
 class SubscriptionRouter(AbstractRouterController):
