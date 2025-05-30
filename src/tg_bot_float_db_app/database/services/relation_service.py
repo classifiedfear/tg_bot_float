@@ -14,14 +14,14 @@ from tg_bot_float_db_app.misc.router_constants import (
     ENTITY_NOT_FOUND_ERROR_MSG,
     NONE_FIELD_IN_ENTITY_ERROR_MSG,
 )
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
 
 
 class RelationService:
     def __init__(self, session: AsyncSession) -> None:
         self._session = session
 
-    async def create(self, relation_id_dto: RelationIdDTO) -> RelationModel:
+    async def create(self, relation_id_dto: RelationDTO) -> RelationModel:
         relation_model = RelationModel(**relation_id_dto.model_dump(exclude_none=True))
         self._session.add(relation_model)
         try:
@@ -40,7 +40,7 @@ class RelationService:
 
         return relation_model
 
-    async def create_many(self, relation_dtos: List[RelationIdDTO]) -> List[RelationModel]:
+    async def create_many(self, relation_dtos: List[RelationDTO]) -> List[RelationModel]:
         relation_models = [
             RelationModel(**relation_dto.model_dump(exclude_none=True))
             for relation_dto in relation_dtos
@@ -99,7 +99,7 @@ class RelationService:
             )
         await self._session.commit()
 
-    async def delete_many_by_id(self, relation_id_dtos: List[RelationIdDTO]) -> None:
+    async def delete_many_by_id(self, relation_id_dtos: List[RelationDTO]) -> None:
         relation_id_tuple = [
             (relation_id.weapon_id, relation_id.skin_id, relation_id.quality_id)
             for relation_id in relation_id_dtos
@@ -129,7 +129,7 @@ class RelationService:
             )
         await self._session.commit()
 
-    async def get_many_by_id(self, relation_id_dtos: List[RelationIdDTO]):
+    async def get_many_by_id(self, relation_id_dtos: List[RelationDTO]):
         relation_id_tuple = [
             (relation_id.weapon_id, relation_id.skin_id, relation_id.quality_id)
             for relation_id in relation_id_dtos

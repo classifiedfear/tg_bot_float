@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 
 from tg_bot_float_db_app.api.dependencies.db_service_factory import BOT_DB_SERVICE_FACTORY
 from tg_bot_float_db_app.database.models.relation_model import RelationModel
-from tg_bot_float_common_dtos.schema_dtos.relation_id_dto import RelationIdDTO
+from tg_bot_float_common_dtos.schema_dtos.relation_dto import RelationDTO
 
 
 class RelationRouter:
@@ -42,7 +42,7 @@ class RelationRouter:
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         response: Response,
-        relation_id_dto: RelationIdDTO,
+        relation_id_dto: RelationDTO,
     ) -> None:
         async with service_factory:
             relation_service = service_factory.get_relation_service()
@@ -76,7 +76,7 @@ class RelationRouter:
     async def _create_many(
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
-        relation_id_dtos: List[RelationIdDTO],
+        relation_id_dtos: List[RelationDTO],
     ) -> JSONResponse:
         async with service_factory:
             relation_service = service_factory.get_relation_service()

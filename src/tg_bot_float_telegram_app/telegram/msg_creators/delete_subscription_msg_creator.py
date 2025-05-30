@@ -1,5 +1,5 @@
 from typing import List
-from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
+from tg_bot_float_common_dtos.schema_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_telegram_app.telegram.constants.delete_sub_consts import (
     CHOOSING_SUB_FOR_DELETE_TEXT,
     CONFIRM_DELETE_SUB_TEXT,
@@ -21,7 +21,7 @@ class DeleteSubscriptionMsgCreator(CommandMsgCreator):
             BACK_TO_MAIN_MENU_TEXT, reply_markup=self._keyboard_controller.main_buttons
         )
 
-    async def show_subscriptions_msg(self, subscriptions: List[RelationNameDTO]) -> None:
+    async def show_subscriptions_msg(self, subscriptions: List[FullSubDTO]) -> None:
         lines = [
             CHOOSING_SUB_FOR_DELETE_TEXT,
         ]
@@ -31,11 +31,7 @@ class DeleteSubscriptionMsgCreator(CommandMsgCreator):
                 weapon_name=subscription.weapon_name,
                 skin_name=subscription.skin_name,
                 quality_name=subscription.quality_name,
-                stattrak=(
-                    STATTRAK_VERSION_TEXT
-                    if subscription.stattrak_existence
-                    else DEFAULT_VERSION_TEXT
-                ),
+                stattrak=(STATTRAK_VERSION_TEXT if subscription.stattrak else DEFAULT_VERSION_TEXT),
             )
             for index, subscription in enumerate(subscriptions)
         )
@@ -46,32 +42,24 @@ class DeleteSubscriptionMsgCreator(CommandMsgCreator):
     async def show_subscription_not_found_msg(self) -> None:
         await self._message.answer(text=SUB_NOT_FOUND_TEXT)
 
-    async def show_subscription_deleted_msg(self, subscription: RelationNameDTO) -> None:
+    async def show_subscription_deleted_msg(self, subscription: FullSubDTO) -> None:
         await self._message.answer(
             text=SUB_DELETED_TEXT.format(
                 weapon_name=subscription.weapon_name,
                 skin_name=subscription.skin_name,
                 quality_name=subscription.quality_name,
-                stattrak=(
-                    STATTRAK_VERSION_TEXT
-                    if subscription.stattrak_existence
-                    else DEFAULT_VERSION_TEXT
-                ),
+                stattrak=(STATTRAK_VERSION_TEXT if subscription.stattrak else DEFAULT_VERSION_TEXT),
             ),
             reply_markup=self._keyboard_controller.main_buttons,
         )
 
-    async def confirm_delete_subscription_msg(self, subscription: RelationNameDTO) -> None:
+    async def confirm_delete_subscription_msg(self, subscription: FullSubDTO) -> None:
         await self._message.answer(
             text=CONFIRM_DELETE_SUB_TEXT.format(
                 weapon_name=subscription.weapon_name,
                 skin_name=subscription.skin_name,
                 quality_name=subscription.quality_name,
-                stattrak=(
-                    STATTRAK_VERSION_TEXT
-                    if subscription.stattrak_existence
-                    else DEFAULT_VERSION_TEXT
-                ),
+                stattrak=(STATTRAK_VERSION_TEXT if subscription.stattrak else DEFAULT_VERSION_TEXT),
             ),
             reply_markup=self._keyboard_controller.confirm_buttons,
         )
