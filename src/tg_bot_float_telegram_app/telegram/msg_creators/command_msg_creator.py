@@ -1,5 +1,5 @@
 from typing import List
-from tg_bot_float_common_dtos.schema_dtos.relation_name_dto import RelationNameDTO
+from tg_bot_float_common_dtos.db_app_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_telegram_app.telegram.constants.general_consts import (
     DEFAULT_VERSION_TEXT,
     FULL_SUB_NAME_TEXT,
@@ -18,7 +18,7 @@ class CommandMsgCreator(MsgCreator):
             reply_markup=self._keyboard_controller.main_buttons,
         )
 
-    async def show_subscriptions_msg(self, subscriptions: List[RelationNameDTO]):
+    async def show_subscriptions_msg(self, subscriptions: List[FullSubDTO]):
         lines = [
             f"{MY_SUBS_TEXT}:",
         ]
@@ -30,9 +30,7 @@ class CommandMsgCreator(MsgCreator):
                     skin_name=subscription.skin_name,
                     quality_name=subscription.quality_name,
                     stattrak=(
-                        STATTRAK_VERSION_TEXT
-                        if subscription.stattrak_existence
-                        else DEFAULT_VERSION_TEXT
+                        STATTRAK_VERSION_TEXT if subscription.stattrak else DEFAULT_VERSION_TEXT
                     ),
                 )
                 for index, subscription in enumerate(subscriptions)

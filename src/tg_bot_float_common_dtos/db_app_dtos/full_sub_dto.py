@@ -1,8 +1,7 @@
-from pydantic import BaseModel
+from tg_bot_float_common_dtos.base_dto import BaseDTO
 
 
-class SubToAddDTO(BaseModel):
-    tg_user_id: int
+class FullSubDTO(BaseDTO):
     weapon_id: int
     weapon_name: str
     skin_id: int

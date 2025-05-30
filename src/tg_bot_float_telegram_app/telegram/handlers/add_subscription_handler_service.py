@@ -29,16 +29,19 @@ class AddSubscriptionHandlerService(HandlerService):
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
+        user_id: int,
     ) -> None:
-        await self._prep_weapon_state(msg_creator, state_controller)
+        await state_controller.create_user_in_state(user_id)
+        await self._prep_weapon_state(msg_creator, state_controller, user_id)
 
     async def _prep_weapon_state(
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
+        user_id: int,
     ):
         weapons = await self._db_app_service_client.get_weapons()
-        await state_controller.update_all_weapons(weapons)
+        await state_controller.update_all_weapons_for_user(user_id, weapons)
         await msg_creator.show_choose_weapon_msg(weapons)
         await state_controller.set_state(AddSubscriptionStates.CHOOSE_WEAPON)
 
@@ -49,10 +52,12 @@ class AddSubscriptionHandlerService(HandlerService):
         msg_from_user: str,
         user_id: int,
     ):
-        if weapon_dto := await state_controller.try_get_weapon_from_user_msg(msg_from_user):
-            await state_controller.update_weapon_id_name_for_user(user_id, weapon_dto)
+        if weapon_dto := await state_controller.try_get_weapon_from_user_msg(
+            user_id, msg_from_user
+        ):
+            await state_controller.update_weapon_dto_for_user(user_id, weapon_dto)
             skins = await self._db_app_service_client.get_skins_for_weapon_id(weapon_dto.id)
-            await self._prep_skin_state(msg_creator, state_controller, skins)
+            await self._prep_skin_state(msg_creator, state_controller, user_id, skins)
         else:
             await msg_creator.show_wrong_item_name_msg("оружия")
             return
@@ -61,10 +66,11 @@ class AddSubscriptionHandlerService(HandlerService):
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
+        user_id: int,
         skins: List[SkinDTO],
     ):
         if await self._show_skins(msg_creator, skins):
-            await state_controller.update_all_skins(skins)
+            await state_controller.update_all_skins_for_user(user_id, skins)
             await state_controller.set_state(AddSubscriptionStates.CHOOSE_SKIN)
 
     async def _show_skins(
@@ -86,13 +92,13 @@ class AddSubscriptionHandlerService(HandlerService):
         user_msg: str,
         user_id: int,
     ):
-        if skin_dto := await state_controller.try_get_skin_from_user_msg(user_msg):
-            await state_controller.update_skin_id_name_for_user(user_id, skin_dto)
-            weapon_dto = await state_controller.get_weapon_dto(user_id)
+        if skin_dto := await state_controller.try_get_skin_from_user_msg(user_id, user_msg):
+            await state_controller.update_skin_dto_for_user(user_id, skin_dto)
+            weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
             qualities = await self._db_app_service_client.get_qualities_for_weapon_skin_ids(
                 weapon_dto.id, skin_dto.id
             )
-            await self._prep_quality_state(msg_creator, state_controller, qualities)
+            await self._prep_quality_state(msg_creator, state_controller, user_id, qualities)
         else:
             await msg_creator.show_wrong_item_name_msg("скина")
             return
@@ -101,9 +107,10 @@ class AddSubscriptionHandlerService(HandlerService):
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
+        user_id: int,
         qualities: List[QualityDTO],
     ):
-        await state_controller.update_all_qualities(qualities)
+        await state_controller.update_all_qualities(user_id, qualities)
         await msg_creator.show_choose_quality_msg(qualities)
         await state_controller.set_state(AddSubscriptionStates.CHOOSE_QUALITY)
 
@@ -114,10 +121,10 @@ class AddSubscriptionHandlerService(HandlerService):
         user_msg: str,
         user_id: int,
     ):
-        if quality_dto := await state_controller.try_get_quality_from_user_msg(user_msg):
+        if quality_dto := await state_controller.try_get_quality_from_user_msg(user_id, user_msg):
             await state_controller.update_quality_id_name_for_user(user_id, quality_dto)
-            skin_dto = await state_controller.get_skin_dto(user_id)
-            weapon_dto = await state_controller.get_weapon_dto(user_id)
+            skin_dto = await state_controller.get_skin_dto_for_user(user_id)
+            weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
             stattrak_existence = (
                 await self._db_app_service_client.get_stattrak_existence_for_skin_id(
                     weapon_dto.id, skin_dto.id, quality_dto.id
@@ -162,10 +169,10 @@ class AddSubscriptionHandlerService(HandlerService):
         state_controller: AddSubscriptionStateController,
         user_id: int,
     ):
-        weapon_dto = await state_controller.get_weapon_dto(user_id)
-        skin_dto = await state_controller.get_skin_dto(user_id)
-        quality_dto = await state_controller.get_quality_dto(user_id)
-        stattrak_existence = await state_controller.get_stattrak(user_id)
+        weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
+        skin_dto = await state_controller.get_skin_dto_for_user(user_id)
+        quality_dto = await state_controller.get_quality_dto_for_user(user_id)
+        stattrak_existence = await state_controller.get_stattrak_for_user(user_id)
         await msg_creator.show_confirm_msg(weapon_dto, skin_dto, quality_dto, stattrak_existence)
         await state_controller.set_state(AddSubscriptionStates.CONFIRM_USER_REQUEST)
 
@@ -175,7 +182,7 @@ class AddSubscriptionHandlerService(HandlerService):
         state_controller: AddSubscriptionStateController,
         user_id: int,
     ):
-        user_data_values = await state_controller.get_user_data_values(user_id)
+        user_data_values = await state_controller.get_sub_to_add_dto_for_user(user_id)
         if await self._db_app_service_client.is_subscription_exists(
             user_data_values.tg_user_id,
             user_data_values.weapon_id,

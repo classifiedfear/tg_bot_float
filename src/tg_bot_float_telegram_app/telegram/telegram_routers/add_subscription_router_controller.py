@@ -73,7 +73,9 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._handler_service.start_add_subscription(msg_creator, state_controller)
+        await self._handler_service.start_add_subscription(
+            msg_creator, state_controller, message.from_user.id
+        )
 
     async def _add_subscription_weapon(
         self,
