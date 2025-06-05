@@ -104,8 +104,8 @@ class UserService:
 
     async def get_users_by_subcription(
         self, weapon_id: int, skin_id: int, quality_id: int, stattrak: bool
-    ):
-        select_stmt = select(UserModel.telegram_id).join(UserModel.subscriptions)
+    ) -> ScalarResult[UserModel]:
+        select_stmt = select(UserModel).join(UserModel.subscriptions)
         where_stmt = select_stmt.where(
             SubscriptionModel.weapon_id == weapon_id,
             SubscriptionModel.skin_id == skin_id,
@@ -113,6 +113,18 @@ class UserService:
             SubscriptionModel.stattrak == stattrak,
         )
         return await self._session.scalars(where_stmt)
+
+    async def get_users_by_subscription_paginated(
+        self, weapon_id: int, skin_id: int, quality_id: int, stattrak: bool
+    ) -> Page[UserModel]:
+        select_stmt = select(UserModel).join(UserModel.subscriptions)
+        where_stmt = select_stmt.where(
+            SubscriptionModel.weapon_id == weapon_id,
+            SubscriptionModel.skin_id == skin_id,
+            SubscriptionModel.quality_id == quality_id,
+            SubscriptionModel.stattrak == stattrak,
+        )
+        return await paginate(self._session, where_stmt)
 
     def _raise_bot_db_exception(
         self,

@@ -1,5 +1,3 @@
-from types import CoroutineType
-from typing import Any
 from sqlalchemy import ScalarResult, delete, desc, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.exc import IntegrityError
@@ -7,6 +5,8 @@ from fastapi_pagination.links import Page
 from fastapi_pagination.ext.sqlalchemy import paginate
 
 from tg_bot_float_common_dtos.db_app_dtos.count_valuable_sub import CountValuableSub
+
+from tg_bot_float_common_dtos.db_app_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_common_dtos.schema_dtos.subscription_dto import SubscriptionDTO
 from tg_bot_float_db_app.database.models.quality_model import QualityModel
 from tg_bot_float_db_app.database.models.skin_model import SkinModel
@@ -124,7 +124,7 @@ class SubscriptionService:
 
     async def get_subscriptions_by_telegram_id_paginated(
         self, telegram_id: int
-    ) -> CoroutineType[Any, Any, Any]:
+    ) -> Page[FullSubDTO]:
         select_stmt = select(
             SubscriptionModel.weapon_id,
             WeaponModel.name.label("weapon_name"),

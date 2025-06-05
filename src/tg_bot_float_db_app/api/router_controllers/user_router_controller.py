@@ -56,6 +56,7 @@ class UserRouterController(AbstractRouterController):
             "/users_by_subscription/{weapon_id}/{skin_id}/{quality_id}/{stattrak}",
             self._get_by_subscription,
             methods=["GET"],
+            response_model=Page[UserDTO],
         )
 
     async def _create(
@@ -106,14 +107,12 @@ class UserRouterController(AbstractRouterController):
         self,
         service_factory: BOT_DB_SERVICE_FACTORY,
         users_by_subscription: USERS_BY_SUBSCIPTION_PARAMS = Query(),
-    ):
+    ) -> Page[UserModel]:
         async with service_factory:
             user_service = service_factory.get_user_service()
-            return list(
-                await user_service.get_users_by_subcription(
-                    users_by_subscription.weapon_id,
-                    users_by_subscription.skin_id,
-                    users_by_subscription.quality_id,
-                    users_by_subscription.stattrak,
-                )
+            return await user_service.get_users_by_subscription_paginated(
+                users_by_subscription.weapon_id,
+                users_by_subscription.skin_id,
+                users_by_subscription.quality_id,
+                users_by_subscription.stattrak,
             )
