@@ -10,5 +10,4 @@ class CsmWikiSourceSettings(BaseSettings):
     base_url: str
     graphql_url: str
     graphql_query: str
-    number_of_retries_on_http_forbidden: int
-    not_retry_statuses: str
+    headers: str

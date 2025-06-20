@@ -1,10 +1,9 @@
 import json
 from typing import Any, Dict, Self, Set
-from http import HTTPStatus
 
-
-from aiohttp import ClientSession
-from aiohttp_retry import ExponentialRetry, RetryClient
+from curl_cffi.requests import AsyncSession
+from aiohttp_retry import ExponentialRetry
+from fake_useragent import UserAgent
 
 from tg_bot_float_common_dtos.csm_wiki_source_dtos.csm_wiki_dto import CsmWikiDTO
 from tg_bot_float_csm_wiki_source.csm_wiki_source_exceptions import CsmWikiSourceExceptions
@@ -14,28 +13,24 @@ from tg_bot_float_csm_wiki_source.services.dtos.graphql_response import GraphqlR
 from tg_bot_float_csm_wiki_source.services.dtos.graphql_csm_wiki_data_dto import (
     CsmWikiGraphqlDTO,
 )
-from tg_bot_float_csm_wiki_source.csm_wiki_constants import FORBIDDEN_ERROR_MSG
 
 
 class CsmWikiSourceService:
     def __init__(self, csm_wiki_source_settings: CsmWikiSourceSettings) -> None:
         self._settings = csm_wiki_source_settings
-        statuses = self._configure_retry_statuses()
-        self._retry_options = ExponentialRetry(statuses=statuses)
-
-    def _configure_retry_statuses(self):
-        not_retry_statuses_str = self._settings.not_retry_statuses.split(",")
-        not_retry_statuses = set(range(200, 300))
-        not_retry_statuses |= {int(x) for x in not_retry_statuses_str}
-        statuses = {x for x in range(100, 600) if x not in not_retry_statuses}
-        return statuses
 
     async def __aenter__(self) -> Self:
-        self._session = ClientSession()
+        self._session = AsyncSession()
         return self
 
     async def __aexit__(self, type, exc, traceback) -> None:
         await self._session.close()
+
+    @property
+    def _headers(self) -> Dict[str, Any]:
+        headers = json.loads(self._settings.headers)
+        headers["user-agent"] = f"{UserAgent.random}"
+        return headers
 
     async def get_weapon_skin_data(self, weapon: str, skin: str) -> CsmWikiDTO:
         graphql_response = await self._get_graphql_response(weapon, skin)
@@ -53,24 +48,12 @@ class CsmWikiSourceService:
 
     async def _get_graphql_response(self, weapon: str, skin: str) -> GraphqlResponse:
         graphql_query = self._prep_query(weapon, skin)
-        return await self._get_response_with_retries(
-            self._settings.base_url + self._settings.graphql_url, graphql_query
+        response = await self._session.post(
+            self._settings.base_url + self._settings.graphql_url,
+            json=graphql_query,
+            headers=self._headers,
         )
-
-    async def _get_response_with_retries(self, link: str, json_data: Dict[str, Any]) -> GraphqlResponse:
-        for _ in range(self._settings.number_of_retries_on_http_forbidden):
-            retry_session = RetryClient(self._session, retry_options=self._retry_options)
-            async with retry_session.post(link, json=json_data) as response:
-                if response.status == HTTPStatus.FORBIDDEN:
-                    await self._open_new_client_session()
-                    continue
-                json_response = await response.json()
-                return GraphqlResponse.model_validate(json_response)
-        return GraphqlResponse(errors=[{"message": FORBIDDEN_ERROR_MSG}])
-
-    async def _open_new_client_session(self) -> None:
-        await self._session.close()
-        self._session = ClientSession()
+        return GraphqlResponse.model_validate(response.json())
 
     def _get_csm_wiki_dto(self, csm_wiki_graphql_dto: CsmWikiGraphqlDTO) -> CsmWikiDTO:
         qualities: Set[str] = set()
