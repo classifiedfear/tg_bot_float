@@ -2,7 +2,7 @@ from decimal import Decimal, localcontext
 import json
 from typing import Any, Dict, List, Self
 
-from aiohttp import ClientSession
+from curl_cffi.requests import AsyncSession
 from fake_useragent import UserAgent
 
 from tg_bot_float_csm_source.csm_source_constants import NOT_EXIST_ERROR_MSG
@@ -19,7 +19,7 @@ class CsmService:
         self._settings = settings
 
     async def __aenter__(self) -> Self:
-        self._session = ClientSession()
+        self._session = AsyncSession()
         return self
 
     async def __aexit__(self, type, exc, traceback) -> None:
@@ -60,9 +60,9 @@ class CsmService:
         )
 
     async def _get_csm_response(self, link: str) -> CsmResponse:
-        async with self._session.get(link, headers=self._headers) as response:
-            json_response = await response.json()
-            return CsmResponse.model_validate(json_response)
+        response = await self._session.get(link, headers=self._headers)
+        json_response = response.json()
+        return CsmResponse.model_validate(json_response)
 
     @staticmethod
     def _check_on_errors(csm_response: CsmResponse) -> None:
