@@ -2,7 +2,6 @@ import json
 from typing import Any, Dict, Self, Set
 
 from curl_cffi.requests import AsyncSession
-from aiohttp_retry import ExponentialRetry
 from fake_useragent import UserAgent
 
 from tg_bot_float_common_dtos.csm_wiki_source_dtos.csm_wiki_dto import CsmWikiDTO
