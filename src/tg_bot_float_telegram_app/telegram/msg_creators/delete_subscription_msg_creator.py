@@ -1,11 +1,12 @@
 from typing import List
 
-from tg_bot_float_common_dtos.schema_dtos.full_sub_dto import FullSubDTO
+from tg_bot_float_common_dtos.db_app_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_telegram_app.telegram.constants.delete_sub_consts import (
     CHOOSING_SUB_FOR_DELETE_TEXT,
     CONFIRM_DELETE_SUB_TEXT,
     SUB_DELETED_TEXT,
-    SUB_NOT_FOUND_TEXT,
+    SUB_ID_NOT_FOUND_TEXT,
+    SUB_NAME_NOT_FOUND_TEXT,
 )
 from tg_bot_float_telegram_app.telegram.constants.general_consts import (
     BACK_TO_MAIN_MENU_TEXT,
@@ -40,8 +41,13 @@ class DeleteSubscriptionMsgCreator(CommandMsgCreator):
             text="\n".join(lines), reply_markup=self._keyboard_controller.back_button
         )
 
-    async def show_subscription_not_found_msg(self) -> None:
-        await self._message.answer(text=SUB_NOT_FOUND_TEXT)
+    async def show_sub_id_not_found_msg(self) -> None:
+        await self._message.answer(text=SUB_ID_NOT_FOUND_TEXT)
+
+    async def show_sub_name_not_found_msg(self) -> None:
+        await self._message.answer(
+            text=SUB_NAME_NOT_FOUND_TEXT, reply_markup=self._keyboard_controller.back_button
+        )
 
     async def show_subscription_deleted_msg(self, subscription: FullSubDTO) -> None:
         await self._message.answer(

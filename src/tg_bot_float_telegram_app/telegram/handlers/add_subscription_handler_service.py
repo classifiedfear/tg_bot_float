@@ -4,7 +4,6 @@ from tg_bot_float_common_dtos.schema_dtos.quality_dto import QualityDTO
 from tg_bot_float_common_dtos.schema_dtos.skin_dto import SkinDTO
 
 from tg_bot_float_telegram_app.telegram.handlers.handler_service import HandlerService
-from tg_bot_float_telegram_app.telegram.keyboard.buttons import Buttons
 from tg_bot_float_telegram_app.telegram.states.add_subscription_states import AddSubscriptionStates
 from tg_bot_float_telegram_app.telegram.state_controllers.add_subscription_state_controller import (
     AddSubscriptionStateController,
@@ -14,6 +13,7 @@ from tg_bot_float_telegram_app.telegram.msg_creators.add_subscription_msg_creato
 )
 
 from tg_bot_float_telegram_app.dtos.sub_to_add_dto import SubToAddDTO
+from tg_bot_float_telegram_app.user_input_cleaner import UserInputCleaner
 
 
 class AddSubscriptionHandlerService(HandlerService):
@@ -45,16 +45,37 @@ class AddSubscriptionHandlerService(HandlerService):
         await msg_creator.show_choose_weapon_msg(weapons)
         await state_controller.set_state(AddSubscriptionStates.CHOOSE_WEAPON)
 
-    async def add_subscription_weapon(
+    async def add_subscription_weapon_id(
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
-        msg_from_user: str,
+        index: int,
         user_id: int,
     ):
-        if weapon_dto := await state_controller.try_get_weapon_from_user_msg(
-            user_id, msg_from_user
-        ):
+        weapons_data_dto = await state_controller.get_weapons_data(user_id)
+        if UserInputCleaner.check_on_index(weapons_data_dto.len_items, index):
+            weapon_index = index - 1
+            weapon_dto = weapons_data_dto.items[weapon_index]
+            await state_controller.update_weapon_dto_for_user(user_id, weapon_dto)
+            skins = await self._db_app_service_client.get_skins_for_weapon_id(weapon_dto.id)
+            await self._prep_skin_state(msg_creator, state_controller, user_id, skins)
+        else:
+            await msg_creator.show_wrong_item_id_msg("оружия")
+            return
+
+    async def add_subscription_weapon_user_text(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_text: str,
+        user_id: int,
+    ):
+        weapons_data_dto = await state_controller.get_weapons_data(user_id)
+        user_text_cleaned = UserInputCleaner.clean(user_text)
+        index = weapons_data_dto.name_to_index.get(user_text_cleaned)
+        if index:
+            weapon_index = index - 1
+            weapon_dto = weapons_data_dto.items[weapon_index]
             await state_controller.update_weapon_dto_for_user(user_id, weapon_dto)
             skins = await self._db_app_service_client.get_skins_for_weapon_id(weapon_dto.id)
             await self._prep_skin_state(msg_creator, state_controller, user_id, skins)
@@ -69,30 +90,47 @@ class AddSubscriptionHandlerService(HandlerService):
         user_id: int,
         skins: List[SkinDTO],
     ):
-        if await self._show_skins(msg_creator, skins):
-            await state_controller.update_all_skins_for_user(user_id, skins)
-            await state_controller.set_state(AddSubscriptionStates.CHOOSE_SKIN)
-
-    async def _show_skins(
-        self,
-        msg_creator: AddSubscriptionMsgCreator,
-        skins: List[SkinDTO],
-    ) -> bool:
         if not skins:
             await msg_creator.show_weapon_skin_not_exist_msg()
-            return False
-
+            return
         await msg_creator.show_choose_skin_msg(skins)
-        return True
+        await state_controller.update_all_skins_for_user(user_id, skins)
+        await state_controller.set_state(AddSubscriptionStates.CHOOSE_SKIN)
 
-    async def add_subscription_skin(
+    async def add_subscription_skin_id(
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
-        user_msg: str,
+        index: int,
         user_id: int,
     ):
-        if skin_dto := await state_controller.try_get_skin_from_user_msg(user_id, user_msg):
+        skins_data_dto = await state_controller.get_skins_data(user_id)
+        if UserInputCleaner.check_on_index(skins_data_dto.len_items, index):
+            skin_index = index - 1
+            skin_dto = skins_data_dto.items[skin_index]
+            await state_controller.update_skin_dto_for_user(user_id, skin_dto)
+            weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
+            qualities = await self._db_app_service_client.get_qualities_for_weapon_skin_ids(
+                weapon_dto.id, skin_dto.id
+            )
+            await self._prep_quality_state(msg_creator, state_controller, user_id, qualities)
+        else:
+            await msg_creator.show_wrong_item_id_msg("скина")
+            return
+
+    async def add_subscription_skin_user_text(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_text: str,
+        user_id: int,
+    ):
+        skins_data_dto = await state_controller.get_skins_data(user_id)
+        user_text_cleaned = UserInputCleaner.clean(user_text)
+        index = skins_data_dto.name_to_index.get(user_text_cleaned)
+        if index:
+            skin_index = index - 1
+            skin_dto = skins_data_dto.items[skin_index]
             await state_controller.update_skin_dto_for_user(user_id, skin_dto)
             weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
             qualities = await self._db_app_service_client.get_qualities_for_weapon_skin_ids(
@@ -110,21 +148,56 @@ class AddSubscriptionHandlerService(HandlerService):
         user_id: int,
         qualities: List[QualityDTO],
     ):
-        await state_controller.update_all_qualities(user_id, qualities)
+        if not qualities:
+            await msg_creator.show_weapon_skin_quality_not_exist_msg()
+            return
         await msg_creator.show_choose_quality_msg(qualities)
+        await state_controller.update_all_qualities_for_user(user_id, qualities)
         await state_controller.set_state(AddSubscriptionStates.CHOOSE_QUALITY)
 
-    async def add_subscription_quality(
+    async def add_subscription_quality_id(
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
-        user_msg: str,
+        index: int,
         user_id: int,
     ):
-        if quality_dto := await state_controller.try_get_quality_from_user_msg(user_id, user_msg):
-            await state_controller.update_quality_id_name_for_user(user_id, quality_dto)
-            skin_dto = await state_controller.get_skin_dto_for_user(user_id)
+        qualities_data_dto = await state_controller.get_qualities_data(user_id)
+        if UserInputCleaner.check_on_index(qualities_data_dto.len_items, index):
+            quality_index = index - 1
+            quality_dto = qualities_data_dto.items[quality_index]
+            await state_controller.update_quality_dto_for_user(user_id, quality_dto)
             weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
+            skin_dto = await state_controller.get_skin_dto_for_user(user_id)
+            stattrak_existence = (
+                await self._db_app_service_client.get_stattrak_existence_for_skin_id(
+                    weapon_dto.id, skin_dto.id, quality_dto.id
+                )
+            )
+            if not stattrak_existence:
+                await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
+            else:
+                await self._prep_stattrak_state(msg_creator, state_controller)
+        else:
+            await msg_creator.show_wrong_item_name_msg("качества")
+            return
+
+    async def add_subscription_quality_user_text(
+        self,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+        user_text: str,
+        user_id: int,
+    ):
+        qualities_data_dto = await state_controller.get_qualities_data(user_id)
+        user_text_cleaned = UserInputCleaner.clean(user_text)
+        index = qualities_data_dto.name_to_index.get(user_text_cleaned)
+        if index:
+            quality_index = index - 1
+            quality_dto = qualities_data_dto.items[quality_index]
+            await state_controller.update_quality_dto_for_user(user_id, quality_dto)
+            weapon_dto = await state_controller.get_weapon_dto_for_user(user_id)
+            skin_dto = await state_controller.get_skin_dto_for_user(user_id)
             stattrak_existence = (
                 await self._db_app_service_client.get_stattrak_existence_for_skin_id(
                     weapon_dto.id, skin_dto.id, quality_dto.id
@@ -150,18 +223,14 @@ class AddSubscriptionHandlerService(HandlerService):
         self,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
-        user_msg: str,
         user_id: int,
+        stattrak: bool | None = None,
     ):
-        if Buttons.STATTRAK_VERSION.value.lower() == user_msg.lower().strip():
-            await state_controller.update_stattrak_for_user(user_id, True)
-            await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
-        elif Buttons.BASE_VERSION.value.lower() == user_msg.lower().strip():
-            await state_controller.update_stattrak_for_user(user_id, False)
-            await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
-        else:
+        if stattrak is None:
             await msg_creator.show_choose_variants()
             return
+        await state_controller.update_stattrak_for_user(user_id, stattrak)
+        await self._prep_finish_subscription_state(msg_creator, state_controller, user_id)
 
     async def _prep_finish_subscription_state(
         self,

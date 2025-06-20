@@ -8,6 +8,7 @@ from tg_bot_float_telegram_app.telegram.state_controllers.delete_subscription_st
 from tg_bot_float_telegram_app.telegram.states.delete_subscription_states import (
     DeleteSubscriptionStates,
 )
+from tg_bot_float_telegram_app.user_input_cleaner import UserInputCleaner
 
 
 class DeleteSubscriptionHandlerService(HandlerService):
@@ -25,6 +26,7 @@ class DeleteSubscriptionHandlerService(HandlerService):
         state_controller: DeleteSubscriptionStateController,
         user_id: int,
     ) -> None:
+        await state_controller.create_user_in_state(user_id)
         subs = await self._db_app_service_client.get_subscriptions_by_telegram_id(user_id)
         if not subs:
             await msg_creator.show_no_subscriptions_msg()
@@ -33,20 +35,41 @@ class DeleteSubscriptionHandlerService(HandlerService):
         await state_controller.set_state(DeleteSubscriptionStates.CHOOSE_SUBSCRIPTION)
         await msg_creator.show_subscriptions_msg(subs)
 
-    async def delete_subscription(
+    async def delete_subscription_user_text(
         self,
         msg_creator: DeleteSubscriptionMsgCreator,
         state_controller: DeleteSubscriptionStateController,
-        user_msg: str,
+        user_text: str,
         user_id: int,
     ) -> None:
-        sub = await state_controller.try_get_sub_from_user_msg(user_id, user_msg)
-        if not sub:
-            await msg_creator.show_subscription_not_found_msg()
-            return
-        await state_controller.update_sub_to_delete(user_id, sub)
-        await msg_creator.confirm_delete_subscription_msg(sub)
-        await state_controller.set_state(DeleteSubscriptionStates.CONFIRM_DELETE_SUBSCRIPTION)
+        subs_dto = await state_controller.get_subs_dto(user_id)
+        user_text_cleaned = UserInputCleaner.clean(user_text)
+        index = subs_dto.name_to_index.get(user_text_cleaned)
+        if index:
+            sub_index = index - 1
+            sub = subs_dto.subs[sub_index]
+            await state_controller.update_sub_to_delete(user_id, sub)
+            await msg_creator.confirm_delete_subscription_msg(sub)
+            await state_controller.set_state(DeleteSubscriptionStates.CONFIRM_DELETE_SUBSCRIPTION)
+        else:
+            await msg_creator.show_sub_name_not_found_msg()
+
+    async def delete_subscription_id(
+        self,
+        msg_creator: DeleteSubscriptionMsgCreator,
+        state_controller: DeleteSubscriptionStateController,
+        index: int,
+        user_id: int,
+    ) -> None:
+        subs_dto = await state_controller.get_subs_dto(user_id)
+        if UserInputCleaner.check_on_index(len(subs_dto.subs), index):
+            sub_index = index - 1
+            sub = subs_dto.subs[sub_index]
+            await state_controller.update_sub_to_delete(user_id, sub)
+            await msg_creator.confirm_delete_subscription_msg(sub)
+            await state_controller.set_state(DeleteSubscriptionStates.CONFIRM_DELETE_SUBSCRIPTION)
+        else:
+            await msg_creator.show_sub_id_not_found_msg()
 
     async def confirm_delete_subscription(
         self,

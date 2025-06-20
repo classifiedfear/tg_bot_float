@@ -19,6 +19,7 @@ from tg_bot_float_telegram_app.telegram.constants.general_consts import (
     LEN_OF_ITEMS_TEXT,
     PAIRS_NOT_EXIST_TEXT,
     STATTRAK_VERSION_TEXT,
+    WRONG_ITEM_ID_TEXT,
     WRONG_ITEM_NAME_TEXT,
 )
 from tg_bot_float_telegram_app.telegram.msg_creators.msg_creator import MsgCreator
@@ -43,6 +44,15 @@ class AddSubscriptionMsgCreator(MsgCreator):
 
     async def show_wrong_item_name_msg(self, item_name: str) -> None:
         await self._message.answer(WRONG_ITEM_NAME_TEXT.format(item=item_name))
+
+    async def show_wrong_item_id_msg(self, item_name: str) -> None:
+        await self._message.answer(WRONG_ITEM_ID_TEXT.format(item=item_name))
+
+    async def show_weapon_skin_quality_not_exist_msg(self) -> None:
+        await self._message.answer(
+            PAIRS_NOT_EXIST_TEXT.format(main_item="оружия и скина", additional_item="качеств"),
+            reply_markup=self._keyboard_controller.main_buttons,
+        )
 
     async def show_weapon_skin_not_exist_msg(self) -> None:
         """Show a message indicating that the weapon skin does not exist."""

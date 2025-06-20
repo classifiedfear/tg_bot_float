@@ -3,6 +3,7 @@
 LEN_OF_ITEMS_TEXT = "Количество {items_name}: {item_len}"
 
 WRONG_ITEM_NAME_TEXT = "Вы должны выбрать правильное название {item} из списка!"
+WRONG_ITEM_ID_TEXT = "Вы должны выбрать правильный ID {item} из списка!"
 
 PAIRS_NOT_EXIST_TEXT = "Для этого {main_item} не существует {additional_item}!"
 

@@ -1,4 +1,4 @@
-from aiogram import BaseMiddleware
+from aiogram import F, BaseMiddleware
 from aiogram.types import Message
 
 
@@ -34,29 +34,62 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
     def _init_routes(self):
         self._router.message.register(
             self._start_add_subscription,
-            lambda message: message.text == "Отслеживать",
+            F.text.lower().strip() == Buttons.SUB.value.lower(),
         )
         self._router.message.register(
             self._cancel,
-            lambda message: message.text.lower().strip() == Buttons.CANCEL.value.lower(),
+            F.text.lower().strip() == Buttons.CANCEL.value.lower(),
         )
         self._router.message.register(
-            self._add_subscription_weapon,
+            self._add_subscription_weapon_id,
             AddSubscriptionStates.CHOOSE_WEAPON,
+            F.text.isdigit(),
         )
         self._router.message.register(
-            self._add_subscription_skin, AddSubscriptionStates.CHOOSE_SKIN
+            self._add_subscription_weapon_user_text,
+            AddSubscriptionStates.CHOOSE_WEAPON,
+            ~F.text.isdigit(),
         )
         self._router.message.register(
-            self._add_subscription_quality, AddSubscriptionStates.CHOOSE_QUALITY
+            self._add_subscription_skin_id, AddSubscriptionStates.CHOOSE_SKIN, F.text.isdigit()
         )
         self._router.message.register(
-            self._add_subscription_stattrak, AddSubscriptionStates.CHOOSE_STATTRAK
+            self._add_subscription_skin_user_text,
+            AddSubscriptionStates.CHOOSE_SKIN,
+            ~F.text.isdigit(),
+        )
+
+        self._router.message.register(
+            self._add_subscription_quality_id,
+            AddSubscriptionStates.CHOOSE_QUALITY,
+            F.text.isdigit(),
+        )
+        self._router.message.register(
+            self._add_subscription_quality_user_text,
+            AddSubscriptionStates.CHOOSE_QUALITY,
+            ~F.text.isdigit(),
+        )
+        self._router.message.register(
+            self._add_subscription_base,
+            AddSubscriptionStates.CHOOSE_STATTRAK,
+            F.text.lower().strip() == Buttons.BASE_VERSION.value.lower(),
+        )
+        self._router.message.register(
+            self._add_subscription_stattrak,
+            AddSubscriptionStates.CHOOSE_STATTRAK,
+            F.text.lower().strip() == Buttons.STATTRAK_VERSION.value.lower(),
+        )
+        self._router.message.register(
+            self._add_subscription_wrong_stattrak,
+            AddSubscriptionStates.CHOOSE_STATTRAK,
+            F.text.lower().not_in(
+                (Buttons.BASE_VERSION.value.lower(), Buttons.STATTRAK_VERSION.value.lower())
+            ),
         )
         self._router.message.register(
             self._finish_subscription,
             AddSubscriptionStates.CONFIRM_USER_REQUEST,
-            lambda message: message.text.lower().strip() == Buttons.CONFIRM.value.lower(),
+            F.text.lower().strip() == Buttons.CONFIRM.value.lower(),
         )
 
     async def _cancel(
@@ -77,34 +110,86 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
             msg_creator, state_controller, message.from_user.id
         )
 
-    async def _add_subscription_weapon(
+    async def _add_subscription_weapon_id(
+        self,
+        message: Message,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ) -> None:
+        """
+        Handle the case when the user provides a weapon ID.
+        """
+        await self._handler_service.add_subscription_weapon_id(
+            msg_creator, state_controller, int(message.text), message.from_user.id
+        )
+
+    async def _add_subscription_weapon_user_text(
         self,
         message: Message,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._handler_service.add_subscription_weapon(
+        """
+        Handle the case when the user provides a weapon name.
+        """
+        await self._handler_service.add_subscription_weapon_user_text(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
-    async def _add_subscription_skin(
+    async def _add_subscription_skin_id(
+        self,
+        message: Message,
+        msg_creator: AddSubscriptionHandlerService,
+        state_controller: AddSubscriptionStateController,
+    ) -> None:
+        """
+        Handle the case when the user provides a skin ID.
+        """
+        await self._handler_service.add_subscription_skin_id(
+            msg_creator, state_controller, int(message.text), message.from_user.id
+        )
+
+    async def _add_subscription_skin_user_text(
         self,
         message: Message,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._handler_service.add_subscription_skin(
+        """
+        Handle the case when the user provides a skin name.
+        """
+        await self._handler_service.add_subscription_skin_user_text(
             msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
-    async def _add_subscription_quality(
+    async def _add_subscription_quality_id(
         self,
         message: Message,
         msg_creator: AddSubscriptionMsgCreator,
         state_controller: AddSubscriptionStateController,
     ):
-        await self._handler_service.add_subscription_quality(
+        await self._handler_service.add_subscription_quality_id(
+            msg_creator, state_controller, int(message.text), message.from_user.id
+        )
+
+    async def _add_subscription_quality_user_text(
+        self,
+        message: Message,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ):
+        await self._handler_service.add_subscription_quality_user_text(
             msg_creator, state_controller, str(message.text), message.from_user.id
+        )
+
+    async def _add_subscription_base(
+        self,
+        message: Message,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ):
+        await self._handler_service.add_subscription_stattrak(
+            msg_creator, state_controller, message.from_user.id, False
         )
 
     async def _add_subscription_stattrak(
@@ -114,7 +199,17 @@ class AddSubscriptionRouterController(AbstractTGRouterController):
         state_controller: AddSubscriptionStateController,
     ):
         await self._handler_service.add_subscription_stattrak(
-            msg_creator, state_controller, str(message.text), message.from_user.id
+            msg_creator, state_controller, message.from_user.id, True
+        )
+
+    async def _add_subscription_wrong_stattrak(
+        self,
+        message: Message,
+        msg_creator: AddSubscriptionMsgCreator,
+        state_controller: AddSubscriptionStateController,
+    ):
+        await self._handler_service.add_subscription_stattrak(
+            msg_creator, state_controller, message.from_user.id
         )
 
     async def _finish_subscription(

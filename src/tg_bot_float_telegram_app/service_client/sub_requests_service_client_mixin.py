@@ -1,6 +1,6 @@
 from typing import List
 
-from tg_bot_float_common_dtos.schema_dtos.full_sub_dto import FullSubDTO
+from tg_bot_float_common_dtos.db_app_dtos.full_sub_dto import FullSubDTO
 from tg_bot_float_telegram_app.service_client.base_service_client import BaseServiceClient
 
 

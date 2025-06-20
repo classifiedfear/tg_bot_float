@@ -1,4 +1,4 @@
-from aiogram import BaseMiddleware
+from aiogram import F, BaseMiddleware
 from aiogram.types import Message
 from aiogram.filters import or_f
 
@@ -34,24 +34,26 @@ class DeleteSubscriptionRouterController(AbstractTGRouterController):
         super()._init_routes()
         self._router.message.register(
             self._show_subscriptions,
-            lambda message: message.text == UNSUB_TEXT,
+            F.text.lower().strip() == Buttons.UNSUB.value.lower(),
         )
         self._router.message.register(
             self._cancel,
-            lambda message: message.text == "Отменить",
+            F.text.lower().strip() == Buttons.CANCEL.value.lower(),
         )
         self._router.message.register(
-            self._delete_subscription,
+            self._delete_subscription_id,
             DeleteSubscriptionStates.CHOOSE_SUBSCRIPTION,
-            or_f(
-                lambda message: message.text.isdigit(),
-                lambda message: len(message.text.split(",")) == 4,
-            ),
+            F.text.isdigit(),
+        )
+        self._router.message.register(
+            self._delete_subscription_user_text,
+            DeleteSubscriptionStates.CHOOSE_SUBSCRIPTION,
+            F.chat.func(lambda chat: len(chat.text.split()) == 4),
         )
         self._router.message.register(
             self._confirm_delete_subscription,
             DeleteSubscriptionStates.CONFIRM_DELETE_SUBSCRIPTION,
-            lambda message: message.text.lower().strip() == Buttons.CONFIRM.value.lower(),
+            F.text.lower().strip() == Buttons.CONFIRM.value.lower(),
         )
 
     async def _cancel(
@@ -72,14 +74,27 @@ class DeleteSubscriptionRouterController(AbstractTGRouterController):
             msg_creator, state_controller, message.from_user.id
         )
 
-    async def _delete_subscription(
+    async def _delete_subscription_id(
         self,
         message: Message,
         msg_creator: DeleteSubscriptionMsgCreator,
         state_controller: DeleteSubscriptionStateController,
     ) -> None:
-        await self._handler_service.delete_subscription(
-            msg_creator, state_controller, message.text, message.from_user.id
+        await self._handler_service.delete_subscription_id(
+            msg_creator, state_controller, int(message.text), message.from_user.id
+        )
+
+    async def _delete_subscription_user_text(
+        self,
+        message: Message,
+        msg_creator: DeleteSubscriptionMsgCreator,
+        state_controller: DeleteSubscriptionStateController,
+    ):
+        """
+        Handle the case when the user provides a subscription in text format.
+        """
+        await self._handler_service.delete_subscription_user_text(
+            msg_creator, state_controller, str(message.text), message.from_user.id
         )
 
     async def _confirm_delete_subscription(
