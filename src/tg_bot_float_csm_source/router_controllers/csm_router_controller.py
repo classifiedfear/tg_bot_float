@@ -5,7 +5,7 @@ from fastapi.responses import JSONResponse
 from tg_bot_float_csm_source.dependencies.params import CSM_PARAMS
 from tg_bot_float_csm_source.dependencies.services import CSM_SERVICE
 from tg_bot_float_common_dtos.csm_source_dtos.csm_item_dto import CsmItemDTO
-from tg_bot_float_misc.router_controller.abstact_router_controller import AbstractRouterController
+from tg_bot_float_misc.router_controller.abstract_router_controller import AbstractRouterController
 
 
 class CsmRouterController(AbstractRouterController):

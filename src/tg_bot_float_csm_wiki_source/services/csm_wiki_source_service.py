@@ -1,8 +1,10 @@
 import json
 from typing import Any, Dict, Self, Set
 
+from curl_cffi import CurlHttpVersion
 from curl_cffi.requests import AsyncSession
 from fake_useragent import UserAgent
+
 
 from tg_bot_float_common_dtos.csm_wiki_source_dtos.csm_wiki_dto import CsmWikiDTO
 from tg_bot_float_csm_wiki_source.csm_wiki_source_exceptions import CsmWikiSourceExceptions
@@ -19,7 +21,7 @@ class CsmWikiSourceService:
         self._settings = csm_wiki_source_settings
 
     async def __aenter__(self) -> Self:
-        self._session = AsyncSession()
+        self._session = AsyncSession(http_version=CurlHttpVersion.V1_1)
         return self
 
     async def __aexit__(self, type, exc, traceback) -> None:
@@ -28,7 +30,7 @@ class CsmWikiSourceService:
     @property
     def _headers(self) -> Dict[str, Any]:
         headers = json.loads(self._settings.headers)
-        headers["user-agent"] = f"{UserAgent.random}"
+        headers["user-agent"] = f"{UserAgent().random}"
         return headers
 
     async def get_weapon_skin_data(self, weapon: str, skin: str) -> CsmWikiDTO:

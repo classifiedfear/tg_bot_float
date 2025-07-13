@@ -1,7 +1,7 @@
-aiohttp==3.9.5
-fake_useragent==1.5.1
-fastapi==0.111.1
-pydantic==2.8.2
-pydantic_settings==2.3.4
-starlette==0.37.2
-uvicorn~=0.29.0
+starlette==0.41.2
+curl_cffi==0.11.4
+fake_useragent==2.2.0
+pydantic_settings==2.9.1
+pydantic==2.11.7
+fastapi==0.115.4
+uvicorn==0.32.0
