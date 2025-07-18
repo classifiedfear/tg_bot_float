@@ -17,14 +17,11 @@ class CsgoDbSourceDataGetter(AbstractSourceGetter):
         return WeaponsPageDTO.model_validate(json_response)
 
     async def get_skins_page(self, weapon: str) -> SkinsPageDTO:
+        weapon_name = weapon.lower().replace("★ ", "").replace(" ", "-")
         json_response = await self._get_response(
             self._settings.csgo_db_url
-            + self._settings.csgo_db_skins_url.format(
-                weapon=weapon.lower().replace("★ ", "").replace(" ", "-")
-            )
+            + self._settings.csgo_db_skins_url.format(weapon=weapon_name)
         )
-        if message := json_response.get("message"):
-            return SkinsPageDTO(weapon_name=message, skins=[])
         return SkinsPageDTO.model_validate(json_response)
 
     async def get_gloves_page(self) -> List[GlovesPageDTO]:
