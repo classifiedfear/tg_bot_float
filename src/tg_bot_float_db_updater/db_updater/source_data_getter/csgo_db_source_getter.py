@@ -1,3 +1,4 @@
+import asyncio
 from typing import List
 from tg_bot_float_common_dtos.csgo_database_source_dtos.agents_page_dto import AgentsPageDTO
 from tg_bot_float_common_dtos.csgo_database_source_dtos.gloves_page_dto import GlovesPageDTO
@@ -18,11 +19,17 @@ class CsgoDbSourceDataGetter(AbstractSourceGetter):
 
     async def get_skins_page(self, weapon: str) -> SkinsPageDTO:
         weapon_name = weapon.lower().replace("★ ", "").replace(" ", "-")
-        json_response = await self._get_response(
-            self._settings.csgo_db_url
-            + self._settings.csgo_db_skins_url.format(weapon=weapon_name)
-        )
-        return SkinsPageDTO.model_validate(json_response)
+        while True:
+            json_response = await self._get_response(
+                self._settings.csgo_db_url
+                + self._settings.csgo_db_skins_url.format(weapon=weapon_name)
+            )
+            skins_page_dto = SkinsPageDTO.model_validate(json_response)
+            if skins_page_dto.skins:
+                print(f"Found skins for weapon: {weapon_name}")
+                print(f"Number of skins: {len(skins_page_dto.skins)}")
+                return skins_page_dto
+            await asyncio.sleep(1)  # Wait before retrying
 
     async def get_gloves_page(self) -> List[GlovesPageDTO]:
         json_response = await self._get_response(
