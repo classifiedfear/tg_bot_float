@@ -20,7 +20,6 @@ class ParserSettings(BaseSettings):
     quality_stattrak_regex: str
     additional_weapon_skin_name_regex: str
     rarity_regex: str
-    collection_regex: str
 
     # All variables connected with gloves
     glove_regex: str

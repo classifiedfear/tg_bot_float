@@ -17,7 +17,6 @@ class AdditionalInfoParser(AbstractParser[AdditionalInfoPageDTO]):
             settings.additional_weapon_skin_name_regex
         )
         self._rarity_regex = re.compile(settings.rarity_regex)
-        self._collection_regex = re.compile(settings.collection_regex)
 
     def get_parsed_data(self, page_html: str) -> AdditionalInfoPageDTO:
         additional_info_page_dto: Dict[str, Any] = {}
@@ -46,11 +45,6 @@ class AdditionalInfoParser(AbstractParser[AdditionalInfoPageDTO]):
             weapon, sep, skin = weapon_skin_name.partition("|")  # type: ignore
             return weapon.strip(), skin.strip()
         raise CsgoDbException("Weapon not found in HTML")
-
-    def _extract_regex(self, pattern: re.Pattern[str], page_html: str) -> str | None:
-        if match := pattern.search(page_html):
-            return match.group(1)
-        return None
 
     def _get_quality_stattrak_dto(self, page_html: str) -> QualityStattrakDTO:
         stattrak_qualities: List[str] = []
