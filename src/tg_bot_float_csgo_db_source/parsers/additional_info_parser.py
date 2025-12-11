@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Tuple
+from typing import List, Tuple
 import re
 
 from tg_bot_float_common_dtos.csgo_db_source_dtos.additional_info_page_dto import (
@@ -19,23 +19,23 @@ class AdditionalInfoParser(AbstractParser[AdditionalInfoPageDTO]):
         self._rarity_regex = re.compile(settings.rarity_regex)
 
     def get_parsed_data(self, page_html: str) -> AdditionalInfoPageDTO:
-        additional_info_page_dto: Dict[str, Any] = {}
+        if page_html == "":
+            raise CsgoDbException("No additional info found!")
 
-        additional_info_page_dto["weapon_name"], additional_info_page_dto["skin_name"] = (
-            self._get_weapon_skin_name(page_html)
-        )
+        weapon_name, skin_name = self._get_weapon_skin_name(page_html)
 
-        if rarity := self._extract_regex(self._rarity_regex, page_html):
-            additional_info_page_dto["rarity"] = rarity
+        rarity = self._extract_regex(self._rarity_regex, page_html)
 
         quality_stattrak_dto = self._get_quality_stattrak_dto(page_html)
 
-        additional_info_page_dto["qualities"], additional_info_page_dto["stattrak_existence"] = (
-            quality_stattrak_dto.qualities,
-            quality_stattrak_dto.stattrak_existence,
+        return AdditionalInfoPageDTO(
+            weapon_name=weapon_name,
+            skin_name=skin_name,
+            qualities=quality_stattrak_dto.qualities,
+            stattrak_qualities=quality_stattrak_dto.stattrak_qualities,
+            stattrak_existence=quality_stattrak_dto.stattrak_existence,
+            rarity=rarity if rarity is not None else "Extraordinary",
         )
-
-        return AdditionalInfoPageDTO.model_validate(additional_info_page_dto)
 
     def _get_weapon_skin_name(self, page_html: str) -> Tuple[str, str]:
         if weapon_skin_name := self._extract_regex(
@@ -60,9 +60,8 @@ class AdditionalInfoParser(AbstractParser[AdditionalInfoPageDTO]):
             if quality_match:
                 qualities.append(quality_match)
 
-        primary_qualities = stattrak_qualities or qualities
-
         return QualityStattrakDTO(
-            qualities=primary_qualities,
+            qualities=qualities,
+            stattrak_qualities=stattrak_qualities,
             stattrak_existence=bool(stattrak_qualities),
         )

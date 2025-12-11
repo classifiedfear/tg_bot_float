@@ -1,0 +1,1121 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="counter strike global offensive, csgo, counter strike 2, cs2, skins, cases, items">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-TileColor" content="#111111">
+		<meta name="theme-color" content="#111111">
+		<meta name="apple-mobile-web-app-title" content="CSGO Database">
+		<meta name="application-name" content="CSGO Database">
+		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.json">
+				<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="EzsET7dwq4V_W_VVvIVVcUxS8_-ece528NxwaDe8fgM">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Karambit Skins - CSGO Database</title>
+	<meta name="description" content="All Karambit CS:GO skins sorted by name. Browse skin market prices, weapon case availability and collection information.">
+	<link rel="canonical" href="https://www.csgodatabase.com/weapons/karambit/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Karambit Skins - CSGO Database">
+	<meta property="og:description" content="All Karambit CS:GO skins sorted by name. Browse skin market prices, weapon case availability and collection information.">
+	<meta property="og:url" content="https://www.csgodatabase.com/weapons/karambit/">
+	<meta property="og:site_name" content="CSGO Database">
+	<meta property="article:publisher" content="https://www.facebook.com/CSGODatabase/">
+	<meta property="article:modified_time" content="2021-02-22T21:47:49+00:00">
+	<meta property="og:image" content="https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png">
+	<meta property="og:image:width" content="709">
+	<meta property="og:image:height" content="709">
+	<meta property="og:image:type" content="image/png">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.csgodatabase.com/weapons/karambit/","url":"https://www.csgodatabase.com/weapons/karambit/","name":"Karambit Skins - CSGO Database","isPartOf":{"@id":"https://www.csgodatabase.com/#website"},"datePublished":"2016-07-04T10:25:06+00:00","dateModified":"2021-02-22T21:47:49+00:00","description":"All Karambit CS:GO skins sorted by name. Browse skin market prices, weapon case availability and collection information.","breadcrumb":{"@id":"https://www.csgodatabase.com/weapons/karambit/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.csgodatabase.com/weapons/karambit/"]}]},{"@type":"BreadcrumbList","@id":"https://www.csgodatabase.com/weapons/karambit/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"CSGO Database","item":"https://www.csgodatabase.com/"},{"@type":"ListItem","position":2,"name":"CS2 Weapons","item":"https://www.csgodatabase.com/weapons/"},{"@type":"ListItem","position":3,"name":"Karambit"}]},{"@type":"WebSite","@id":"https://www.csgodatabase.com/#website","url":"https://www.csgodatabase.com/","name":"CSGO Database","description":"CS2 skins, knives, cases and more","publisher":{"@id":"https://www.csgodatabase.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.csgodatabase.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.csgodatabase.com/#organization","name":"CSGO Database","alternateName":"CS2DB","url":"https://www.csgodatabase.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/#/schema/logo/image/","url":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","width":709,"height":709,"caption":"CSGO Database"},"image":{"@id":"https://www.csgodatabase.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CSGODatabase/","https://twitter.com/csgodatabase"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Feed" href="https://www.csgodatabase.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Comments Feed" href="https://www.csgodatabase.com/comments/feed/">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="csdbv2-style-css" href="https://www.csgodatabase.com/wp-content/themes/csdbv2/style.css" type="text/css" media="all">
+<script type="text/javascript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.csgodatabase.com\/wp-admin\/admin-ajax.php","nonce":"932d7e4101","hideEffect":"slide","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.csgodatabase.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.csgodatabase.com/wp-json/wp/v2/pages/1304"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csgodatabase.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.csgodatabase.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://www.csgodatabase.com/?p=1304">
+<link rel="alternate" type="application/json+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fweapons%2Fkarambit%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fweapons%2Fkarambit%2F&amp;format=xml">
+<style>img#wpstats{display:none}</style>
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SDFW078N6F" type="text/javascript"></script>
+		<script type="text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-SDFW078N6F');
+		</script>
+	</head>
+	<body class="page-template page-template-page_knife_all page-template-page_knife_all-php page page-id-1304 page-child parent-pageid-27 wp-embed-responsive cookies-not-set">
+		<header id="nav-menu" aria-label="navigation bar">
+  <nav class="nav-bar">
+	  <div class="nav-container">
+		  <input type="checkbox" id="drop-down-cbox">
+		  <label for="drop-down-cbox">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+		  </label>
+		  <div class="site-logo"><a href="/" aria-label="Home"><picture>
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+			  <img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" alt="CSGO Database logo">
+			  </picture></a></div>
+		  <span id="contact-icon">
+			  <a href="/search/" title="Search CSGO Database"><svg id="mail-icon" class="search-icon" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+		  </span>
+		  <ul class="main-nav">
+			  <li><a href="/skins/">Skins</a></li>
+			  <li><a href="/csgo-skin-price-comparison-tool/">Compare Prices</a></li>
+			  <li><a href="/cases/">Cases</a></li>
+			  <li><a href="/collections/">Collections</a></li>
+			  <li><a href="/weapons/">Weapons</a></li>
+			  <li><a href="/stickers/">Stickers</a></li>
+			  <li><a href="/gloves/">Gloves</a></li>
+			  <li><a href="/agents/">Agents</a></li>
+              <li><a href="/charms/">Charms</a></li>
+			  <li><a href="/collectible-pins/">Pins</a></li>
+			  <li><a href="/csgo-steam-status/">Status</a></li>
+		  </ul>
+		  <form method="GET" class="search" role="search" action="/search/">
+			  <div class="search-container">
+				  <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input type="search" name="search" class="search-input" aria-label="Search" placeholder="Search CS2 Database">
+			  </div>
+		  </form>
+	  </div>
+	</nav>
+</header>
+<div class="header-before"></div>
+
+		<div style="background-color:#000;padding:2px 0;"><div class="wrapper"><p></p><p id="breadcrumbs" style="font-size:13px !important;"><span><span><a href="https://www.csgodatabase.com/">CSGO Database</a></span> » <span><a href="https://www.csgodatabase.com/weapons/">CS2 Weapons</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>Karambit</strong></span></span></p><p></p></div></div>		<a href="#content" class="skip-link screen-reader-text">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>		<main><header class="header">
+
+		<div id="outer-title" style="margin-bottom:20px;background-color:#0071e3;">
+			<div id="inner-title">
+				<h1 class="entry-title">Karambit Skins</h1>
+			</div>
+		</div>
+	</header>
+	<article id="post-1304" class="post-1304 page type-page status-publish hentry">
+		<section class="entry-content">
+
+		<div class="wrapper">
+
+            <div class="flex flex-vertical-center" style="flex-wrap:wrap;">
+                <div style="padding:10px;height:200px;width:320px;">
+                    <picture>
+                        <source srcset="https://www.csgodatabase.com/images/weapons/webp/Karambit.webp" type="image/webp">
+                        <source srcset="https://www.csgodatabase.com/images/weapons/Karambit.png" type="image/png">
+                        <img style="max-height:200px;" src="https://www.csgodatabase.com/images/weapons/Karambit.png" alt="The default Karambit">
+                    </picture>
+                </div>
+                <div style="padding:10px;height:auto;width:500px;">
+                    <p class="h-caption" style="text-align:left">Browse and buy <a href="/skins/">CS2 skins</a> for the <strong>Karambit</strong>. </p>
+
+                </div>
+            </div>
+        <hr><h2 class="txt-center">All CS2 skins for the Karambit</h2><p class="h-caption">A total of 25 Karambit skins are available. The odds of unboxing one from a <a href="/cases/">weapon case</a> is 0.26% for non-StatTrak and 0.026% for a StatTrak variant.</p><p class="h-caption">The cheapest Karambit skin is the <a href="https://www.csgodatabase.com/gloves/karambit-boreal-forest/">Karambit Boreal Forest for <span class="price">$391.75</span></a> and the most expensive is the <a href="https://www.csgodatabase.com/gloves/karambit-case-hardened/">Karambit Case Hardened for <span class="price">$29999.00</span></a>.</p><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit/"><span class="block txt-med txt-white">Vanilla</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Vanilla" src="https://www.csgodatabase.com/images/knives/Karambit.png">
+									</picture>
+								</div>
+							</a>
+
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit/">Karambit Vanilla Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-autotronic/"><span class="block txt-med txt-white">Autotronic</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-autotronic/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Autotronic.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Autotronic.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Autotronic" src="https://www.csgodatabase.com/images/knives/Karambit_Autotronic.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$760.92</span> - <span class="price">$3293.32</span></span><span class="block txt-small txt-stattrak"><span class="price">$952.00</span> - <span class="price">$2335.49</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-autotronic/">Karambit Autotronic Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-black-laminate/"><span class="block txt-med txt-white">Black Laminate</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-black-laminate/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Black_Laminate.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Black_Laminate.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Black Laminate" src="https://www.csgodatabase.com/images/knives/Karambit_Black_Laminate.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$663.27</span> - <span class="price">$1499.42</span></span><span class="block txt-small txt-stattrak"><span class="price">$622.02</span> - <span class="price">$2484.57</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-black-laminate/">Karambit Black Laminate Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-blue-steel/"><span class="block txt-med txt-white">Blue Steel</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-blue-steel/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Blue_Steel.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Blue_Steel.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Blue Steel" src="https://www.csgodatabase.com/images/knives/Karambit_Blue_Steel.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$750.00</span> - <span class="price">$1516.90</span></span><span class="block txt-small txt-stattrak"><span class="price">$924.44</span> - <span class="price">$2569.04</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-blue-steel/">Karambit Blue Steel Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-boreal-forest/"><span class="block txt-med txt-white">Boreal Forest</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-boreal-forest/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Boreal_Forest.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Boreal_Forest.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Boreal Forest" src="https://www.csgodatabase.com/images/knives/Karambit_Boreal_Forest.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$391.75</span> - <span class="price">$1000.00</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-boreal-forest/">Karambit Boreal Forest Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-bright-water/"><span class="block txt-med txt-white">Bright Water</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-bright-water/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Bright_Water.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Bright_Water.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Bright Water" src="https://www.csgodatabase.com/images/knives/Karambit_Bright_Water.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$479.99</span> - <span class="price">$1133.40</span></span><span class="block txt-small txt-stattrak"><span class="price">$499.99</span> - <span class="price">$972.93</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-bright-water/">Karambit Bright Water Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-case-hardened/"><span class="block txt-med txt-white">Case Hardened</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-case-hardened/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Case_Hardened.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Case_Hardened.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Case Hardened" src="https://www.csgodatabase.com/images/knives/Karambit_Case_Hardened.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$684.99</span> - <span class="price">$29999.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$1099.90</span> - <span class="price">$1760.72</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-case-hardened/">Karambit Case Hardened Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-crimson-web/"><span class="block txt-med txt-white">Crimson Web</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-crimson-web/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Crimson_Web.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Crimson_Web.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Crimson Web" src="https://www.csgodatabase.com/images/knives/Karambit_Crimson_Web.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$562.69</span> - <span class="price">$1680.07</span></span><span class="block txt-small txt-stattrak"><span class="price">$674.40</span> - <span class="price">$2010.20</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-crimson-web/">Karambit Crimson Web Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-damascus-steel/"><span class="block txt-med txt-white">Damascus Steel</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-damascus-steel/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Damascus_Steel.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Damascus_Steel.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Damascus Steel" src="https://www.csgodatabase.com/images/knives/Karambit_Damascus_Steel.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$595.04</span> - <span class="price">$1119.63</span></span><span class="block txt-small txt-stattrak"><span class="price">$402.76</span> - <span class="price">$1350.13</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-damascus-steel/">Karambit Damascus Steel Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-doppler/"><span class="block txt-med txt-white">Doppler</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-doppler/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Doppler.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Doppler.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Doppler" src="https://www.csgodatabase.com/images/knives/Karambit_Doppler.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$986.36</span> - <span class="price">$14012.96</span></span><span class="block txt-small txt-stattrak"><span class="price">$1550.00</span> - <span class="price">$7960.66</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-doppler/">Karambit Doppler Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-fade/"><span class="block txt-med txt-white">Fade</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-fade/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Fade.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Fade.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Fade" src="https://www.csgodatabase.com/images/knives/Karambit_Fade.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1794.89</span> - <span class="price">$3572.30</span></span><span class="block txt-small txt-stattrak"><span class="price">$1800.00</span> - <span class="price">$3525.47</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-fade/">Karambit Fade Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-forest-ddpat/"><span class="block txt-med txt-white">Forest DDPAT</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-forest-ddpat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Forest_DDPAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Forest_DDPAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Forest DDPAT" src="https://www.csgodatabase.com/images/knives/Karambit_Forest_DDPAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$396.05</span> - <span class="price">$992.58</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-forest-ddpat/">Karambit Forest DDPAT Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-freehand/"><span class="block txt-med txt-white">Freehand</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-freehand/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Freehand.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Freehand.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Freehand" src="https://www.csgodatabase.com/images/knives/Karambit_Freehand.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$503.80</span> - <span class="price">$961.61</span></span><span class="block txt-small txt-stattrak"><span class="price">$695.01</span> - <span class="price">$1269.14</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-freehand/">Karambit Freehand Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-gamma-doppler/"><span class="block txt-med txt-white">Gamma Doppler</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-gamma-doppler/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Gamma_Doppler.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Gamma_Doppler.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Gamma Doppler" src="https://www.csgodatabase.com/images/knives/Karambit_Gamma_Doppler.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1821.23</span> - <span class="price">$16932.33</span></span><span class="block txt-small txt-stattrak"><span class="price">$1710.10</span> - <span class="price">$12845.20</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-gamma-doppler/">Karambit Gamma Doppler Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-lore/"><span class="block txt-med txt-white">Lore</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-lore/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Lore.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Lore.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Lore" src="https://www.csgodatabase.com/images/knives/Karambit_Lore.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$594.50</span> - <span class="price">$3725.11</span></span><span class="block txt-small txt-stattrak"><span class="price">$666.98</span> - <span class="price">$1178.56</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-lore/">Karambit Lore Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-marble-fade/"><span class="block txt-med txt-white">Marble Fade</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-marble-fade/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Marble_Fade.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Marble_Fade.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Marble Fade" src="https://www.csgodatabase.com/images/knives/Karambit_Marble_Fade.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1193.64</span> - <span class="price">$1999.90</span></span><span class="block txt-small txt-stattrak"><span class="price">$1267.04</span> - <span class="price">$2532.80</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-marble-fade/">Karambit Marble Fade Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-night/"><span class="block txt-med txt-white">Night</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-night/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Night.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Night.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Night" src="https://www.csgodatabase.com/images/knives/Karambit_Night.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$516.49</span> - <span class="price">$2822.39</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-night/">Karambit Night Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-rust-coat/"><span class="block txt-med txt-white">Rust Coat</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-rust-coat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Rust_Coat.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Rust_Coat.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Rust Coat" src="https://www.csgodatabase.com/images/knives/Karambit_Rust_Coat.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$484.33</span> - <span class="price">$990.98</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-rust-coat/">Karambit Rust Coat Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-safari-mesh/"><span class="block txt-med txt-white">Safari Mesh</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-safari-mesh/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Safari_Mesh.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Safari_Mesh.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Safari Mesh" src="https://www.csgodatabase.com/images/knives/Karambit_Safari_Mesh.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$407.12</span> - <span class="price">$599.19</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-safari-mesh/">Karambit Safari Mesh Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-scorched/"><span class="block txt-med txt-white">Scorched</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-scorched/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Scorched.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Scorched.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Scorched" src="https://www.csgodatabase.com/images/knives/Karambit_Scorched.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$408.14</span> - <span class="price">$880.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$431.62</span> - <span class="price">$819.31</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-scorched/">Karambit Scorched Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-slaughter/"><span class="block txt-med txt-white">Slaughter</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-slaughter/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Slaughter.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Slaughter.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Slaughter" src="https://www.csgodatabase.com/images/knives/Karambit_Slaughter.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$937.00</span> - <span class="price">$2037.72</span></span><span class="block txt-small txt-stattrak"><span class="price">$1286.00</span> - <span class="price">$2599.99</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-slaughter/">Karambit Slaughter Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-stained/"><span class="block txt-med txt-white">Stained</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-stained/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Stained.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Stained.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Stained" src="https://www.csgodatabase.com/images/knives/Karambit_Stained.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$543.40</span> - <span class="price">$969.23</span></span><span class="block txt-small txt-stattrak"><span class="price">$594.37</span> - <span class="price">$922.52</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-stained/">Karambit Stained Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-tiger-tooth/"><span class="block txt-med txt-white">Tiger Tooth</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-tiger-tooth/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Tiger_Tooth.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Tiger_Tooth.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Tiger Tooth" src="https://www.csgodatabase.com/images/knives/Karambit_Tiger_Tooth.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1017.37</span> - <span class="price">$1675.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$1094.00</span> - <span class="price">$1787.90</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-tiger-tooth/">Karambit Tiger Tooth Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-ultraviolet/"><span class="block txt-med txt-white">Ultraviolet</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-ultraviolet/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Ultraviolet.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Ultraviolet.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Ultraviolet" src="https://www.csgodatabase.com/images/knives/Karambit_Ultraviolet.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$486.96</span> - <span class="price">$1007.04</span></span><span class="block txt-small txt-stattrak"><span class="price">$501.37</span> - <span class="price">$1119.73</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-ultraviolet/">Karambit Ultraviolet Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/karambit-urban-masked/"><span class="block txt-med txt-white">Urban Masked</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Extraordinary Knife</div>
+							<a href="https://www.csgodatabase.com/skins/karambit-urban-masked/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/knives/webp/Karambit_Urban_Masked.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/knives/Karambit_Urban_Masked.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Karambit Urban Masked" src="https://www.csgodatabase.com/images/knives/Karambit_Urban_Masked.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$413.36</span> - <span class="price">$801.58</span></span>
+							<div class="collection-skinbox">
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/karambit-urban-masked/">Karambit Urban Masked Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><hr><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #62bdf0">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#212135"><img src="https://www.csgodatabase.com/images/TradeitGG_Icon.svg" style="height:25px;" alt="Tradeit.GG logo"><br>Top 10 Most Expensive Karambit Skins on Tradeit.GG</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20Phase%202%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler Phase 2 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20Phase%202%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$4,188.01</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20Phase%201%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler Phase 1 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20Phase%201%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,952.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Phase%202%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Phase 2 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Phase%202%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,822.26</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Phase%204%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Phase 4 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Phase%204%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,549.64</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Phase%203%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Phase 3 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Phase%203%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,472.68</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Marble%20Fade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Marble Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Marble%20Fade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,418.55</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,313.21</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Marble%20Fade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Marble Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Marble%20Fade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,251.63</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Slaughter%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Slaughter (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Slaughter%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,032.12</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Autotronic%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Autotronic (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Autotronic%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,002.61</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Karambit">Shop for Karambit skins on Tradeit.GG</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #fa490a">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#1e2021"><img src="https://www.csgodatabase.com/images/skinport.svg" style="height:25px;" alt="Skinport logo"><br>Top 10 Most Expensive Karambit Skins on Skinport</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$16,932.33</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$14,012.96</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Gamma Doppler (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$12,845.20</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$7,960.66</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$6,235.77</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$5,075.82</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Lore%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Lore (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Lore%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,725.11</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Fade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Fade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,361.13</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Fade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Fade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,157.73</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Autotronic%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Autotronic (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=%E2%98%85%20Karambit%20%7C%20Autotronic%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,072.44</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://skinport.com/market/?r=csgodatabase&amp;search=Karambit">Shop for Karambit skins on Skinport</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #4abc74">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#36363c"><img src="https://www.csgodatabase.com/images/DMarket_Logo_1.png" style="height:25px;" alt="DMarket logo"><br>Top 10 Most Expensive Karambit Skins on DMarket</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Doppler%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Doppler%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$9,799.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,690.64</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Fade%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Fade (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Fade%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,999.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,878.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Gamma Doppler (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Gamma%20Doppler%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,850.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,540.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Fade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Fade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,468.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Autotronic%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Autotronic (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20Karambit%20%7C%20Autotronic%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,467.49</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Fade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Fade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,400.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Crimson%20Web%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Crimson Web (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Crimson%20Web%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,010.20</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Karambit">Shop for Karambit skins on DMarket</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #d50512">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#121720"><img src="https://www.csgodatabase.com/images/Bitskins.svg" style="height:25px;" alt="BitSkins logo"><br>Top 10 Most Expensive Karambit Skins on BitSkins</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Doppler+Phase+3+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Phase 3 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Doppler+Phase+3+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$9,200.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Doppler+Phase+4+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Phase 4 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Doppler+Phase+4+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$8,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Doppler+Phase+3+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler Phase 3 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Doppler+Phase+3+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$8,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Doppler+Phase+1+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler Phase 1 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Doppler+Phase+1+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$8,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Sealed+Graffiti+%7C+Karambit+%28SWAT+Blue%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Sealed Graffiti | Karambit (SWAT Blue)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Sealed+Graffiti+%7C+Karambit+%28SWAT+Blue%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$4,935.26</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Gamma+Doppler+Phase+3+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler Phase 3 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Gamma+Doppler+Phase+3+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,049.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Gamma+Doppler+Phase+4+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Gamma Doppler Phase 4 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Gamma+Doppler+Phase+4+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,939.36</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Case+Hardened+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Case Hardened (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Case+Hardened+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,500.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Doppler+Phase+4+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler Phase 4 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+StatTrak%E2%84%A2+Karambit+%7C+Doppler+Phase+4+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,400.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Fade+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Fade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;%E2%98%85+Karambit+%7C+Fade+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,329.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search=Karambit">Shop for Karambit skins on BitSkins</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #7668cb">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#1c1a24"><img src="https://www.csgodatabase.com/images/cs_money.svg" style="height:25px;" alt="CS.MONEY logo"><br>Top 10 Most Expensive Karambit Skins on CS.MONEY</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Gamma%20Doppler%20Emerald%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Gamma Doppler Emerald (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Gamma%20Doppler%20Emerald%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$53,700.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Case%20Hardened%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Case Hardened (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Case%20Hardened%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$29,999.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20Emerald%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Gamma Doppler Emerald (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Gamma%20Doppler%20Emerald%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$13,499.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20Ruby%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler Ruby (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20Ruby%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$13,166.44</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Ruby%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Ruby (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Ruby%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$9,816.62</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20Sapphire%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Doppler Sapphire (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Doppler%20Sapphire%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$7,999.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Sapphire%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Sapphire (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Sapphire%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$7,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Sapphire%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Sapphire (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Sapphire%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$6,979.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Black%20Pearl%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ Karambit | Doppler Black Pearl (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20Karambit%20%7C%20Doppler%20Black%20Pearl%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$6,835.08</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Lore%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">★ StatTrak™ Karambit | Lore (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=%E2%98%85%20StatTrak%E2%84%A2%20Karambit%20%7C%20Lore%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$5,743.68</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Karambit">Shop for Karambit skins on CS.MONEY</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+	</div>
+		</div>
+						</section>
+	</article>
+</main>
+<footer id="footer">
+	<div class="bg-grey">
+		<div class="wrapper row">
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+				<span class="block txt-med" style="font-weight:700;margin:20px 0;">CS2 Skin Database</span>
+				<div class="row">
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/agents/">All Agents</a></li>
+							<li class="footer-list-link"><a href="/cases/">All Cases</a></li>
+							<li class="footer-list-link"><a href="/collections/">All Collections</a></li>
+							<li class="footer-list-link"><a href="/gloves/">All Gloves</a></li>
+							<li class="footer-list-link"><a href="/patches/">All Patches</a></li>
+							<li class="footer-list-link"><a href="/collectible-pins/">All Pins</a></li>
+						</ul>
+					</div>
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/skins/">All Skins</a></li>
+							<li class="footer-list-link"><a href="/souvenir-packages/">All Souvenir Packages</a></li>
+							<li class="footer-list-link"><a href="/stickers/">All Stickers</a></li>
+							<li class="footer-list-link"><a href="/sticker-capsules/">All Sticker Capsules</a></li>
+							<li class="footer-list-link"><a href="/weapons/">All Weapons</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Features</span>
+					<ul class="footer-list">
+						<li class="footer-list-link"><a href="/csgo-steam-status/">CS2 Steam Server Status</a></li>
+						<li class="footer-list-link"><a href="/csgo-skin-price-comparison-tool/">Best Deals on CS2 Skins - Price Comparison Tool</a></li>
+						<li class="footer-list-link"><a href="/search/">Search CS2 Skin Database</a></li>
+						<li class="footer-list-link"><a href="/rarity/">CS2 Skins by Rarity</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col l4 m12 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Recent CS2/CS:GO Updates</span>
+					<ul class="footer-list">
+						<li class="footer-list-link">01 Apr 2025 - <a href="/cases/fever-case/">Fever Case</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-ascent-collection/">Ascent Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-boreal-collection/">Boreal Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-radiant-collection/">Radiant Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-train-2025-collection/">Train 2024 Collection</a></li>
+						<li class="footer-list-link">02 Oct 2024 - <a href="/collections/limited-edition-item/">Limited Edition Item</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-footer-outer">
+		<div id="main-footer-inner">
+			<picture>
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+				<img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" height="20px" width="131.75px" alt="CS2DB logo">
+			</picture>
+			<p class="copyright-notice"><a href="/about/">About</a> | <a href="/contact/">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+			<p class="copyright-notice"><a href="https://www.facebook.com/csgodatabase" title="Like us on Facebook" target="_blank" rel="noopener">Like on Facebook</a> | <a href="https://twitter.com/csgodatabase" title="Follow us on Twitter" target="_blank" rel="noopener">Follow on X</a> | <a href="https://steamcommunity.com/groups/csgodatabase" title="Join CSGO Database Steam Group" target="_blank" rel="noopener">Join Steam Group</a></p><br>
+			<p class="copyright-notice">This site is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners.</p>
+			<p class="copyright-notice">We may earn a commission from qualifying purchases made via some third party links on our website.</p>
+			<p class="copyright-notice">Copyright © 2016-2025 CSGODatabase Ltd. Powered by <a href="https://store.steampowered.com/">Steam</a>.</p>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" id="cookie-notice-front-css" href="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all">
+<script src="https://stats.wp.com/e-202547.js" defer="" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.1',blog:'117343886',post:'1304',tz:'0',srv:'www.csgodatabase.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117343886', '1304' ]);
+</script>
+
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-slide cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">CSGO Database uses cookies to improve your experience. These cookies are enabled by default.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Accept the use of cookies" style="background-color: #00a99d">Accept the use of cookies</button><button data-link-url="https://www.csgodatabase.com/privacy-policy/" data-link-target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="Privacy policy" style="background-color: #00a99d">Privacy policy</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+
+		</div>
+		<!-- / Cookie Notice plugin --><script type="text/javascript">
+	function tableFunction() {
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	}
+</script>
+
+            <aside class="ad-rail ad-rail--left" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <a href="https://trk.clash.gg/click?o=2&amp;a=672&amp;c=33"><img src="/images/partners/clash-banner-en.webp" style="width:200px" alt="Clash.gg"></a>
+            </div>
+            </aside>
+            <aside class="ad-rail ad-rail--right" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <iframe src="https://spinner.csgodatabase.com/embed-ad/tomb-raid?initialWidth=400&amp;initialHeight=600&amp;redirect=https%3A%2F%2Ftrk.clash.gg%2Fclick%3Fo%3D2%26a%3D672%26c%3D33&amp;spinText=Try%20Now&amp;headerText=Win%20Free%20Cases&amp;winChance=0.8&amp;freeItemName=Premium%20Box&amp;winText=Congratulations!%20You%20won%203%20premium%20boxes!&amp;claimButtonText=Get%20Now&amp;countdownSeconds=30" width="240" height="600" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            </aside>
+
+</body></html>

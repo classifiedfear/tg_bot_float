@@ -1,0 +1,1581 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="counter strike global offensive, csgo, counter strike 2, cs2, skins, cases, items">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-TileColor" content="#111111">
+		<meta name="theme-color" content="#111111">
+		<meta name="apple-mobile-web-app-title" content="CSGO Database">
+		<meta name="application-name" content="CSGO Database">
+		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.json">
+				<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="EzsET7dwq4V_W_VVvIVVcUxS8_-ece528NxwaDe8fgM">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Desert Eagle Skins - CSGO Database</title>
+	<meta name="description" content="All Desert Eagle CS:GO skins sorted by rarity. Browse skin market prices, weapon case and collection information.">
+	<link rel="canonical" href="https://www.csgodatabase.com/weapons/desert-eagle/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Desert Eagle Skins - CSGO Database">
+	<meta property="og:description" content="All Desert Eagle CS:GO skins sorted by rarity. Browse skin market prices, weapon case and collection information.">
+	<meta property="og:url" content="https://www.csgodatabase.com/weapons/desert-eagle/">
+	<meta property="og:site_name" content="CSGO Database">
+	<meta property="article:publisher" content="https://www.facebook.com/CSGODatabase/">
+	<meta property="article:modified_time" content="2021-02-22T21:25:20+00:00">
+	<meta property="og:image" content="https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png">
+	<meta property="og:image:width" content="709">
+	<meta property="og:image:height" content="709">
+	<meta property="og:image:type" content="image/png">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.csgodatabase.com/weapons/desert-eagle/","url":"https://www.csgodatabase.com/weapons/desert-eagle/","name":"Desert Eagle Skins - CSGO Database","isPartOf":{"@id":"https://www.csgodatabase.com/#website"},"datePublished":"2016-07-02T20:21:46+00:00","dateModified":"2021-02-22T21:25:20+00:00","description":"All Desert Eagle CS:GO skins sorted by rarity. Browse skin market prices, weapon case and collection information.","breadcrumb":{"@id":"https://www.csgodatabase.com/weapons/desert-eagle/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.csgodatabase.com/weapons/desert-eagle/"]}]},{"@type":"BreadcrumbList","@id":"https://www.csgodatabase.com/weapons/desert-eagle/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"CSGO Database","item":"https://www.csgodatabase.com/"},{"@type":"ListItem","position":2,"name":"CS2 Weapons","item":"https://www.csgodatabase.com/weapons/"},{"@type":"ListItem","position":3,"name":"Desert Eagle"}]},{"@type":"WebSite","@id":"https://www.csgodatabase.com/#website","url":"https://www.csgodatabase.com/","name":"CSGO Database","description":"CS2 skins, knives, cases and more","publisher":{"@id":"https://www.csgodatabase.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.csgodatabase.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.csgodatabase.com/#organization","name":"CSGO Database","alternateName":"CS2DB","url":"https://www.csgodatabase.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/#/schema/logo/image/","url":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","width":709,"height":709,"caption":"CSGO Database"},"image":{"@id":"https://www.csgodatabase.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CSGODatabase/","https://twitter.com/csgodatabase"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Feed" href="https://www.csgodatabase.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Comments Feed" href="https://www.csgodatabase.com/comments/feed/">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="csdbv2-style-css" href="https://www.csgodatabase.com/wp-content/themes/csdbv2/style.css" type="text/css" media="all">
+<script type="text/javascript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.csgodatabase.com\/wp-admin\/admin-ajax.php","nonce":"932d7e4101","hideEffect":"slide","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.csgodatabase.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.csgodatabase.com/wp-json/wp/v2/pages/1248"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csgodatabase.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.csgodatabase.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://www.csgodatabase.com/?p=1248">
+<link rel="alternate" type="application/json+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fweapons%2Fdesert-eagle%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fweapons%2Fdesert-eagle%2F&amp;format=xml">
+<style>img#wpstats{display:none}</style>
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SDFW078N6F" type="text/javascript"></script>
+		<script type="text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-SDFW078N6F');
+		</script>
+	</head>
+	<body class="page-template page-template-page_weapon page-template-page_weapon-php page page-id-1248 page-child parent-pageid-27 wp-embed-responsive cookies-not-set">
+		<header id="nav-menu" aria-label="navigation bar">
+  <nav class="nav-bar">
+	  <div class="nav-container">
+		  <input type="checkbox" id="drop-down-cbox">
+		  <label for="drop-down-cbox">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+		  </label>
+		  <div class="site-logo"><a href="/" aria-label="Home"><picture>
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+			  <img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" alt="CSGO Database logo">
+			  </picture></a></div>
+		  <span id="contact-icon">
+			  <a href="/search/" title="Search CSGO Database"><svg id="mail-icon" class="search-icon" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+		  </span>
+		  <ul class="main-nav">
+			  <li><a href="/skins/">Skins</a></li>
+			  <li><a href="/csgo-skin-price-comparison-tool/">Compare Prices</a></li>
+			  <li><a href="/cases/">Cases</a></li>
+			  <li><a href="/collections/">Collections</a></li>
+			  <li><a href="/weapons/">Weapons</a></li>
+			  <li><a href="/stickers/">Stickers</a></li>
+			  <li><a href="/gloves/">Gloves</a></li>
+			  <li><a href="/agents/">Agents</a></li>
+              <li><a href="/charms/">Charms</a></li>
+			  <li><a href="/collectible-pins/">Pins</a></li>
+			  <li><a href="/csgo-steam-status/">Status</a></li>
+		  </ul>
+		  <form method="GET" class="search" role="search" action="/search/">
+			  <div class="search-container">
+				  <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input type="search" name="search" class="search-input" aria-label="Search" placeholder="Search CS2 Database">
+			  </div>
+		  </form>
+	  </div>
+	</nav>
+</header>
+<div class="header-before"></div>
+
+		<div style="background-color:#000;padding:2px 0;"><div class="wrapper"><p></p><p id="breadcrumbs" style="font-size:13px !important;"><span><span><a href="https://www.csgodatabase.com/">CSGO Database</a></span> » <span><a href="https://www.csgodatabase.com/weapons/">CS2 Weapons</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>Desert Eagle</strong></span></span></p><p></p></div></div>		<a href="#content" class="skip-link screen-reader-text">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>		<main><header class="header">
+
+		<div id="outer-title" style="margin-bottom:20px;background-color:#0071e3;">
+			<div id="inner-title">
+				<h1 class="entry-title">Desert Eagle Skins</h1>
+			</div>
+		</div>
+	</header>
+	<article id="post-1248" class="post-1248 page type-page status-publish hentry">
+		<section class="entry-content">
+
+		<div class="wrapper">
+
+            <div class="flex flex-vertical-center" style="flex-wrap:wrap;">
+                <div style="padding:10px;height:200px;width:320px;">
+                    <picture>
+                        <source srcset="https://www.csgodatabase.com/images/weapons/webp/Desert_Eagle.webp" type="image/webp">
+                        <source srcset="https://www.csgodatabase.com/images/weapons/Desert_Eagle.png" type="image/png">
+                        <img style="max-height:200px;" src="https://www.csgodatabase.com/images/weapons/Desert_Eagle.png" alt="The default Desert Eagle">
+                    </picture>
+                </div>
+                <div style="padding:10px;height:auto;width:500px;">
+                    <p class="h-caption" style="text-align:left">Browse and buy <a href="/skins/">CS2 skins</a> for the <strong>Desert Eagle</strong>. As expensive as it is powerful, the Desert Eagle is an iconic pistol that is difficult to master but surprisingly accurate at long range.</p>
+        <p class="h-caption" style="text-align:left">A total of 42 Desert Eagle skins are available, consisting of 6 <a href="/rarity/industrial/">industrial</a>, 10 <a href="/rarity/mil-spec/">mil-spec</a>, 14 <a href="/rarity/restricted/">restricted</a>, 8 <a href="/rarity/classified/">classified</a> and 4 <a href="/rarity/covert/">covert</a>.</p>
+                </div>
+            </div>
+        <hr><h2 class="txt-center">All CS2 skins for the Desert Eagle</h2><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-golden-koi/"><span class="block txt-med txt-white">Golden Koi</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-golden-koi/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Golden_Koi.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Golden_Koi.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Golden Koi" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Golden_Koi.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$356.16</span> - <span class="price">$601.69</span></span><span class="block txt-small txt-stattrak"><span class="price">$390.00</span> - <span class="price">$607.65</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Bravo Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-golden-koi/">Desert Eagle Golden Koi Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-code-red/"><span class="block txt-med txt-white">Code Red</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-code-red/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Code_Red.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Code_Red.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Code Red" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Code_Red.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$32.24</span> - <span class="price">$302.77</span></span><span class="block txt-small txt-stattrak"><span class="price">$48.61</span> - <span class="price">$320.04</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Horizon Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-code-red/">Desert Eagle Code Red Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-printstream/"><span class="block txt-med txt-white">Printstream</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-printstream/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Printstream.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Printstream.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Printstream" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Printstream.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$31.18</span> - <span class="price">$132.45</span></span><span class="block txt-small txt-stattrak"><span class="price">$48.96</span> - <span class="price">$257.43</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Fracture Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-printstream/">Desert Eagle Printstream Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-ocean-drive/"><span class="block txt-med txt-white">Ocean Drive</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-ocean-drive/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Ocean_Drive.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Ocean_Drive.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Ocean Drive" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Ocean_Drive.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$54.50</span> - <span class="price">$717.34</span></span><span class="block txt-small txt-stattrak"><span class="price">$62.12</span> - <span class="price">$799.99</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Operation Riptide Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-ocean-drive/">Desert Eagle Ocean Drive Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-hypnotic/"><span class="block txt-med txt-white">Hypnotic</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-hypnotic/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Hypnotic.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Hypnotic.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Hypnotic" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Hypnotic.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$146.50</span> - <span class="price">$208.17</span></span><span class="block txt-small txt-stattrak"><span class="price">$155.54</span> - <span class="price">$262.49</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Arms Deal Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-hypnotic/">Desert Eagle Hypnotic Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-cobalt-disruption/"><span class="block txt-med txt-white">Cobalt Disruption</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-cobalt-disruption/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Cobalt_Disruption.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Cobalt_Disruption.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Cobalt Disruption" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Cobalt_Disruption.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$68.22</span> - <span class="price">$158.18</span></span><span class="block txt-small txt-stattrak"><span class="price">$126.56</span> - <span class="price">$276.80</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The eSports 2013 Winter Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-cobalt-disruption/">Desert Eagle Cobalt Disruption Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-conspiracy/"><span class="block txt-med txt-white">Conspiracy</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-conspiracy/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Conspiracy.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Conspiracy.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Conspiracy" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Conspiracy.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$14.06</span> - <span class="price">$34.92</span></span><span class="block txt-small txt-stattrak"><span class="price">$20.13</span> - <span class="price">$45.50</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Breakout Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-conspiracy/">Desert Eagle Conspiracy Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-kumicho-dragon/"><span class="block txt-med txt-white">Kumicho Dragon</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-kumicho-dragon/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Kumicho_Dragon.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Kumicho_Dragon.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Kumicho Dragon" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Kumicho_Dragon.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$16.62</span> - <span class="price">$103.92</span></span><span class="block txt-small txt-stattrak"><span class="price">$35.50</span> - <span class="price">$145.99</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Wildfire Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-kumicho-dragon/">Desert Eagle Kumicho Dragon Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-mecha-industries/"><span class="block txt-med txt-white">Mecha Industries</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-mecha-industries/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mecha_Industries.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mecha_Industries.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Mecha Industries" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mecha_Industries.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$4.62</span> - <span class="price">$24.35</span></span><span class="block txt-small txt-stattrak"><span class="price">$11.53</span> - <span class="price">$39.93</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Danger Zone Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-mecha-industries/">Desert Eagle Mecha Industries Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-fennec-fox/"><span class="block txt-med txt-white">Fennec Fox</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-fennec-fox/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Fennec_Fox.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Fennec_Fox.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Fennec Fox" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Fennec_Fox.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$330.00</span> - <span class="price">$1740.40</span></span><span class="block txt-small txt-souvenir"><span class="price">$131.32</span> - <span class="price">$661.68</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The 2021 Mirage Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-fennec-fox/">Desert Eagle Fennec Fox Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-heat-treated/"><span class="block txt-med txt-white">Heat Treated</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-heat-treated/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Heat_Treated.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Heat_Treated.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Heat Treated" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Heat_Treated.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1.41</span> - <span class="price">$99.69</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Limited Edition Item</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-heat-treated/">Desert Eagle Heat Treated Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-starcade/"><span class="block txt-med txt-white">Starcade</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-starcade/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Starcade.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Starcade.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Starcade" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Starcade.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$42.69</span> - <span class="price">$686.61</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Graphic Design Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-starcade/">Desert Eagle Starcade Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-heirloom/"><span class="block txt-med txt-white">Heirloom</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-heirloom/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Heirloom.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Heirloom.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Heirloom" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Heirloom.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$4.86</span> - <span class="price">$116.75</span></span><span class="block txt-small txt-stattrak"><span class="price">$12.95</span> - <span class="price">$119.30</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Arms Deal 3 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-heirloom/">Desert Eagle Heirloom Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-hand-cannon/"><span class="block txt-med txt-white">Hand Cannon</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-hand-cannon/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Hand_Cannon.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Hand_Cannon.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Hand Cannon" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Hand_Cannon.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$311.23</span> - <span class="price">$1078.41</span></span><span class="block txt-small txt-souvenir"><span class="price">$198.11</span> - <span class="price">$3500.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Cobblestone Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-hand-cannon/">Desert Eagle Hand Cannon Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-blaze/"><span class="block txt-med txt-white">Blaze</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-blaze/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Blaze.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Blaze.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Blaze" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Blaze.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$800.99</span> - <span class="price">$1290.44</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Dust Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-blaze/">Desert Eagle Blaze Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-pilot/"><span class="block txt-med txt-white">Pilot</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-pilot/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Pilot.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Pilot.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Pilot" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Pilot.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$79.33</span> - <span class="price">$304.64</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Baggage Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-pilot/">Desert Eagle Pilot Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-sunset-storm-%e5%bc%90/"><span class="block txt-med txt-white">Sunset Storm 弐</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-sunset-storm-%e5%bc%90/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sunset_Storm_弐.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sunset_Storm_弐.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Sunset Storm 弐" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sunset_Storm_弐.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$649.99</span> - <span class="price">$9999.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Rising Sun Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-sunset-storm-%e5%bc%90/">Desert Eagle Sunset Storm 弐 Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-sunset-storm-%e5%a3%b1/"><span class="block txt-med txt-white">Sunset Storm 壱</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-sunset-storm-%e5%a3%b1/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sunset_Storm_壱.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sunset_Storm_壱.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Sunset Storm 壱" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sunset_Storm_壱.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$735.63</span> - <span class="price">$1286.70</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Rising Sun Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-sunset-storm-%e5%a3%b1/">Desert Eagle Sunset Storm 壱 Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-crimson-web/"><span class="block txt-med txt-white">Crimson Web</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-crimson-web/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Crimson_Web.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Crimson_Web.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Crimson Web" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Crimson_Web.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$10.77</span> - <span class="price">$286.10</span></span><span class="block txt-small txt-stattrak"><span class="price">$18.22</span> - <span class="price">$109.88</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The eSports 2014 Summer Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-crimson-web/">Desert Eagle Crimson Web Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-naga/"><span class="block txt-med txt-white">Naga</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-naga/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Naga.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Naga.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Naga" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Naga.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1.54</span> - <span class="price">$30.85</span></span><span class="block txt-small txt-stattrak"><span class="price">$3.23</span> - <span class="price">$44.16</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Chroma Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-naga/">Desert Eagle Naga Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-directive/"><span class="block txt-med txt-white">Directive</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-directive/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Directive.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Directive.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Directive" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Directive.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.79</span> - <span class="price">$46.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$1.58</span> - <span class="price">$72.97</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Gamma 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-directive/">Desert Eagle Directive Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-light-rail/"><span class="block txt-med txt-white">Light Rail</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-light-rail/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Light_Rail.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Light_Rail.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Light Rail" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Light_Rail.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.68</span> - <span class="price">$8.70</span></span><span class="block txt-small txt-stattrak"><span class="price">$2.99</span> - <span class="price">$25.31</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Prisma Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-light-rail/">Desert Eagle Light Rail Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-emerald-jormungandr/"><span class="block txt-med txt-white">Emerald Jörmungandr</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-emerald-jormungandr/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Emerald_Jörmungandr.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Emerald_Jörmungandr.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Emerald Jörmungandr" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Emerald_Jörmungandr.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$500.00</span> - <span class="price">$1573.41</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Norse Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-emerald-jormungandr/">Desert Eagle Emerald Jörmungandr Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-trigger-discipline/"><span class="block txt-med txt-white">Trigger Discipline</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-trigger-discipline/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Trigger_Discipline.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Trigger_Discipline.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Trigger Discipline" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Trigger_Discipline.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.44</span> - <span class="price">$6.77</span></span><span class="block txt-small txt-stattrak"><span class="price">$1.38</span> - <span class="price">$17.60</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Snakebite Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-trigger-discipline/">Desert Eagle Trigger Discipline Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-mulberry/"><span class="block txt-med txt-white">Mulberry</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-mulberry/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mulberry.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mulberry.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Mulberry" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mulberry.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$5.80</span> - <span class="price">$64.99</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Radiant Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-mulberry/">Desert Eagle Mulberry Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-serpent-strike/"><span class="block txt-med txt-white">Serpent Strike</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-serpent-strike/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Serpent_Strike.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Serpent_Strike.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Serpent Strike" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Serpent_Strike.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.45</span> - <span class="price">$4.55</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.97</span> - <span class="price">$9.10</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Fever Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-serpent-strike/">Desert Eagle Serpent Strike Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-meteorite/"><span class="block txt-med txt-white">Meteorite</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-meteorite/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Meteorite.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Meteorite.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Meteorite" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Meteorite.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.78</span> - <span class="price">$2.39</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Bank Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-meteorite/">Desert Eagle Meteorite Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-urban-rubble/"><span class="block txt-med txt-white">Urban Rubble</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-urban-rubble/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Urban_Rubble.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Urban_Rubble.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Urban Rubble" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Urban_Rubble.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.26</span> - <span class="price">$2.34</span></span><span class="block txt-small txt-souvenir"><span class="price">$8.22</span> - <span class="price">$48.67</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Train Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-urban-rubble/">Desert Eagle Urban Rubble Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-bronze-deco/"><span class="block txt-med txt-white">Bronze Deco</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-bronze-deco/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Bronze_Deco.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Bronze_Deco.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Bronze Deco" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Bronze_Deco.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.25</span> - <span class="price">$1.20</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.65</span> - <span class="price">$100.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Chroma 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-bronze-deco/">Desert Eagle Bronze Deco Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-corinthian/"><span class="block txt-med txt-white">Corinthian</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-corinthian/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Corinthian.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Corinthian.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Corinthian" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Corinthian.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.35</span> - <span class="price">$1.45</span></span><span class="block txt-small txt-stattrak"><span class="price">$1.71</span> - <span class="price">$5.40</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Revolver Case Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-corinthian/">Desert Eagle Corinthian Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-oxide-blaze/"><span class="block txt-med txt-white">Oxide Blaze</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-oxide-blaze/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Oxide_Blaze.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Oxide_Blaze.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Oxide Blaze" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Oxide_Blaze.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.34</span> - <span class="price">$1.22</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.90</span> - <span class="price">$3.59</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Spectrum Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-oxide-blaze/">Desert Eagle Oxide Blaze Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-blue-ply/"><span class="block txt-med txt-white">Blue Ply</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-blue-ply/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Blue_Ply.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Blue_Ply.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Blue Ply" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Blue_Ply.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.22</span> - <span class="price">$6.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.69</span> - <span class="price">$11.15</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Prisma 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-blue-ply/">Desert Eagle Blue Ply Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-night-heist/"><span class="block txt-med txt-white">Night Heist</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-night-heist/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Night_Heist.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Night_Heist.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Night Heist" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Night_Heist.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$22.62</span> - <span class="price">$119.56</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Havoc Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-night-heist/">Desert Eagle Night Heist Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-sputnik/"><span class="block txt-med txt-white">Sputnik</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-sputnik/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sputnik.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sputnik.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Sputnik" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Sputnik.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1.46</span> - <span class="price">$8.55</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The 2021 Train Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-sputnik/">Desert Eagle Sputnik Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-calligraffiti/"><span class="block txt-med txt-white">Calligraffiti</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-calligraffiti/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Calligraffiti.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Calligraffiti.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Calligraffiti" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Calligraffiti.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.12</span> - <span class="price">$14.73</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.51</span> - <span class="price">$28.25</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Gallery Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-calligraffiti/">Desert Eagle Calligraffiti Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-mint-fan/"><span class="block txt-med txt-white">Mint Fan</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-mint-fan/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mint_Fan.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mint_Fan.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Mint Fan" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mint_Fan.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.48</span> - <span class="price">$4.92</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Ascent Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-mint-fan/">Desert Eagle Mint Fan Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-mudder/"><span class="block txt-med txt-white">Mudder</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-mudder/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mudder.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mudder.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Mudder" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Mudder.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.07</span> - <span class="price">$4.39</span></span><span class="block txt-small txt-souvenir"><span class="price">$61.49</span> - <span class="price">$2500.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Lake Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-mudder/">Desert Eagle Mudder Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-urban-ddpat/"><span class="block txt-med txt-white">Urban DDPAT</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-urban-ddpat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Urban_DDPAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Urban_DDPAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Urban DDPAT" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Urban_DDPAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$2.22</span> - <span class="price">$70000.00</span></span><span class="block txt-small txt-souvenir"><span class="price">$0.65</span> - <span class="price">$45.74</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Overpass Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-urban-ddpat/">Desert Eagle Urban DDPAT Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-midnight-storm/"><span class="block txt-med txt-white">Midnight Storm</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-midnight-storm/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Midnight_Storm.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Midnight_Storm.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Midnight Storm" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Midnight_Storm.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$26.40</span> - <span class="price">$144.80</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Rising Sun Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-midnight-storm/">Desert Eagle Midnight Storm Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-night/"><span class="block txt-med txt-white">Night</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-night/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Night.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Night.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Night" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Night.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$12.44</span> - <span class="price">$142.91</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Chop Shop Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-night/">Desert Eagle Night Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-the-bronze/"><span class="block txt-med txt-white">The Bronze</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-the-bronze/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_The_Bronze.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_The_Bronze.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle The Bronze" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_The_Bronze.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$3.06</span> - <span class="price">$6.18</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Control Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-the-bronze/">Desert Eagle The Bronze Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/desert-eagle-tilted/"><span class="block txt-med txt-white">Tilted</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Pistol</div>
+							<a href="https://www.csgodatabase.com/skins/desert-eagle-tilted/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Tilted.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Tilted.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Desert Eagle Tilted" src="https://www.csgodatabase.com/images/skins/webp/Desert_Eagle_Tilted.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.13</span> - <span class="price">$4.17</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Overpass 2024 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/desert-eagle-tilted/">Desert Eagle Tilted Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><hr><h2>About Desert Eagle Skins</h2><h3>History of the Desert Eagle in Counter-Strike</h3><p>The Desert Eagle, often affectionately referred to as the "Deagle," is one of the most iconic pistols in the Counter-Strike series. Known for its massive firepower and distinctive design, the Desert Eagle has earned a reputation for being a powerful sidearm, favored by players who appreciate its high damage output and unique style. It was introduced in Counter-Strike 1.6 as a secondary weapon available to both terrorist and counter-terrorist forces, and its popularity has only grown over the years.</p>
+
+<p>The Desert Eagle is unique among pistols due to its ability to deal extremely high damage with each shot, especially when landing headshots. Its ability to kill an enemy with a single well-placed shot, even if they are wearing armor, makes it a fearsome weapon in the right hands. However, the Deagle’s strengths come at a cost. It has a slow rate of fire, significant recoil, and a relatively long reload time, making it more difficult to use effectively in rapid, close-quarters combat. Because of these limitations, the Desert Eagle is typically favored by players who have mastered its precision and can land shots with accuracy.</p>
+
+<p>In Counter-Strike: Global Offensive (CS:GO), the Desert Eagle remains a popular choice, particularly in eco rounds, when players are forced to save money and cannot afford more expensive weapons. Due to its high damage, the Desert Eagle can be used to secure kills even against well-armored opponents, making it a valuable tool for surprising enemies in clutch situations. It’s also often used by players who want to take advantage of its long-range effectiveness, as it can still be quite deadly when fired accurately at medium distances.</p>
+
+<p>The Desert Eagle’s appeal extends beyond its in-game functionality; it’s also a favorite because of its iconic design and the "one-tap" potential it offers. Many players enjoy the challenge and satisfaction of landing a clean shot with the Deagle, and its reputation as a powerful but difficult weapon to master has only added to its mystique.</p>
+
+<p>While the Desert Eagle is not the most practical weapon in every scenario due to its slow rate of fire and recoil, it is undeniably a fan favorite in the Counter-Strike community. Its combination of power, precision, and memorable design ensures its continued popularity and cemented place in the game’s history as one of the most iconic pistols in the world of first-person shooters.</p><hr><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #62bdf0">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#212135"><img src="https://www.csgodatabase.com/images/TradeitGG_Icon.svg" style="height:25px;" alt="Tradeit.GG logo"><br>Top 10 Most Expensive Desert Eagle Skins on Tradeit.GG</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Fennec Fox (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,062.21</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$969.86</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$884.33</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$826.84</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Fennec Fox (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$583.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$582.42</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$537.50</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Golden%20Koi%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Golden Koi (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Golden%20Koi%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$470.28</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Fennec Fox (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$466.42</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Starcade%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Starcade (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Starcade%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$444.62</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=Desert%20Eagle">Shop for Desert Eagle skins on Tradeit.GG</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #fa490a">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#1e2021"><img src="https://www.csgodatabase.com/images/skinport.svg" style="height:25px;" alt="Skinport logo"><br>Top 10 Most Expensive Desert Eagle Skins on Skinport</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Fennec Fox (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,109.36</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,028.25</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%A3%B1%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 壱 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%A3%B1%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,003.42</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$945.24</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$926.14</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Hand Cannon (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$845.34</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$821.94</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$820.61</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%A3%B1%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 壱 (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%A3%B1%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$775.45</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Well-Worn%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Hand Cannon (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Well-Worn%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$685.86</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://skinport.com/market/?r=csgodatabase&amp;search=Desert%20Eagle">Shop for Desert Eagle skins on Skinport</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #4abc74">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#36363c"><img src="https://www.csgodatabase.com/images/DMarket_Logo_1.png" style="height:25px;" alt="DMarket logo"><br>Top 10 Most Expensive Desert Eagle Skins on DMarket</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%A3%B1%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 壱 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%A3%B1%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,100.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Fennec Fox (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,089.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Blaze%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Blaze%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,052.26</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Hand Cannon (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$969.80</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$837.75</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Hand Cannon (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$800.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Souvenir%20Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Well-Worn%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Fennec Fox (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Souvenir%20Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Well-Worn%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$675.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$649.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Desert%20Eagle">Shop for Desert Eagle skins on DMarket</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #d50512">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#121720"><img src="https://www.csgodatabase.com/images/Bitskins.svg" style="height:25px;" alt="BitSkins logo"><br>Top 10 Most Expensive Desert Eagle Skins on BitSkins</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Urban+DDPAT+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Urban DDPAT (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Urban+DDPAT+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$70,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%BC%90+%28Field-Tested%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%BC%90+%28Field-Tested%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$9,999.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%A3%B1+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 壱 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%A3%B1+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,041.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Emerald+J%C3%B6rmungandr+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Emerald+J%C3%B6rmungandr+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$999.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%A3%B1+%28Minimal+Wear%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 壱 (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%A3%B1+%28Minimal+Wear%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$979.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Blaze+%28Minimal+Wear%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Blaze+%28Minimal+Wear%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$882.27</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%BC%90+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Sunset+Storm+%E5%BC%90+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$819.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Blaze+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Blaze+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$800.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Hand+Cannon+%28Field-Tested%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Hand Cannon (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Desert+Eagle+%7C+Hand+Cannon+%28Field-Tested%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$699.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Souvenir+Desert+Eagle+%7C+Hand+Cannon+%28Minimal+Wear%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Hand Cannon (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;Souvenir+Desert+Eagle+%7C+Hand+Cannon+%28Minimal+Wear%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$599.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search=Desert%20Eagle">Shop for Desert Eagle skins on BitSkins</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #7668cb">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#1c1a24"><img src="https://www.csgodatabase.com/images/cs_money.svg" style="height:25px;" alt="CS.MONEY logo"><br>Top 10 Most Expensive Desert Eagle Skins on CS.MONEY</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Hand Cannon (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,500.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Hand Cannon (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Hand%20Cannon%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$3,500.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Mudder%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Mudder (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Mudder%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$2,500.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Sunset Storm 弐 (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Sunset%20Storm%20%E5%BC%90%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,113.83</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Fennec Fox (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Fennec%20Fox%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,030.55</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Emerald Jörmungandr (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Emerald%20J%C3%B6rmungandr%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$897.10</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Mudder%20%28Battle-Scarred%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir Desert Eagle | Mudder (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20Desert%20Eagle%20%7C%20Mudder%20%28Battle-Scarred%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$889.47</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$808.93</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Desert Eagle | Blaze (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle%20%7C%20Blaze%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$803.79</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20Desert%20Eagle%20%7C%20Ocean%20Drive%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ Desert Eagle | Ocean Drive (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20Desert%20Eagle%20%7C%20Ocean%20Drive%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$799.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Desert%20Eagle">Shop for Desert Eagle skins on CS.MONEY</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+	</div><hr>
+            <h2>Desert Eagle Technical Specifications</h2>
+            <table>
+                <thead style="background-color:#0071e3">
+                    <tr>
+                        <th>Detail</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight:700">Ammunition</td>
+                        <td>Desert Eagle has <strong>7</strong> in the weapon/magazine with <strong>35</strong> in reserve for a total of <strong>42</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Damage</td>
+                        <td>Desert Eagle deals <strong>53 damage per shot</strong> before any deductions for armour and range penalties.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Fire Rate</td>
+                        <td>Desert Eagle has a fire rate of <strong>4 shots</strong> per second.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Recoil Control</td>
+                        <td>Desert Eagle has a bullet grouping accuracy of <strong>9</strong> when fired rapidly or on full-auto.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Accurate Range</td>
+                        <td>Desert Eagle has a first shot accuracy of <strong>27 meters</strong> when hitting a 30cm diamater target.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Armour Penetration</td>
+                        <td>Desert Eagle has an armour penetration value of <strong>186</strong>.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+		</div>
+						</section>
+	</article>
+</main>
+<footer id="footer">
+	<div class="bg-grey">
+		<div class="wrapper row">
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+				<span class="block txt-med" style="font-weight:700;margin:20px 0;">CS2 Skin Database</span>
+				<div class="row">
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/agents/">All Agents</a></li>
+							<li class="footer-list-link"><a href="/cases/">All Cases</a></li>
+							<li class="footer-list-link"><a href="/collections/">All Collections</a></li>
+							<li class="footer-list-link"><a href="/gloves/">All Gloves</a></li>
+							<li class="footer-list-link"><a href="/patches/">All Patches</a></li>
+							<li class="footer-list-link"><a href="/collectible-pins/">All Pins</a></li>
+						</ul>
+					</div>
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/skins/">All Skins</a></li>
+							<li class="footer-list-link"><a href="/souvenir-packages/">All Souvenir Packages</a></li>
+							<li class="footer-list-link"><a href="/stickers/">All Stickers</a></li>
+							<li class="footer-list-link"><a href="/sticker-capsules/">All Sticker Capsules</a></li>
+							<li class="footer-list-link"><a href="/weapons/">All Weapons</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Features</span>
+					<ul class="footer-list">
+						<li class="footer-list-link"><a href="/csgo-steam-status/">CS2 Steam Server Status</a></li>
+						<li class="footer-list-link"><a href="/csgo-skin-price-comparison-tool/">Best Deals on CS2 Skins - Price Comparison Tool</a></li>
+						<li class="footer-list-link"><a href="/search/">Search CS2 Skin Database</a></li>
+						<li class="footer-list-link"><a href="/rarity/">CS2 Skins by Rarity</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col l4 m12 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Recent CS2/CS:GO Updates</span>
+					<ul class="footer-list">
+						<li class="footer-list-link">01 Apr 2025 - <a href="/cases/fever-case/">Fever Case</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-ascent-collection/">Ascent Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-boreal-collection/">Boreal Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-radiant-collection/">Radiant Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-train-2025-collection/">Train 2024 Collection</a></li>
+						<li class="footer-list-link">02 Oct 2024 - <a href="/collections/limited-edition-item/">Limited Edition Item</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-footer-outer">
+		<div id="main-footer-inner">
+			<picture>
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+				<img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" height="20px" width="131.75px" alt="CS2DB logo">
+			</picture>
+			<p class="copyright-notice"><a href="/about/">About</a> | <a href="/contact/">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+			<p class="copyright-notice"><a href="https://www.facebook.com/csgodatabase" title="Like us on Facebook" target="_blank" rel="noopener">Like on Facebook</a> | <a href="https://twitter.com/csgodatabase" title="Follow us on Twitter" target="_blank" rel="noopener">Follow on X</a> | <a href="https://steamcommunity.com/groups/csgodatabase" title="Join CSGO Database Steam Group" target="_blank" rel="noopener">Join Steam Group</a></p><br>
+			<p class="copyright-notice">This site is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners.</p>
+			<p class="copyright-notice">We may earn a commission from qualifying purchases made via some third party links on our website.</p>
+			<p class="copyright-notice">Copyright © 2016-2025 CSGODatabase Ltd. Powered by <a href="https://store.steampowered.com/">Steam</a>.</p>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" id="cookie-notice-front-css" href="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all">
+<script src="https://stats.wp.com/e-202547.js" defer="" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.1',blog:'117343886',post:'1248',tz:'0',srv:'www.csgodatabase.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117343886', '1248' ]);
+</script>
+
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-slide cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">CSGO Database uses cookies to improve your experience. These cookies are enabled by default.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Accept the use of cookies" style="background-color: #00a99d">Accept the use of cookies</button><button data-link-url="https://www.csgodatabase.com/privacy-policy/" data-link-target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="Privacy policy" style="background-color: #00a99d">Privacy policy</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+
+		</div>
+		<!-- / Cookie Notice plugin --><script type="text/javascript">
+	function tableFunction() {
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	}
+</script>
+
+            <aside class="ad-rail ad-rail--left" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <a href="https://trk.clash.gg/click?o=2&amp;a=672&amp;c=33"><img src="/images/partners/clash-banner-en.webp" style="width:200px" alt="Clash.gg"></a>
+            </div>
+            </aside>
+            <aside class="ad-rail ad-rail--right" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <iframe src="https://spinner.csgodatabase.com/embed-ad/tomb-raid?initialWidth=400&amp;initialHeight=600&amp;redirect=https%3A%2F%2Ftrk.clash.gg%2Fclick%3Fo%3D2%26a%3D672%26c%3D33&amp;spinText=Try%20Now&amp;headerText=Win%20Free%20Cases&amp;winChance=0.8&amp;freeItemName=Premium%20Box&amp;winText=Congratulations!%20You%20won%203%20premium%20boxes!&amp;claimButtonText=Get%20Now&amp;countdownSeconds=30" width="240" height="600" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            </aside>
+
+</body></html>

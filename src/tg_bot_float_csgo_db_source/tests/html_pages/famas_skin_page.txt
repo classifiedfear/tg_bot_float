@@ -1,0 +1,1527 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="counter strike global offensive, csgo, counter strike 2, cs2, skins, cases, items">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-TileColor" content="#111111">
+		<meta name="theme-color" content="#111111">
+		<meta name="apple-mobile-web-app-title" content="CSGO Database">
+		<meta name="application-name" content="CSGO Database">
+		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.json">
+				<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="EzsET7dwq4V_W_VVvIVVcUxS8_-ece528NxwaDe8fgM">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>FAMAS Skins - CSGO Database</title>
+	<meta name="description" content="All FAMAS CS:GO skins sorted by rarity. Browse skin market prices, weapon case and collection information.">
+	<link rel="canonical" href="https://www.csgodatabase.com/weapons/famas/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="FAMAS Skins - CSGO Database">
+	<meta property="og:description" content="All FAMAS CS:GO skins sorted by rarity. Browse skin market prices, weapon case and collection information.">
+	<meta property="og:url" content="https://www.csgodatabase.com/weapons/famas/">
+	<meta property="og:site_name" content="CSGO Database">
+	<meta property="article:publisher" content="https://www.facebook.com/CSGODatabase/">
+	<meta property="article:modified_time" content="2021-02-22T21:31:11+00:00">
+	<meta property="og:image" content="https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png">
+	<meta property="og:image:width" content="709">
+	<meta property="og:image:height" content="709">
+	<meta property="og:image:type" content="image/png">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.csgodatabase.com/weapons/famas/","url":"https://www.csgodatabase.com/weapons/famas/","name":"FAMAS Skins - CSGO Database","isPartOf":{"@id":"https://www.csgodatabase.com/#website"},"datePublished":"2016-06-18T13:32:37+00:00","dateModified":"2021-02-22T21:31:11+00:00","description":"All FAMAS CS:GO skins sorted by rarity. Browse skin market prices, weapon case and collection information.","breadcrumb":{"@id":"https://www.csgodatabase.com/weapons/famas/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.csgodatabase.com/weapons/famas/"]}]},{"@type":"BreadcrumbList","@id":"https://www.csgodatabase.com/weapons/famas/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"CSGO Database","item":"https://www.csgodatabase.com/"},{"@type":"ListItem","position":2,"name":"CS2 Weapons","item":"https://www.csgodatabase.com/weapons/"},{"@type":"ListItem","position":3,"name":"FAMAS"}]},{"@type":"WebSite","@id":"https://www.csgodatabase.com/#website","url":"https://www.csgodatabase.com/","name":"CSGO Database","description":"CS2 skins, knives, cases and more","publisher":{"@id":"https://www.csgodatabase.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.csgodatabase.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.csgodatabase.com/#organization","name":"CSGO Database","alternateName":"CS2DB","url":"https://www.csgodatabase.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/#/schema/logo/image/","url":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","width":709,"height":709,"caption":"CSGO Database"},"image":{"@id":"https://www.csgodatabase.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CSGODatabase/","https://twitter.com/csgodatabase"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Feed" href="https://www.csgodatabase.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Comments Feed" href="https://www.csgodatabase.com/comments/feed/">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="csdbv2-style-css" href="https://www.csgodatabase.com/wp-content/themes/csdbv2/style.css" type="text/css" media="all">
+<script type="text/javascript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.csgodatabase.com\/wp-admin\/admin-ajax.php","nonce":"932d7e4101","hideEffect":"slide","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.csgodatabase.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.csgodatabase.com/wp-json/wp/v2/pages/664"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csgodatabase.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.csgodatabase.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://www.csgodatabase.com/?p=664">
+<link rel="alternate" type="application/json+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fweapons%2Ffamas%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fweapons%2Ffamas%2F&amp;format=xml">
+<style>img#wpstats{display:none}</style>
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SDFW078N6F" type="text/javascript"></script>
+		<script type="text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-SDFW078N6F');
+		</script>
+	</head>
+	<body class="page-template page-template-page_weapon page-template-page_weapon-php page page-id-664 page-child parent-pageid-27 wp-embed-responsive cookies-not-set">
+		<header id="nav-menu" aria-label="navigation bar">
+  <nav class="nav-bar">
+	  <div class="nav-container">
+		  <input type="checkbox" id="drop-down-cbox">
+		  <label for="drop-down-cbox">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+		  </label>
+		  <div class="site-logo"><a href="/" aria-label="Home"><picture>
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+			  <img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" alt="CSGO Database logo">
+			  </picture></a></div>
+		  <span id="contact-icon">
+			  <a href="/search/" title="Search CSGO Database"><svg id="mail-icon" class="search-icon" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+		  </span>
+		  <ul class="main-nav">
+			  <li><a href="/skins/">Skins</a></li>
+			  <li><a href="/csgo-skin-price-comparison-tool/">Compare Prices</a></li>
+			  <li><a href="/cases/">Cases</a></li>
+			  <li><a href="/collections/">Collections</a></li>
+			  <li><a href="/weapons/">Weapons</a></li>
+			  <li><a href="/stickers/">Stickers</a></li>
+			  <li><a href="/gloves/">Gloves</a></li>
+			  <li><a href="/agents/">Agents</a></li>
+              <li><a href="/charms/">Charms</a></li>
+			  <li><a href="/collectible-pins/">Pins</a></li>
+			  <li><a href="/csgo-steam-status/">Status</a></li>
+		  </ul>
+		  <form method="GET" class="search" role="search" action="/search/">
+			  <div class="search-container">
+				  <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input type="search" name="search" class="search-input" aria-label="Search" placeholder="Search CS2 Database">
+			  </div>
+		  </form>
+	  </div>
+	</nav>
+</header>
+<div class="header-before"></div>
+
+		<div style="background-color:#000;padding:2px 0;"><div class="wrapper"><p></p><p id="breadcrumbs" style="font-size:13px !important;"><span><span><a href="https://www.csgodatabase.com/">CSGO Database</a></span> » <span><a href="https://www.csgodatabase.com/weapons/">CS2 Weapons</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>FAMAS</strong></span></span></p><p></p></div></div>		<a href="#content" class="skip-link screen-reader-text">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>		<main><header class="header">
+
+		<div id="outer-title" style="margin-bottom:20px;background-color:#0071e3;">
+			<div id="inner-title">
+				<h1 class="entry-title">FAMAS Skins</h1>
+			</div>
+		</div>
+	</header>
+	<article id="post-664" class="post-664 page type-page status-publish hentry">
+		<section class="entry-content">
+
+		<div class="wrapper">
+
+            <div class="flex flex-vertical-center" style="flex-wrap:wrap;">
+                <div style="padding:10px;height:200px;width:320px;">
+                    <picture>
+                        <source srcset="https://www.csgodatabase.com/images/weapons/webp/FAMAS.webp" type="image/webp">
+                        <source srcset="https://www.csgodatabase.com/images/weapons/FAMAS.png" type="image/png">
+                        <img style="max-height:200px;" src="https://www.csgodatabase.com/images/weapons/FAMAS.png" alt="The default FAMAS">
+                    </picture>
+                </div>
+                <div style="padding:10px;height:auto;width:500px;">
+                    <p class="h-caption" style="text-align:left">Browse and buy <a href="/skins/">CS2 skins</a> for the <strong>FAMAS</strong>. A cheap option for cash-strapped players, the FAMAS effectively fills the niche between more expensive rifles and the less-effective SMGs.</p>
+        <p class="h-caption" style="text-align:left">A total of 40 FAMAS skins are available, consisting of 5 <a href="/rarity/consumer/">consumer</a>, 5 <a href="/rarity/industrial/">industrial</a>, 12 <a href="/rarity/mil-spec/">mil-spec</a>, 8 <a href="/rarity/restricted/">restricted</a>, 7 <a href="/rarity/classified/">classified</a> and 3 <a href="/rarity/covert/">covert</a>.</p>
+                </div>
+            </div>
+        <hr><h2 class="txt-center">All CS2 skins for the FAMAS</h2><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-roll-cage/"><span class="block txt-med txt-white">Roll Cage</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-roll-cage/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Roll_Cage.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Roll_Cage.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Roll Cage" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Roll_Cage.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$88.17</span> - <span class="price">$350.31</span></span><span class="block txt-small txt-stattrak"><span class="price">$80.31</span> - <span class="price">$142.37</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Gamma 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-roll-cage/">FAMAS Roll Cage Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-commemoration/"><span class="block txt-med txt-white">Commemoration</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-commemoration/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Commemoration.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Commemoration.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Commemoration" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Commemoration.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$29.00</span> - <span class="price">$68.22</span></span><span class="block txt-small txt-stattrak"><span class="price">$30.20</span> - <span class="price">$259.01</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The CS20 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-commemoration/">FAMAS Commemoration Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-bad-trip/"><span class="block txt-med txt-white">Bad Trip</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Covert Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-bad-trip/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Bad_Trip.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Bad_Trip.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Bad Trip" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Bad_Trip.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$39.20</span> - <span class="price">$115.92</span></span><span class="block txt-small txt-stattrak"><span class="price">$39.79</span> - <span class="price">$106.76</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Fever Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-bad-trip/">FAMAS Bad Trip Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-afterimage/"><span class="block txt-med txt-white">Afterimage</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-afterimage/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Afterimage.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Afterimage.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Afterimage" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Afterimage.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$20.26</span> - <span class="price">$79.79</span></span><span class="block txt-small txt-stattrak"><span class="price">$21.07</span> - <span class="price">$123.30</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The eSports 2013 Winter Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-afterimage/">FAMAS Afterimage Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-djinn/"><span class="block txt-med txt-white">Djinn</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-djinn/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Djinn.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Djinn.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Djinn" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Djinn.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$9.56</span> - <span class="price">$73.39</span></span><span class="block txt-small txt-stattrak"><span class="price">$9.05</span> - <span class="price">$31.88</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Chroma 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-djinn/">FAMAS Djinn Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-mecha-industries/"><span class="block txt-med txt-white">Mecha Industries</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-mecha-industries/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Mecha_Industries.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Mecha_Industries.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Mecha Industries" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Mecha_Industries.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$37.35</span> - <span class="price">$448.70</span></span><span class="block txt-small txt-stattrak"><span class="price">$15.08</span> - <span class="price">$64.23</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Glove Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-mecha-industries/">FAMAS Mecha Industries Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-eye-of-athena/"><span class="block txt-med txt-white">Eye of Athena</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-eye-of-athena/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Eye_of_Athena.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Eye_of_Athena.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Eye of Athena" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Eye_of_Athena.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$4.68</span> - <span class="price">$1499.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$8.61</span> - <span class="price">$57.86</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Horizon Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-eye-of-athena/">FAMAS Eye of Athena Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-meltdown/"><span class="block txt-med txt-white">Meltdown</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-meltdown/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Meltdown.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Meltdown.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Meltdown" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Meltdown.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$38.10</span> - <span class="price">$177.05</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The 2021 Train Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-meltdown/">FAMAS Meltdown Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-rapid-eye-movement/"><span class="block txt-med txt-white">Rapid Eye Movement</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-rapid-eye-movement/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Rapid_Eye_Movement.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Rapid_Eye_Movement.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Rapid Eye Movement" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Rapid_Eye_Movement.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$4.95</span> - <span class="price">$27.24</span></span><span class="block txt-small txt-stattrak"><span class="price">$5.05</span> - <span class="price">$33.07</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Dreams &amp; Nightmares Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-rapid-eye-movement/">FAMAS Rapid Eye Movement Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-waters-of-nephthys/"><span class="block txt-med txt-white">Waters of Nephthys</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-waters-of-nephthys/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Waters_of_Nephthys.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Waters_of_Nephthys.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Waters of Nephthys" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Waters_of_Nephthys.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$24.82</span> - <span class="price">$181.61</span></span><span class="block txt-small txt-souvenir"><span class="price">$33.24</span> - <span class="price">$799.99</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Anubis Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-waters-of-nephthys/">FAMAS Waters of Nephthys Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-spitfire/"><span class="block txt-med txt-white">Spitfire</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-spitfire/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Spitfire.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Spitfire.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Spitfire" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Spitfire.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$25.97</span> - <span class="price">$12516.66</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Alpha Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-spitfire/">FAMAS Spitfire Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-pulse/"><span class="block txt-med txt-white">Pulse</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-pulse/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Pulse.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Pulse.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Pulse" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Pulse.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$6.88</span> - <span class="price">$18.91</span></span><span class="block txt-small txt-stattrak"><span class="price">$10.34</span> - <span class="price">$33.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Winter Offensive Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-pulse/">FAMAS Pulse Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-sergeant/"><span class="block txt-med txt-white">Sergeant</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-sergeant/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Sergeant.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Sergeant.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Sergeant" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Sergeant.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$2.07</span> - <span class="price">$51.80</span></span><span class="block txt-small txt-stattrak"><span class="price">$3.25</span> - <span class="price">$294.50</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Phoenix Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-sergeant/">FAMAS Sergeant Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-valence/"><span class="block txt-med txt-white">Valence</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-valence/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Valence.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Valence.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Valence" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Valence.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$3.38</span> - <span class="price">$38.75</span></span><span class="block txt-small txt-stattrak"><span class="price">$5.56</span> - <span class="price">$41.48</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Wildfire Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-valence/">FAMAS Valence Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-neural-net/"><span class="block txt-med txt-white">Neural Net</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-neural-net/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Neural_Net.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Neural_Net.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Neural Net" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Neural_Net.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.85</span> - <span class="price">$4.84</span></span><span class="block txt-small txt-stattrak"><span class="price">$1.56</span> - <span class="price">$9.29</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Falchion Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-neural-net/">FAMAS Neural Net Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-styx/"><span class="block txt-med txt-white">Styx</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-styx/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Styx.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Styx.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Styx" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Styx.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$5.70</span> - <span class="price">$66.32</span></span><span class="block txt-small txt-souvenir"><span class="price">$15.54</span> - <span class="price">$100.74</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Cache Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-styx/">FAMAS Styx Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-prime-conspiracy/"><span class="block txt-med txt-white">Prime Conspiracy</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-prime-conspiracy/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Prime_Conspiracy.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Prime_Conspiracy.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Prime Conspiracy" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Prime_Conspiracy.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$88.28</span> - <span class="price">$1000.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Control Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-prime-conspiracy/">FAMAS Prime Conspiracy Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-zx-spectron/"><span class="block txt-med txt-white">ZX Spectron</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Restricted Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-zx-spectron/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_ZX_Spectron.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_ZX_Spectron.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS ZX Spectron" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_ZX_Spectron.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$2.15</span> - <span class="price">$25.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$4.44</span> - <span class="price">$43.83</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Operation Riptide Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-zx-spectron/">FAMAS ZX Spectron Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-doomkitty/"><span class="block txt-med txt-white">Doomkitty</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-doomkitty/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Doomkitty.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Doomkitty.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Doomkitty" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Doomkitty.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$3.42</span> - <span class="price">$15.86</span></span><span class="block txt-small txt-stattrak"><span class="price">$3.64</span> - <span class="price">$9.99</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The eSports 2013 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-doomkitty/">FAMAS Doomkitty Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-hexane/"><span class="block txt-med txt-white">Hexane</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-hexane/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Hexane.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Hexane.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Hexane" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Hexane.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$2.01</span> - <span class="price">$5.60</span></span><span class="block txt-small txt-stattrak"><span class="price">$3.40</span> - <span class="price">$39.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Arms Deal 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-hexane/">FAMAS Hexane Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-survivor-z/"><span class="block txt-med txt-white">Survivor Z</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-survivor-z/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Survivor_Z.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Survivor_Z.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Survivor Z" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Survivor_Z.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.26</span> - <span class="price">$2.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.56</span> - <span class="price">$12.43</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Shadow Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-survivor-z/">FAMAS Survivor Z Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-teardown/"><span class="block txt-med txt-white">Teardown</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-teardown/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Teardown.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Teardown.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Teardown" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Teardown.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.13</span> - <span class="price">$1.61</span></span><span class="block txt-small txt-souvenir"><span class="price">$84.85</span> - <span class="price">$350.32</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Safehouse Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-teardown/">FAMAS Teardown Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-crypsis/"><span class="block txt-med txt-white">Crypsis</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-crypsis/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Crypsis.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Crypsis.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Crypsis" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Crypsis.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.17</span> - <span class="price">$1.01</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.26</span> - <span class="price">$4.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Prisma Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-crypsis/">FAMAS Crypsis Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-decommissioned/"><span class="block txt-med txt-white">Decommissioned</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-decommissioned/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Decommissioned.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Decommissioned.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Decommissioned" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Decommissioned.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.16</span> - <span class="price">$1.70</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.23</span> - <span class="price">$5.37</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The CS20 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-decommissioned/">FAMAS Decommissioned Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-sundown/"><span class="block txt-med txt-white">Sundown</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-sundown/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Sundown.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Sundown.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Sundown" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Sundown.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$83.86</span> - <span class="price">$177.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The St. Marc Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-sundown/">FAMAS Sundown Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-dark-water/"><span class="block txt-med txt-white">Dark Water</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-dark-water/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Dark_Water.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Dark_Water.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Dark Water" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Dark_Water.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$17.96</span> - <span class="price">$49.00</span></span><span class="block txt-small txt-souvenir"><span class="price">$0.89</span> - <span class="price">$2.64</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Ancient Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-dark-water/">FAMAS Dark Water Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-macabre/"><span class="block txt-med txt-white">Macabre</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-macabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Macabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Macabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Macabre" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Macabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$3.13</span> - <span class="price">$37.32</span></span><span class="block txt-small txt-stattrak"><span class="price">$3.77</span> - <span class="price">$79.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Operation Hydra Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-macabre/">FAMAS Macabre Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-meow-36/"><span class="block txt-med txt-white">Meow 36</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-meow-36/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Meow_36.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Meow_36.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Meow 36" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Meow_36.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.06</span> - <span class="price">$2.00</span></span><span class="block txt-small txt-stattrak"><span class="price">$0.11</span> - <span class="price">$3.11</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Recoil Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-meow-36/">FAMAS Meow 36 Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-2a2f/"><span class="block txt-med txt-white">2A2F</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-2a2f/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_2A2F.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_2A2F.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS 2A2F" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_2A2F.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.24</span> - <span class="price">$9.45</span></span><span class="block txt-small txt-souvenir"><span class="price">$0.38</span> - <span class="price">$31.10</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Train 2025 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-2a2f/">FAMAS 2A2F Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-yeti-camo/"><span class="block txt-med txt-white">Yeti Camo</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Mil-spec Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-yeti-camo/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Yeti_Camo.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Yeti_Camo.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Yeti Camo" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Yeti_Camo.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.49</span> - <span class="price">$25.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Ascent Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-yeti-camo/">FAMAS Yeti Camo Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-cyanospatter/"><span class="block txt-med txt-white">Cyanospatter</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-cyanospatter/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Cyanospatter.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Cyanospatter.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Cyanospatter" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Cyanospatter.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.04</span> - <span class="price">$7.40</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Lake Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-cyanospatter/">FAMAS Cyanospatter Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-calicamo/"><span class="block txt-med txt-white">CaliCamo</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-calicamo/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_CaliCamo.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_CaliCamo.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS CaliCamo" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_CaliCamo.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$1.90</span> - <span class="price">$5.38</span></span><span class="block txt-small txt-souvenir"><span class="price">$0.04</span> - <span class="price">$1.50</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The 2021 Mirage Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-calicamo/">FAMAS CaliCamo Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-half-sleeve/"><span class="block txt-med txt-white">Half Sleeve</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-half-sleeve/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Half_Sleeve.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Half_Sleeve.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Half Sleeve" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Half_Sleeve.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.07</span> - <span class="price">$4.13</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Sport &amp; Field Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-half-sleeve/">FAMAS Half Sleeve Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-halftone-wash/"><span class="block txt-med txt-white">Halftone Wash</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-halftone-wash/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Halftone_Wash.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Halftone_Wash.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Halftone Wash" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Halftone_Wash.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.17</span> - <span class="price">$0.84</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Graphic Design Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-halftone-wash/">FAMAS Halftone Wash Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-grey-ghost/"><span class="block txt-med txt-white">Grey Ghost</span></a></h3>
+						<div class="item-box-container">
+							<div class="industrial">Industrial Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-grey-ghost/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Grey_Ghost.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Grey_Ghost.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Grey Ghost" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Grey_Ghost.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.06</span> - <span class="price">$0.60</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Radiant Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-grey-ghost/">FAMAS Grey Ghost Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-contrast-spray/"><span class="block txt-med txt-white">Contrast Spray</span></a></h3>
+						<div class="item-box-container">
+							<div class="consumer">Consumer Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-contrast-spray/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Contrast_Spray.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Contrast_Spray.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Contrast Spray" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Contrast_Spray.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$3.04</span> - <span class="price">$350.31</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Office Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-contrast-spray/">FAMAS Contrast Spray Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-colony/"><span class="block txt-med txt-white">Colony</span></a></h3>
+						<div class="item-box-container">
+							<div class="consumer">Consumer Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-colony/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Colony.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Colony.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Colony" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Colony.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.01</span> - <span class="price">$4935.26</span></span><span class="block txt-small txt-souvenir"><span class="price">$14.22</span> - <span class="price">$227.58</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Italy Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-colony/">FAMAS Colony Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-night-borre/"><span class="block txt-med txt-white">Night Borre</span></a></h3>
+						<div class="item-box-container">
+							<div class="consumer">Consumer Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-night-borre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Night_Borre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Night_Borre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Night Borre" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Night_Borre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$5.01</span> - <span class="price">$40.00</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Norse Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-night-borre/">FAMAS Night Borre Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-faulty-wiring/"><span class="block txt-med txt-white">Faulty Wiring</span></a></h3>
+						<div class="item-box-container">
+							<div class="consumer">Consumer Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-faulty-wiring/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Faulty_Wiring.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Faulty_Wiring.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Faulty Wiring" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Faulty_Wiring.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.72</span> - <span class="price">$6.00</span></span><span class="block txt-small txt-souvenir"><span class="price">$0.08</span> - <span class="price">$12.50</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The 2021 Vertigo Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-faulty-wiring/">FAMAS Faulty Wiring Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/famas-palm/"><span class="block txt-med txt-white">Palm</span></a></h3>
+						<div class="item-box-container">
+							<div class="consumer">Consumer Rifle</div>
+							<a href="https://www.csgodatabase.com/skins/famas-palm/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Palm.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/FAMAS_Palm.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FAMAS Palm" src="https://www.csgodatabase.com/images/skins/webp/FAMAS_Palm.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$0.01</span> - <span class="price">$0.34</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Boreal Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/famas-palm/">FAMAS Palm Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><hr><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #62bdf0">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#212135"><img src="https://www.csgodatabase.com/images/TradeitGG_Icon.svg" style="height:25px;" alt="Tradeit.GG logo"><br>Top 10 Most Expensive FAMAS Skins on Tradeit.GG</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$200.97</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$156.52</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Waters of Nephthys (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$121.83</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Sundown%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Sundown%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$115.81</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$114.81</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$112.88</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$111.97</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$104.09</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ FAMAS | Roll Cage (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$103.71</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$103.25</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=FAMAS">Shop for FAMAS skins on Tradeit.GG</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #fa490a">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#1e2021"><img src="https://www.csgodatabase.com/images/skinport.svg" style="height:25px;" alt="Skinport logo"><br>Top 10 Most Expensive FAMAS Skins on Skinport</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Spitfire%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Spitfire (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Spitfire%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$12,516.66</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Souvenir%20FAMAS%20%7C%20Teardown%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Teardown (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Souvenir%20FAMAS%20%7C%20Teardown%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$350.32</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$350.31</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Contrast%20Spray%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Contrast Spray (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Contrast%20Spray%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$350.31</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Souvenir%20FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Waters of Nephthys (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Souvenir%20FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$315.28</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Souvenir%20FAMAS%20%7C%20Colony%20%28Battle-Scarred%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Colony (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=Souvenir%20FAMAS%20%7C%20Colony%20%28Battle-Scarred%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$227.58</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Mecha%20Industries%20%28Well-Worn%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Mecha Industries (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Mecha%20Industries%20%28Well-Worn%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$226.54</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Sundown%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Sundown%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$163.48</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Prime%20Conspiracy%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$145.97</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Sundown%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS%20%7C%20Sundown%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$138.62</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://skinport.com/market/?r=csgodatabase&amp;search=FAMAS">Shop for FAMAS skins on Skinport</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #4abc74">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#36363c"><img src="https://www.csgodatabase.com/images/DMarket_Logo_1.png" style="height:25px;" alt="DMarket logo"><br>Top 10 Most Expensive FAMAS Skins on DMarket</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Souvenir%20FAMAS%20%7C%20Teardown%20%28Battle-Scarred%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Teardown (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=Souvenir%20FAMAS%20%7C%20Teardown%20%28Battle-Scarred%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$10,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Sundown%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Sundown%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$320.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$201.37</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$170.05</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Prime%20Conspiracy%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Prime%20Conspiracy%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$154.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Prime%20Conspiracy%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Prime%20Conspiracy%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$142.19</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Prime%20Conspiracy%20%28Well-Worn%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Prime%20Conspiracy%20%28Well-Worn%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$141.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Waters of Nephthys (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$126.48</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$119.35</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Sundown%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS%20%7C%20Sundown%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$112.87</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=FAMAS">Shop for FAMAS skins on DMarket</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #d50512">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#121720"><img src="https://www.csgodatabase.com/images/Bitskins.svg" style="height:25px;" alt="BitSkins logo"><br>Top 10 Most Expensive FAMAS Skins on BitSkins</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Contrast+Spray+%28Well-Worn%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Contrast Spray (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Contrast+Spray+%28Well-Worn%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$9,999.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Styx+%28Well-Worn%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Styx (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Styx+%28Well-Worn%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$4,951.60</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Colony+%28Minimal+Wear%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Colony (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Colony+%28Minimal+Wear%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$4,935.26</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Eye+of+Athena+%28Battle-Scarred%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Eye of Athena (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Eye+of+Athena+%28Battle-Scarred%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,499.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Prime+Conspiracy+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Prime Conspiracy (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Prime+Conspiracy+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$1,000.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Mecha+Industries+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Mecha Industries (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Mecha+Industries+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$448.70</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+FAMAS+%7C+Sergeant+%28Minimal+Wear%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ FAMAS | Sergeant (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+FAMAS+%7C+Sergeant+%28Minimal+Wear%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$294.50</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+FAMAS+%7C+Commemoration+%28Well-Worn%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ FAMAS | Commemoration (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+FAMAS+%7C+Commemoration+%28Well-Worn%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$259.01</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Roll+Cage+%28Factory+New%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Roll+Cage+%28Factory+New%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$209.90</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Sundown+%28Minimal+Wear%29&quot;}}" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;FAMAS+%7C+Sundown+%28Minimal+Wear%29&quot;}}" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$177.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search=FAMAS">Shop for FAMAS skins on BitSkins</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+
+			<div class="col l6 m12 s12">
+				<div class="item-box" style="padding: 6px 10px">
+
+			<div style="background-color:#23282d;font-size:14px;border-radius:6px;border: 2px solid #7668cb">
+                <h2 class="round-box-header txt-center" style="margin-top:0;border-bottom: none;background-color:#1c1a24"><img src="https://www.csgodatabase.com/images/cs_money.svg" style="height:25px;" alt="CS.MONEY logo"><br>Top 10 Most Expensive FAMAS Skins on CS.MONEY</h2>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Waters of Nephthys (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20FAMAS%20%7C%20Waters%20of%20Nephthys%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$799.99</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Well-Worn%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Well-Worn%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$250.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$196.89</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">StatTrak™ FAMAS | Roll Cage (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20FAMAS%20%7C%20Roll%20Cage%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$151.32</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20FAMAS%20%7C%20Teardown%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Teardown (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20FAMAS%20%7C%20Teardown%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$149.56</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$140.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Field-Tested%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Field-Tested%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$136.69</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20FAMAS%20%7C%20Colony%20%28Battle-Scarred%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">Souvenir FAMAS | Colony (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=Souvenir%20FAMAS%20%7C%20Colony%20%28Battle-Scarred%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$125.00</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Roll Cage (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Roll%20Cage%20%28Minimal%20Wear%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$119.66</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Factory%20New%29" style="color:#FFF;" rel="noopener nofollow" target="_blank">FAMAS | Sundown (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS%20%7C%20Sundown%20%28Factory%20New%29" rel="noopener nofollow" target="_blank"><span class="block steam-pricing-buy" style="margin-left:10px">$110.70</span></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<a class="btn-trans-blue" style="margin:20px auto;display:block" target="_blank" href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=FAMAS">Shop for FAMAS skins on CS.MONEY</a>
+				</div>
+			</div>
+
+				</div>
+			</div>
+	</div><hr>
+            <h2>FAMAS Technical Specifications</h2>
+            <table>
+                <thead style="background-color:#0071e3">
+                    <tr>
+                        <th>Detail</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight:700">Ammunition</td>
+                        <td>FAMAS has <strong>25</strong> in the weapon/magazine with <strong>90</strong> in reserve for a total of <strong>115</strong>.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Damage</td>
+                        <td>FAMAS deals <strong>30 damage per shot</strong> before any deductions for armour and range penalties.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Fire Rate</td>
+                        <td>FAMAS has a fire rate of <strong>11 shots</strong> per second.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Recoil Control</td>
+                        <td>FAMAS has a bullet grouping accuracy of <strong>80</strong> when fired rapidly or on full-auto.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Accurate Range</td>
+                        <td>FAMAS has a first shot accuracy of <strong>16 meters</strong> when hitting a 30cm diamater target.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:700">Armour Penetration</td>
+                        <td>FAMAS has an armour penetration value of <strong>140</strong>.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+		</div>
+						</section>
+	</article>
+</main>
+<footer id="footer">
+	<div class="bg-grey">
+		<div class="wrapper row">
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+				<span class="block txt-med" style="font-weight:700;margin:20px 0;">CS2 Skin Database</span>
+				<div class="row">
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/agents/">All Agents</a></li>
+							<li class="footer-list-link"><a href="/cases/">All Cases</a></li>
+							<li class="footer-list-link"><a href="/collections/">All Collections</a></li>
+							<li class="footer-list-link"><a href="/gloves/">All Gloves</a></li>
+							<li class="footer-list-link"><a href="/patches/">All Patches</a></li>
+							<li class="footer-list-link"><a href="/collectible-pins/">All Pins</a></li>
+						</ul>
+					</div>
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/skins/">All Skins</a></li>
+							<li class="footer-list-link"><a href="/souvenir-packages/">All Souvenir Packages</a></li>
+							<li class="footer-list-link"><a href="/stickers/">All Stickers</a></li>
+							<li class="footer-list-link"><a href="/sticker-capsules/">All Sticker Capsules</a></li>
+							<li class="footer-list-link"><a href="/weapons/">All Weapons</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Features</span>
+					<ul class="footer-list">
+						<li class="footer-list-link"><a href="/csgo-steam-status/">CS2 Steam Server Status</a></li>
+						<li class="footer-list-link"><a href="/csgo-skin-price-comparison-tool/">Best Deals on CS2 Skins - Price Comparison Tool</a></li>
+						<li class="footer-list-link"><a href="/search/">Search CS2 Skin Database</a></li>
+						<li class="footer-list-link"><a href="/rarity/">CS2 Skins by Rarity</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col l4 m12 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Recent CS2/CS:GO Updates</span>
+					<ul class="footer-list">
+						<li class="footer-list-link">01 Apr 2025 - <a href="/cases/fever-case/">Fever Case</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-ascent-collection/">Ascent Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-boreal-collection/">Boreal Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-radiant-collection/">Radiant Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-train-2025-collection/">Train 2024 Collection</a></li>
+						<li class="footer-list-link">02 Oct 2024 - <a href="/collections/limited-edition-item/">Limited Edition Item</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-footer-outer">
+		<div id="main-footer-inner">
+			<picture>
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+				<img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" height="20px" width="131.75px" alt="CS2DB logo">
+			</picture>
+			<p class="copyright-notice"><a href="/about/">About</a> | <a href="/contact/">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+			<p class="copyright-notice"><a href="https://www.facebook.com/csgodatabase" title="Like us on Facebook" target="_blank" rel="noopener">Like on Facebook</a> | <a href="https://twitter.com/csgodatabase" title="Follow us on Twitter" target="_blank" rel="noopener">Follow on X</a> | <a href="https://steamcommunity.com/groups/csgodatabase" title="Join CSGO Database Steam Group" target="_blank" rel="noopener">Join Steam Group</a></p><br>
+			<p class="copyright-notice">This site is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners.</p>
+			<p class="copyright-notice">We may earn a commission from qualifying purchases made via some third party links on our website.</p>
+			<p class="copyright-notice">Copyright © 2016-2025 CSGODatabase Ltd. Powered by <a href="https://store.steampowered.com/">Steam</a>.</p>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" id="cookie-notice-front-css" href="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all">
+<script src="https://stats.wp.com/e-202547.js" defer="" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.1',blog:'117343886',post:'664',tz:'0',srv:'www.csgodatabase.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117343886', '664' ]);
+</script>
+
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-slide cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">CSGO Database uses cookies to improve your experience. These cookies are enabled by default.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Accept the use of cookies" style="background-color: #00a99d">Accept the use of cookies</button><button data-link-url="https://www.csgodatabase.com/privacy-policy/" data-link-target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="Privacy policy" style="background-color: #00a99d">Privacy policy</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+
+		</div>
+		<!-- / Cookie Notice plugin --><script type="text/javascript">
+	function tableFunction() {
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	}
+</script>
+
+            <aside class="ad-rail ad-rail--left" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <a href="https://trk.clash.gg/click?o=2&amp;a=672&amp;c=33"><img src="/images/partners/clash-banner-en.webp" style="width:200px" alt="Clash.gg"></a>
+            </div>
+            </aside>
+            <aside class="ad-rail ad-rail--right" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <iframe src="https://spinner.csgodatabase.com/embed-ad/tomb-raid?initialWidth=400&amp;initialHeight=600&amp;redirect=https%3A%2F%2Ftrk.clash.gg%2Fclick%3Fo%3D2%26a%3D672%26c%3D33&amp;spinText=Try%20Now&amp;headerText=Win%20Free%20Cases&amp;winChance=0.8&amp;freeItemName=Premium%20Box&amp;winText=Congratulations!%20You%20won%203%20premium%20boxes!&amp;claimButtonText=Get%20Now&amp;countdownSeconds=30" width="240" height="600" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            </aside>
+
+</body></html>

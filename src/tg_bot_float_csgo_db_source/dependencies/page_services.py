@@ -6,11 +6,12 @@ from tg_bot_float_common_dtos.csgo_db_source_dtos.additional_info_page_dto impor
     AdditionalInfoPageDTO,
 )
 
-from tg_bot_float_common_dtos.csgo_db_source_dtos.page_dto import PageDTO
+from tg_bot_float_common_dtos.csgo_db_source_dtos.agents_page_dto import AgentsPageDTO
+from tg_bot_float_common_dtos.csgo_db_source_dtos.gloves_page_dto import GlovesPageDTO
 
 
-from tg_bot_float_common_dtos.csgo_db_source_dtos.skin_dto import SkinDTO
-from tg_bot_float_common_dtos.csgo_db_source_dtos.weapon_dto import WeaponDTO
+from tg_bot_float_common_dtos.csgo_db_source_dtos.skins_page_dto import SkinsPageDTO
+from tg_bot_float_common_dtos.csgo_db_source_dtos.weapons_page_dto import WeaponsPageDTO
 from tg_bot_float_csgo_db_source.dependencies.parsers import (
     ADDITIONAL_INFO_PARSER,
     AGENTS_PARSER,
@@ -27,13 +28,13 @@ from tg_bot_float_csgo_db_source.services.csgo_db_source_service import CsgoDbSo
 
 async def get_weapon_page_service(
     response_service: CSGO_DB_SOURCE_RESPONSE_SERVICE, parser: WEAPONS_PARSER
-) -> CsgoDbSourceService[PageDTO[WeaponDTO]]:
+) -> CsgoDbSourceService[WeaponsPageDTO]:
     return CsgoDbSourceService(response_service, parser)
 
 
 async def get_skins_page_service(
     response_service: CSGO_DB_SOURCE_RESPONSE_SERVICE, parser: SKINS_PARSER
-) -> CsgoDbSourceService[PageDTO[SkinDTO]]:
+) -> CsgoDbSourceService[SkinsPageDTO]:
     return CsgoDbSourceService(response_service, parser)
 
 
@@ -46,32 +47,30 @@ async def get_additional_info_page_service(
 
 async def get_gloves_page_service(
     response_service: CSGO_DB_SOURCE_RESPONSE_SERVICE, parser: GLOVES_PARSER
-) -> CsgoDbSourceService[PageDTO[SkinDTO]]:
+) -> CsgoDbSourceService[GlovesPageDTO]:
     return CsgoDbSourceService(response_service, parser)
 
 
 async def get_agents_page_service(
     response_service: CSGO_DB_SOURCE_RESPONSE_SERVICE, parser: AGENTS_PARSER
-) -> CsgoDbSourceService[PageDTO[SkinDTO]]:
+) -> CsgoDbSourceService[AgentsPageDTO]:
     return CsgoDbSourceService(response_service, parser)
 
 
 WEAPON_PAGE_SERVICE = Annotated[
-    CsgoDbSourceService[PageDTO[WeaponDTO]], Depends(get_weapon_page_service)
+    CsgoDbSourceService[WeaponsPageDTO], Depends(get_weapon_page_service)
 ]
 
-SKINS_PAGE_SERVICE = Annotated[
-    CsgoDbSourceService[PageDTO[SkinDTO]], Depends(get_skins_page_service)
-]
+SKINS_PAGE_SERVICE = Annotated[CsgoDbSourceService[SkinsPageDTO], Depends(get_skins_page_service)]
 
 ADDITIONAL_INFO_PAGE_SERVICE = Annotated[
     CsgoDbSourceService[AdditionalInfoPageDTO], Depends(get_additional_info_page_service)
 ]
 
 GLOVES_PAGE_SERVICE = Annotated[
-    CsgoDbSourceService[PageDTO[SkinDTO]], Depends(get_gloves_page_service)
+    CsgoDbSourceService[GlovesPageDTO], Depends(get_gloves_page_service)
 ]
 
 AGENTS_PAGE_SERVICE = Annotated[
-    CsgoDbSourceService[PageDTO[SkinDTO]], Depends(get_agents_page_service)
+    CsgoDbSourceService[AgentsPageDTO], Depends(get_agents_page_service)
 ]

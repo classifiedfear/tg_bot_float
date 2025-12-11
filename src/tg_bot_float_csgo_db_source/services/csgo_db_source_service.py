@@ -1,4 +1,5 @@
 from typing import Generic
+
 from tg_bot_float_csgo_db_source.parsers.abstract_parser import T, AbstractParser
 from tg_bot_float_csgo_db_source.response_service.csgo_db_response_service import (
     CsgoDbSourceResponseService,

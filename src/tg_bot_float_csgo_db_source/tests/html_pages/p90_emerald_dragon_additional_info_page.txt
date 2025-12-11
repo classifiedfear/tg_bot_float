@@ -1,0 +1,542 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="counter strike global offensive, csgo, counter strike 2, cs2, skins, cases, items">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-TileColor" content="#111111">
+		<meta name="theme-color" content="#111111">
+		<meta name="apple-mobile-web-app-title" content="CSGO Database">
+		<meta name="application-name" content="CSGO Database">
+		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.json">
+
+			<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"P90 | Emerald Dragon","description":"View P90 | Emerald Dragon skin prices, rarity, cases, collection, flavor text and more.","url":"https://www.csgodatabase.com/skins/p90-emerald-dragon/","image":"https://www.csgodatabase.com/images/skins/P90_Emerald_Dragon.png","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.1","ratingCount":"5450"},"brand":{"@type":"Brand","name":"Counter-Strike: Global Offensive"},"offers":{"@type":"AggregateOffer","lowPrice":"85.05","highPrice":"291.94","offerCount":"47","availability":"https://schema.org/InStock","priceCurrency":"USD","seller":{"@type":"Organization","name":"CSGODatabase.com"}}}</script>
+
+			<meta property="og:image" content="https://www.csgodatabase.com/images/skins/P90_Emerald_Dragon.png">
+
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:site" content="@CSGODatabase">
+			<meta name="twitter:creator" content="@CSGODatabase">
+			<meta name="twitter:image" content="https://www.csgodatabase.com/images/skins/P90_Emerald_Dragon.png">
+			<meta name="twitter:image:alt" content="P90 | Emerald Dragon">
+				<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="EzsET7dwq4V_W_VVvIVVcUxS8_-ece528NxwaDe8fgM">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>P90 | Emerald Dragon - CSGO Database</title>
+	<meta name="description" content="P90 | Emerald Dragon is a CS:GO skin from the Operation Bravo Case introduced on 19th September 2013 as part of the Operation Bravo update. Browse information about this skin including images, steam market pricing, rarity and flavor text.">
+	<link rel="canonical" href="https://www.csgodatabase.com/skins/p90-emerald-dragon/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="P90 | Emerald Dragon - CSGO Database">
+	<meta property="og:description" content="P90 | Emerald Dragon is a CS:GO skin from the Operation Bravo Case introduced on 19th September 2013 as part of the Operation Bravo update. Browse information about this skin including images, steam market pricing, rarity and flavor text.">
+	<meta property="og:url" content="https://www.csgodatabase.com/skins/p90-emerald-dragon/">
+	<meta property="og:site_name" content="CSGO Database">
+	<meta property="article:publisher" content="https://www.facebook.com/CSGODatabase/">
+	<meta property="article:modified_time" content="2020-04-10T23:17:09+00:00">
+	<meta property="og:image" content="https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png">
+	<meta property="og:image:width" content="709">
+	<meta property="og:image:height" content="709">
+	<meta property="og:image:type" content="image/png">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.csgodatabase.com/skins/p90-emerald-dragon/","url":"https://www.csgodatabase.com/skins/p90-emerald-dragon/","name":"P90 | Emerald Dragon - CSGO Database","isPartOf":{"@id":"https://www.csgodatabase.com/#website"},"datePublished":"2016-06-09T16:49:07+00:00","dateModified":"2020-04-10T23:17:09+00:00","description":"P90 | Emerald Dragon is a CS:GO skin from the Operation Bravo Case introduced on 19th September 2013 as part of the Operation Bravo update. Browse information about this skin including images, steam market pricing, rarity and flavor text.","breadcrumb":{"@id":"https://www.csgodatabase.com/skins/p90-emerald-dragon/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.csgodatabase.com/skins/p90-emerald-dragon/"]}]},{"@type":"BreadcrumbList","@id":"https://www.csgodatabase.com/skins/p90-emerald-dragon/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"CSGO Database","item":"https://www.csgodatabase.com/"},{"@type":"ListItem","position":2,"name":"CS2 Skins","item":"https://www.csgodatabase.com/skins/"},{"@type":"ListItem","position":3,"name":"P90 | Emerald Dragon"}]},{"@type":"WebSite","@id":"https://www.csgodatabase.com/#website","url":"https://www.csgodatabase.com/","name":"CSGO Database","description":"CS2 skins, knives, cases and more","publisher":{"@id":"https://www.csgodatabase.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.csgodatabase.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.csgodatabase.com/#organization","name":"CSGO Database","alternateName":"CS2DB","url":"https://www.csgodatabase.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/#/schema/logo/image/","url":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","width":709,"height":709,"caption":"CSGO Database"},"image":{"@id":"https://www.csgodatabase.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CSGODatabase/","https://twitter.com/csgodatabase"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Feed" href="https://www.csgodatabase.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Comments Feed" href="https://www.csgodatabase.com/comments/feed/">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="csdbv2-style-css" href="https://www.csgodatabase.com/wp-content/themes/csdbv2/style.css" type="text/css" media="all">
+<script type="text/javascript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.csgodatabase.com\/wp-admin\/admin-ajax.php","nonce":"88639de398","hideEffect":"slide","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.csgodatabase.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.csgodatabase.com/wp-json/wp/v2/pages/435"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csgodatabase.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.csgodatabase.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://www.csgodatabase.com/?p=435">
+<link rel="alternate" type="application/json+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fskins%2Fp90-emerald-dragon%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fskins%2Fp90-emerald-dragon%2F&amp;format=xml">
+<style>img#wpstats{display:none}</style>
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SDFW078N6F" type="text/javascript"></script>
+		<script type="text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-SDFW078N6F');
+		</script>
+	</head>
+	<body class="page-template page-template-page_skin page-template-page_skin-php page page-id-435 page-child parent-pageid-23 wp-embed-responsive cookies-not-set">
+		<header id="nav-menu" aria-label="navigation bar">
+  <nav class="nav-bar">
+	  <div class="nav-container">
+		  <input type="checkbox" id="drop-down-cbox">
+		  <label for="drop-down-cbox">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+		  </label>
+		  <div class="site-logo"><a href="/" aria-label="Home"><picture>
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+			  <img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" alt="CSGO Database logo">
+			  </picture></a></div>
+		  <span id="contact-icon">
+			  <a href="/search/" title="Search CSGO Database"><svg id="mail-icon" class="search-icon" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+		  </span>
+		  <ul class="main-nav">
+			  <li><a href="/skins/">Skins</a></li>
+			  <li><a href="/csgo-skin-price-comparison-tool/">Compare Prices</a></li>
+			  <li><a href="/cases/">Cases</a></li>
+			  <li><a href="/collections/">Collections</a></li>
+			  <li><a href="/weapons/">Weapons</a></li>
+			  <li><a href="/stickers/">Stickers</a></li>
+			  <li><a href="/gloves/">Gloves</a></li>
+			  <li><a href="/agents/">Agents</a></li>
+              <li><a href="/charms/">Charms</a></li>
+			  <li><a href="/collectible-pins/">Pins</a></li>
+			  <li><a href="/csgo-steam-status/">Status</a></li>
+		  </ul>
+		  <form method="GET" class="search" role="search" action="/search/">
+			  <div class="search-container">
+				  <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input type="search" name="search" class="search-input" aria-label="Search" placeholder="Search CS2 Database">
+			  </div>
+		  </form>
+	  </div>
+	</nav>
+</header>
+<div class="header-before"></div>
+
+		<div style="background-color:#000;padding:2px 0;"><div class="wrapper"><p></p><p id="breadcrumbs" style="font-size:13px !important;"><span><span><a href="https://www.csgodatabase.com/">CSGO Database</a></span> » <span><a href="https://www.csgodatabase.com/skins/">CS2 Skins</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>P90 | Emerald Dragon</strong></span></span></p><p></p></div></div>		<a href="#content" class="skip-link screen-reader-text">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>		<main><header class="header">
+
+		<div id="outer-title" class="classified" style="margin-bottom:20px;">
+			<div id="inner-title">
+				<h1 class="entry-title">P90 | Emerald Dragon</h1>
+			</div>
+		</div>
+	</header>
+	<article id="post-435" class="post-435 page type-page status-publish hentry">
+		<section class="entry-content">
+<div class="wrapper">
+            <div class="flex flex-vertical-center" style="flex-wrap:wrap;">
+                <div style="padding:0 10px 10px 10px;height:280px;width:380px;">
+					<div class="image-hero" style="height:260px">
+						<picture>
+							<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Emerald_Dragon.webp" type="image/webp">
+							<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Emerald_Dragon.png" type="image/png">
+							<img class="responsive-image" style="max-height:260px;" src="https://www.csgodatabase.com/images/skins/webp/P90_Emerald_Dragon.png" alt="CS2 Skin P90 Emerald Dragon" fetchpriority="high">
+						</picture>
+					</div>
+                </div>
+                <div style="padding:0 10px 10px 10px;height:auto;width:650px;">
+                    <p>The <strong>P90 Emerald Dragon</strong> is a <a href="/skins/">CS2/CS:GO skin</a> from The Bravo Collection and was introduced 12 years ago on 19 September 2013. The skin is <a class="txt-classified" href="/rarity/classified/">classified rarity</a>. </p><p>The Emerald Dragon has a 3.2% chance of being unboxed from a <a href="/cases/">weapon case</a> in Standard quality. The chance of unboxing it in <span style="color:#F89406">StatTrak</span> quality is much lower at 0.32%.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper txt-center">
+            <div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+                <div class="col l3 m6 s6">
+                    <div class="item-box-header">
+                        <span class="block txt-small"><a href="/weapons/" class="txt-white">Weapon</a></span>
+                        <span class="block txt-med" style="font-weight:700"><a href="/weapons/p90/" class="txt-white">P90</a></span>
+                    </div>
+                </div>
+                <div class="col l3 m6 s6">
+                    <div class="item-box-header">
+                        <span class="block txt-small"><a href="/skins/" class="txt-white">Skin Pattern</a></span>
+                        <span class="block txt-med" style="font-weight:700">Emerald Dragon</span>
+                    </div>
+                </div>
+                <div class="col l3 m6 s6">
+                    <div class="item-box-header">
+                        <span class="block txt-small"><a href="/rarity/" class="txt-white">Rarity</a></span>
+                        <span class="block txt-med classified-text" style="font-weight:700;">Classified</span>
+                    </div>
+                </div>
+                <div class="col l3 m6 s6">
+                    <div class="item-box-header">
+                        <span class="block txt-small"><a href="/collections/" class="txt-white">Collection</a></span>
+                        <span class="block txt-med" style="font-weight:700;"><a href="" class="txt-white">The Bravo Collection</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+			<div style="background-color:#23282d;margin-top:20px;">
+				<div class="wrapper" style="padding-bottom: 10px">
+					<div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+		<div class="col l3 m6 s12" style="padding:10px;">
+			<a href="https://steamcommunity.com/market/search?appid=730&amp;q=P90%20%7C%20Emerald%20Dragon" target="_blank" class="flex share-box" style="background-color:#313f56" rel="noopener nofollow">
+				<div class="flex flex-vertical-center share-icon">
+					<img src="https://www.csgodatabase.com/images/Steam_Logo.png" style="height:40px;width:40px;" loading="lazy" alt="Steam logo">
+				</div>
+				<div class="flex-grow share-label">
+					<span style="font-size:13px">Buy now for <strong>$100.00</strong> on</span>
+					<span><strong>Steam Market</strong></span>
+				</div>
+			</a>
+		</div><div class="col l3 m6 s12" style="padding:10px;">
+			<a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=P90+%7C+Emerald+Dragon" target="_blank" class="flex share-box bg-tradeitgg" rel="noopener nofollow">
+				<div class="flex flex-vertical-center share-icon">
+					<img src="https://www.csgodatabase.com/images/TradeitGG_Icon_Short.svg" style="height:32.6px;width:40px;" loading="lazy" alt="Tradeit.GG logo">
+				</div>
+				<div class="flex-grow share-label">
+					<span style="font-size:13px">Buy now for <strong>$96.61</strong> on</span>
+					<span><strong>Tradeit.GG</strong></span>
+				</div>
+			</a>
+		</div><div class="col l3 m6 s12" style="padding:10px;">
+			<a href="https://skinport.com/market/?r=csgodatabase&amp;search=P90+%7C+Emerald+Dragon" target="_blank" class="flex share-box bg-skinport" rel="noopener nofollow">
+				<div class="flex flex-vertical-center share-icon">
+					<img src="https://www.csgodatabase.com/images/Skinport_logo_2.png" style="height:40px;width:40px;" alt="Skinport logo">
+				</div>
+				<div class="flex-grow share-label">
+					<span style="font-size:13px">Buy now for <strong>$107.98</strong> on</span>
+					<span><strong>Skinport.com</strong></span>
+				</div>
+			</a>
+		</div><div class="col l3 m6 s12" style="padding:10px;">
+			<a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=P90+%7C+Emerald+Dragon" target="_blank" class="flex share-box bg-cs-money" rel="noopener nofollow">
+				<div class="flex flex-vertical-center share-icon">
+					<img src="https://www.csgodatabase.com/images/CS.MONEY_Circle_Pink_1.webp" style="height:40px;width:auto;" alt="CS.MONEY logo">
+				</div>
+				<div class="flex-grow share-label">
+					<span style="font-size:13px">Buy now for <strong>$85.05</strong> on</span>
+					<span><strong>CS.MONEY</strong></span>
+				</div>
+			</a>
+		</div>
+					</div>
+				</div>
+			</div>
+		<div class="wrapper"><h2 id="pricing">Compare Skin Market Prices</h2><p class="h-caption">The cheapest price for the P90 | Emerald Dragon is $85.05.</p><p class="h-caption">The lowest price for each variant across all markets are listed in green in the table below.</p><div class="table-overflow" style="margin-top:20px;moz-box-shadow: 0 4px 8px 0 #0071e3; -webkit-box-shadow: 0 4px 8px 0 #0071e3; box-shadow: 0 4px 8px 0 #0071e3;"><table style="border-collapse: collapse;"><thead><tr style="background-color:#23282d;"><th class="txt-center" style="vertical-align:middle;width:200px">Marketplace</th><th class="txt-center" style="vertical-align:middle">Minimal Wear</th><th class="txt-center" style="vertical-align:middle">Field-Tested</th><th class="txt-center" style="vertical-align:middle">Well-Worn</th><th class="txt-center" style="vertical-align:middle"><span class="block" style="color: orange">StatTrak™</span><span class="block">Factory New</span></th><th class="txt-center" style="vertical-align:middle"><span class="block" style="color: orange">StatTrak™</span><span class="block">Minimal Wear</span></th><th class="txt-center" style="vertical-align:middle"><span class="block" style="color: orange">StatTrak™</span><span class="block">Field-Tested</span></th></tr></thead><tbody><tr class="txt-center"><td style="vertical-align:middle;background-color:#171d25;"><img src="https://www.csgodatabase.com/images/Steam_Logo.svg" alt="Steam logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#171d25;"><a href="https://steamcommunity.com/market/listings/730/P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$167.59</a></td><td style="vertical-align:middle;background-color:#171d25;"><a href="https://steamcommunity.com/market/listings/730/P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$122.78</a></td><td style="vertical-align:middle;background-color:#171d25;"><a href="https://steamcommunity.com/market/listings/730/P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #23B53E;background-color:#23B53E;color:#111;padding:8px;border-radius:6px;">$100.00</a></td><td style="vertical-align:middle;background-color:#171d25;"><a href="https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#171d25;"><a href="https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$361.15</a></td><td style="vertical-align:middle;background-color:#171d25;"><a href="https://steamcommunity.com/market/listings/730/StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$267.14</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#212135;"><img src="https://www.csgodatabase.com/images/TradeitGG_Icon.svg" alt="Tradeit.GG logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#212135;"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$130.92</a></td><td style="vertical-align:middle;background-color:#212135;"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$96.61</a></td><td style="vertical-align:middle;background-color:#212135;"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#212135;"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#212135;"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#212135;"><a href="https://tradeit.gg/csgo/store?aff=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#1c1a24;"><img src="https://www.csgodatabase.com/images/cs_money.svg" alt="CS.MONEY logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#1c1a24;"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #23B53E;background-color:#23B53E;color:#111;padding:8px;border-radius:6px;">$111.83</a></td><td style="vertical-align:middle;background-color:#1c1a24;"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #23B53E;background-color:#23B53E;color:#111;padding:8px;border-radius:6px;">$85.05</a></td><td style="vertical-align:middle;background-color:#1c1a24;"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#1c1a24;"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$985.00</a></td><td style="vertical-align:middle;background-color:#1c1a24;"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$353.99</a></td><td style="vertical-align:middle;background-color:#1c1a24;"><a href="https://cs.money/market/buy?utm_source=mediabuy&amp;utm_medium=csgbs&amp;utm_campaign=market&amp;utm_content=link&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #23B53E;background-color:#23B53E;color:#111;padding:8px;border-radius:6px;">$205.78</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#1e2021;"><img src="https://www.csgodatabase.com/images/skinport.svg" alt="Skinport logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#1e2021;"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$133.13</a></td><td style="vertical-align:middle;background-color:#1e2021;"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$107.98</a></td><td style="vertical-align:middle;background-color:#1e2021;"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$291.94</a></td><td style="vertical-align:middle;background-color:#1e2021;"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$1,083.67</a></td><td style="vertical-align:middle;background-color:#1e2021;"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #23B53E;background-color:#23B53E;color:#111;padding:8px;border-radius:6px;">$245.22</a></td><td style="vertical-align:middle;background-color:#1e2021;"><a href="https://skinport.com/market/?r=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$206.56</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#131417;"><img src="https://www.csgodatabase.com/images/Market_CSGO_cropped.png" alt="Market.CSGO logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#131417;"><a href="https://market.csgo.com/en/?utm_campaign=octoberpartner&amp;utm_source=csgodatabase&amp;cpid=45e1aa42-b27c-440d-a722-a3e0e35a95c4&amp;oid=4c69d079-ad2a-44b0-a9ac-d0afc2167ee7&amp;sort=price&amp;order=asc&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$164.73</a></td><td style="vertical-align:middle;background-color:#131417;"><a href="https://market.csgo.com/en/?utm_campaign=octoberpartner&amp;utm_source=csgodatabase&amp;cpid=45e1aa42-b27c-440d-a722-a3e0e35a95c4&amp;oid=4c69d079-ad2a-44b0-a9ac-d0afc2167ee7&amp;sort=price&amp;order=asc&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$105.53</a></td><td style="vertical-align:middle;background-color:#131417;"><a href="https://market.csgo.com/en/?utm_campaign=octoberpartner&amp;utm_source=csgodatabase&amp;cpid=45e1aa42-b27c-440d-a722-a3e0e35a95c4&amp;oid=4c69d079-ad2a-44b0-a9ac-d0afc2167ee7&amp;sort=price&amp;order=asc&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$112.36</a></td><td style="vertical-align:middle;background-color:#131417;"><a href="https://market.csgo.com/en/?utm_campaign=octoberpartner&amp;utm_source=csgodatabase&amp;cpid=45e1aa42-b27c-440d-a722-a3e0e35a95c4&amp;oid=4c69d079-ad2a-44b0-a9ac-d0afc2167ee7&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#131417;"><a href="https://market.csgo.com/en/?utm_campaign=octoberpartner&amp;utm_source=csgodatabase&amp;cpid=45e1aa42-b27c-440d-a722-a3e0e35a95c4&amp;oid=4c69d079-ad2a-44b0-a9ac-d0afc2167ee7&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$355.99</a></td><td style="vertical-align:middle;background-color:#131417;"><a href="https://market.csgo.com/en/?utm_campaign=octoberpartner&amp;utm_source=csgodatabase&amp;cpid=45e1aa42-b27c-440d-a722-a3e0e35a95c4&amp;oid=4c69d079-ad2a-44b0-a9ac-d0afc2167ee7&amp;sort=price&amp;order=asc&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$306.23</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#36363c;"><img src="https://www.csgodatabase.com/images/DMarket_Logo_1.png" alt="DMarket logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#36363c;"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$119.89</a></td><td style="vertical-align:middle;background-color:#36363c;"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$91.99</a></td><td style="vertical-align:middle;background-color:#36363c;"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#36363c;"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#36363c;"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#36363c;"><a href="https://dmarket.com/ingame-items/item-list/csgo-skins?ref=dqO8cH3aM5&amp;title=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$228.70</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#24243E;"><img src="https://www.csgodatabase.com/images/iTradeLogotype.svg" alt="iTrade.GG logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#24243E;"><a href="https://itrade.gg/trade/csgo?ref=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$188.02</a></td><td style="vertical-align:middle;background-color:#24243E;"><a href="https://itrade.gg/trade/csgo?ref=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$142.79</a></td><td style="vertical-align:middle;background-color:#24243E;"><a href="https://itrade.gg/trade/csgo?ref=csgodatabase&amp;search=P90%20%7C%20Emerald%20Dragon%20%28Well-Worn%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#24243E;"><a href="https://itrade.gg/trade/csgo?ref=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Factory%20New%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#24243E;"><a href="https://itrade.gg/trade/csgo?ref=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Minimal%20Wear%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#24243E;"><a href="https://itrade.gg/trade/csgo?ref=csgodatabase&amp;search=StatTrak%E2%84%A2%20P90%20%7C%20Emerald%20Dragon%20%28Field-Tested%29" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td></tr><tr class="txt-center"><td style="vertical-align:middle;background-color:#121720;"><img src="https://www.csgodatabase.com/images/Bitskins.svg" alt="BitSkins logo" loading="lazy" height="26px"></td><td style="vertical-align:middle;background-color:#121720;"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;P90+%7C+Emerald+Dragon+%28Minimal+Wear%29&quot;}}" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$140.00</a></td><td style="vertical-align:middle;background-color:#121720;"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;P90+%7C+Emerald+Dragon+%28Field-Tested%29&quot;}}" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#121720;"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;P90+%7C+Emerald+Dragon+%28Well-Worn%29&quot;}}" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td><td style="vertical-align:middle;background-color:#121720;"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+P90+%7C+Emerald+Dragon+%28Factory+New%29&quot;}}" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #23B53E;background-color:#23B53E;color:#111;padding:8px;border-radius:6px;">$950.77</a></td><td style="vertical-align:middle;background-color:#121720;"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+P90+%7C+Emerald+Dragon+%28Minimal+Wear%29&quot;}}" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid #2196F3;background-color:#2196F3;color:#111;padding:8px;border-radius:6px;">$364.42</a></td><td style="vertical-align:middle;background-color:#121720;"><a href="https://bitskins.com/market/cs2/?ref_alias=cs2db&amp;search={&quot;order&quot;:[{&quot;field&quot;:&quot;price&quot;,&quot;order&quot;:&quot;ASC&quot;}],&quot;where&quot;:{&quot;skin_name&quot;:&quot;StatTrak%E2%84%A2+P90+%7C+Emerald+Dragon+%28Field-Tested%29&quot;}}" target="_blank" rel="noopener nofollow" class="block" style="margin:5px auto;border: 2px solid grey;background-color:grey;color:#111;padding:8px;border-radius:6px;">No Listings</a></td></tr></tbody></table></div><hr><h2>Containers</h2><p>The P90 Emerald Dragon can be unboxed from the following <a href="/cases/">containers</a>:</p><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/operation-bravo-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Operation Bravo Case</span></a></h3>
+						<div class="item-box-container">
+							<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+							<a href="https://www.csgodatabase.com/cases/operation-bravo-case/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/containers/webp/Operation_Bravo_Case.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/containers/webp/Operation_Bravo_Case.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Operation Bravo Case" src="https://www.csgodatabase.com/images/containers/webp/Operation_Bravo_Case.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$32.16</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Introduced: 19 September 2013</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><hr><h2>Description</h2><h3>Appearance</h3>
+		<p>This memento from Chinatown has been painted with a dragon motif.</p><h3>Flavor Text</h3>
+		<p>Tradition can be dangerous</p><hr><h2>All Emerald Dragon Skins</h2><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-emerald-dragon/"><span class="block txt-med txt-white">P90</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-emerald-dragon/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Emerald_Dragon.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Emerald_Dragon.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Emerald Dragon" src="https://www.csgodatabase.com/images/skins/webp/P90_Emerald_Dragon.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$85.05</span> - <span class="price">$291.94</span></span><span class="block txt-small txt-stattrak"><span class="price">$205.78</span> - <span class="price">$1083.67</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Bravo Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-emerald-dragon/">P90 Emerald Dragon Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><hr><h2>Alternative P90 Skins</h2><p>Below are some alternative CS2 skins of Classified rarity for the <a href="/weapons/p90/">P90</a>:</p><div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-cold-blooded/"><span class="block txt-med txt-white">Cold Blooded</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-cold-blooded/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Cold_Blooded.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Cold_Blooded.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Cold Blooded" src="https://www.csgodatabase.com/images/skins/webp/P90_Cold_Blooded.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$51.05</span> - <span class="price">$291.94</span></span><span class="block txt-small txt-stattrak"><span class="price">$83.41</span> - <span class="price">$199.99</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Arms Deal 2 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-cold-blooded/">P90 Cold Blooded Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-trigon/"><span class="block txt-med txt-white">Trigon</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-trigon/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Trigon.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Trigon.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Trigon" src="https://www.csgodatabase.com/images/skins/webp/P90_Trigon.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$8.93</span> - <span class="price">$26.58</span></span><span class="block txt-small txt-stattrak"><span class="price">$14.34</span> - <span class="price">$30.35</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Phoenix Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-trigon/">P90 Trigon Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-shapewood/"><span class="block txt-med txt-white">Shapewood</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-shapewood/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Shapewood.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Shapewood.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Shapewood" src="https://www.csgodatabase.com/images/skins/webp/P90_Shapewood.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$5.90</span> - <span class="price">$52.66</span></span><span class="block txt-small txt-stattrak"><span class="price">$6.71</span> - <span class="price">$57.92</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Revolver Case Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-shapewood/">P90 Shapewood Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-shallow-grave/"><span class="block txt-med txt-white">Shallow Grave</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-shallow-grave/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Shallow_Grave.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Shallow_Grave.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Shallow Grave" src="https://www.csgodatabase.com/images/skins/webp/P90_Shallow_Grave.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$40.19</span> - <span class="price">$108.99</span></span><span class="block txt-small txt-stattrak"><span class="price">$6.95</span> - <span class="price">$1798.61</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Glove Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-shallow-grave/">P90 Shallow Grave Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-nostalgia/"><span class="block txt-med txt-white">Nostalgia</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-nostalgia/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Nostalgia.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Nostalgia.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Nostalgia" src="https://www.csgodatabase.com/images/skins/webp/P90_Nostalgia.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small"><span class="price">$3.90</span> - <span class="price">$19.26</span></span><span class="block txt-small txt-stattrak"><span class="price">$9.52</span> - <span class="price">$39.01</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The CS20 Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-nostalgia/">P90 Nostalgia Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l3 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/skins/p90-run-and-hide/"><span class="block txt-med txt-white">Run and Hide</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Classified SMG</div>
+							<a href="https://www.csgodatabase.com/skins/p90-run-and-hide/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Run_and_Hide.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/skins/webp/P90_Run_and_Hide.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="P90 Run and Hide" src="https://www.csgodatabase.com/images/skins/webp/P90_Run_and_Hide.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-souvenir"><span class="price">$15.53</span> - <span class="price">$168.53</span></span>
+							<div class="collection-skinbox">
+								<span class="block">The Ancient Collection</span>
+								<a style="font-size:11px" href="https://www.csgodatabase.com/skins/p90-run-and-hide/">P90 Run and Hide Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div></div><script type="application/ld+json">
+{
+	"http://schema.org/mainEntity": [
+		{
+			"http://schema.org/acceptedAnswer": {
+				"http://schema.org/text": "The P90 Emerald Dragon is a CS2 skin of Classified rarity from The Bravo Collection and was introduced on 19 September 2013.",
+				"@type": [
+					"http://schema.org/Answer"
+				]
+			},
+			"http://schema.org/name": "What is the P90 Emerald Dragon?",
+			"@type": [
+				"http://schema.org/Question"
+			]
+		}
+	],
+	"@type": [
+		"http://schema.org/FAQPage"
+	]
+}
+</script>
+					</section>
+	</article>
+</main>
+<footer id="footer">
+	<div class="bg-grey">
+		<div class="wrapper row">
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+				<span class="block txt-med" style="font-weight:700;margin:20px 0;">CS2 Skin Database</span>
+				<div class="row">
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/agents/">All Agents</a></li>
+							<li class="footer-list-link"><a href="/cases/">All Cases</a></li>
+							<li class="footer-list-link"><a href="/collections/">All Collections</a></li>
+							<li class="footer-list-link"><a href="/gloves/">All Gloves</a></li>
+							<li class="footer-list-link"><a href="/patches/">All Patches</a></li>
+							<li class="footer-list-link"><a href="/collectible-pins/">All Pins</a></li>
+						</ul>
+					</div>
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/skins/">All Skins</a></li>
+							<li class="footer-list-link"><a href="/souvenir-packages/">All Souvenir Packages</a></li>
+							<li class="footer-list-link"><a href="/stickers/">All Stickers</a></li>
+							<li class="footer-list-link"><a href="/sticker-capsules/">All Sticker Capsules</a></li>
+							<li class="footer-list-link"><a href="/weapons/">All Weapons</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Features</span>
+					<ul class="footer-list">
+						<li class="footer-list-link"><a href="/csgo-steam-status/">CS2 Steam Server Status</a></li>
+						<li class="footer-list-link"><a href="/csgo-skin-price-comparison-tool/">Best Deals on CS2 Skins - Price Comparison Tool</a></li>
+						<li class="footer-list-link"><a href="/search/">Search CS2 Skin Database</a></li>
+						<li class="footer-list-link"><a href="/rarity/">CS2 Skins by Rarity</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col l4 m12 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Recent CS2/CS:GO Updates</span>
+					<ul class="footer-list">
+						<li class="footer-list-link">01 Apr 2025 - <a href="/cases/fever-case/">Fever Case</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-ascent-collection/">Ascent Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-boreal-collection/">Boreal Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-radiant-collection/">Radiant Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-train-2025-collection/">Train 2024 Collection</a></li>
+						<li class="footer-list-link">02 Oct 2024 - <a href="/collections/limited-edition-item/">Limited Edition Item</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-footer-outer">
+		<div id="main-footer-inner">
+			<picture>
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+				<img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" height="20px" width="131.75px" alt="CS2DB logo">
+			</picture>
+			<p class="copyright-notice"><a href="/about/">About</a> | <a href="/contact/">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+			<p class="copyright-notice"><a href="https://www.facebook.com/csgodatabase" title="Like us on Facebook" target="_blank" rel="noopener">Like on Facebook</a> | <a href="https://twitter.com/csgodatabase" title="Follow us on Twitter" target="_blank" rel="noopener">Follow on X</a> | <a href="https://steamcommunity.com/groups/csgodatabase" title="Join CSGO Database Steam Group" target="_blank" rel="noopener">Join Steam Group</a></p><br>
+			<p class="copyright-notice">This site is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners.</p>
+			<p class="copyright-notice">We may earn a commission from qualifying purchases made via some third party links on our website.</p>
+			<p class="copyright-notice">Copyright © 2016-2025 CSGODatabase Ltd. Powered by <a href="https://store.steampowered.com/">Steam</a>.</p>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" id="cookie-notice-front-css" href="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all">
+<script src="https://stats.wp.com/e-202547.js" defer="" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.1',blog:'117343886',post:'435',tz:'0',srv:'www.csgodatabase.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117343886', '435' ]);
+</script>
+
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-slide cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">CSGO Database uses cookies to improve your experience. These cookies are enabled by default.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Accept the use of cookies" style="background-color: #00a99d">Accept the use of cookies</button><button data-link-url="https://www.csgodatabase.com/privacy-policy/" data-link-target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="Privacy policy" style="background-color: #00a99d">Privacy policy</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+
+		</div>
+		<!-- / Cookie Notice plugin --><script type="text/javascript">
+	function tableFunction() {
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	}
+</script>
+
+            <aside class="ad-rail ad-rail--left" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <a href="https://trk.clash.gg/click?o=2&amp;a=672&amp;c=33"><img src="/images/partners/clash-banner-en.webp" style="width:200px" alt="Clash.gg"></a>
+            </div>
+            </aside>
+            <aside class="ad-rail ad-rail--right" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <iframe src="https://spinner.csgodatabase.com/embed-ad/tomb-raid?initialWidth=400&amp;initialHeight=600&amp;redirect=https%3A%2F%2Ftrk.clash.gg%2Fclick%3Fo%3D2%26a%3D672%26c%3D33&amp;spinText=Try%20Now&amp;headerText=Win%20Free%20Cases&amp;winChance=0.8&amp;freeItemName=Premium%20Box&amp;winText=Congratulations!%20You%20won%203%20premium%20boxes!&amp;claimButtonText=Get%20Now&amp;countdownSeconds=30" width="240" height="600" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            </aside>
+
+</body></html>

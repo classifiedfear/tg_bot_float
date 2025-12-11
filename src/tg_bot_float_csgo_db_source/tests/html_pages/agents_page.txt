@@ -1,0 +1,1783 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="counter strike global offensive, csgo, counter strike 2, cs2, skins, cases, items">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-TileColor" content="#111111">
+		<meta name="theme-color" content="#111111">
+		<meta name="apple-mobile-web-app-title" content="CSGO Database">
+		<meta name="application-name" content="CSGO Database">
+		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.json">
+				<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="EzsET7dwq4V_W_VVvIVVcUxS8_-ece528NxwaDe8fgM">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>All CS2 Agents - CSGO Database</title>
+	<meta name="description" content="Browse every CS2 Agent skin from operations Shattered Web, Broken Fang and Riptide. View detail about factions, rarities and market prices.">
+	<link rel="canonical" href="https://www.csgodatabase.com/agents/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="All CS2 Agents - CSGO Database">
+	<meta property="og:description" content="Browse every CS2 Agent skin from operations Shattered Web, Broken Fang and Riptide. View detail about factions, rarities and market prices.">
+	<meta property="og:url" content="https://www.csgodatabase.com/agents/">
+	<meta property="og:site_name" content="CSGO Database">
+	<meta property="article:publisher" content="https://www.facebook.com/CSGODatabase/">
+	<meta property="article:modified_time" content="2025-10-14T10:49:33+00:00">
+	<meta property="og:image" content="https://www.csgodatabase.com/wp-content/uploads/2025/10/operation_fang_agents.webp">
+	<meta property="og:image:width" content="627">
+	<meta property="og:image:height" content="300">
+	<meta property="og:image:type" content="image/webp">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.csgodatabase.com/agents/","url":"https://www.csgodatabase.com/agents/","name":"All CS2 Agents - CSGO Database","isPartOf":{"@id":"https://www.csgodatabase.com/#website"},"primaryImageOfPage":{"@id":"https://www.csgodatabase.com/agents/#primaryimage"},"image":{"@id":"https://www.csgodatabase.com/agents/#primaryimage"},"thumbnailUrl":"https://www.csgodatabase.com/wp-content/uploads/2025/10/operation_fang_agents.webp","datePublished":"2019-11-23T18:58:15+00:00","dateModified":"2025-10-14T10:49:33+00:00","description":"Browse every CS2 Agent skin from operations Shattered Web, Broken Fang and Riptide. View detail about factions, rarities and market prices.","breadcrumb":{"@id":"https://www.csgodatabase.com/agents/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.csgodatabase.com/agents/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/agents/#primaryimage","url":"https://www.csgodatabase.com/wp-content/uploads/2025/10/operation_fang_agents.webp","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2025/10/operation_fang_agents.webp","width":627,"height":300},{"@type":"BreadcrumbList","@id":"https://www.csgodatabase.com/agents/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"CSGO Database","item":"https://www.csgodatabase.com/"},{"@type":"ListItem","position":2,"name":"CS2 Agents"}]},{"@type":"WebSite","@id":"https://www.csgodatabase.com/#website","url":"https://www.csgodatabase.com/","name":"CSGO Database","description":"CS2 skins, knives, cases and more","publisher":{"@id":"https://www.csgodatabase.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.csgodatabase.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.csgodatabase.com/#organization","name":"CSGO Database","alternateName":"CS2DB","url":"https://www.csgodatabase.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/#/schema/logo/image/","url":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","width":709,"height":709,"caption":"CSGO Database"},"image":{"@id":"https://www.csgodatabase.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CSGODatabase/","https://twitter.com/csgodatabase"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Feed" href="https://www.csgodatabase.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Comments Feed" href="https://www.csgodatabase.com/comments/feed/">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="csdbv2-style-css" href="https://www.csgodatabase.com/wp-content/themes/csdbv2/style.css" type="text/css" media="all">
+<script type="text/javascript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.csgodatabase.com\/wp-admin\/admin-ajax.php","nonce":"88639de398","hideEffect":"slide","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.csgodatabase.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.csgodatabase.com/wp-json/wp/v2/pages/5649"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csgodatabase.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.csgodatabase.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://www.csgodatabase.com/?p=5649">
+<link rel="alternate" type="application/json+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fagents%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fagents%2F&amp;format=xml">
+<style>img#wpstats{display:none}</style>
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SDFW078N6F" type="text/javascript"></script>
+		<script type="text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-SDFW078N6F');
+		</script>
+	</head>
+	<body class="page-template-default page page-id-5649 page-parent wp-embed-responsive cookies-not-set">
+		<header id="nav-menu" aria-label="navigation bar">
+  <nav class="nav-bar">
+	  <div class="nav-container">
+		  <input type="checkbox" id="drop-down-cbox">
+		  <label for="drop-down-cbox">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+		  </label>
+		  <div class="site-logo"><a href="/" aria-label="Home"><picture>
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+			  <img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" alt="CSGO Database logo">
+			  </picture></a></div>
+		  <span id="contact-icon">
+			  <a href="/search/" title="Search CSGO Database"><svg id="mail-icon" class="search-icon" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+		  </span>
+		  <ul class="main-nav">
+			  <li><a href="/skins/">Skins</a></li>
+			  <li><a href="/csgo-skin-price-comparison-tool/">Compare Prices</a></li>
+			  <li><a href="/cases/">Cases</a></li>
+			  <li><a href="/collections/">Collections</a></li>
+			  <li><a href="/weapons/">Weapons</a></li>
+			  <li><a href="/stickers/">Stickers</a></li>
+			  <li><a href="/gloves/">Gloves</a></li>
+			  <li><a href="/agents/">Agents</a></li>
+              <li><a href="/charms/">Charms</a></li>
+			  <li><a href="/collectible-pins/">Pins</a></li>
+			  <li><a href="/csgo-steam-status/">Status</a></li>
+		  </ul>
+		  <form method="GET" class="search" role="search" action="/search/">
+			  <div class="search-container">
+				  <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input type="search" name="search" class="search-input" aria-label="Search" placeholder="Search CS2 Database">
+			  </div>
+		  </form>
+	  </div>
+	</nav>
+</header>
+<div class="header-before"></div>
+
+		<div style="background-color:#000;padding:2px 0;"><div class="wrapper"><p></p><p id="breadcrumbs" style="font-size:13px !important;"><span><span><a href="https://www.csgodatabase.com/">CSGO Database</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>CS2 Agents</strong></span></span></p><p></p></div></div>		<a href="#content" class="skip-link screen-reader-text">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>		<main><header class="header">
+	<div id="outer-title" style="margin-bottom:20px;background-color:#0071e3;">
+		<div id="inner-title">
+			<h1 class="entry-title">CS2 Agents</h1>
+		</div>
+	</div>
+</header>
+	<article id="post-5649" class="post-5649 page type-page status-publish has-post-thumbnail hentry">
+		<section class="entry-content">
+		<div class="wrapper">
+
+		<div class="flex flex-vertical-center" style="flex-wrap:wrap;">
+			<div style="padding:10px;height:220px;width:440px;">
+                <div class="image-hero-agents">
+				<picture>
+					<source srcset="https://www.csgodatabase.com/images/agents/other/webp/operation_fang_agents.webp" type="image/webp">
+					<source srcset="https://www.csgodatabase.com/images/agents/other/operation_fang_agents.png" type="image/png">
+					<img class="responsive-image" src="https://www.csgodatabase.com/images/agents/other/operation_fang_agents.png" alt="Broken Fang CS2 Agent Skins">
+				</picture>
+                </div>
+			</div>
+			<div style="padding:10px;height:auto;width:500px;">
+				<p class="h-caption" style="text-align:left"><strong>CS2 Agent skins</strong> are character models which were first introduced in CS:GO as part of Operation Shattered Web in 2019. A new collection of agents has been included with each subsequent operation update.</p>
+				<p class="h-caption" style="text-align:left">Agents can be customised further with the addition of <a href="/patches/">patches</a> which were added on 24th February 2020. These patches can be applied to specific locations on each agent model.</p>
+                <p class="h-caption" style="text-align:left">Three collections of agents exist, one for each CS:GO operation which took place between 2019 and 2021.</p>
+            </div>
+		</div>
+	<nav class="csdb-tiles" style="margin-top:30px;" aria-label="Jump to sections">
+  <ul class="csdb-tiles__grid">
+    <li>
+      <a class="csdb-tile csdb-tile--ops" href="#riptide">
+        <span class="csdb-tile__emblem">
+          <img src="https://www.csgodatabase.com/images/agents/webp/'Medium_Rare'_Crasswater_Guerrilla_Warfare.webp" alt="Riptide emblem">
+        </span>
+        <span class="csdb-tile__label">Operation Riptide Agents (2021)</span>
+        <svg class="csdb-tile__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+    </li>
+    <li>
+      <a class="csdb-tile csdb-tile--ops" href="#broken-fang">
+        <span class="csdb-tile__emblem">
+          <img src="https://www.csgodatabase.com/images/agents/webp/Number_K_The_Professionals.webp" alt="Broken Fang emblem">
+        </span>
+        <span class="csdb-tile__label">Operation Broken Fang Agents (2020)</span>
+        <svg class="csdb-tile__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </a>
+    </li>
+    <li>
+      <a class="csdb-tile csdb-tile--ops" href="#shattered-web">
+        <span class="csdb-tile__emblem">
+          <img src="https://www.csgodatabase.com/images/agents/webp/Special_Agent_Ava_FBI.webp" alt="Shattered Web emblem">
+        </span>
+        <span class="csdb-tile__label">Operation Shattered Web Agents (2019)</span>
+        <svg class="csdb-tile__chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+        <hr>
+        <section id="riptide">
+            <header>
+                <h2 class="txt-center">Operation Riptide Agents</h2>
+                <p class="h-caption">Operation Riptide agents are the most recent agents added to the game as part of the last operation of CS:GO in late 2021. At present, no new agents have been introduced in CS2.</p>
+            </header>
+    <div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/chef-descadron-rouchard-gendarmerie-nationale/"><span class="block txt-small txt-dark-grey">Gendarmerie Nationale</span><span class="block txt-med txt-white">Chef d'Escadron Rouchard</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/chef-descadron-rouchard-gendarmerie-nationale/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Chef_d'Escadron_Rouchard_Gendarmerie_Nationale.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Chef_d'Escadron_Rouchard_Gendarmerie_Nationale.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Gendarmerie Nationale Chef d" escadron="" rouchard'="" src="https://www.csgodatabase.com/images/agents/webp/Chef_d'Escadron_Rouchard_Gendarmerie_Nationale.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$29.49</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/chef-descadron-rouchard-gendarmerie-nationale/">Gendarmerie Nationale Chef d'Escadron Rouchard Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/medium-rare-crasswater-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">'Medium Rare' Crasswater</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/medium-rare-crasswater-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Medium_Rare'_Crasswater_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Medium_Rare'_Crasswater_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare " medium="" rare'="" crasswater'="" src="https://www.csgodatabase.com/images/agents/webp/'Medium_Rare'_Crasswater_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$35.22</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/medium-rare-crasswater-guerrilla-warfare/">Guerrilla Warfare 'Medium Rare' Crasswater Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/vypa-sista-of-the-revolution-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Vypa Sista of the Revolution</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/vypa-sista-of-the-revolution-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Vypa_Sista_of_the_Revolution_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Vypa_Sista_of_the_Revolution_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Vypa Sista of the Revolution" src="https://www.csgodatabase.com/images/agents/webp/Vypa_Sista_of_the_Revolution_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$58.68</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/vypa-sista-of-the-revolution-guerrilla-warfare/">Guerrilla Warfare Vypa Sista of the Revolution Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/cmdr-frank-wet-sox-baroud-seal-frogman/"><span class="block txt-small txt-dark-grey">SEAL Frogman</span><span class="block txt-med txt-white">Cmdr. Frank 'Wet Sox' Baroud</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/cmdr-frank-wet-sox-baroud-seal-frogman/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Cmdr._Frank_'Wet_Sox'_Baroud_SEAL_Frogman.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Cmdr._Frank_'Wet_Sox'_Baroud_SEAL_Frogman.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SEAL Frogman Cmdr. Frank " wet="" sox'="" baroud'="" src="https://www.csgodatabase.com/images/agents/webp/Cmdr._Frank_'Wet_Sox'_Baroud_SEAL_Frogman.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$56.91</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/cmdr-frank-wet-sox-baroud-seal-frogman/">SEAL Frogman Cmdr. Frank 'Wet Sox' Baroud Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/cmdr-davida-goggles-fernandez-seal-frogman/"><span class="block txt-small txt-dark-grey">SEAL Frogman</span><span class="block txt-med txt-white">Cmdr. Davida 'Goggles' Fernandez</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/cmdr-davida-goggles-fernandez-seal-frogman/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Cmdr._Davida_'Goggles'_Fernandez_SEAL_Frogman.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Cmdr._Davida_'Goggles'_Fernandez_SEAL_Frogman.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SEAL Frogman Cmdr. Davida " goggles'="" fernandez'="" src="https://www.csgodatabase.com/images/agents/webp/Cmdr._Davida_'Goggles'_Fernandez_SEAL_Frogman.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$70.55</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/cmdr-davida-goggles-fernandez-seal-frogman/">SEAL Frogman Cmdr. Davida 'Goggles' Fernandez Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/crasswater-the-forgotten-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Crasswater The Forgotten</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/crasswater-the-forgotten-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Crasswater_The_Forgotten_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Crasswater_The_Forgotten_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Crasswater The Forgotten" src="https://www.csgodatabase.com/images/agents/webp/Crasswater_The_Forgotten_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$33.56</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/crasswater-the-forgotten-guerrilla-warfare/">Guerrilla Warfare Crasswater The Forgotten Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/elite-trapper-solman-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Elite Trapper Solman</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/elite-trapper-solman-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Elite_Trapper_Solman_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Elite_Trapper_Solman_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Elite Trapper Solman" src="https://www.csgodatabase.com/images/agents/webp/Elite_Trapper_Solman_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$42.22</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/elite-trapper-solman-guerrilla-warfare/">Guerrilla Warfare Elite Trapper Solman Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/chem-haz-capitaine-gendarmerie-nationale/"><span class="block txt-small txt-dark-grey">Gendarmerie Nationale</span><span class="block txt-med txt-white">Chem-Haz Capitaine</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/chem-haz-capitaine-gendarmerie-nationale/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Chem-Haz_Capitaine_Gendarmerie_Nationale.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Chem-Haz_Capitaine_Gendarmerie_Nationale.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Gendarmerie Nationale Chem-Haz Capitaine" src="https://www.csgodatabase.com/images/agents/webp/Chem-Haz_Capitaine_Gendarmerie_Nationale.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$24.88</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/chem-haz-capitaine-gendarmerie-nationale/">Gendarmerie Nationale Chem-Haz Capitaine Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/bloody-darryl-the-strapped-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Bloody Darryl The Strapped</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/bloody-darryl-the-strapped-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Bloody_Darryl_The_Strapped_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Bloody_Darryl_The_Strapped_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Bloody Darryl The Strapped" src="https://www.csgodatabase.com/images/agents/webp/Bloody_Darryl_The_Strapped_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$49.49</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/bloody-darryl-the-strapped-the-professionals/">The Professionals Bloody Darryl The Strapped Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/arno-the-overgrown-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Arno The Overgrown</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/arno-the-overgrown-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Arno_The_Overgrown_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Arno_The_Overgrown_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Arno The Overgrown" src="https://www.csgodatabase.com/images/agents/webp/Arno_The_Overgrown_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$20.70</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/arno-the-overgrown-guerrilla-warfare/">Guerrilla Warfare Arno The Overgrown Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/lieutenant-rex-krikey-seal-frogman/"><span class="block txt-small txt-dark-grey">SEAL Frogman</span><span class="block txt-med txt-white">Lieutenant Rex Krikey</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/lieutenant-rex-krikey-seal-frogman/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Lieutenant_Rex_Krikey_SEAL_Frogman.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Lieutenant_Rex_Krikey_SEAL_Frogman.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SEAL Frogman Lieutenant Rex Krikey" src="https://www.csgodatabase.com/images/agents/webp/Lieutenant_Rex_Krikey_SEAL_Frogman.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$19.67</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/lieutenant-rex-krikey-seal-frogman/">SEAL Frogman Lieutenant Rex Krikey Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/col-mangos-dabisi-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Col. Mangos Dabisi</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/col-mangos-dabisi-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Col._Mangos_Dabisi_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Col._Mangos_Dabisi_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Col. Mangos Dabisi" src="https://www.csgodatabase.com/images/agents/webp/Col._Mangos_Dabisi_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$34.50</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/col-mangos-dabisi-guerrilla-warfare/">Guerrilla Warfare Col. Mangos Dabisi Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/officer-jacques-beltram-gendarmerie-nationale/"><span class="block txt-small txt-dark-grey">Gendarmerie Nationale</span><span class="block txt-med txt-white">Officer Jacques Beltram</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/officer-jacques-beltram-gendarmerie-nationale/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Officer_Jacques_Beltram_Gendarmerie_Nationale.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Officer_Jacques_Beltram_Gendarmerie_Nationale.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Gendarmerie Nationale Officer Jacques Beltram" src="https://www.csgodatabase.com/images/agents/webp/Officer_Jacques_Beltram_Gendarmerie_Nationale.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$18.78</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/officer-jacques-beltram-gendarmerie-nationale/">Gendarmerie Nationale Officer Jacques Beltram Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/trapper-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Trapper</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/trapper-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Trapper_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Trapper_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Trapper" src="https://www.csgodatabase.com/images/agents/webp/Trapper_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$35.16</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/trapper-guerrilla-warfare/">Guerrilla Warfare Trapper Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/lieutenant-tree-hugger-farlow-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">Lieutenant 'Tree Hugger' Farlow</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/lieutenant-tree-hugger-farlow-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Lieutenant_'Tree_Hugger'_Farlow_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Lieutenant_'Tree_Hugger'_Farlow_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT Lieutenant " tree="" hugger'="" farlow'="" src="https://www.csgodatabase.com/images/agents/webp/Lieutenant_'Tree_Hugger'_Farlow_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$21.15</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/lieutenant-tree-hugger-farlow-swat/">SWAT Lieutenant 'Tree Hugger' Farlow Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sous-lieutenant-medic-gendarmerie-nationale/"><span class="block txt-small txt-dark-grey">Gendarmerie Nationale</span><span class="block txt-med txt-white">Sous-Lieutenant Medic</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sous-lieutenant-medic-gendarmerie-nationale/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sous-Lieutenant_Medic_Gendarmerie_Nationale.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sous-Lieutenant_Medic_Gendarmerie_Nationale.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Gendarmerie Nationale Sous-Lieutenant Medic" src="https://www.csgodatabase.com/images/agents/webp/Sous-Lieutenant_Medic_Gendarmerie_Nationale.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$12.47</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sous-lieutenant-medic-gendarmerie-nationale/">Gendarmerie Nationale Sous-Lieutenant Medic Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/primeiro-tenente-brazilian-1st-battalion/"><span class="block txt-small txt-dark-grey">Brazilian 1st Battalion</span><span class="block txt-med txt-white">Primeiro Tenente</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/primeiro-tenente-brazilian-1st-battalion/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Primeiro_Tenente_Brazilian_1st_Battalion.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Primeiro_Tenente_Brazilian_1st_Battalion.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Brazilian 1st Battalion Primeiro Tenente" src="https://www.csgodatabase.com/images/agents/webp/Primeiro_Tenente_Brazilian_1st_Battalion.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$54.14</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/primeiro-tenente-brazilian-1st-battalion/">Brazilian 1st Battalion Primeiro Tenente Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/trapper-aggressor-guerrilla-warfare/"><span class="block txt-small txt-dark-grey">Guerrilla Warfare</span><span class="block txt-med txt-white">Trapper Aggressor</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/trapper-aggressor-guerrilla-warfare/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Trapper_Aggressor_Guerrilla_Warfare.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Trapper_Aggressor_Guerrilla_Warfare.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Guerrilla Warfare Trapper Aggressor" src="https://www.csgodatabase.com/images/agents/webp/Trapper_Aggressor_Guerrilla_Warfare.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$25.63</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/trapper-aggressor-guerrilla-warfare/">Guerrilla Warfare Trapper Aggressor Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/d-squadron-officer-nzsas/"><span class="block txt-small txt-dark-grey">NZSAS</span><span class="block txt-med txt-white">D Squadron Officer</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/d-squadron-officer-nzsas/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/D_Squadron_Officer_NZSAS.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/D_Squadron_Officer_NZSAS.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="NZSAS D Squadron Officer" src="https://www.csgodatabase.com/images/agents/webp/D_Squadron_Officer_NZSAS.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$92.53</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/d-squadron-officer-nzsas/">NZSAS D Squadron Officer Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/mr-muhlik-elite-crew/"><span class="block txt-small txt-dark-grey">Elite Crew</span><span class="block txt-med txt-white">Mr. Muhlik</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/mr-muhlik-elite-crew/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Mr._Muhlik_Elite_Crew.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Mr._Muhlik_Elite_Crew.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Elite Crew Mr. Muhlik" src="https://www.csgodatabase.com/images/agents/webp/Mr._Muhlik_Elite_Crew.png">
+									</picture>
+								</div>
+							</a>
+
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/mr-muhlik-elite-crew/">Elite Crew Mr. Muhlik Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/aspirant-gendarmerie-nationale/"><span class="block txt-small txt-dark-grey">Gendarmerie Nationale</span><span class="block txt-med txt-white">Aspirant</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/aspirant-gendarmerie-nationale/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Aspirant_Gendarmerie_Nationale.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Aspirant_Gendarmerie_Nationale.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Gendarmerie Nationale Aspirant" src="https://www.csgodatabase.com/images/agents/webp/Aspirant_Gendarmerie_Nationale.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$13.40</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Riptide Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/aspirant-gendarmerie-nationale/">Gendarmerie Nationale Aspirant Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <hr>
+        <section id="broken-fang">
+            <header>
+                <h2 class="txt-center">Operation Broken Fang Agents</h2>
+            </header>
+    <div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sir-bloody-loudmouth-darryl-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Sir Bloody Loudmouth Darryl</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sir-bloody-loudmouth-darryl-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Loudmouth_Darryl_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Loudmouth_Darryl_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Sir Bloody Loudmouth Darryl" src="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Loudmouth_Darryl_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$79.03</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sir-bloody-loudmouth-darryl-the-professionals/">The Professionals Sir Bloody Loudmouth Darryl Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sir-bloody-miami-darryl-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Sir Bloody Miami Darryl</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sir-bloody-miami-darryl-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Miami_Darryl_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Miami_Darryl_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Sir Bloody Miami Darryl" src="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Miami_Darryl_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$129.72</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sir-bloody-miami-darryl-the-professionals/">The Professionals Sir Bloody Miami Darryl Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sir-bloody-darryl-royale-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Sir Bloody Darryl Royale</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sir-bloody-darryl-royale-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Darryl_Royale_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Darryl_Royale_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Sir Bloody Darryl Royale" src="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Darryl_Royale_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$63.87</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sir-bloody-darryl-royale-the-professionals/">The Professionals Sir Bloody Darryl Royale Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sir-bloody-silent-darryl-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Sir Bloody Silent Darryl</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sir-bloody-silent-darryl-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Silent_Darryl_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Silent_Darryl_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Sir Bloody Silent Darryl" src="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Silent_Darryl_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$46.15</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sir-bloody-silent-darryl-the-professionals/">The Professionals Sir Bloody Silent Darryl Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/cmdr-mae-dead-cold-jamison-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">Cmdr. Mae 'Dead Cold' Jamison</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/cmdr-mae-dead-cold-jamison-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Cmdr._Mae_'Dead_Cold'_Jamison_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Cmdr._Mae_'Dead_Cold'_Jamison_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT Cmdr. Mae " dead="" cold'="" jamison'="" src="https://www.csgodatabase.com/images/agents/webp/Cmdr._Mae_'Dead_Cold'_Jamison_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$22.71</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/cmdr-mae-dead-cold-jamison-swat/">SWAT Cmdr. Mae 'Dead Cold' Jamison Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sir-bloody-skullhead-darryl-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Sir Bloody Skullhead Darryl</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sir-bloody-skullhead-darryl-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Skullhead_Darryl_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Skullhead_Darryl_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Sir Bloody Skullhead Darryl" src="https://www.csgodatabase.com/images/agents/webp/Sir_Bloody_Skullhead_Darryl_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$50.23</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sir-bloody-skullhead-darryl-the-professionals/">The Professionals Sir Bloody Skullhead Darryl Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/number-k-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Number K</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/number-k-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Number_K_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Number_K_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Number K" src="https://www.csgodatabase.com/images/agents/webp/Number_K_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$63.64</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/number-k-the-professionals/">The Professionals Number K Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/safecracker-voltzmann-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Safecracker Voltzmann</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/safecracker-voltzmann-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Safecracker_Voltzmann_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Safecracker_Voltzmann_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Safecracker Voltzmann" src="https://www.csgodatabase.com/images/agents/webp/Safecracker_Voltzmann_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$24.80</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/safecracker-voltzmann-the-professionals/">The Professionals Safecracker Voltzmann Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/1st-lieutenant-farlow-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">1st Lieutenant Farlow</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/1st-lieutenant-farlow-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/1st_Lieutenant_Farlow_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/1st_Lieutenant_Farlow_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT 1st Lieutenant Farlow" src="https://www.csgodatabase.com/images/agents/webp/1st_Lieutenant_Farlow_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$10.80</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/1st-lieutenant-farlow-swat/">SWAT 1st Lieutenant Farlow Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/rezan-the-redshirt-sabre/"><span class="block txt-small txt-dark-grey">Sabre</span><span class="block txt-med txt-white">Rezan the Redshirt</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/rezan-the-redshirt-sabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Rezan_the_Redshirt_Sabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Rezan_the_Redshirt_Sabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre Rezan the Redshirt" src="https://www.csgodatabase.com/images/agents/webp/Rezan_the_Redshirt_Sabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.31</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/rezan-the-redshirt-sabre/">Sabre Rezan the Redshirt Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/two-times-mccoy-tacp-cavalry/"><span class="block txt-small txt-dark-grey">TACP Cavalry</span><span class="block txt-med txt-white">'Two Times' McCoy</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/two-times-mccoy-tacp-cavalry/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Two_Times'_McCoy_TACP_Cavalry.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Two_Times'_McCoy_TACP_Cavalry.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="TACP Cavalry " two="" times'="" mccoy'="" src="https://www.csgodatabase.com/images/agents/webp/'Two_Times'_McCoy_TACP_Cavalry.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.70</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/two-times-mccoy-tacp-cavalry/">TACP Cavalry 'Two Times' McCoy Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/getaway-sally-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Getaway Sally</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/getaway-sally-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Getaway_Sally_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Getaway_Sally_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Getaway Sally" src="https://www.csgodatabase.com/images/agents/webp/Getaway_Sally_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$107.72</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/getaway-sally-the-professionals/">The Professionals Getaway Sally Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/little-kev-the-professionals/"><span class="block txt-small txt-dark-grey">The Professionals</span><span class="block txt-med txt-white">Little Kev</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/little-kev-the-professionals/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Little_Kev_The_Professionals.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Little_Kev_The_Professionals.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="The Professionals Little Kev" src="https://www.csgodatabase.com/images/agents/webp/Little_Kev_The_Professionals.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$47.48</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/little-kev-the-professionals/">The Professionals Little Kev Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/sergeant-bombson-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">Sergeant Bombson</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/sergeant-bombson-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sergeant_Bombson_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Sergeant_Bombson_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT Sergeant Bombson" src="https://www.csgodatabase.com/images/agents/webp/Sergeant_Bombson_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$17.76</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/sergeant-bombson-swat/">SWAT Sergeant Bombson Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/john-van-healen-kask-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">John 'Van Healen' Kask</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/john-van-healen-kask-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/John_'Van_Healen'_Kask_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/John_'Van_Healen'_Kask_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT John " van="" healen'="" kask'="" src="https://www.csgodatabase.com/images/agents/webp/John_'Van_Healen'_Kask_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$17.59</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/john-van-healen-kask-swat/">SWAT John 'Van Healen' Kask Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/blueberries-buckshot-nswc-seal/"><span class="block txt-small txt-dark-grey">NSWC SEAL</span><span class="block txt-med txt-white">'Blueberries' Buckshot</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/blueberries-buckshot-nswc-seal/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Blueberries'_Buckshot_NSWC_SEAL.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Blueberries'_Buckshot_NSWC_SEAL.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="NSWC SEAL " blueberries'="" buckshot'="" src="https://www.csgodatabase.com/images/agents/webp/'Blueberries'_Buckshot_NSWC_SEAL.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$16.78</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/blueberries-buckshot-nswc-seal/">NSWC SEAL 'Blueberries' Buckshot Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/bio-haz-specialist-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">Bio-Haz Specialist</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/bio-haz-specialist-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Bio-Haz_Specialist_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Bio-Haz_Specialist_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT Bio-Haz Specialist" src="https://www.csgodatabase.com/images/agents/webp/Bio-Haz_Specialist_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$12.18</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/bio-haz-specialist-swat/">SWAT Bio-Haz Specialist Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/chem-haz-specialist-swat/"><span class="block txt-small txt-dark-grey">SWAT</span><span class="block txt-med txt-white">Chem-Haz Specialist</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/chem-haz-specialist-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Chem-Haz_Specialist_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Chem-Haz_Specialist_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SWAT Chem-Haz Specialist" src="https://www.csgodatabase.com/images/agents/webp/Chem-Haz_Specialist_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$12.35</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/chem-haz-specialist-swat/">SWAT Chem-Haz Specialist Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/street-soldier-phoenix/"><span class="block txt-small txt-dark-grey">Phoenix</span><span class="block txt-med txt-white">Street Soldier</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/street-soldier-phoenix/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Street_Soldier_Phoenix.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Street_Soldier_Phoenix.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Phoenix Street Soldier" src="https://www.csgodatabase.com/images/agents/webp/Street_Soldier_Phoenix.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$35.59</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/street-soldier-phoenix/">Phoenix Street Soldier Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/dragomir-sabre-footsoldier/"><span class="block txt-small txt-dark-grey">Sabre Footsoldier</span><span class="block txt-med txt-white">Dragomir</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/dragomir-sabre-footsoldier/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Dragomir_Sabre_Footsoldier.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Dragomir_Sabre_Footsoldier.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre Footsoldier Dragomir" src="https://www.csgodatabase.com/images/agents/webp/Dragomir_Sabre_Footsoldier.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.87</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Broken Fang Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/dragomir-sabre-footsoldier/">Sabre Footsoldier Dragomir Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <hr>
+        <section id="shattered-web">
+            <header>
+                <h2 class="txt-center">Operation Shattered Web Agents</h2>
+                <p class="h-caption">Shattered Web agents were given as a reward for completing operation missions in Operation Shattered Web. A Distinguished Agent was unlocked with 28 operation stars, Exceptional Agents unlocked with 52, Superior Agents unlocked with 76 and Master Agents unlocked with 89.</p>
+            </header>
+    <div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/special-agent-ava-fbi/"><span class="block txt-small txt-dark-grey">FBI</span><span class="block txt-med txt-white">Special Agent Ava</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/special-agent-ava-fbi/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Special_Agent_Ava_FBI.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Special_Agent_Ava_FBI.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FBI Special Agent Ava" src="https://www.csgodatabase.com/images/agents/webp/Special_Agent_Ava_FBI.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$23.18</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/special-agent-ava-fbi/">FBI Special Agent Ava Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/the-doctor-romanov-sabre/"><span class="block txt-small txt-dark-grey">Sabre</span><span class="block txt-med txt-white">'The Doctor' Romanov</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/the-doctor-romanov-sabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'The_Doctor'_Romanov_Sabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'The_Doctor'_Romanov_Sabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre " the="" doctor'="" romanov'="" src="https://www.csgodatabase.com/images/agents/webp/'The_Doctor'_Romanov_Sabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$13.76</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/the-doctor-romanov-sabre/">Sabre 'The Doctor' Romanov Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/the-elite-mr-muhlik-elite-crew/"><span class="block txt-small txt-dark-grey">Elite Crew</span><span class="block txt-med txt-white">The Elite Mr. Muhlik</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/the-elite-mr-muhlik-elite-crew/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/The_Elite_Mr._Muhlik_Elite_Crew.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/The_Elite_Mr._Muhlik_Elite_Crew.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Elite Crew The Elite Mr. Muhlik" src="https://www.csgodatabase.com/images/agents/webp/The_Elite_Mr._Muhlik_Elite_Crew.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$13.38</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/the-elite-mr-muhlik-elite-crew/">Elite Crew The Elite Mr. Muhlik Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/lt-commander-ricksaw-nswc-seal/"><span class="block txt-small txt-dark-grey">NSWC SEAL</span><span class="block txt-med txt-white">Lt. Commander Ricksaw</span></a></h3>
+						<div class="item-box-container">
+							<div class="covert">Master Agent</div>
+							<a href="https://www.csgodatabase.com/agents/lt-commander-ricksaw-nswc-seal/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Lt._Commander_Ricksaw_NSWC_SEAL.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Lt._Commander_Ricksaw_NSWC_SEAL.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="NSWC SEAL Lt. Commander Ricksaw" src="https://www.csgodatabase.com/images/agents/webp/Lt._Commander_Ricksaw_NSWC_SEAL.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$18.98</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/lt-commander-ricksaw-nswc-seal/">NSWC SEAL Lt. Commander Ricksaw Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/blackwolf-sabre/"><span class="block txt-small txt-dark-grey">Sabre</span><span class="block txt-med txt-white">Blackwolf</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/blackwolf-sabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Blackwolf_Sabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Blackwolf_Sabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre Blackwolf" src="https://www.csgodatabase.com/images/agents/webp/Blackwolf_Sabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.51</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/blackwolf-sabre/">Sabre Blackwolf Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/rezan-the-ready-sabre/"><span class="block txt-small txt-dark-grey">Sabre</span><span class="block txt-med txt-white">Rezan The Ready</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/rezan-the-ready-sabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Rezan_The_Ready_Sabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Rezan_The_Ready_Sabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre Rezan The Ready" src="https://www.csgodatabase.com/images/agents/webp/Rezan_The_Ready_Sabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.12</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/rezan-the-ready-sabre/">Sabre Rezan The Ready Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/two-times-mccoy-usaf-tacp/"><span class="block txt-small txt-dark-grey">USAF TACP</span><span class="block txt-med txt-white">'Two Times' McCoy</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/two-times-mccoy-usaf-tacp/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Two_Times'_McCoy_USAF_TACP.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/'Two_Times'_McCoy_USAF_TACP.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="USAF TACP " two="" times'="" mccoy'="" src="https://www.csgodatabase.com/images/agents/webp/'Two_Times'_McCoy_USAF_TACP.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.43</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/two-times-mccoy-usaf-tacp/">USAF TACP 'Two Times' McCoy Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/prof-shahmat-elite-crew/"><span class="block txt-small txt-dark-grey">Elite Crew</span><span class="block txt-med txt-white">Prof. Shahmat</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/prof-shahmat-elite-crew/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Prof._Shahmat_Elite_Crew.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Prof._Shahmat_Elite_Crew.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Elite Crew Prof. Shahmat" src="https://www.csgodatabase.com/images/agents/webp/Prof._Shahmat_Elite_Crew.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.76</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/prof-shahmat-elite-crew/">Elite Crew Prof. Shahmat Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/michael-syfers-fbi-sniper/"><span class="block txt-small txt-dark-grey">FBI Sniper</span><span class="block txt-med txt-white">Michael Syfers</span></a></h3>
+						<div class="item-box-container">
+							<div class="classified">Superior Agent</div>
+							<a href="https://www.csgodatabase.com/agents/michael-syfers-fbi-sniper/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Michael_Syfers_FBI_Sniper.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Michael_Syfers_FBI_Sniper.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FBI Sniper Michael Syfers" src="https://www.csgodatabase.com/images/agents/webp/Michael_Syfers_FBI_Sniper.png">
+									</picture>
+								</div>
+							</a>
+
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/michael-syfers-fbi-sniper/">FBI Sniper Michael Syfers Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/slingshot-phoenix/"><span class="block txt-small txt-dark-grey">Phoenix</span><span class="block txt-med txt-white">Slingshot</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/slingshot-phoenix/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Slingshot_Phoenix.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Slingshot_Phoenix.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Phoenix Slingshot" src="https://www.csgodatabase.com/images/agents/webp/Slingshot_Phoenix.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$14.07</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/slingshot-phoenix/">Phoenix Slingshot Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/buckshot-nswc-seal/"><span class="block txt-small txt-dark-grey">NSWC SEAL</span><span class="block txt-med txt-white">Buckshot</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/buckshot-nswc-seal/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Buckshot_NSWC_SEAL.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Buckshot_NSWC_SEAL.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="NSWC SEAL Buckshot" src="https://www.csgodatabase.com/images/agents/webp/Buckshot_NSWC_SEAL.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$8.24</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/buckshot-nswc-seal/">NSWC SEAL Buckshot Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/osiris-elite-crew/"><span class="block txt-small txt-dark-grey">Elite Crew</span><span class="block txt-med txt-white">Osiris</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/osiris-elite-crew/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Osiris_Elite_Crew.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Osiris_Elite_Crew.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Elite Crew Osiris" src="https://www.csgodatabase.com/images/agents/webp/Osiris_Elite_Crew.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$11.63</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/osiris-elite-crew/">Elite Crew Osiris Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/maximus-sabre/"><span class="block txt-small txt-dark-grey">Sabre</span><span class="block txt-med txt-white">Maximus</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/maximus-sabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Maximus_Sabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Maximus_Sabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre Maximus" src="https://www.csgodatabase.com/images/agents/webp/Maximus_Sabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$8.66</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/maximus-sabre/">Sabre Maximus Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/dragomir-sabre/"><span class="block txt-small txt-dark-grey">Sabre</span><span class="block txt-med txt-white">Dragomir</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/dragomir-sabre/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Dragomir_Sabre.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Dragomir_Sabre.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Sabre Dragomir" src="https://www.csgodatabase.com/images/agents/webp/Dragomir_Sabre.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$8.38</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/dragomir-sabre/">Sabre Dragomir Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/markus-delrow-fbi-hrt/"><span class="block txt-small txt-dark-grey">FBI HRT</span><span class="block txt-med txt-white">Markus Delrow</span></a></h3>
+						<div class="item-box-container">
+							<div class="restricted">Exceptional Agent</div>
+							<a href="https://www.csgodatabase.com/agents/markus-delrow-fbi-hrt/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Markus_Delrow_FBI_HRT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Markus_Delrow_FBI_HRT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FBI HRT Markus Delrow" src="https://www.csgodatabase.com/images/agents/webp/Markus_Delrow_FBI_HRT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$9.34</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/markus-delrow-fbi-hrt/">FBI HRT Markus Delrow Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/3rd-commando-company-ksk/"><span class="block txt-small txt-dark-grey">KSK</span><span class="block txt-med txt-white">3rd Commando Company</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/3rd-commando-company-ksk/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/3rd_Commando_Company_KSK.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/3rd_Commando_Company_KSK.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="KSK 3rd Commando Company" src="https://www.csgodatabase.com/images/agents/webp/3rd_Commando_Company_KSK.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$12.38</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/3rd-commando-company-ksk/">KSK 3rd Commando Company Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/seal-team-6-soldier-nswc-seal/"><span class="block txt-small txt-dark-grey">NSWC SEAL</span><span class="block txt-med txt-white">Seal Team 6 Soldier</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/seal-team-6-soldier-nswc-seal/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Seal_Team_6_Soldier_NSWC_SEAL.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Seal_Team_6_Soldier_NSWC_SEAL.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="NSWC SEAL Seal Team 6 Soldier" src="https://www.csgodatabase.com/images/agents/webp/Seal_Team_6_Soldier_NSWC_SEAL.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$10.70</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/seal-team-6-soldier-nswc-seal/">NSWC SEAL Seal Team 6 Soldier Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/b-squadron-officer-sas/"><span class="block txt-small txt-dark-grey">SAS</span><span class="block txt-med txt-white">B Squadron Officer</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/b-squadron-officer-sas/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/B_Squadron_Officer_SAS.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/B_Squadron_Officer_SAS.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="SAS B Squadron Officer" src="https://www.csgodatabase.com/images/agents/webp/B_Squadron_Officer_SAS.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$13.20</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/b-squadron-officer-sas/">SAS B Squadron Officer Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/enforcer-phoenix/"><span class="block txt-small txt-dark-grey">Phoenix</span><span class="block txt-med txt-white">Enforcer</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/enforcer-phoenix/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Enforcer_Phoenix.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Enforcer_Phoenix.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Phoenix Enforcer" src="https://www.csgodatabase.com/images/agents/webp/Enforcer_Phoenix.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$8.26</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/enforcer-phoenix/">Phoenix Enforcer Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/operator-fbi-swat/"><span class="block txt-small txt-dark-grey">FBI SWAT</span><span class="block txt-med txt-white">Operator</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/operator-fbi-swat/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Operator_FBI_SWAT.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Operator_FBI_SWAT.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="FBI SWAT Operator" src="https://www.csgodatabase.com/images/agents/webp/Operator_FBI_SWAT.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$12.07</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/operator-fbi-swat/">FBI SWAT Operator Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/soldier-phoenix/"><span class="block txt-small txt-dark-grey">Phoenix</span><span class="block txt-med txt-white">Soldier</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/soldier-phoenix/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Soldier_Phoenix.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Soldier_Phoenix.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Phoenix Soldier" src="https://www.csgodatabase.com/images/agents/webp/Soldier_Phoenix.png">
+									</picture>
+								</div>
+							</a>
+			<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$8.09</span></span>
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/soldier-phoenix/">Phoenix Soldier Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col l4 m6 s12">
+					<div class="item-box" style="padding: 6px 10px">
+						<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/agents/ground-rebel-elite-crew/"><span class="block txt-small txt-dark-grey">Elite Crew</span><span class="block txt-med txt-white">Ground Rebel</span></a></h3>
+						<div class="item-box-container">
+							<div class="mil-spec">Distinguished Agent</div>
+							<a href="https://www.csgodatabase.com/agents/ground-rebel-elite-crew/">
+								<div class="image-container">
+									<picture>
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Ground_Rebel_Elite_Crew.webp" type="image/webp">
+										<source srcset="https://www.csgodatabase.com/images/agents/webp/Ground_Rebel_Elite_Crew.png" type="image/png">
+										<img class="responsive-image" height="160" loading="lazy" alt="Elite Crew Ground Rebel" src="https://www.csgodatabase.com/images/agents/webp/Ground_Rebel_Elite_Crew.png">
+									</picture>
+								</div>
+							</a>
+
+							<div class="collection-skinbox">
+								<span class="block">Shattered Web Agents</span>
+            <a style="font-size:11px" href="https://www.csgodatabase.com/agents/ground-rebel-elite-crew/">Elite Crew Ground Rebel Skin &amp; Pricing Details</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
+
+        <hr>
+        <section>
+            <header>
+                <h2>About CS2 Agents</h2>
+            </header>
+            <p>All CS2 agents can be used on any map and enable the player to customise their in-game appearance for both T and CT-side. If a player does not own any agents then the default Local Agent or Operator will be equipped and used in-game.</p>
+            <p>Master Agents have unique voices and cheers which can be heard at the start of a round and when using various radio commands.</p>
+            <p>When the agent is equipped in the player loadout they appear during the End-of-Match accolades instead of the default agent for the respective map.</p>
+            <h3>How to obtain an Agent?</h3>
+            <p>Players who did not partake in an operation can acquire a CS2 agent through trading or purchasing from the Steam Community Market.</p>
+            <h3>Factions</h3>
+            <p>All agents belong to a faction. All factions are listed below:</p>
+    <ul><li>Brazilian 1st Battalion</li><li>Elite Crew</li><li>FBI</li><li>FBI HRT</li><li>FBI Sniper</li><li>FBI SWAT</li><li>Gendarmerie Nationale</li><li>Guerrilla Warfare</li><li>KSK</li><li>NSWC SEAL</li><li>NZSAS</li><li>Phoenix</li><li>Sabre</li><li>Sabre Footsoldier</li><li>SAS</li><li>SEAL Frogman</li><li>SWAT</li><li>TACP Cavalry</li><li>The Professionals</li><li>USAF TACP</li></ul>
+        </section>
+        <hr>
+        <section>
+            <header>
+                <h2>Controversy surrounding Agent skins</h2>
+            </header>
+            <p>The release of Operation Shattered Web in November 2019 marked a significant moment for CS:GO, a game celebrated for its competitive purity and minimalistic design. This operation introduced Agent skins; character models that players could use to replace the default terrorist and counter-terrorist appearances. This change sparked a flurry of controversy and debate within the community, centering on concerns about the game's direction and the potential impact on gameplay fairness.</p>
+            <p>One of the primary concerns was that CS:GO was beginning to emulate games like Fortnite, which are known for their highly customizable and sometimes flamboyant character skins. Critics argued that this shift towards more vibrant and varied character appearances could undermine the game's long-established aesthetic, which favored a more subdued, tactical look that aligned with its realistic, military-inspired gameplay. This departure towards a more commercial and casual gaming model was seen as a potential dilution of the CS:GO brand, which had traditionally prioritized competitive integrity over visual flair.</p>
+            <p>The controversy intensified with complaints about the tactical disadvantage posed by certain skins. Players noted that some of the new Agent skins blended too well with certain backgrounds and environments, providing a camouflage effect that could be exploited. For example, the 'The Elite Mr. Muhlik' skin, which featured darker tones, was particularly difficult to spot in shadowy areas of maps. This led to accusations that the game was veering towards a 'pay-to-win' model, where players could potentially gain a competitive edge by purchasing specific skins. This was antithetical to the ethos of fair play that CS:GO had cultivated over the years.</p>
+            <p>In response to these concerns, several competitive leagues and tournaments took the unprecedented step of banning the use of certain Agent skins in official matches. This decision underscored the severity of the issue, as the competitive scene of CS:GO is central to its community and reputation. Leagues such as the <a href="https://afkgaming.com/csgo/news/2851-new-character-model-skins-banned-by-esea-esl-and-faceit" target="_blank" rel="noopener">ESL and FACEIT prohibited these agent skins</a> to ensure that all players competed on a level playing field, preventing any potential advantages derived from skin-induced camouflage.</p>
+            <p>Valve responded to the backlash by implementing changes aimed at addressing the community's concerns. They introduced patches that adjusted the visibility of certain problematic agents and modified some map textures to reduce the likelihood of agents blending into backgrounds. However, these adjustments were met with mixed reactions, as some players felt that the changes were insufficient to fully address the issue.</p>
+        </section>
+    							</div>
+		</section>
+	</article>
+</main>
+<footer id="footer">
+	<div class="bg-grey">
+		<div class="wrapper row">
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+				<span class="block txt-med" style="font-weight:700;margin:20px 0;">CS2 Skin Database</span>
+				<div class="row">
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/agents/">All Agents</a></li>
+							<li class="footer-list-link"><a href="/cases/">All Cases</a></li>
+							<li class="footer-list-link"><a href="/collections/">All Collections</a></li>
+							<li class="footer-list-link"><a href="/gloves/">All Gloves</a></li>
+							<li class="footer-list-link"><a href="/patches/">All Patches</a></li>
+							<li class="footer-list-link"><a href="/collectible-pins/">All Pins</a></li>
+						</ul>
+					</div>
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/skins/">All Skins</a></li>
+							<li class="footer-list-link"><a href="/souvenir-packages/">All Souvenir Packages</a></li>
+							<li class="footer-list-link"><a href="/stickers/">All Stickers</a></li>
+							<li class="footer-list-link"><a href="/sticker-capsules/">All Sticker Capsules</a></li>
+							<li class="footer-list-link"><a href="/weapons/">All Weapons</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Features</span>
+					<ul class="footer-list">
+						<li class="footer-list-link"><a href="/csgo-steam-status/">CS2 Steam Server Status</a></li>
+						<li class="footer-list-link"><a href="/csgo-skin-price-comparison-tool/">Best Deals on CS2 Skins - Price Comparison Tool</a></li>
+						<li class="footer-list-link"><a href="/search/">Search CS2 Skin Database</a></li>
+						<li class="footer-list-link"><a href="/rarity/">CS2 Skins by Rarity</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col l4 m12 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Recent CS2/CS:GO Updates</span>
+					<ul class="footer-list">
+						<li class="footer-list-link">01 Apr 2025 - <a href="/cases/fever-case/">Fever Case</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-ascent-collection/">Ascent Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-boreal-collection/">Boreal Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-radiant-collection/">Radiant Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-train-2025-collection/">Train 2024 Collection</a></li>
+						<li class="footer-list-link">02 Oct 2024 - <a href="/collections/limited-edition-item/">Limited Edition Item</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-footer-outer">
+		<div id="main-footer-inner">
+			<picture>
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+				<img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" height="20px" width="131.75px" alt="CS2DB logo">
+			</picture>
+			<p class="copyright-notice"><a href="/about/">About</a> | <a href="/contact/">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+			<p class="copyright-notice"><a href="https://www.facebook.com/csgodatabase" title="Like us on Facebook" target="_blank" rel="noopener">Like on Facebook</a> | <a href="https://twitter.com/csgodatabase" title="Follow us on Twitter" target="_blank" rel="noopener">Follow on X</a> | <a href="https://steamcommunity.com/groups/csgodatabase" title="Join CSGO Database Steam Group" target="_blank" rel="noopener">Join Steam Group</a></p><br>
+			<p class="copyright-notice">This site is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners.</p>
+			<p class="copyright-notice">We may earn a commission from qualifying purchases made via some third party links on our website.</p>
+			<p class="copyright-notice">Copyright © 2016-2025 CSGODatabase Ltd. Powered by <a href="https://store.steampowered.com/">Steam</a>.</p>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" id="cookie-notice-front-css" href="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all">
+<script src="https://stats.wp.com/e-202547.js" defer="" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.1',blog:'117343886',post:'5649',tz:'0',srv:'www.csgodatabase.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117343886', '5649' ]);
+</script>
+
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-slide cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">CSGO Database uses cookies to improve your experience. These cookies are enabled by default.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Accept the use of cookies" style="background-color: #00a99d">Accept the use of cookies</button><button data-link-url="https://www.csgodatabase.com/privacy-policy/" data-link-target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="Privacy policy" style="background-color: #00a99d">Privacy policy</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+
+		</div>
+		<!-- / Cookie Notice plugin --><script type="text/javascript">
+	function tableFunction() {
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	}
+</script>
+
+            <aside class="ad-rail ad-rail--left" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <a href="https://trk.clash.gg/click?o=2&amp;a=672&amp;c=33"><img src="/images/partners/clash-banner-en.webp" style="width:200px" alt="Clash.gg"></a>
+            </div>
+            </aside>
+            <aside class="ad-rail ad-rail--right" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <iframe src="https://spinner.csgodatabase.com/embed-ad/tomb-raid?initialWidth=400&amp;initialHeight=600&amp;redirect=https%3A%2F%2Ftrk.clash.gg%2Fclick%3Fo%3D2%26a%3D672%26c%3D33&amp;spinText=Try%20Now&amp;headerText=Win%20Free%20Cases&amp;winChance=0.8&amp;freeItemName=Premium%20Box&amp;winText=Congratulations!%20You%20won%203%20premium%20boxes!&amp;claimButtonText=Get%20Now&amp;countdownSeconds=30" width="240" height="600" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            </aside>
+
+</body></html>

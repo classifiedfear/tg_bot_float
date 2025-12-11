@@ -1,0 +1,2247 @@
+<html lang="en"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="counter strike global offensive, csgo, counter strike 2, cs2, skins, cases, items">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="msapplication-TileColor" content="#111111">
+		<meta name="theme-color" content="#111111">
+		<meta name="apple-mobile-web-app-title" content="CSGO Database">
+		<meta name="application-name" content="CSGO Database">
+		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+		<link rel="manifest" href="/manifest.json">
+				<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="EzsET7dwq4V_W_VVvIVVcUxS8_-ece528NxwaDe8fgM">
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.13 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>All 72 skins for CS2 Gloves - CSGO Database</title>
+	<meta name="description" content="Explore all CS2 gloves, including how to obtain them, featured cases, and their rarities. Stay updated on the latest glove releases and find market prices.">
+	<link rel="canonical" href="https://www.csgodatabase.com/gloves/">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="All 72 skins for CS2 Gloves - CSGO Database">
+	<meta property="og:description" content="Explore all CS2 gloves, including how to obtain them, featured cases, and their rarities. Stay updated on the latest glove releases and find market prices.">
+	<meta property="og:url" content="https://www.csgodatabase.com/gloves/">
+	<meta property="og:site_name" content="CSGO Database">
+	<meta property="article:publisher" content="https://www.facebook.com/CSGODatabase/">
+	<meta property="article:modified_time" content="2024-05-18T14:40:41+00:00">
+	<meta property="og:image" content="https://www.csgodatabase.com/wp-content/uploads/2024/05/Sport_Gloves_Vice.png">
+	<meta property="og:image:width" content="512">
+	<meta property="og:image:height" content="384">
+	<meta property="og:image:type" content="image/png">
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.csgodatabase.com/gloves/","url":"https://www.csgodatabase.com/gloves/","name":"All 72 skins for CS2 Gloves - CSGO Database","isPartOf":{"@id":"https://www.csgodatabase.com/#website"},"primaryImageOfPage":{"@id":"https://www.csgodatabase.com/gloves/#primaryimage"},"image":{"@id":"https://www.csgodatabase.com/gloves/#primaryimage"},"thumbnailUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/05/Sport_Gloves_Vice.png","datePublished":"2021-02-13T14:26:43+00:00","dateModified":"2024-05-18T14:40:41+00:00","description":"Explore all CS2 gloves, including how to obtain them, featured cases, and their rarities. Stay updated on the latest glove releases and find market prices.","breadcrumb":{"@id":"https://www.csgodatabase.com/gloves/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.csgodatabase.com/gloves/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/gloves/#primaryimage","url":"https://www.csgodatabase.com/wp-content/uploads/2024/05/Sport_Gloves_Vice.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/05/Sport_Gloves_Vice.png","width":512,"height":384},{"@type":"BreadcrumbList","@id":"https://www.csgodatabase.com/gloves/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"CSGO Database","item":"https://www.csgodatabase.com/"},{"@type":"ListItem","position":2,"name":"CS2 Gloves"}]},{"@type":"WebSite","@id":"https://www.csgodatabase.com/#website","url":"https://www.csgodatabase.com/","name":"CSGO Database","description":"CS2 skins, knives, cases and more","publisher":{"@id":"https://www.csgodatabase.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.csgodatabase.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.csgodatabase.com/#organization","name":"CSGO Database","alternateName":"CS2DB","url":"https://www.csgodatabase.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.csgodatabase.com/#/schema/logo/image/","url":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","contentUrl":"https://www.csgodatabase.com/wp-content/uploads/2024/08/CS2DB_Ico.png","width":709,"height":709,"caption":"CSGO Database"},"image":{"@id":"https://www.csgodatabase.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/CSGODatabase/","https://twitter.com/csgodatabase"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Feed" href="https://www.csgodatabase.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="CSGO Database » Comments Feed" href="https://www.csgodatabase.com/comments/feed/">
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="csdbv2-style-css" href="https://www.csgodatabase.com/wp-content/themes/csdbv2/style.css" type="text/css" media="all">
+<script type="text/javascript" id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.csgodatabase.com\/wp-admin\/admin-ajax.php","nonce":"88639de398","hideEffect":"slide","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" defer="" src="https://www.csgodatabase.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://www.csgodatabase.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.csgodatabase.com/wp-json/wp/v2/pages/54242"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.csgodatabase.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.csgodatabase.com/wp-includes/wlwmanifest.xml">
+<link rel="shortlink" href="https://www.csgodatabase.com/?p=54242">
+<link rel="alternate" type="application/json+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fgloves%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.csgodatabase.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csgodatabase.com%2Fgloves%2F&amp;format=xml">
+<style>img#wpstats{display:none}</style>
+			<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SDFW078N6F" type="text/javascript"></script>
+		<script type="text/javascript">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-SDFW078N6F');
+		</script>
+	</head>
+	<body class="page-template-default page page-id-54242 page-parent wp-embed-responsive cookies-not-set">
+		<header id="nav-menu" aria-label="navigation bar">
+  <nav class="nav-bar">
+	  <div class="nav-container">
+		  <input type="checkbox" id="drop-down-cbox">
+		  <label for="drop-down-cbox">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+		  </label>
+		  <div class="site-logo"><a href="/" aria-label="Home"><picture>
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+			  <source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+			  <img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" alt="CSGO Database logo">
+			  </picture></a></div>
+		  <span id="contact-icon">
+			  <a href="/search/" title="Search CSGO Database"><svg id="mail-icon" class="search-icon" width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></a>
+		  </span>
+		  <ul class="main-nav">
+			  <li><a href="/skins/">Skins</a></li>
+			  <li><a href="/csgo-skin-price-comparison-tool/">Compare Prices</a></li>
+			  <li><a href="/cases/">Cases</a></li>
+			  <li><a href="/collections/">Collections</a></li>
+			  <li><a href="/weapons/">Weapons</a></li>
+			  <li><a href="/stickers/">Stickers</a></li>
+			  <li><a href="/gloves/">Gloves</a></li>
+			  <li><a href="/agents/">Agents</a></li>
+              <li><a href="/charms/">Charms</a></li>
+			  <li><a href="/collectible-pins/">Pins</a></li>
+			  <li><a href="/csgo-steam-status/">Status</a></li>
+		  </ul>
+		  <form method="GET" class="search" role="search" action="/search/">
+			  <div class="search-container">
+				  <svg class="search-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg><input type="search" name="search" class="search-input" aria-label="Search" placeholder="Search CS2 Database">
+			  </div>
+		  </form>
+	  </div>
+	</nav>
+</header>
+<div class="header-before"></div>
+
+		<div style="background-color:#000;padding:2px 0;"><div class="wrapper"><p></p><p id="breadcrumbs" style="font-size:13px !important;"><span><span><a href="https://www.csgodatabase.com/">CSGO Database</a></span> » <span class="breadcrumb_last" aria-current="page"><strong>CS2 Gloves</strong></span></span></p><p></p></div></div>		<a href="#content" class="skip-link screen-reader-text">Skip to the content</a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg>		<main><header class="header">
+	<div id="outer-title" style="margin-bottom:20px;background-color:#0071e3;">
+		<div id="inner-title">
+			<h1 class="entry-title">CS2 Gloves</h1>
+		</div>
+	</div>
+</header>
+	<article id="post-54242" class="post-54242 page type-page status-publish has-post-thumbnail hentry">
+		<section class="entry-content">
+		<div class="wrapper">
+
+		<div class="flex flex-vertical-center" style="flex-wrap:wrap;">
+			<div style="padding:10px;height:200px;width:320px;">
+				<picture>
+					<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Marble_Fade.webp" type="image/webp">
+					<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Marble_Fade.png" type="image/png">
+					<img style="max-height:200px;" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Marble_Fade.png" alt="A pair of CS2 gloves">
+				</picture>
+			</div>
+			<div style="padding:10px;height:auto;width:500px;">
+				<p class="h-caption" style="text-align:left"><strong>CS2 Glove skins</strong> were first introduced in CS:GO on 28 November 2016 as part of the <a href="https://blog.counter-strike.net/index.php/2016/11/17081/" rel="external" target="_blank">Brothers In Arms update</a>. They first appeared as the rare special item (replacing knives) in the <a href="/cases/glove-case/">Glove Case</a> with 24 unique glove skins being available.</p>
+				<p class="h-caption" style="text-align:left">Typically one weapon case each year (excluding 2019 and 2024) includes gloves as the rare special item. Since 2016, a total of 72 glove skins have been released.</p>
+			</div>
+		</div>
+		<hr>
+
+        <section>
+            <header>
+                <h2>Which CS2 weapon cases contain Gloves?</h2>
+                <p>Gloves are featured as the rare special item in seven <a href="/cases/">CS2 weapon cases</a>: Glove Case, Operation Hydra Case, Clutch Case, Operation Broken Fang Case, Snakebite Case, Recoil Case and the Revolution Case.</p>
+                <p>The probability of unboxing a glove skin from a weapon case is 0.26%, which is the same probability of unboxing a <a href="/weapons/">non-StatTrak knife skin</a>.</p>
+            </header>
+            <div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/revolution-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Revolution Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/revolution-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Revolution_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Revolution_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Revolution Case" src="https://www.csgodatabase.com/images/containers/webp/Revolution_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$0.4</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 09 February 2023</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/recoil-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Recoil Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/recoil-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Recoil_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Recoil_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Recoil Case" src="https://www.csgodatabase.com/images/containers/webp/Recoil_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$0.26</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 01 July 2022</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/snakebite-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Snakebite Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/snakebite-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Snakebite_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Snakebite_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Snakebite Case" src="https://www.csgodatabase.com/images/containers/webp/Snakebite_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$0.61</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 03 May 2021</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/operation-broken-fang-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Operation Broken Fang Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/operation-broken-fang-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Operation_Broken_Fang_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Operation_Broken_Fang_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Operation Broken Fang Case" src="https://www.csgodatabase.com/images/containers/webp/Operation_Broken_Fang_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$7.75</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 03 December 2020</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/clutch-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Clutch Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/clutch-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Clutch_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Clutch_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Clutch Case" src="https://www.csgodatabase.com/images/containers/webp/Clutch_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$0.91</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 14 February 2018</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/operation-hydra-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Operation Hydra Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/operation-hydra-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Operation_Hydra_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Operation_Hydra_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Operation Hydra Case" src="https://www.csgodatabase.com/images/containers/webp/Operation_Hydra_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$23.68</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 23 May 2017</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/cases/glove-case/"><span class="block txt-small txt-dark-grey">Weapon Case</span><span class="block txt-med txt-white">Glove Case</span></a></h3>
+					<div class="item-box-container">
+						<div class="consumer" style="color:#111;">Consumer Grade Container</div>
+						<a href="https://www.csgodatabase.com/cases/glove-case/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Glove_Case.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/containers/webp/Glove_Case.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Glove Case" src="https://www.csgodatabase.com/images/containers/webp/Glove_Case.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small txt-dark-grey">Offers starting from</span><span class="block txt-small"><span class="price">$12.24</span></span>
+						<div class="collection-skinbox">
+							<span class="block">Introduced: 28 November 2016</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+        </section>
+		<hr>
+
+        <section>
+            <header>
+                <h2 class="txt-center">All CS2 Gloves</h2>
+                <p class="h-caption">Browse and buy CS2 glove skins.</p>
+            </header>
+    <div style="display: flex; flex-wrap: wrap;margin-left: -1rem;margin-right:-1rem;">
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-bronzed/"><span class="block txt-small txt-dark-grey">Bloodhound Gloves</span><span class="block txt-med txt-white">Bronzed</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-bronzed/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Bloodhound_Gloves_Bronzed.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Bronzed.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Bloodhound Gloves Bronzed" src="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Bronzed.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$82.18</span> - <span class="price">$409.18</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/bloodhound-gloves-bronzed/">Bloodhound Gloves Bronzed Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-charred/"><span class="block txt-small txt-dark-grey">Bloodhound Gloves</span><span class="block txt-med txt-white">Charred</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-charred/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Bloodhound_Gloves_Charred.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Charred.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Bloodhound Gloves Charred" src="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Charred.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$109.95</span> - <span class="price">$474.42</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/bloodhound-gloves-charred/">Bloodhound Gloves Charred Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-guerrilla/"><span class="block txt-small txt-dark-grey">Bloodhound Gloves</span><span class="block txt-med txt-white">Guerrilla</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-guerrilla/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Bloodhound_Gloves_Guerrilla.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Guerrilla.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Bloodhound Gloves Guerrilla" src="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Guerrilla.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$94.02</span> - <span class="price">$462.48</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/bloodhound-gloves-guerrilla/">Bloodhound Gloves Guerrilla Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-snakebite/"><span class="block txt-small txt-dark-grey">Bloodhound Gloves</span><span class="block txt-med txt-white">Snakebite</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/bloodhound-gloves-snakebite/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Bloodhound_Gloves_Snakebite.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Snakebite.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Bloodhound Gloves Snakebite" src="https://www.csgodatabase.com/images/gloves/Bloodhound_Gloves_Snakebite.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$83.28</span> - <span class="price">$1036.96</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/bloodhound-gloves-snakebite/">Bloodhound Gloves Snakebite Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-jade/"><span class="block txt-small txt-dark-grey">Broken Fang Gloves</span><span class="block txt-med txt-white">Jade</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-jade/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Broken_Fang_Gloves_Jade.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Jade.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Broken Fang Gloves Jade" src="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Jade.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$80.33</span> - <span class="price">$244.06</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/broken-fang-gloves-jade/">Broken Fang Gloves Jade Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-needle-point/"><span class="block txt-small txt-dark-grey">Broken Fang Gloves</span><span class="block txt-med txt-white">Needle Point</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-needle-point/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Broken_Fang_Gloves_Needle_Point.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Needle_Point.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Broken Fang Gloves Needle Point" src="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Needle_Point.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$56.22</span> - <span class="price">$650.00</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/broken-fang-gloves-needle-point/">Broken Fang Gloves Needle Point Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-unhinged/"><span class="block txt-small txt-dark-grey">Broken Fang Gloves</span><span class="block txt-med txt-white">Unhinged</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-unhinged/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Broken_Fang_Gloves_Unhinged.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Unhinged.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Broken Fang Gloves Unhinged" src="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Unhinged.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$61.49</span> - <span class="price">$163.48</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/broken-fang-gloves-unhinged/">Broken Fang Gloves Unhinged Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-yellow-banded/"><span class="block txt-small txt-dark-grey">Broken Fang Gloves</span><span class="block txt-med txt-white">Yellow-banded</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/broken-fang-gloves-yellow-banded/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Broken_Fang_Gloves_Yellow-banded.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Yellow-banded.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Broken Fang Gloves Yellow-banded" src="https://www.csgodatabase.com/images/gloves/Broken_Fang_Gloves_Yellow-banded.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$54.35</span> - <span class="price">$249.80</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/broken-fang-gloves-yellow-banded/">Broken Fang Gloves Yellow-banded Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-black-tie/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Black Tie</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-black-tie/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Black_Tie.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Black_Tie.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Black Tie" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Black_Tie.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$120.00</span> - <span class="price">$713.75</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-black-tie/">Driver Gloves Black Tie Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-convoy/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Convoy</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-convoy/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Convoy.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Convoy.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Convoy" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Convoy.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$104.86</span> - <span class="price">$910.84</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-convoy/">Driver Gloves Convoy Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-crimson-weave/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Crimson Weave</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-crimson-weave/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Crimson_Weave.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Crimson_Weave.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Crimson Weave" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Crimson_Weave.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$178.70</span> - <span class="price">$2025.78</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-crimson-weave/">Driver Gloves Crimson Weave Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-diamondback/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Diamondback</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-diamondback/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Diamondback.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Diamondback.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Diamondback" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Diamondback.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$119.50</span> - <span class="price">$2603.49</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-diamondback/">Driver Gloves Diamondback Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-imperial-plaid/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Imperial Plaid</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-imperial-plaid/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Imperial_Plaid.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Imperial_Plaid.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Imperial Plaid" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Imperial_Plaid.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$180.03</span> - <span class="price">$900.67</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-imperial-plaid/">Driver Gloves Imperial Plaid Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-king-snake/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">King Snake</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-king-snake/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_King_Snake.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_King_Snake.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves King Snake" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_King_Snake.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$139.80</span> - <span class="price">$7325.01</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-king-snake/">Driver Gloves King Snake Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-lunar-weave/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Lunar Weave</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-lunar-weave/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Lunar_Weave.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Lunar_Weave.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Lunar Weave" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Lunar_Weave.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$103.50</span> - <span class="price">$1251.92</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-lunar-weave/">Driver Gloves Lunar Weave Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-overtake/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Overtake</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-overtake/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Overtake.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Overtake.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Overtake" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Overtake.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$57.27</span> - <span class="price">$1224.49</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-overtake/">Driver Gloves Overtake Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-queen-jaguar/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Queen Jaguar</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-queen-jaguar/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Queen_Jaguar.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Queen_Jaguar.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Queen Jaguar" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Queen_Jaguar.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$55.84</span> - <span class="price">$209.17</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-queen-jaguar/">Driver Gloves Queen Jaguar Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-racing-green/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Racing Green</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-racing-green/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Racing_Green.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Racing_Green.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Racing Green" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Racing_Green.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$39.53</span> - <span class="price">$140.13</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-racing-green/">Driver Gloves Racing Green Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-rezan-the-red/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Rezan the Red</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-rezan-the-red/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Rezan_the_Red.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Rezan_the_Red.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Rezan the Red" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Rezan_the_Red.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$72.11</span> - <span class="price">$972.07</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-rezan-the-red/">Driver Gloves Rezan the Red Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/driver-gloves-snow-leopard/"><span class="block txt-small txt-dark-grey">Driver Gloves</span><span class="block txt-med txt-white">Snow Leopard</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/driver-gloves-snow-leopard/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Driver_Gloves_Snow_Leopard.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Snow_Leopard.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Driver Gloves Snow Leopard" src="https://www.csgodatabase.com/images/gloves/Driver_Gloves_Snow_Leopard.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$265.13</span> - <span class="price">$4280.96</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/driver-gloves-snow-leopard/">Driver Gloves Snow Leopard Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-arboreal/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Arboreal</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-arboreal/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Arboreal.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Arboreal.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Arboreal" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Arboreal.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$54.66</span> - <span class="price">$418.96</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-arboreal/">Hand Wraps Arboreal Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-badlands/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Badlands</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-badlands/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Badlands.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Badlands.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Badlands" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Badlands.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$153.34</span> - <span class="price">$1547.08</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-badlands/">Hand Wraps Badlands Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-caution/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">CAUTION!</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-caution/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_CAUTION!.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_CAUTION!.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps CAUTION!" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_CAUTION!.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$121.47</span> - <span class="price">$1574.70</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-caution/">Hand Wraps CAUTION! Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-cobalt-skulls/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Cobalt Skulls</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-cobalt-skulls/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Cobalt_Skulls.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Cobalt_Skulls.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Cobalt Skulls" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Cobalt_Skulls.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$192.00</span> - <span class="price">$3497.21</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-cobalt-skulls/">Hand Wraps Cobalt Skulls Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-constrictor/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Constrictor</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-constrictor/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Constrictor.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Constrictor.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Constrictor" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Constrictor.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$56.15</span> - <span class="price">$497.99</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-constrictor/">Hand Wraps Constrictor Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-desert-shamagh/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Desert Shamagh</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-desert-shamagh/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Desert_Shamagh.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Desert_Shamagh.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Desert Shamagh" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Desert_Shamagh.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$52.73</span> - <span class="price">$315.09</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-desert-shamagh/">Hand Wraps Desert Shamagh Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-duct-tape/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Duct Tape</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-duct-tape/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Duct_Tape.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Duct_Tape.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Duct Tape" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Duct_Tape.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$57.00</span> - <span class="price">$181.48</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-duct-tape/">Hand Wraps Duct Tape Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-giraffe/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Giraffe</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-giraffe/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Giraffe.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Giraffe.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Giraffe" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Giraffe.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$52.80</span> - <span class="price">$934.19</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-giraffe/">Hand Wraps Giraffe Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-leather/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Leather</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-leather/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Leather.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Leather.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Leather" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Leather.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$234.75</span> - <span class="price">$1187.07</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-leather/">Hand Wraps Leather Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-overprint/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Overprint</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-overprint/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Overprint.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Overprint.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Overprint" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Overprint.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$86.00</span> - <span class="price">$1230.00</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-overprint/">Hand Wraps Overprint Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-slaughter/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Slaughter</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-slaughter/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Slaughter.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Slaughter.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Slaughter" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Slaughter.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$223.99</span> - <span class="price">$1429.19</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-slaughter/">Hand Wraps Slaughter Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hand-wraps-spruce-ddpat/"><span class="block txt-small txt-dark-grey">Hand Wraps</span><span class="block txt-med txt-white">Spruce DDPAT</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hand-wraps-spruce-ddpat/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hand_Wraps_Spruce_DDPAT.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Spruce_DDPAT.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hand Wraps Spruce DDPAT" src="https://www.csgodatabase.com/images/gloves/Hand_Wraps_Spruce_DDPAT.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$107.69</span> - <span class="price">$864.54</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hand-wraps-spruce-ddpat/">Hand Wraps Spruce DDPAT Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hydra-gloves-case-hardened/"><span class="block txt-small txt-dark-grey">Hydra Gloves</span><span class="block txt-med txt-white">Case Hardened</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hydra-gloves-case-hardened/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hydra_Gloves_Case_Hardened.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Case_Hardened.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hydra Gloves Case Hardened" src="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Case_Hardened.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$68.38</span> - <span class="price">$1224.31</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hydra-gloves-case-hardened/">Hydra Gloves Case Hardened Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hydra-gloves-emerald/"><span class="block txt-small txt-dark-grey">Hydra Gloves</span><span class="block txt-med txt-white">Emerald</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hydra-gloves-emerald/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hydra_Gloves_Emerald.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Emerald.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hydra Gloves Emerald" src="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Emerald.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$44.74</span> - <span class="price">$572.17</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hydra-gloves-emerald/">Hydra Gloves Emerald Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hydra-gloves-mangrove/"><span class="block txt-small txt-dark-grey">Hydra Gloves</span><span class="block txt-med txt-white">Mangrove</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hydra-gloves-mangrove/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hydra_Gloves_Mangrove.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Mangrove.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hydra Gloves Mangrove" src="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Mangrove.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$42.21</span> - <span class="price">$425.54</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hydra-gloves-mangrove/">Hydra Gloves Mangrove Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/hydra-gloves-rattler/"><span class="block txt-small txt-dark-grey">Hydra Gloves</span><span class="block txt-med txt-white">Rattler</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/hydra-gloves-rattler/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Hydra_Gloves_Rattler.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Rattler.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Hydra Gloves Rattler" src="https://www.csgodatabase.com/images/gloves/Hydra_Gloves_Rattler.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$40.80</span> - <span class="price">$473.68</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/hydra-gloves-rattler/">Hydra Gloves Rattler Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-3rd-commando-company/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">3rd Commando Company</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-3rd-commando-company/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_3rd_Commando_Company.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_3rd_Commando_Company.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves 3rd Commando Company" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_3rd_Commando_Company.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$48.37</span> - <span class="price">$188.88</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-3rd-commando-company/">Moto Gloves 3rd Commando Company Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-blood-pressure/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Blood Pressure</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-blood-pressure/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Blood_Pressure.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Blood_Pressure.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Blood Pressure" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Blood_Pressure.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$93.83</span> - <span class="price">$512.07</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-blood-pressure/">Moto Gloves Blood Pressure Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-boom/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Boom!</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-boom/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Boom!.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Boom!.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Boom!" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Boom!.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$112.06</span> - <span class="price">$6231.39</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-boom/">Moto Gloves Boom! Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-cool-mint/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Cool Mint</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-cool-mint/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Cool_Mint.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Cool_Mint.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Cool Mint" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Cool_Mint.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$179.85</span> - <span class="price">$2818.02</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-cool-mint/">Moto Gloves Cool Mint Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-eclipse/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Eclipse</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-eclipse/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Eclipse.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Eclipse.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Eclipse" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Eclipse.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$105.80</span> - <span class="price">$925.45</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-eclipse/">Moto Gloves Eclipse Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-finish-line/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Finish Line</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-finish-line/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Finish_Line.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Finish_Line.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Finish Line" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Finish_Line.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$67.13</span> - <span class="price">$375.36</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-finish-line/">Moto Gloves Finish Line Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-polygon/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Polygon</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-polygon/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Polygon.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Polygon.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Polygon" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Polygon.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$96.98</span> - <span class="price">$430.97</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-polygon/">Moto Gloves Polygon Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-pow/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">POW!</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-pow/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_POW!.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_POW!.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves POW!" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_POW!.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$65.70</span> - <span class="price">$514.37</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-pow/">Moto Gloves POW! Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-smoke-out/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Smoke Out</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-smoke-out/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Smoke_Out.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Smoke_Out.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Smoke Out" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Smoke_Out.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$94.28</span> - <span class="price">$1524.62</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-smoke-out/">Moto Gloves Smoke Out Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-spearmint/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Spearmint</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-spearmint/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Spearmint.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Spearmint.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Spearmint" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Spearmint.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$459.90</span> - <span class="price">$4799.00</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-spearmint/">Moto Gloves Spearmint Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-transport/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Transport</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-transport/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Transport.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Transport.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Transport" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Transport.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$45.45</span> - <span class="price">$1235.78</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-transport/">Moto Gloves Transport Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/moto-gloves-turtle/"><span class="block txt-small txt-dark-grey">Moto Gloves</span><span class="block txt-med txt-white">Turtle</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/moto-gloves-turtle/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Moto_Gloves_Turtle.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Turtle.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Moto Gloves Turtle" src="https://www.csgodatabase.com/images/gloves/Moto_Gloves_Turtle.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$68.61</span> - <span class="price">$380.74</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/moto-gloves-turtle/">Moto Gloves Turtle Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-buckshot/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Buckshot</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-buckshot/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Buckshot.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Buckshot.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Buckshot" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Buckshot.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$57.65</span> - <span class="price">$260.13</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-buckshot/">Specialist Gloves Buckshot Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-crimson-kimono/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Crimson Kimono</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-crimson-kimono/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Crimson_Kimono.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Crimson_Kimono.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Crimson Kimono" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Crimson_Kimono.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$1500.00</span> - <span class="price">$15306.12</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-crimson-kimono/">Specialist Gloves Crimson Kimono Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-crimson-web/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Crimson Web</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-crimson-web/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Crimson_Web.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Crimson_Web.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Crimson Web" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Crimson_Web.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$120.01</span> - <span class="price">$3399.00</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-crimson-web/">Specialist Gloves Crimson Web Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-emerald-web/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Emerald Web</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-emerald-web/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Emerald_Web.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Emerald_Web.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Emerald Web" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Emerald_Web.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$519.60</span> - <span class="price">$4670.99</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-emerald-web/">Specialist Gloves Emerald Web Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-fade/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Fade</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-fade/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Fade.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Fade.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Fade" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Fade.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$147.99</span> - <span class="price">$1039.29</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-fade/">Specialist Gloves Fade Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-field-agent/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Field Agent</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-field-agent/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Field_Agent.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Field_Agent.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Field Agent" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Field_Agent.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$111.66</span> - <span class="price">$816.96</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-field-agent/">Specialist Gloves Field Agent Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-forest-ddpat/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Forest DDPAT</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-forest-ddpat/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Forest_DDPAT.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Forest_DDPAT.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Forest DDPAT" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Forest_DDPAT.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$112.18</span> - <span class="price">$899.98</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-forest-ddpat/">Specialist Gloves Forest DDPAT Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-foundation/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Foundation</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-foundation/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Foundation.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Foundation.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Foundation" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Foundation.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$180.73</span> - <span class="price">$2457.94</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-foundation/">Specialist Gloves Foundation Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-lt-commander/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Lt. Commander</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-lt-commander/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Lt._Commander.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Lt._Commander.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Lt. Commander" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Lt._Commander.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$100.68</span> - <span class="price">$1423.48</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-lt-commander/">Specialist Gloves Lt. Commander Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-marble-fade/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Marble Fade</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-marble-fade/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Marble_Fade.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Marble_Fade.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Marble Fade" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Marble_Fade.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$135.22</span> - <span class="price">$919.16</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-marble-fade/">Specialist Gloves Marble Fade Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-mogul/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Mogul</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-mogul/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Mogul.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Mogul.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Mogul" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Mogul.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$95.02</span> - <span class="price">$1361.74</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-mogul/">Specialist Gloves Mogul Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/specialist-gloves-tiger-strike/"><span class="block txt-small txt-dark-grey">Specialist Gloves</span><span class="block txt-med txt-white">Tiger Strike</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/specialist-gloves-tiger-strike/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Specialist_Gloves_Tiger_Strike.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Tiger_Strike.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Specialist Gloves Tiger Strike" src="https://www.csgodatabase.com/images/gloves/Specialist_Gloves_Tiger_Strike.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$130.00</span> - <span class="price">$3218.68</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/specialist-gloves-tiger-strike/">Specialist Gloves Tiger Strike Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-amphibious/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Amphibious</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-amphibious/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Amphibious.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Amphibious.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Amphibious" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Amphibious.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$298.54</span> - <span class="price">$1750.45</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-amphibious/">Sport Gloves Amphibious Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-arid/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Arid</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-arid/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Arid.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Arid.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Arid" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Arid.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$419.48</span> - <span class="price">$2975.66</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-arid/">Sport Gloves Arid Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-big-game/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Big Game</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-big-game/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Big_Game.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Big_Game.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Big Game" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Big_Game.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$154.20</span> - <span class="price">$3268.52</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-big-game/">Sport Gloves Big Game Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-bronze-morph/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Bronze Morph</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-bronze-morph/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Bronze_Morph.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Bronze_Morph.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Bronze Morph" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Bronze_Morph.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$100.75</span> - <span class="price">$435.23</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-bronze-morph/">Sport Gloves Bronze Morph Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-hedge-maze/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Hedge Maze</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-hedge-maze/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Hedge_Maze.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Hedge_Maze.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Hedge Maze" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Hedge_Maze.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$1779.16</span> - <span class="price">$8338.84</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-hedge-maze/">Sport Gloves Hedge Maze Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-nocts/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Nocts</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-nocts/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Nocts.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Nocts.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Nocts" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Nocts.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$479.33</span> - <span class="price">$9950.83</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-nocts/">Sport Gloves Nocts Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-omega/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Omega</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-omega/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Omega.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Omega.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Omega" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Omega.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$179.00</span> - <span class="price">$5970.49</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-omega/">Sport Gloves Omega Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-pandoras-box/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Pandora's Box</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-pandoras-box/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Pandora's_Box.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Pandora's_Box.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Pandora" s="" box'="" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Pandora's_Box.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$1800.00</span> - <span class="price">$8256.42</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-pandoras-box/">Sport Gloves Pandora's Box Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-scarlet-shamagh/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Scarlet Shamagh</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-scarlet-shamagh/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Scarlet_Shamagh.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Scarlet_Shamagh.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Scarlet Shamagh" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Scarlet_Shamagh.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$187.99</span> - <span class="price">$5500.00</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-scarlet-shamagh/">Sport Gloves Scarlet Shamagh Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-slingshot/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Slingshot</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-slingshot/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Slingshot.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Slingshot.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Slingshot" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Slingshot.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$264.78</span> - <span class="price">$2270.73</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 3 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-slingshot/">Sport Gloves Slingshot Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-superconductor/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Superconductor</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-superconductor/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Superconductor.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Superconductor.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Superconductor" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Superconductor.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$1158.21</span> - <span class="price">$15000.00</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-superconductor/">Sport Gloves Superconductor Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col l3 m6 s12">
+				<div class="item-box" style="padding: 6px 10px">
+					<h3 class="item-box-header collection-skinbox zero-margin txt-center"><a href="https://www.csgodatabase.com/gloves/sport-gloves-vice/"><span class="block txt-small txt-dark-grey">Sport Gloves</span><span class="block txt-med txt-white">Vice</span></a></h3>
+					<div class="item-box-container">
+						<div class="covert">Extraordinary Gloves</div>
+						<a href="https://www.csgodatabase.com/gloves/sport-gloves-vice/">
+							<div class="image-container">
+								<picture>
+									<source srcset="https://www.csgodatabase.com/images/gloves/webp/Sport_Gloves_Vice.webp" type="image/webp">
+									<source srcset="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Vice.png" type="image/png">
+									<img class="responsive-image" height="160" loading="lazy" alt="Sport Gloves Vice" src="https://www.csgodatabase.com/images/gloves/Sport_Gloves_Vice.png">
+								</picture>
+							</div>
+						</a>
+		<span class="block txt-small"><span class="price">$386.50</span> - <span class="price">$3379.67</span></span>
+						<div class="collection-skinbox">
+							<span class="block txt-small">Available in 2 cases</span>
+							<a style="font-size:11px" href="https://www.csgodatabase.com/gloves/sport-gloves-vice/">Sport Gloves Vice Skin &amp; Pricing Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+            </div>
+            </section>
+			<hr>
+
+        <section>
+            <header>
+                <h2>Unreleased CS2 Gloves</h2>
+            </header>
+            <p>The following glove textures exist in the game files but are not available to use:</p>
+            <ul>
+                <li>specialist_green_red_black</li>
+                <li>handwrap_leathery_fabric_red_slaughter</li>
+                <li>handwrap_leathery_fabric_orange_camo</li>
+                <li>handwrap_leathery_fabric_beige_camo</li>
+                <li>handwrap_leathery_fabric_slick_brown</li>
+            </ul>
+        </section>
+        </div>
+
+		</section>
+		<section class="wrapper">
+
+		<hr>
+		<h2>Most Expensive and Cheapest CS2 Glove Skins</h2>
+		<p style="margin-top:20px" class="txt-center">To purchase one of every Glove skin on Skinport would cost <br><span style="font-size:24px;font-weight:700">$221,005.89</span></p>
+		<div class="row">
+
+		<div class="col l6 m6 s12">
+			<div style="padding:10px">
+				<h3>What is the most expensive CS2 glove skin?</h3>
+				<h3 class="round-box-header" style="border-bottom: none;text-align:center;background-color:#23282d"><img src="https://www.csgodatabase.com/images/Skinport_logo_2.png" style="height:25px;" alt="skinport logo"><br>Top 10 Most Expensive CS2 Glove Skins on<br> Skinport</h3>
+				<ol class="round-box-content">
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-nocts-factory-new/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Nocts (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-nocts-factory-new/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$9,950.83</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-superconductor-minimal-wear/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Superconductor (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-superconductor-minimal-wear/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$9,081.57</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-hedge-maze-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Hedge Maze (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-hedge-maze-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$8,338.84</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-pandora-s-box-well-worn/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Pandora's Box (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-pandora-s-box-well-worn/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$7,517.21</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/specialist-gloves-crimson-kimono-minimal-wear/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Specialist Gloves | Crimson Kimono (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/specialist-gloves-crimson-kimono-minimal-wear/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$7,453.70</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-pandora-s-box-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Pandora's Box (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-pandora-s-box-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$7,453.68</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/driver-gloves-king-snake-factory-new/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Driver Gloves | King Snake (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/driver-gloves-king-snake-factory-new/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$6,888.54</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-omega-factory-new/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Omega (Factory New)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-omega-factory-new/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$5,970.49</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sport-gloves-superconductor-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Sport Gloves | Superconductor (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sport-gloves-superconductor-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$4,704.99</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/specialist-gloves-emerald-web-minimal-wear/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Specialist Gloves | Emerald Web (Minimal Wear)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/specialist-gloves-emerald-web-minimal-wear/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$4,670.99</div></a></div>
+				</div>
+
+				</ol>
+			</div>
+		</div>
+		<div class="col l6 m6 s12">
+			<div style="padding:10px">
+				<h3>What is the cheapest CS2 glove skin?</h3>
+				<h3 class="round-box-header" style="border-bottom: none;text-align:center;background-color:#23282d"><img src="https://www.csgodatabase.com/images/Skinport_logo_2.png" style="height:25px;" alt="skinport logo"><br>Top 10 Cheapest CS2 Glove Skins on<br> Skinport</h3>
+				<ol class="round-box-content">
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/sticker-gloves-on/?r=csgodatabase" rel="noopener nofollow" target="_blank">Sticker | Gloves On</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/sticker-gloves-on/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$0.04</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/glove-case/?r=csgodatabase" rel="noopener nofollow" target="_blank">Glove Case</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/glove-case/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$12.24</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/glove-case-key/?r=csgodatabase" rel="noopener nofollow" target="_blank">Glove Case Key</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/glove-case-key/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$18.77</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/driver-gloves-racing-green-well-worn/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Driver Gloves | Racing Green (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/driver-gloves-racing-green-well-worn/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$64.89</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/driver-gloves-racing-green-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Driver Gloves | Racing Green (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/driver-gloves-racing-green-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$67.22</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/hydra-gloves-rattler-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Hydra Gloves | Rattler (Field-Tested)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/hydra-gloves-rattler-field-tested/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$67.26</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/hydra-gloves-rattler-battle-scarred/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Hydra Gloves | Rattler (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/hydra-gloves-rattler-battle-scarred/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$67.58</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/hydra-gloves-rattler-well-worn/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Hydra Gloves | Rattler (Well-Worn)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/hydra-gloves-rattler-well-worn/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$70.35</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/hydra-gloves-emerald-battle-scarred/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Hydra Gloves | Emerald (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/hydra-gloves-emerald-battle-scarred/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$71.22</div></a></div>
+				</div>
+
+				<div class="flex hover-group">
+					<div class="flex flex-vertical-center txt-grey"><a href="https://skinport.com/item/driver-gloves-racing-green-battle-scarred/?r=csgodatabase" rel="noopener nofollow" target="_blank">★ Driver Gloves | Racing Green (Battle-Scarred)</a></div>
+					<div class="flex-grow txt-right"><a href="https://skinport.com/item/driver-gloves-racing-green-battle-scarred/?r=csgodatabase" rel="noopener nofollow" target="_blank"><div class="steam-pricing-buy">$72.72</div></a></div>
+				</div>
+
+				</ol>
+			</div>
+		</div>
+	</div>
+				<script type="application/ld+json">
+{
+	"http://schema.org/mainEntity": [
+		{
+			"http://schema.org/acceptedAnswer": {
+				"http://schema.org/text": "Gloves are featured in five CS2 weapon cases: Glove Case, Operation Hydra Case, Clutch Case, Operation Broken Fang Case and the Snakebite Case.",
+				"@id": "_:5cd5ef275b3b4abf9f88006fb4d78c11",
+				"@type": [
+					"http://schema.org/Answer"
+				]
+			},
+			"http://schema.org/name": "Which CS2 cases contain gloves?",
+			"@id": "_:41d0b1da4277484f8ac9876b05d81ef8",
+			"@type": [
+				"http://schema.org/Question"
+			]
+		}
+	],
+	"@id": "_:d233c974219c4e80ba7529b882a829d1",
+	"@type": [
+		"http://schema.org/FAQPage"
+	]
+}
+</script>
+		</section>
+	</article>
+</main>
+<footer id="footer">
+	<div class="bg-grey">
+		<div class="wrapper row">
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+				<span class="block txt-med" style="font-weight:700;margin:20px 0;">CS2 Skin Database</span>
+				<div class="row">
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/agents/">All Agents</a></li>
+							<li class="footer-list-link"><a href="/cases/">All Cases</a></li>
+							<li class="footer-list-link"><a href="/collections/">All Collections</a></li>
+							<li class="footer-list-link"><a href="/gloves/">All Gloves</a></li>
+							<li class="footer-list-link"><a href="/patches/">All Patches</a></li>
+							<li class="footer-list-link"><a href="/collectible-pins/">All Pins</a></li>
+						</ul>
+					</div>
+					<div class="col l6 m6 s12">
+						<ul class="footer-list">
+							<li class="footer-list-link"><a href="/skins/">All Skins</a></li>
+							<li class="footer-list-link"><a href="/souvenir-packages/">All Souvenir Packages</a></li>
+							<li class="footer-list-link"><a href="/stickers/">All Stickers</a></li>
+							<li class="footer-list-link"><a href="/sticker-capsules/">All Sticker Capsules</a></li>
+							<li class="footer-list-link"><a href="/weapons/">All Weapons</a></li>
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col l4 m6 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Features</span>
+					<ul class="footer-list">
+						<li class="footer-list-link"><a href="/csgo-steam-status/">CS2 Steam Server Status</a></li>
+						<li class="footer-list-link"><a href="/csgo-skin-price-comparison-tool/">Best Deals on CS2 Skins - Price Comparison Tool</a></li>
+						<li class="footer-list-link"><a href="/search/">Search CS2 Skin Database</a></li>
+						<li class="footer-list-link"><a href="/rarity/">CS2 Skins by Rarity</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col l4 m12 s12">
+				<div class="ma-10">
+					<span class="block txt-med" style="font-weight:700;margin:20px 0;">Recent CS2/CS:GO Updates</span>
+					<ul class="footer-list">
+						<li class="footer-list-link">01 Apr 2025 - <a href="/cases/fever-case/">Fever Case</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-ascent-collection/">Ascent Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-boreal-collection/">Boreal Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-radiant-collection/">Radiant Collection</a></li>
+						<li class="footer-list-link">01 Apr 2025 - <a href="/collections/the-train-2025-collection/">Train 2024 Collection</a></li>
+						<li class="footer-list-link">02 Oct 2024 - <a href="/collections/limited-edition-item/">Limited Edition Item</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-footer-outer">
+		<div id="main-footer-inner">
+			<picture>
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.webp" type="image/webp">
+				<source srcset="https://www.csgodatabase.com/images/logo/CS2DB_W.png" type="image/png">
+				<img src="https://www.csgodatabase.com/images/logo/CS2DB_W.png" height="20px" width="131.75px" alt="CS2DB logo">
+			</picture>
+			<p class="copyright-notice"><a href="/about/">About</a> | <a href="/contact/">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+			<p class="copyright-notice"><a href="https://www.facebook.com/csgodatabase" title="Like us on Facebook" target="_blank" rel="noopener">Like on Facebook</a> | <a href="https://twitter.com/csgodatabase" title="Follow us on Twitter" target="_blank" rel="noopener">Follow on X</a> | <a href="https://steamcommunity.com/groups/csgodatabase" title="Join CSGO Database Steam Group" target="_blank" rel="noopener">Join Steam Group</a></p><br>
+			<p class="copyright-notice">This site is not affiliated with Valve, Steam, or any of their partners. All copyrights reserved to their respective owners.</p>
+			<p class="copyright-notice">We may earn a commission from qualifying purchases made via some third party links on our website.</p>
+			<p class="copyright-notice">Copyright © 2016-2025 CSGODatabase Ltd. Powered by <a href="https://store.steampowered.com/">Steam</a>.</p>
+		</div>
+	</div>
+</footer>
+<link rel="stylesheet" id="cookie-notice-front-css" href="https://www.csgodatabase.com/wp-content/plugins/cookie-notice/css/front.min.css" type="text/css" media="all">
+<script src="https://stats.wp.com/e-202547.js" defer="" type="text/javascript"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:11.1',blog:'117343886',post:'54242',tz:'0',srv:'www.csgodatabase.com'} ]);
+	_stq.push([ 'clickTrackerInit', '117343886', '54242' ]);
+</script>
+
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-revoke-hidden cn-position-bottom cn-effect-slide cookie-notice-visible" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">CSGO Database uses cookies to improve your experience. These cookies are enabled by default.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Accept the use of cookies" style="background-color: #00a99d">Accept the use of cookies</button><button data-link-url="https://www.csgodatabase.com/privacy-policy/" data-link-target="_blank" id="cn-more-info" class="cn-more-info cn-button" aria-label="Privacy policy" style="background-color: #00a99d">Privacy policy</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+
+		</div>
+		<!-- / Cookie Notice plugin --><script type="text/javascript">
+	function tableFunction() {
+		var input, filter, table, tr, td, i;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("myTable");
+		tr = table.getElementsByTagName("tr");
+		for (i = 0; i < tr.length; i++) {
+			td = tr[i].getElementsByTagName("td")[0];
+			if (td) {
+				if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+					tr[i].style.display = "";
+				} else {
+					tr[i].style.display = "none";
+				}
+			}
+		}
+	}
+</script>
+
+            <aside class="ad-rail ad-rail--left" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <a href="https://trk.clash.gg/click?o=2&amp;a=672&amp;c=33"><img src="/images/partners/clash-banner-en.webp" style="width:200px" alt="Clash.gg"></a>
+            </div>
+            </aside>
+            <aside class="ad-rail ad-rail--right" aria-hidden="true">
+            <div class="ad-rail__inner">
+                <iframe src="https://spinner.csgodatabase.com/embed-ad/tomb-raid?initialWidth=400&amp;initialHeight=600&amp;redirect=https%3A%2F%2Ftrk.clash.gg%2Fclick%3Fo%3D2%26a%3D672%26c%3D33&amp;spinText=Try%20Now&amp;headerText=Win%20Free%20Cases&amp;winChance=0.8&amp;freeItemName=Premium%20Box&amp;winText=Congratulations!%20You%20won%203%20premium%20boxes!&amp;claimButtonText=Get%20Now&amp;countdownSeconds=30" width="240" height="600" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+            </aside>
+
+</body></html>
